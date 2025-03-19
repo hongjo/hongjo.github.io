@@ -8,6 +8,9 @@ toc_icon: "bookmark"
 ---
 ## Journal Papers
 
+Seokhwan Kim, Taegeon Kim, Minhyun Lee, Jonghwa Won, and Hongjo Kim* (2025) "Adaptive Water Waste Processing Strategy at Floating Barriers using Computer Vision, Route Finding, and Monte Carlo Simulation", KSCE Journal of Civil Engineering (Accepted)
+
+
 Jeongho Hyeon, Minwoo Jeong, Wei-Chih Chern, Vijayan K. Asari, and Hongjo Kim *(2025) "Evaluating Road Crack Segmentation Performance in Participatory Sensing: An Exploration of Alternative Metrics", Journal of Computing in Civil Engineering (Accepted)
 
 Miyoung Uhm, Jaehee Kim, Seungjun Ahn, Hoyoung Jeong, and Hongjo Kim* (2025) "Effectiveness of Retrieval Augmented Generation-based Large Language Models for Generating Construction Safety Information" Automation in Construction, 170, 105926. https://doi.org/10.1016/j.autcon.2024.105926
