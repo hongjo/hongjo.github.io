@@ -21,7 +21,7 @@ toc_icon: "bookmark"
  * Co-advisor: Dr. Vijayan K. Asari, Dr. Tam Nguyen
 
 **Taegeon Kim**
- * Integrated Ph.D Course
+ * Ph.D. candidate
  * Department of Civil and Environmental Engineering, Yonsei University
 
 **Seokhwan Kim**
@@ -33,7 +33,7 @@ toc_icon: "bookmark"
  * Department of Civil and Environmental Engineering, Yonsei University
 
 **Minwoo Jeong**
- * Integrated Ph.D Course
+ * Master Course
  * Department of Civil and Environmental Engineering, Yonsei University
 
 **Gichang Choi**
@@ -58,6 +58,10 @@ A few undergratuate intern positions are available during summer and winter vaca
 
 ### Part-time Graduate Students
 **Sungwook Yang**
+ * Master Course
+ * Department of Civil, Environmental and Disaster Prevention Engineering, Yonsei University
+
+**Junhee Park**
  * Master Course
  * Department of Civil, Environmental and Disaster Prevention Engineering, Yonsei University
 
