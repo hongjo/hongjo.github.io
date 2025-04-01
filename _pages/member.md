@@ -20,10 +20,6 @@ toc_icon: "bookmark"
  * Department of Electrical and Computer Engineering, University of Dayton, United States
  * Co-advisor: Dr. Vijayan K. Asari, Dr. Tam Nguyen
 
-**Jeongho Hyeon**
- * Integrated Ph.D Course
- * Department of Civil and Environmental Engineering, Yonsei University
-
 **Taegeon Kim**
  * Integrated Ph.D Course
  * Department of Civil and Environmental Engineering, Yonsei University
@@ -72,6 +68,10 @@ A few undergratuate intern positions are available during summer and winter vaca
 
 
 ### Alumni
+**Jeongho Hyeon**
+ * Master of Science in the Department of Civil and Environmental Engineering, Yonsei University
+ * Thesis title: Exploring Alternative Metrics for Evaluating Road Crack Segmentation Performance in Participatory Sensing Environments
+
 **Yeji Hong**
  * Master of Science in the Department of Civil and Environmental Engineering, Yonsei University
  * Current Position as of 24' Jan. 18th: Graduate Research Assistant, Purdue University
