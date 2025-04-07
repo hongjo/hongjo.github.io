@@ -66,9 +66,17 @@ A few undergratuate intern positions are available during summer and winter vaca
  * Department of Civil, Environmental and Disaster Prevention Engineering, Yonsei University
 
 ### Current & Former Visiting Students
-**Jan-Iwo Jäkel**
+
+**Eva Heinlein (2025)**
+* Master Student, Institute for Construction Management, Digital Engineering and Robotics in Construction, RWTH Aachen University
+  
+**Deokyeong Kim (2025)**
+* Master Student, Department of Building, Civil, and Environmental Engineering, Concordia University
+
+**Jan-Iwo Jäkel (2023-2024)**
 * Ph.D. Candidate, Institute for Construction Management, Digital Engineering and Robotics in Construction, RWTH Aachen University
 * Co-Founder, Geschäftsführer
+
 
 
 ### Alumni
