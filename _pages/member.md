@@ -101,6 +101,7 @@ A few undergratuate intern positions are available during summer and winter vaca
 
 **Shafaat Tahir**
  * Master of Civil, Environmental and Disaster Prevention Engineering, Yonsei University
+ * Current Position as of 2025: Quazar AI
 
 **Dr. Miyoung Uhm**
  * Research Professor
