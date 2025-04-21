@@ -8,7 +8,7 @@ toc_icon: "bookmark"
 ---
 ## Journal Papers
 
-Jan-Iwo Jäkel, Eva Heinlein, Hendrik Morgenstern, Hongjo Kim,and Katharina Klemt-Albert (2025) "Sodia Linked Data Approach for Connecting Digital 3d-Models of Existing Bridge Structures with Knowledge Graphs of Non-Destructive Diagnostic Methods" Journal of Information Technology in Construction (Accepted)
+Jan-Iwo Jäkel, Eva Heinlein, Hendrik Morgenstern, Hongjo Kim,and Katharina Klemt-Albert (2025) "Sodia Linked Data Approach for Connecting Digital 3d-Models of Existing Bridge Structures with Knowledge Graphs of Non-Destructive Diagnostic Methods" Journal of Information Technology in Construction, 30, 603-630. https://doi.org/10.36680/j.itcon.2025.025
 
 Seokhwan Kim, Taegeon Kim, Minhyun Lee, Jonghwa Won, and Hongjo Kim* (2025) "Adaptive Water Waste Processing Strategy at Floating Barriers using Computer Vision, Route Finding, and Monte Carlo Simulation", KSCE Journal of Civil Engineering (Accepted)
 
