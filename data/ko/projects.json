@@ -1,0 +1,117 @@
+
+{
+  "projects": [
+    {
+      "title": "자율 진화형 인공지능 기반 제방 붕괴 조기 감지 및 선제적 대응 스마트 센싱 플랫폼 개발",
+      "period": "2024 ~ 2028",
+      "funding": "한국연구재단",
+      "description": "주관연구기관, 2024 STEAM 연구사업(미래유망파이오니어(전략형)",
+      "image": "",
+      "results": []
+    },
+    {
+      "title": "영상 기반 임시 구조물 설치 해체 단계 안전 확보 기술",
+      "period": "2020 ~ 2025",
+      "funding": "국토교통과학기술진흥원",
+      "description": "공동연구기관, 스마트건설기술개발사업 9세부",
+      "image": "",
+      "results": []
+    },
+    {
+      "title": "데이터 기반 도로망 관리 의사결정지원 시스템을 위한 참여형 센싱 기술",
+      "period": "2021 ~ 2024",
+      "funding": "연세대학교",
+      "description": "주관연구기관",
+      "image": "",
+      "results": []
+    },
+    {
+      "title": "지능형 CCTV-AI 기반 건설현장 영상분석 기술 개발",
+      "period": "2021 ~ 2022, 2022 ~ 2024",
+      "funding": "금호건설",
+      "description": "주관연구기관",
+      "image": "",
+      "results": []
+    },
+    {
+      "title": "Vision-based Pavement Condition Assessment for Automated Maintenance and Repair Decision-Making",
+      "period": "2020",
+      "funding": "University of Dayton (SEED Grant)",
+      "description": "Principal Investigator",
+      "image": "",
+      "results": []
+    },
+    {
+      "title": "Vision-based Construction and Safety Management: Improving Earthmoving Productivity and Disaster Preparedness",
+      "period": "2018 ~ 2019",
+      "funding": "Yonsei University",
+      "description": "Principal Investigator",
+      "image": "",
+      "results": []
+    },
+    {
+      "title": "Resilient Infrastructure Systems",
+      "period": "2018 ~ 2019",
+      "funding": "Texas A&M University",
+      "description": "Research Associate (PI Dr. Youngjib Ham)",
+      "image": "",
+      "results": []
+    },
+    {
+      "title": "Smart Cities & Sustainable Communities",
+      "period": "2018 ~ 2019",
+      "funding": "Texas A&M University",
+      "description": "Research Associate (PI Dr. Youngjib Ham)",
+      "image": "",
+      "results": []
+    },
+    {
+      "title": "Deep Learning-based Visualization and Monitoring of Occupational Hazards in Construction Sites for Developing a Proactive Hazard-Warning Interface in Augmented Reality",
+      "period": "2018 ~ 2019",
+      "funding": "National Research Foundation of Korea",
+      "description": "Research Associate, Yonsei University (PI Dr. Hyoungkwan Kim)",
+      "image": "",
+      "results": []
+    },
+    {
+      "title": "Intelligent Interactive InfoEcosystem for Automating and Optimizing On-Site Safety/Construction",
+      "period": "2014 ~ 2018",
+      "funding": "National Research Foundation of Korea",
+      "description": "Graduate Research Assistant, Yonsei University (PI Dr. Hyoungkwan Kim)",
+      "image": "",
+      "results": []
+    },
+    {
+      "title": "Proactive Adaptation Scenarios for Infrastructures under Climate Change Using Probabilistic Life-Cycle Cost Analysis",
+      "period": "2013 ~ 2018",
+      "funding": "National Research Foundation of Korea",
+      "description": "Graduate Research Assistant, Yonsei University (PI Dr. Hyoungkwan Kim)",
+      "image": "",
+      "results": []
+    },
+    {
+      "title": "Engineering Project Financing Textbook Development: Practical Course 1",
+      "period": "2013 ~ 2014",
+      "funding": "Korea Engineering and Consulting Association",
+      "description": "Graduate Research Assistant, Yonsei University (PI Dr. Hyoungkwan Kim)",
+      "image": "",
+      "results": []
+    },
+    {
+      "title": "Engineering Project Financing Textbook Development: Practical Course 2",
+      "period": "2013 ~ 2014",
+      "funding": "Korea Engineering and Consulting Association",
+      "description": "Graduate Research Assistant, Yonsei University (PI Dr. Hyoungkwan Kim)",
+      "image": "",
+      "results": []
+    },
+    {
+      "title": "Eco-Simulator for Planning Roads with Minimized Environmental Costs",
+      "period": "2010 ~ 2012",
+      "funding": "National Research Foundation of Korea",
+      "description": "Undergraduate Research Assistant, Yonsei University (PI Dr. Hyoungkwan Kim)",
+      "image": "",
+      "results": []
+    }
+  ]
+}

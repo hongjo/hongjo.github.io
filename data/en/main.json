@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "스마트인프라연구실",
+    "subtitle": "Smart Infrastructure Lab",
+    "ctaText": "연구실 소개 보기",
+    "bgImage": "img/메인화면.png"
+  },
+  "labIntro": {
+    "title": "About Our Lab",
+    "paragraphs": [
+      "<div style=\"text-align:center\"><img src=\"img/main화면/main 사진 1.png\" alt=\"연구실 전경\" style=\"max-width:90%;  height:auto;\"></div>",
+      "The **Smart Infrastructure Research Lab** investigates new technology to innovate traditional practices in planning, design, construction, operation, and maintenance for infrastructure such as roads, bridges, tunnels, and dams throughout their life cycles. Engineering problems mostly do not have absolute solutions, so experiential decision-making by experts considering practical constraints and environmental variables occurs frequently. The goal of SIL is to transform experiential decision-making in infrastructure life cycles into data-informed scientific decision-making by integrating various technologies such as artificial intelligence, computer vision, simulation, and economic feasibility analysis. By utilizing these technologies, SIL is exploring ways to automate and optimize manual processes in each stage of decision-making: (1) data collection, (2) data analysis, (3) future prediction, (4) alternative proposal, (5) decision and execution, (6) verification (feedback).",
+      "<div style=\"text-align:center\"><img src=\"img/main화면/main 사진 2.png\" alt=\"연구실 전경\" style=\"max-width:90%;  height:auto;\"></div>"
+    ]
+  },
+  "news": {
+    "title": "News",
+    "items": [
+      {
+        "date": "2025.04",
+        "title": "Journal Paper Publication",
+        "description": "**Jan-Iwo Jäkel**, **Eva Heinlein**, Hendrik Morgenstern, **Hongjo Kim**, and Katharina Klemt-Albert's paper **'System- and Data-integrated linking of digital 3D models of existing bridge structures with Knowledge Graphs of non-destructive diagnostic methods'** has been accepted for publication in 'Journal of Information Technology in Construction'."
+      },
+      {
+        "date": "2025.03",
+        "title": "Journal Paper Publication",
+        "description": "**Seokhwan Kim**, **Taegeon Kim**, Minhyun Lee, Jonghwa Won, and **Hongjo Kim**'s paper **'Adaptive Water Waste Processing Strategy at Floating Barriers using Computer Vision, Route Finding, and Monte Carlo Simulation'** has been accepted for publication in 'KSCE Journal of Civil Engineering'."
+      },
+      {
+        "date": "2025.03",
+        "title": "Journal Paper Publication",
+        "description": "**Jeongho Hyeon**, **Minwoo Jeong**, **Wei-Chih Chern**, Vijayan K. Asari, and **Hongjo Kim**'s paper **'Evaluating Road Crack Segmentation Performance in Participatory Sensing: An Exploration of Alternative Metrics'** has been accepted for publication in 'Journal of Computing in Civil Engineering'."
+      },
+      {
+        "date": "2024.12",
+        "title": "Journal Paper Publication",
+        "description": "**Miyoung Uhm**, **Jaehee Kim**, Seungjun Ahn, Hoyoung Jeong, and **Hongjo Kim**'s paper **'Effectiveness of Retrieval Augmented Generation-based Large Language Models for Generating Construction Safety Information'** has been accepted for publication in 'Automation in Construction'."
+      },
+      {
+        "date": "2024.10",
+        "title": "Journal Paper Publication",
+        "description": "Namgyun Kim, **Sungjae Park**, **Miyoung Uhm**, Changbum R. Ahn, **Hongjo Kim**'s paper **'Enhancing Construction Managers' Risk Perception and Lowering Risk Tolerance Toward Unsafe Behaviors Through Experiential Safety Training'** has been accepted for publication in 'Journal of Management in Engineering'."
+      }
+    ]
+  }
+}

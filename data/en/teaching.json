@@ -1,0 +1,180 @@
+{
+  "semesters": [
+    {
+      "title": "Spring 2025",
+      "__description": "Courses offered in the Spring 2025 semester.",
+      "courses": [
+        {
+          "title": "Data Science for Smart City Infrastructures",
+          "code": "CEE5911-01-00",
+          "time": "\nTue 8,9,10 (16:00 – 19:00)",
+          "location": "Engineering A401"
+        }
+      ]
+    },
+    {
+      "title": "Fall 2024",
+      "__description": "Courses offered in the Fall 2024 semester.",
+      "courses": [
+        {
+          "title": "Engineering Information Processing",
+          "code": "ENG1108-05-01",
+          "time": "\nThu 6,7,8,9 (14:00 – 18:00)",
+          "location": "IJA102"
+        },
+        {
+          "title": "Artificial Intelligence and Civil & Environmental Engineering",
+          "code": "CEE3605-01-00",
+          "time": "\nMon 6,7 (14:00 – 16:00) \n Wed 3 (11:00 – 12:00)",
+          "location": "Engineering A685 \n Engineering D403"
+        }
+      ]
+    },
+    {
+      "title": "Spring 2024",
+      "__description": "Courses offered in the Spring 2024 semester.",
+      "courses": [
+        {
+          "title": "Business Model Design for Climate-Tech Start-up",
+          "code": "ENG4011-01-00",
+          "time": "\nFri 6,7,8 (14:00 – 17:00)",
+          "location": "Engineering D403"
+        },
+        {
+          "title": "Data Science for Smart City Infrastructures",
+          "code": "CEE5911-01-00",
+          "time": "\nThu 6,7,8 (14:00 – 17:00)",
+          "location": "Engineering A401"
+        },
+        {
+          "title": "Smart Infrastructure and Construction: Innovation & Entrepreneurship",
+          "code": "CEE5912-01-00",
+          "time": "\nTue 1,2,3 (09:00 – 12:00)",
+          "location": "Engineering A683"
+        }
+      ]
+    },
+    {
+      "title": "Fall 2023",
+      "__description": "Courses offered in the Fall 2023 semester.",
+      "courses": [
+        {
+          "title": "Engineering Information Processing",
+          "code": "ENG1108-06-01",
+          "time": "\nThu 6,7,8,9 (14:00 – 18:00)",
+          "location": "Jin A201"
+        },
+        {
+          "title": "Artificial Intelligence and Civil & Environmental Engineering",
+          "code": "CEE3605-01-00",
+          "time": "\nMon 7,8 (15:00 – 17:00) \n Wed 6,7 (14:00 – 16:00)",
+          "location": "Engineering B043"
+        }
+      ]
+    },
+    {
+      "title": "Spring 2023",
+      "__description": "Courses offered in the Spring 2023 semester.",
+      "courses": [
+        {
+          "title": "Engineering Information Processing",
+          "code": "ENG1108-04-01",
+          "time": "\nTue 7,8 (15:00 – 17:00) \n Fri 2,3 (10:00 – 12:00)",
+          "location": "Engineering B017 \n Engineering B043"
+        },
+        {
+          "title": "Mega-Structures Planning",
+          "code": "CEE1102-02-00",
+          "time": "\nThu 6,7,8 (14:00 – 17:00)",
+          "location": "Jin A307"
+        },
+        {
+          "title": "Data Science for Smart City Infrastructures",
+          "code": "CEE5911-00-00",
+          "time": "\nMon 5 (13:00 – 14:00) \n Tue 4,5 (12:00 – 14:00)",
+          "location": "Engineering A401"
+        }
+      ]
+    },
+    {
+      "title": "Fall 2022",
+      "__description": "Courses offered in the Fall 2022 semester.",
+      "courses": [
+        {
+          "title": "Artificial Intelligence and Civil & Environmental Engineering",
+          "code": "CEE3605-01-00",
+          "time": "\nMon 8,9 (16:00 – 18:00) \n Tue 3 (11:00 – 12:00)",
+          "location": "Engineering B043"
+        },
+        {
+          "title": "Artificial Intelligence and Water Informatics",
+          "code": "CEE5504-01-00",
+          "time": "\nThu 6,7,8 (14:00 – 17:00)",
+          "location": "Engineering D510"
+        }
+      ]
+    },
+    {
+      "title": "Spring 2022",
+      "__description": "Courses offered in the Spring 2022 semester.",
+      "courses": [
+        {
+          "title": "Engineering Information Processing",
+          "code": "ENG1108-03-01",
+          "time": "\nTue 7,8 (15:00 – 17:00) \n Thu 2,3 (10:00 – 12:00)",
+          "location": "Engineering D403"
+        },
+        {
+          "title": "Mega-Structures Planning",
+          "code": "CEE1102-02-00",
+          "time": "\nThu 6,7,8 (14:00 – 17:00)",
+          "location": "IJA320"
+        }
+      ]
+    },
+    {
+      "title": "Fall 2021",
+      "__description": "Courses offered in the Fall 2021 semester.",
+      "courses": [
+        {
+          "title": "Engineering Information Processing",
+          "code": "ENG1108-07-01",
+          "time": "\nThu 8,9 (16:00 – 18:00) \n Fri 7,8 (15:00 – 17:00)",
+          "location": "Real-time Online"
+        },
+        {
+          "title": "Artificial Intelligence and Civil & Environmental Engineering",
+          "code": "CEE3605-01-00",
+          "time": "\nMon 6 (14:00 – 15:00) \n Thu 6,7 (14:00 – 16:00)",
+          "location": "Engineering D403 \n Real-time Online"
+        }
+      ]
+    },
+    {
+      "title": "Spring 2021",
+      "__description": "Courses offered in the Spring 2021 semester.",
+      "courses": [
+        {
+          "title": "Data Science for Smart City Infrastructures",
+          "code": "CEE5911-01-00",
+          "time": "\nThu 8,9,10 (16:00 – 19:00) \n Fri 2,3,4 (10:00 – 13:00)",
+          "location": "Real-time Online \n Engineering D403"
+        },
+        {
+          "title": "Mega-Structures Planning",
+          "code": "CEE1102-02-00",
+          "time": "\nThu 6,7,8 (14:00 – 17:00)",
+          "location": "IJA320"
+        }
+      ]
+    }
+  ],
+  "labels": {
+    "courseCode": "Course Code",
+    "classTime": "Class Time",
+    "location": "Location",
+    "courseMaterials": "Course Materials",
+    "teachingPhilosophy": "Teaching Philosophy"
+  },
+  "__teachingPhilosophy": "## Teaching Philosophy\n\nI strive to provide students with a balanced learning experience of **theory and practice**. Beyond simply transferring knowledge, my goal is to help students develop the ability to think critically and solve problems on their own.\n\n1. **Interactive Learning**: I encourage student participation through discussions and questions rather than one-way lectures.\n2. **Real-world Problem Solving**: I help students build practical skills through projects based on real problems from industry.\n3. **Continuous Feedback**: I provide specific and constructive feedback to support students' development."
+}
