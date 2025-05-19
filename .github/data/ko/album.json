@@ -1,0 +1,21 @@
+
+{
+  "albums": [
+    {
+      "title": "2025 연구실 벚꽃 워크샵",
+      "description": "2025 04 11",
+      "images": [
+        {
+          "src": "img/album/250411/250411_1.jpg",
+          "caption": "춘계 워크샵 단체사진1",
+          "fullSize": "img/album/250411/250411_1.jpg"
+        },
+        {
+          "src": "img/album/250411/250411_2.jpg",
+          "caption": "춘계 나들이 단체사진2",
+          "fullSize": "img/album/250411/250411_2.jpg"
+        }
+      ]
+    }
+  ]
+}

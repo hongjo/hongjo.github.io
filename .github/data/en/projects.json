@@ -1,0 +1,117 @@
+
+{
+    "projects": [
+        {
+            "title": "Autonomous Evolutionary AI-Based Smart Sensing Platform for Early Detection and Proactive Response to Levee Failures",
+            "period": "2024 ~ 2028",
+            "funding": "National Research Foundation of Korea",
+            "description": "Principal Investigator, 2024 STEAM Pioneer Program",
+            "image": "",
+            "results": []
+          },
+          {
+            "title": "Vision-Based Safety Securing Technology for Temporary Structure Installation and Dismantlement",
+            "period": "2020 ~ 2025",
+            "funding": "The Korea Agency for Infrastructure Technology and Advancement",
+            "description": "Co-Principal Investigator, Smart Construction Technology Development Program (Task 9)",
+            "image": "",
+            "results": []
+          },
+          {
+            "title": "Participatory Sensing Technology for Data-Driven Road Network Management Decision-Support System",
+            "period": "2021 ~ 2024",
+            "funding": "Yonsei University",
+            "description": "Principal Investigator, Yonsei Future-Leading Research Initiative",
+            "image": "",
+            "results": []
+          },
+          {
+            "title": "Development of Intelligent CCTV-AI-Based Construction Site Video Analysis Technology",
+            "period": "2021 ~ 2022; 2022 ~ 2024",
+            "funding": "Kumho Engineering & Construction",
+            "description": "Principal Investigator",
+            "image": "",
+            "results": []
+          },
+      {
+        "title": "Vision-based Pavement Condition Assessment for Automated Maintenance and Repair Decision-Making",
+        "period": "2020",
+        "funding": "University of Dayton (SEED Grant)",
+        "description": "Principal Investigator",
+        "image": "",
+        "results": []
+      },
+      {
+        "title": "Vision-based Construction and Safety Management: Improving Earthmoving Productivity and Disaster Preparedness",
+        "period": "2018 ~ 2019",
+        "funding": "Yonsei University",
+        "description": "Principal Investigator",
+        "image": "",
+        "results": []
+      },
+      {
+        "title": "Resilient Infrastructure Systems",
+        "period": "2018 ~ 2019",
+        "funding": "Texas A&M University",
+        "description": "Research Associate (PI Dr. Youngjib Ham)",
+        "image": "",
+        "results": []
+      },
+      {
+        "title": "Smart Cities & Sustainable Communities",
+        "period": "2018 ~ 2019",
+        "funding": "Texas A&M University",
+        "description": "Research Associate (PI Dr. Youngjib Ham)",
+        "image": "",
+        "results": []
+      },
+      {
+        "title": "Deep Learning-based Visualization and Monitoring of Occupational Hazards in Construction Sites for Developing a Proactive Hazard-Warning Interface in Augmented Reality",
+        "period": "2018 ~ 2019",
+        "funding": "National Research Foundation of Korea",
+        "description": "Research Associate, Yonsei University (PI Dr. Hyoungkwan Kim)",
+        "image": "",
+        "results": []
+      },
+      {
+        "title": "Intelligent Interactive InfoEcosystem for Automating and Optimizing On-Site Safety/Construction",
+        "period": "2014 ~ 2018",
+        "funding": "National Research Foundation of Korea",
+        "description": "Graduate Research Assistant, Yonsei University (PI Dr. Hyoungkwan Kim)",
+        "image": "",
+        "results": []
+      },
+      {
+        "title": "Proactive Adaptation Scenarios for Infrastructures under Climate Change Using Probabilistic Life-Cycle Cost Analysis",
+        "period": "2013 ~ 2018",
+        "funding": "National Research Foundation of Korea",
+        "description": "Graduate Research Assistant, Yonsei University (PI Dr. Hyoungkwan Kim)",
+        "image": "",
+        "results": []
+      },
+      {
+        "title": "Engineering Project Financing Textbook Development: Practical Course 1",
+        "period": "2013 ~ 2014",
+        "funding": "Korea Engineering and Consulting Association",
+        "description": "Graduate Research Assistant, Yonsei University (PI Dr. Hyoungkwan Kim)",
+        "image": "",
+        "results": []
+      },
+      {
+        "title": "Engineering Project Financing Textbook Development: Practical Course 2",
+        "period": "2013 ~ 2014",
+        "funding": "Korea Engineering and Consulting Association",
+        "description": "Graduate Research Assistant, Yonsei University (PI Dr. Hyoungkwan Kim)",
+        "image": "",
+        "results": []
+      },
+      {
+        "title": "Eco-Simulator for Planning Roads with Minimized Environmental Costs",
+        "period": "2010 ~ 2012",
+        "funding": "National Research Foundation of Korea",
+        "description": "Undergraduate Research Assistant, Yonsei University (PI Dr. Hyoungkwan Kim)",
+        "image": "",
+        "results": []
+      }
+    ]
+  }
