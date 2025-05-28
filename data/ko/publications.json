@@ -1,0 +1,1378 @@
+{
+  "journal_papers": [
+    {
+      "authors": [
+        "Jan-Iwo Jäkel",
+        "Eva Heinlein",
+        "Hendrik Morgenstern",
+        "Hongjo Kim",
+        "Katharina Klemt-Albert"
+      ],
+      "year": 2025,
+      "title": "Sodia Linked Data Approach for Connecting Digital 3d-Models of Existing Bridge Structures with Knowledge Graphs of Non-Destructive Diagnostic Methods",
+      "journal": "Journal of Information Technology in Construction",
+      "volume": 30,
+      "issue": null,
+      "pages": "603-630",
+      "status": "Published",
+      "doi": "10.36680/j.itcon.2025.025",
+      "url": "https://doi.org/10.36680/j.itcon.2025.025"
+    },
+    {
+      "authors": [
+        "Seokhwan Kim",
+        "Taegeon Kim",
+        "Minhyun Lee",
+        "Jonghwa Won",
+        "Hongjo Kim"
+      ],
+      "year": 2025,
+      "title": "Adaptive Water Waste Processing Strategy at Floating Barriers using Computer Vision, Route Finding, and Monte Carlo Simulation",
+      "journal": "KSCE Journal of Civil Engineering",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "status": "Accepted",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Jeongho Hyeon",
+        "Minwoo Jeong",
+        "Wei-Chih Chern",
+        "Vijayan K. Asari",
+        "Hongjo Kim"
+      ],
+      "year": 2025,
+      "title": "Evaluating Road Crack Segmentation Performance in Participatory Sensing: An Exploration of Alternative Metrics",
+      "journal": "Journal of Computing in Civil Engineering",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "status": "Accepted",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Miyoung Uhm",
+        "Jaehee Kim",
+        "Seungjun Ahn",
+        "Hoyoung Jeong",
+        "Hongjo Kim"
+      ],
+      "year": 2025,
+      "title": "Effectiveness of Retrieval Augmented Generation-based Large Language Models for Generating Construction Safety Information",
+      "journal": "Automation in Construction",
+      "volume": 170,
+      "issue": null,
+      "pages": "105926",
+      "status": "Published",
+      "doi": "10.1016/j.autcon.2024.105926",
+      "url": "https://doi.org/10.1016/j.autcon.2024.105926"
+    },
+    {
+      "authors": [
+        "Namgyun Kim",
+        "Sungjae Park",
+        "Miyoung Uhm",
+        "Changbum R. Ahn",
+        "Hongjo Kim"
+      ],
+      "year": 2025,
+      "title": "Enhancing Construction Managers’ Risk Perception and Lowering Risk Tolerance Toward Unsafe Behaviors Through Experiential Safety Training",
+      "journal": "Journal of Management in Engineering",
+      "volume": 41,
+      "issue": 1,
+      "pages": "04024067",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Wei-Chih Chern",
+        "Taegeon Kim",
+        "Vijayan K. Asari",
+        "Hongjo Kim"
+      ],
+      "year": 2024,
+      "title": "Image Hashing-based Shallow Object Tracker for Construction Worker Monitoring in Scaffolding Scenes",
+      "journal": "Automation in Construction",
+      "volume": 166,
+      "issue": null,
+      "pages": "105604",
+      "status": "Published",
+      "doi": "10.1016/j.autcon.2024.105604",
+      "url": "https://doi.org/10.1016/j.autcon.2024.105604"
+    },
+    {
+      "authors": [
+        "Miyoung Uhm",
+        "Jinyoung Kim",
+        "Hongjo Kim"
+      ],
+      "year": 2024,
+      "title": "Impact of Construction Safety Managers and Project Characteristics on Air Conditioning Installation Safety Scores",
+      "journal": "Journal of the Korea Institute of Building Construction",
+      "volume": 24,
+      "issue": 3,
+      "pages": "381-391",
+      "status": "Published",
+      "doi": "10.5345/JKIBC.2024.24.3.381",
+      "url": "https://doi.org/10.5345/JKIBC.2024.24.3.381"
+    },
+    {
+      "authors": [
+        "Seokhwan Kim",
+        "Taegeon Kim",
+        "Hongjo Kim"
+      ],
+      "year": 2024,
+      "title": "Monte Carlo Simulation-Based Cost Estimation for Floating Trash Barrier Maintenance",
+      "journal": "KSCE Journal of Civil and Environmental Engineering Research",
+      "volume": 44,
+      "issue": 2,
+      "pages": "231-235",
+      "status": "Published",
+      "doi": "10.12652/Ksce.2024.44.2.0231",
+      "url": "https://doi.org/10.12652/Ksce.2024.44.2.0231"
+    },
+    {
+      "authors": [
+        "Miyoung Uhm",
+        "Giwon Shin",
+        "Hyoungkwan Kim",
+        "H. David Jeong",
+        "Hongjo Kim"
+      ],
+      "year": 2024,
+      "title": "Exploring the Long-Term Impact of Preventive Road Treatments on Municipal Highways",
+      "journal": "Journal of Management in Engineering",
+      "volume": 40,
+      "issue": 4,
+      "pages": "04024025",
+      "status": "Published",
+      "doi": "10.1061/JMENEA.MEENG-5885",
+      "url": "https://doi.org/10.1061/JMENEA.MEENG-5885"
+    },
+    {
+      "authors": [
+        "Wei-Chih Chern",
+        "Taegeon Kim",
+        "Tam V. Nguyen",
+        "Vijayan K. Asari",
+        "Hongjo Kim"
+      ],
+      "year": 2023,
+      "title": "Self-Supervised Sub-category Exploration for Pseudo Label Generation",
+      "journal": "Automation in Construction",
+      "volume": 151,
+      "issue": null,
+      "pages": "104862",
+      "status": "Published",
+      "doi": "10.1016/j.autcon.2023.104862",
+      "url": "https://doi.org/10.1016/j.autcon.2023.104862"
+    },
+    {
+      "authors": [
+        "Wei-Chih Chern",
+        "Jeongho Hyeon",
+        "Tam V. Nguyen",
+        "Vijayan K. Asari",
+        "Hongjo Kim"
+      ],
+      "year": 2023,
+      "title": "Context-aware Safety Assessment System for Far-field Monitoring",
+      "journal": "Automation in Construction",
+      "volume": 149,
+      "issue": null,
+      "pages": "104779",
+      "status": "Published",
+      "doi": "10.1016/j.autcon.2023.104779",
+      "url": "https://doi.org/10.1016/j.autcon.2023.104779"
+    },
+    {
+      "authors": [
+        "Yeji Hong",
+        "Wei-Chih Chern",
+        "Tam V. Nguyen",
+        "Hubo Cai",
+        "Hongjo Kim"
+      ],
+      "year": 2023,
+      "title": "Semi-supervised Domain Adaptation for Segmentation Models on Different Monitoring Settings",
+      "journal": "Automation in Construction",
+      "volume": 149,
+      "issue": null,
+      "pages": "104773",
+      "status": "Published",
+      "doi": "10.1016/j.autcon.2023.104773",
+      "url": "https://doi.org/10.1016/j.autcon.2023.104773"
+    },
+    {
+      "authors": [
+        "Wei-Chih Chern",
+        "Tam V. Nguyen",
+        "Vijayan K. Asari",
+        "Hongjo Kim"
+      ],
+      "year": 2023,
+      "title": "Impact of Loss Functions on Semantic Segmentation in Far-field Monitoring",
+      "journal": "Computer-Aided Civil and Infrastructure Engineering",
+      "volume": 38,
+      "issue": 3,
+      "pages": "372-390",
+      "status": "Published",
+      "doi": "10.1111/mice.12832",
+      "url": "https://doi.org/10.1111/mice.12832"
+    },
+    {
+      "authors": [
+        "Yeji Hong",
+        "Somin Park",
+        "Hongjo Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2021,
+      "title": "Synthetic data generation using building information models",
+      "journal": "Automation in Construction",
+      "volume": 130,
+      "issue": null,
+      "pages": "103871",
+      "status": "Published",
+      "doi": "10.1016/j.autcon.2021.103871",
+      "url": "https://doi.org/10.1016/j.autcon.2021.103871"
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Youngjib Ham"
+      ],
+      "year": 2021,
+      "title": "Increasing Reliability of Participatory Sensing for Utility Pole Condition Assessment Using Fuzzy Inference",
+      "journal": "Journal of Construction Engineering and Management",
+      "volume": 147,
+      "issue": 1,
+      "pages": "04020154",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Hoyoung Jeong",
+        "Hongjo Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2020,
+      "title": "Optimization Procedure for Climate Change Adaptation Investment Planning: Case of Flood Disaster Prevention in Seoul",
+      "journal": "Journal of Water Resources Planning and Management",
+      "volume": 146,
+      "issue": 2,
+      "pages": "04019077",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Youngjib Ham"
+      ],
+      "year": 2019,
+      "title": "Participatory Sensing-Based Geospatial Localization of Distant Objects for Disaster Preparedness in Urban Built Environments",
+      "journal": "Automation in Construction",
+      "volume": 107,
+      "issue": null,
+      "pages": "102960",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Seongdeok Bang",
+        "Somin Park",
+        "Hongjo Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2019,
+      "title": "Encoder-Decoder Network for Pixel-Level Crack Detection in Black-Box Images",
+      "journal": "Computer-Aided Civil and Infrastructure Engineering",
+      "volume": 34,
+      "issue": null,
+      "pages": "713-727",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Youngjib Ham",
+        "Wontae Kim",
+        "Somin Park",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2019,
+      "title": "Vision-Based Nonintrusive Context Documentation for Earthmoving Productivity Simulation",
+      "journal": "Automation in Construction",
+      "volume": 102,
+      "issue": null,
+      "pages": "135-147",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Somin Park",
+        "Seongdeok Bang",
+        "Hongjo Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2019,
+      "title": "Patch-Based Crack Detection in Black Box Images Using Convolutional Neural Networks",
+      "journal": "Journal of Computing in Civil Engineering",
+      "volume": 33,
+      "issue": 3,
+      "pages": "04019017",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Seongdeok Bang",
+        "Hoyoung Jeong",
+        "Youngjib Ham",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2018,
+      "title": "Analyzing Context and Productivity of Tunnel Earthmoving Processes Using Imaging and Simulation",
+      "journal": "Automation in Construction",
+      "volume": 92,
+      "issue": null,
+      "pages": "188-198",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Inhae Ha",
+        "Hongjo Kim",
+        "Somin Park",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2018,
+      "title": "Image Retrieval Using BIM and Features from Pretrained VGG Network for Indoor Localization",
+      "journal": "Building and Environment",
+      "volume": 140,
+      "issue": null,
+      "pages": "23-31",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Hyoungkwan Kim",
+        "Yong Won Hong",
+        "Hyeran Byun"
+      ],
+      "year": 2018,
+      "title": "Detecting Construction Equipment Using a Region-Based Fully Convolutional Network and Transfer Learning",
+      "journal": "Journal of Computing in Civil Engineering",
+      "volume": 32,
+      "issue": 2,
+      "pages": "04017082",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2018,
+      "title": "3D Reconstruction of a Concrete Mixer Truck for Training Object Detectors",
+      "journal": "Automation in Construction",
+      "volume": 88,
+      "issue": null,
+      "pages": "23-30",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Seongdeok Bang",
+        "Hongjo Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2017,
+      "title": "UAV-Based Automatic Generation of High-Resolution Panorama at a Construction Site with a Focus on Preprocessing for Image Stitching",
+      "journal": "Automation in Construction",
+      "volume": 84,
+      "issue": null,
+      "pages": "70-80",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Kinam Kim",
+        "Hongjo Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2017,
+      "title": "Image-Based Construction Hazard Avoidance System Using Augmented Reality in Wearable Device",
+      "journal": "Automation in Construction",
+      "volume": 83,
+      "issue": null,
+      "pages": "390-403",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Sooji Ha",
+        "Hongjo Kim",
+        "Kyeongseok Kim",
+        "Hyounkyu Lee",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2017,
+      "title": "Algorithm for Economic Assessment of Infrastructure Adaptation to Climate Change",
+      "journal": "Natural Hazards Review",
+      "volume": 16,
+      "issue": 4,
+      "pages": "04017007",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Hoyoung Jeong",
+        "Hongjo Kim",
+        "Kyeongseok Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2017,
+      "title": "Prediction of Flexible Pavement Deterioration in Relation to Climate Change Using Fuzzy Logic",
+      "journal": "Journal of Infrastructure Systems",
+      "volume": 23,
+      "issue": 4,
+      "pages": "04017008",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Kinam Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2016,
+      "title": "Data-Driven Scene Parsing Method for Recognizing Construction Site Objects in the Whole Image",
+      "journal": "Automation in Construction",
+      "volume": 71,
+      "issue": 2,
+      "pages": "271-282",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Kinam Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2016,
+      "title": "Vision-Based Object-Centric Safety Assessment Using Fuzzy Inference: Monitoring Struck-By Accidents with Moving Objects",
+      "journal": "Journal of Computing in Civil Engineering",
+      "volume": 30,
+      "issue": 4,
+      "pages": "04015075",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Byungil Kim",
+        "Hongjo Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2016,
+      "title": "A Framework for Pricing the Loss of Regulating Ecosystem Services Caused by Road Construction",
+      "journal": "KSCE Journal of Civil Engineering",
+      "volume": 20,
+      "issue": 7,
+      "pages": "2624-2631",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Changyoon Kim",
+        "Hoyoung Jeong",
+        "Sooji Ha",
+        "Kinam Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2015,
+      "title": "4D CAD Drawings Based on Marker-Based Augmented Reality",
+      "journal": "Korean Journal of Construction Engineering and Management",
+      "volume": 16,
+      "issue": 4,
+      "pages": "30-40",
+      "status": "Published",
+      "doi": null,
+      "url": null
+    }
+  ]
+  ,
+
+  "international_conference_papers": [
+    {
+      "authors": [
+        "Seokhwan Kim",
+        "Minwoo Jeong",
+        "Minkyu Koo",
+        "Taegeon Kim",
+        "Hongjo Kim"
+      ],
+      "year": 2024,
+      "title": "Context-Adaptive CCTV Pan-Tilt-Zoom method for Personal Protective Equipment Detection",
+      "conference": "International Symposium on Automation and Robotics in Construction (ISARC 2024)",
+      "location": "Lille, France",
+      "date_range": "2024-06-03 – 2024-06-05",
+      "pages": "768-775"
+    },
+    {
+      "authors": [
+        "Taegeon Kim",
+        "Minkyu Koo",
+        "Jaehyun Hyeon",
+        "Hongjo Kim"
+      ],
+      "year": 2024,
+      "title": "Zero-shot Learning-based Polygon Mask Generation for Construction Objects",
+      "conference": "International Symposium on Automation and Robotics in Construction (ISARC 2024)",
+      "location": "Lille, France",
+      "date_range": "2024-06-03 – 2024-06-05",
+      "pages": "81-88"
+    },
+    {
+      "authors": [
+        "Taegeon Kim",
+        "Seokhwan Kim",
+        "Minkyu Koo",
+        "Minwoo Jeong",
+        "Hongjo Kim"
+      ],
+      "year": 2024,
+      "title": "Large Multimodal Model for Context-aware Construction Safety Monitoring",
+      "conference": "International Conference on Construction Engineering and Project Management (ICCEPM 2024)",
+      "location": "Sapporo, Japan",
+      "date_range": "2024-07-29 – 2024-08-01",
+      "pages": "415-422"
+    },
+    {
+      "authors": [
+        "Minwoo Jeong",
+        "Taegeon Kim",
+        "Seokhwan Kim",
+        "Hongjo Kim"
+      ],
+      "year": 2024,
+      "title": "Retrieval-Augmented Generation-based Question Answering Technology for Construction Safety",
+      "conference": "International Conference on Construction Engineering and Project Management (ICCEPM 2024)",
+      "location": "Sapporo, Japan",
+      "date_range": "2024-07-29 – 2024-08-01",
+      "pages": "439-446"
+    },
+    {
+      "authors": [
+        "Wei-Chih Chern",
+        "Kyungho Choi",
+        "Vijayan K. Asari",
+        "Hongjo Kim"
+      ],
+      "year": 2024,
+      "title": "Context- and Shape-Aware Safety Monitoring for Construction Workers",
+      "conference": "International Conference on Construction Engineering and Project Management (ICCEPM 2024)",
+      "location": "Sapporo, Japan",
+      "date_range": "2024-07-29 – 2024-08-01",
+      "pages": "423-430"
+    },
+    {
+      "authors": [
+        "Wei-Chih Chern",
+        "Vijayan Asari",
+        "Hongjo Kim"
+      ],
+      "year": 2023,
+      "title": "Hashing-based Object Tracking for Construction Site Safety Monitoring across Different Domains",
+      "conference": "ASCE International Conference on Computing in Civil Engineering 2023",
+      "location": "Corvallis, Oregon, USA",
+      "date_range": "2023-06-25 – 2023-06-28",
+      "pages": null
+    },
+    {
+      "authors": [
+        "Taegeon Kim",
+        "Giwon Shin",
+        "Seokhwan Kim",
+        "Vijayan K. Asari",
+        "Hongjo Kim"
+      ],
+      "year": 2023,
+      "title": "Target Domain Training Data Generation by Moving Object Detection and Label Propagation",
+      "conference": "ASCE International Conference on Computing in Civil Engineering 2023",
+      "location": "Corvallis, Oregon, USA",
+      "date_range": "2023-06-25 – 2023-06-28",
+      "pages": null
+    },
+    {
+      "authors": [
+        "Miyoung Uhm",
+        "Giwon Shin",
+        "Hyoungkwan Kim",
+        "Namgyun Kim",
+        "Hongjo Kim"
+      ],
+      "year": 2023,
+      "title": "Evaluating the Economic Impact of Preventive Treatment Strategies for Municipal Highways",
+      "conference": "ASCE International Conference on Computing in Civil Engineering 2023",
+      "location": "Corvallis, Oregon, USA",
+      "date_range": "2023-06-25 – 2023-06-28",
+      "pages": null
+    },
+    {
+      "authors": [
+        "Taegeon Kim",
+        "Seokhwan Kim",
+        "Namgyun Kim",
+        "Hongjo Kim"
+      ],
+      "year": 2023,
+      "title": "ChatGPT in the Construction Domain: Opportunities, Risks, and Recommendations",
+      "conference": "5th International Conference on Civil and Building Engineering Informatics (ICCBEI 2023)",
+      "location": "Bangkok, Thailand",
+      "date_range": "2023-07-19 – 2023-07-21",
+      "pages": "32-37"
+    },
+    {
+      "authors": [
+        "Jeongho Hyeon",
+        "Minwoo Jeong",
+        "Giwon Shin",
+        "Wei-Chih Chern",
+        "Vijayan K. Asari",
+        "Hongjo Kim"
+      ],
+      "year": 2023,
+      "title": "Evaluating Road Segmentation Performance in Participatory Sensing: Investigation into Alternative Metrics",
+      "conference": "40th International Symposium on Automation and Robotics in Construction (ISARC 2023)",
+      "location": "Chennai, India",
+      "date_range": "2023-07-03 – 2023-07-07",
+      "pages": "506-512"
+    },
+    {
+      "authors": [
+        "Taegeon Kim",
+        "Giwon Shin",
+        "Seokhwan Kim",
+        "Hongjo Kim"
+      ],
+      "year": 2022,
+      "title": "Generating Pseudo Label of Object Detector for Construction Site Monitoring",
+      "conference": "International Conference on Computing in Civil and Building Engineering (ICCCBE 2022)",
+      "location": "Cape Town, South Africa",
+      "date_range": "2022-10-26 – 2022-10-28",
+      "pages": "111-119"
+    },
+    {
+      "authors": [
+        "Jeongho Hyeon",
+        "Giwon Shin",
+        "Taegeon Kim",
+        "Byungil Kim",
+        "Hongjo Kim"
+      ],
+      "year": 2022,
+      "title": "Challenges of Road Crack Segmentation due to Coarse Annotation",
+      "conference": "International Conference on Computing in Civil and Building Engineering (ICCCBE 2022)",
+      "location": "Cape Town, South Africa",
+      "date_range": "2022-10-26 – 2022-10-28",
+      "pages": "197-203"
+    },
+    {
+      "authors": [
+        "Wei-Chih Chern",
+        "Jeongho Hyeon",
+        "Tam V. Nguyen",
+        "Vijayan K. Asari",
+        "Hongjo Kim"
+      ],
+      "year": 2022,
+      "title": "Context-Aware PPE Compliance Check in Far-Field Monitoring",
+      "conference": "International Conference on Computing in Civil and Building Engineering (ICCCBE 2022)",
+      "location": "Cape Town, South Africa",
+      "date_range": "2022-10-26 – 2022-10-28",
+      "pages": "187-195"
+    },
+    {
+      "authors": [
+        "Seokhwan Kim",
+        "Taegeon Kim",
+        "Jeongho Hyeon",
+        "Jonghwa Won",
+        "Hongjo Kim"
+      ],
+      "year": 2022,
+      "title": "Comparing Object Detection Models for Water Trash Monitoring",
+      "conference": "International Conference on Computing in Civil and Building Engineering (ICCCBE 2022)",
+      "location": "Cape Town, South Africa",
+      "date_range": "2022-10-26 – 2022-10-28",
+      "pages": "161-170"
+    },
+    {
+      "authors": [
+        "Sungjae Park",
+        "Namgyun Kim",
+        "Changbum R. Ahn",
+        "Hongjo Kim"
+      ],
+      "year": 2022,
+      "title": "Effectiveness of Experiential Safety Training in Physical Facility Compared with VR-based Safety Training",
+      "conference": "International Conference on Construction Applications of Virtual Reality (CONVR2022)",
+      "location": "Seoul, South Korea",
+      "date_range": "2022-11-16 - 2022-11-19",
+      "pages": "212-220"
+    },
+    {
+      "authors": [
+        "Wei-Chih Chern",
+        "Vijayan Asari",
+        "Tam Nguyen",
+        "Hongjo Kim"
+      ],
+      "year": 2022,
+      "title": "Weakly Supervised Pseudo Label Generation for Construction Vehicle Segmentation",
+      "conference": "39th International Symposium on Automation and Robotics in Construction (ISARC 2022)",
+      "location": "Bogotá, Colombia",
+      "date_range": "2022-07-13 – 2022-07-15",
+      "pages": "41-46"
+    },
+    {
+      "authors": [
+        "Wei-Chih Chern",
+        "Hongjo Kim",
+        "Vijayan Asari",
+        "Tam Nguyen"
+      ],
+      "year": 2022,
+      "title": "Compound Loss Function of Semantic Segmentation Models for Imbalanced Construction Data",
+      "conference": "9th International Conference on Construction Engineering and Project Management (ICCEPM 2022)",
+      "location": "Las Vegas, Nevada, USA",
+      "date_range": "2022-06-20 – 2022-06-23",
+      "pages": "808-813"
+    },
+    {
+      "authors": [
+        "Yeji Hong",
+        "Wei-Chih Chern",
+        "Tam Nguyen",
+        "Hongjo Kim"
+      ],
+      "year": 2021,
+      "title": "Generalization of Construction Object Segmentation Models Using Self-Supervised Learning and Copy-Paste Data Augmentation",
+      "conference": "38th International Symposium on Automation and Robotics in Construction (ISARC 2021)",
+      "location": "Dubai, United Arab Emirates",
+      "date_range": null,
+      "pages": "843-848"
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Youngjib Ham"
+      ],
+      "year": 2020,
+      "title": "Evaluating Deterioration Levels of Utility Poles Using Participatory Sensing and Fuzzy Inference",
+      "conference": "Construction Research Congress 2020: Computer Applications",
+      "location": "Tempe, Arizona, USA",
+      "date_range": null,
+      "pages": "821-827"
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Youngjib Ham",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2019,
+      "title": "Localizing Local Vulnerabilities in Urban Areas Using Crowdsourced Visual Data from Participatory Sensing",
+      "conference": "ASCE International Conference on Computing in Civil Engineering 2019",
+      "location": null,
+      "date_range": null,
+      "pages": "522-529"
+    },
+    {
+      "authors": [
+        "Jaeyoon Kim",
+        "Hongjo Kim",
+        "Youngjib Ham"
+      ],
+      "year": 2019,
+      "title": "Mapping Local Vulnerabilities into a 3D City Model through Social Sensing and the CAVE System toward Digital Twin City",
+      "conference": "ASCE International Conference on Computing in Civil Engineering 2019",
+      "location": null,
+      "date_range": null,
+      "pages": "451-458"
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Youngjib Ham",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2019,
+      "title": "Deep Learning-based Context Documentation for Earthmoving Productivity Simulation",
+      "conference": "55th Annual Associated Schools of Construction International Conference",
+      "location": null,
+      "date_range": null,
+      "pages": "563-570"
+    },
+    {
+      "authors": [
+        "Seongdeok Bang",
+        "Somin Park",
+        "Hongjo Kim",
+        "Yeosan Yoon",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2018,
+      "title": "A Deep Residual Network with Transfer Learning for Pixel-level Road Crack Detection",
+      "conference": "35th International Symposium on Automation and Robotics in Construction (ISARC 2018)",
+      "location": "Berlin, Germany",
+      "date_range": null,
+      "pages": "753-756"
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Seongdeok Bang",
+        "Hoyoung Jeong",
+        "Youngjib Ham",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2018,
+      "title": "Integration of Imaging and Simulation for Earthmoving Productivity Analysis",
+      "conference": "35th International Symposium on Automation and Robotics in Construction (ISARC 2018)",
+      "location": "Berlin, Germany",
+      "date_range": null,
+      "pages": "720-723"
+    },
+    {
+      "authors": [
+        "Somin Park",
+        "Seongdeok Bang",
+        "Hongjo Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2018,
+      "title": "Patch-based Crack Detection in Black Box Road Images Using Deep Learning",
+      "conference": "35th International Symposium on Automation and Robotics in Construction (ISARC 2018)",
+      "location": "Berlin, Germany",
+      "date_range": null,
+      "pages": "757-760"
+    },
+    {
+      "authors": [
+        "Inhae Ha",
+        "Hongjo Kim",
+        "Somin Park",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2018,
+      "title": "Image-based Indoor Localization Using BIM and Features of CNN",
+      "conference": "35th International Symposium on Automation and Robotics in Construction (ISARC 2018)",
+      "location": "Berlin, Germany",
+      "date_range": null,
+      "pages": "773-776"
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Yong Won Hong",
+        "Hyeran Byun",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2017,
+      "title": "Detection of Construction Equipment Using Deep Convolutional Networks",
+      "conference": "LC3 2017: Joint Conference on Computing in Construction (JC3)",
+      "location": "Heraklion, Greece",
+      "date_range": null,
+      "pages": "517-524"
+    },
+    {
+      "authors": [
+        "Seongdeok Bang",
+        "Hongjo Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2017,
+      "title": "Vision-based 2D Map Generation for Monitoring Construction Sites Using UAV Videos",
+      "conference": "34th International Symposium on Automation and Robotics in Construction (ISARC 2017)",
+      "location": "Taipei, Taiwan",
+      "date_range": null,
+      "pages": "830-833"
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Kinam Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2016,
+      "title": "Data-Driven Scene Parsing for Construction Site Monitoring",
+      "conference": "33rd International Symposium on Automation and Robotics in Construction (ISARC 2016)",
+      "location": "Auburn, USA",
+      "date_range": null,
+      "pages": "943-947"
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Sungjae Park",
+        "Sooji Ha",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2015,
+      "title": "Construction Site Scene Understanding: 2D Image Segmentation and Classification",
+      "conference": "6th International Conference on Construction Engineering and Project Management (ICCEPM 2015)",
+      "location": "Busan, South Korea",
+      "date_range": null,
+      "pages": "333-335"
+    },
+    {
+      "authors": [
+        "Sooji Ha",
+        "Hoyoung Jeong",
+        "Kinam Kim",
+        "Hongjo Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2015,
+      "title": "Valuation of Adaptation Technology to Climate Change Based on Target Classification",
+      "conference": "32nd International Symposium on Automation and Robotics in Construction and Mining (ISARC 2015)",
+      "location": "Oulu, Finland",
+      "date_range": null,
+      "pages": "1-6"
+    },
+    {
+      "authors": [
+        "Kinam Kim",
+        "Hoyoung Jeong",
+        "Hongjo Kim",
+        "Sangseom Jeong",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2014,
+      "title": "Economic Assessment of Landslide Behavior Simulation Technology under Climate Change",
+      "conference": "14th World Conference of Associated Research Centers for the Urban Underground Space (ACUUS 2014)",
+      "location": "Seoul, South Korea",
+      "date_range": null,
+      "pages": null
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Kinam Kim",
+        "Sungjae Park",
+        "Jihoon Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2014,
+      "title": "An Interactive Progress Monitoring System Using Image Processing in a Mobile Computing Environment",
+      "conference": "31st International Symposium on Automation and Robotics in Construction (ISARC 2014)",
+      "location": "Sydney, Australia",
+      "date_range": null,
+      "pages": "309-312"
+    },
+    {
+      "authors": [
+        "Hongjo Kim",
+        "Bakri Elhamim",
+        "Hoyoung Jeong",
+        "Changyoon Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2014,
+      "title": "On-Site Safety Management Using Image Processing and Fuzzy Inference",
+      "conference": "International Conference on Computing in Civil and Building Engineering (ICCCBE 2014)",
+      "location": "Orlando, USA",
+      "date_range": null,
+      "pages": "1013-1020"
+    },
+    {
+      "authors": [
+        "Hoyoung Jeong",
+        "Hyounkyu Lee",
+        "Hongjo Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2014,
+      "title": "Algorithm for Economic Assessment of Infrastructure Adaptation to Climate Change",
+      "conference": "31st International Symposium on Automation and Robotics in Construction (ISARC 2014)",
+      "location": "Sydney, Australia",
+      "date_range": null,
+      "pages": "942-947"
+    },
+    {
+      "authors": [
+        "Changyoon Kim",
+        "Hyun Su Lim",
+        "Hongjo Kim",
+        "Hyoungkwan Kim"
+      ],
+      "year": 2013,
+      "title": "BIM-based Mobile System for Facility Management",
+      "conference": "30th International Symposium on Automation and Robotics in Construction (ISARC 2013)",
+      "location": "Montreal, Canada",
+      "date_range": null,
+      "pages": null
+    }
+  ],  
+
+  "domestic_conference_papers": [
+    {
+      "authors": ["Gichang Choi", "Hongjo Kim"],
+      "year": 2024,
+      "title": "Enhancing the Performance of Retrieval Augmented Generation in the Korean Construction Domain through Embedding Model Fine-tuning",
+      "conference": "Korea Institute of Construction Engineering and Management Conference",
+      "location": "Jeju, South Korea",
+      "date_range": "2024-11-06 – 2024-11-08",
+      "pages": null
+    },
+    {
+      "authors": ["Minwoo Jeong", "Hongjo Kim"],
+      "year": 2024,
+      "title": "Design of an Automated Structural Calculation Framework Using RAG-Based Large Language Models",
+      "conference": "Korea Institute of Construction Engineering and Management Conference",
+      "location": "Jeju, South Korea",
+      "date_range": "2024-11-06 – 2024-11-08",
+      "pages": null
+    },
+    {
+      "authors": ["Jaehyun Park", "Seokhwan Kim", "Hongjo Kim"],
+      "year": 2024,
+      "title": "Application of Futures Hedging Strategies for Material Price Volatility in Construction Projects",
+      "conference": "Korea Institute of Construction Engineering and Management Conference",
+      "location": "Jeju, South Korea",
+      "date_range": "2024-11-06 – 2024-11-08",
+      "pages": null
+    },
+    {
+      "authors": ["Younga Shin", "Hongjo Kim"],
+      "year": 2024,
+      "title": "Sensor Network-Based Monitoring Research Trends for Levee Failure Risk Assessment",
+      "conference": "Korea Institute of Construction Engineering and Management Conference",
+      "location": "Jeju, South Korea",
+      "date_range": "2024-11-06 – 2024-11-08",
+      "pages": null
+    },
+    {
+      "authors": ["Junghyun Rho", "Hongjo Kim"],
+      "year": 2024,
+      "title": "A Study on Road Maintenance Cost Estimation and Optimization Using Smartphone-Based GPS Data",
+      "conference": "Korea Institute of Construction Engineering and Management Conference",
+      "location": "Jeju, South Korea",
+      "date_range": "2024-11-06 – 2024-11-08",
+      "pages": null
+    },
+    {
+      "authors": ["Seokhwan Kim", "Taegeon Kim", "Hongjo Kim"],
+      "year": 2023,
+      "title": "Optimization Strategies for the Maintenance of Floating Debris Barrier Using Computer Vision and Monte Carlo Simulation",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": "Yeosu, South Korea",
+      "date_range": "2023-10-18 – 2023-10-20",
+      "pages": "380-381"
+    },
+    {
+      "authors": ["Jeongho Hyeon", "Minwoo Jeong", "Hongjo Kim"],
+      "year": 2023,
+      "title": "Proposing New Metric for Evaluating Crack Segmentation Models in Participatory Sensing",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": "Yeosu, South Korea",
+      "date_range": "2023-10-18 – 2023-10-20",
+      "pages": "15-16"
+    },
+    {
+      "authors": ["Taegeon Kim", "Minkyu Koo", "Jeongho Hyeon", "Hongjo Kim"],
+      "year": 2023,
+      "title": "Generating Polygon Training Data of Workers Using Instance Segmentation",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": "Yeosu, South Korea",
+      "date_range": "2023-10-18 – 2023-10-20",
+      "pages": "53-54"
+    },
+    {
+      "authors": ["Taegeon Kim", "Seokhwan Kim", "Hongjo Kim"],
+      "year": 2023,
+      "title": "Self-training-Based Training Data Generation for Construction Object Detector",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": "Yeosu, South Korea",
+      "date_range": "2023-10-18 – 2023-10-20",
+      "pages": "55-56"
+    },
+    {
+      "authors": ["Miyoung Uhm", "Hyoungkwan Kim", "Hongjo Kim"],
+      "year": 2022,
+      "title": "Approaches for Cost Optimization in Preventive Infrastructure Maintenance Management",
+      "conference": "Korea Institute of Construction Engineering and Management Conference",
+      "location": "Seoul, South Korea",
+      "date_range": "2022-11-18 – 2022-11-18",
+      "pages": "11-12"
+    },
+    {
+      "authors": ["Miyoung Uhm", "Hongjo Kim"],
+      "year": 2022,
+      "title": "A Research Trends in BIM Based Blockchain",
+      "conference": "Korea Institute of Construction Engineering and Management Conference",
+      "location": "Seoul, South Korea",
+      "date_range": "2022-11-18 – 2022-11-18",
+      "pages": "87-88"
+    },
+    {
+      "authors": ["Jeongho Hyeon", "Giwon Shin", "Taegeon Kim", "Byungil Kim", "Hongjo Kim"],
+      "year": 2022,
+      "title": "Challenges in Road Crack Segmentation Due to Coarse Annotation",
+      "conference": "Korea Institute of Construction Engineering and Management Conference",
+      "location": "Seoul, South Korea",
+      "date_range": "2022-11-18 – 2022-11-18",
+      "pages": "55-56"
+    },
+    {
+      "authors": ["Miyoung Uhm", "Hongjo Kim"],
+      "year": 2022,
+      "title": "Research Trends in Priority Decision Making Model for Urban Infrastructure Integrated Maintenance",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": "Busan, South Korea",
+      "date_range": "2022-10-19 – 2022-10-21",
+      "pages": "15-16"
+    },
+    {
+      "authors": ["Jeongho Hyeon", "Taegeon Kim", "Byungil Kim", "Hongjo Kim"],
+      "year": 2022,
+      "title": "Performance Comparison of Road Crack Segmentation in Dash-board Camera Image",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": "Busan, South Korea",
+      "date_range": "2022-10-19 – 2022-10-21",
+      "pages": "5-6"
+    },
+    {
+      "authors": ["Sungjae Park", "Namgyun Kim", "Changbum R. Ahn", "Hongjo Kim"],
+      "year": 2022,
+      "title": "Effectiveness of Experiential Safety Training in Safety Training Center Compared to VR-based Safety Training",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": "Busan, South Korea",
+      "date_range": "2022-10-19 – 2022-10-21",
+      "pages": "31-32"
+    },
+    {
+      "authors": ["Wei-Chih Chern", "Jeongho Hyeon", "Tam V. Nguyen", "Vijayan K. Asari", "Hongjo Kim"],
+      "year": 2022,
+      "title": "Context-Aware PPE Compliance Check in Far-Field Monitoring",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": "Busan, South Korea",
+      "date_range": "2022-10-19 – 2022-10-21",
+      "pages": "35-36"
+    },
+    {
+      "authors": ["Yeji Hong", "Wei-Chih Chern", "Tam Van Nguyen", "Hongjo Kim"],
+      "year": 2021,
+      "title": "Domain Adaptive Semantic Segmentation for Safety Management of Construction site workers",
+      "conference": "Proceedings of Korean Society of Civil Engineers Conference",
+      "location": "Gwangju, South Korea",
+      "date_range": "2021-10-20 – 2021-10-22",
+      "pages": "27-28"
+    },
+    {
+      "authors": ["Hongjo Kim", "Seongdeok Bang", "Hoyoung Jeong", "Hyoungkwan Kim"],
+      "year": 2017,
+      "title": "Vision-Based Monitoring and Construction Process Simulation for Productivity Analysis of an Earthmoving Process in a Tunnel",
+      "conference": "Korea Institute of Construction Engineering and Management Conference",
+      "location": null,
+      "date_range": null,
+      "pages": "47-48"
+    },
+    {
+      "authors": ["Seongdeok Bang", "Hongjo Kim", "Hyoungkwan Kim"],
+      "year": 2016,
+      "title": "Image Stitching for Generating a Local Map of Construction Sites Using UAV Videos",
+      "conference": "Korea Institute of Construction Engineering and Management Conference",
+      "location": null,
+      "date_range": null,
+      "pages": "187-188"
+    },
+    {
+      "authors": ["Hongjo Kim", "Hyoungkwan Kim"],
+      "year": 2016,
+      "title": "Training Classifiers for Detecting Construction Entities in Images Using the Geometric Information of 3D Models",
+      "conference": "Korea Institute of Construction Engineering and Management Conference",
+      "location": null,
+      "date_range": null,
+      "pages": "205-206"
+    },
+    {
+      "authors": ["Kyeongseok Kim", "Hongjo Kim", "Hoyoung Jeong", "Hyoungkwan Kim"],
+      "year": 2016,
+      "title": "Real-Option Analysis of Flood-Control Infrastructure under Climate Change",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": null,
+      "date_range": null,
+      "pages": "9-10"
+    },
+    {
+      "authors": ["Hongjo Kim", "Kinam Kim", "Seongdeok Bang", "Hyoungkwan Kim"],
+      "year": 2016,
+      "title": "3D Reconstruction of Construction Entities from Images Using Multi-View Stereo",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": null,
+      "date_range": null,
+      "pages": "25-26"
+    },
+    {
+      "authors": ["Sooji Ha", "Hongjo Kim", "Hyoungkwan Kim"],
+      "year": 2015,
+      "title": "Web-Based Economic Assessment System for Adaptation of Infrastructure to Climate Change",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": null,
+      "date_range": null,
+      "pages": "21-22"
+    },
+    {
+      "authors": ["Sungjae Park", "Hongjo Kim", "Hyoungkwan Kim"],
+      "year": 2015,
+      "title": "Construction Material Identification in UAV Images",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": null,
+      "date_range": null,
+      "pages": "33-34"
+    },
+    {
+      "authors": ["Hongjo Kim", "Sooji Ha", "Hyoungkwan Kim"],
+      "year": 2015,
+      "title": "Region Classification in Construction-Site Images Using Extreme Learning Machine (ELM)",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": null,
+      "date_range": null,
+      "pages": "29-30"
+    },
+    {
+      "authors": ["Hongjo Kim", "Hoyoung Jeong", "Kinam Kim", "Sungjae Park", "Changyoon Kim", "Hyoungkwan Kim"],
+      "year": 2014,
+      "title": "A Fuzzy-Inference- and Computer-Vision-Based Safety Assessment System for Construction-Site Entities",
+      "conference": "Korea Institute of Construction Engineering and Management Conference",
+      "location": null,
+      "date_range": null,
+      "pages": "99-100"
+    },
+    {
+      "authors": ["Hongjo Kim", "Kinam Kim", "Sungjae Park", "Hoyoung Jeong", "Hyoungkwan Kim"],
+      "year": 2014,
+      "title": "Applicability of the Kalman Filter for Multi-Object Tracking in Construction Sites",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": null,
+      "date_range": null,
+      "pages": "555-556"
+    },
+    {
+      "authors": ["Changyoon Kim", "Hongjo Kim", "Sungmo Ahn", "Hyoungkwan Kim"],
+      "year": 2013,
+      "title": "BIM-Based Construction-Site Layout Planning for Caisson Structure Fabrication Using Process Simulation",
+      "conference": "Korea Institute of Construction Engineering and Management Conference",
+      "location": null,
+      "date_range": null,
+      "pages": "193-194"
+    }
+  ],  
+
+  "patents": [
+    {
+      "inventors": ["Hyoungkwan Kim", "Hongjo Kim"],
+      "year": 2019,
+      "title": "Situational Recognition System for Construction Site based Vision and Method, and Method for Productivity Analysis of Earthwork using It",
+      "country": "KR",
+      "patent_type": "Registration",
+      "patent_number": "10-2042629"
+    },
+    {
+      "inventors": ["Hyoungkwan Kim", "Hongjo Kim"],
+      "year": 2019,
+      "title": "2D Image Data Generation System Using of 3D Model, and Thereof Method",
+      "country": "KR",
+      "patent_type": "Registration",
+      "patent_number": "10-1964282"
+    },
+    {
+      "inventors": ["Hyoungkwan Kim", "Hongjo Kim"],
+      "year": 2017,
+      "title": "Estimation System and Method of Slope Stability Using 3D Model and Soil Classification",
+      "country": "KR",
+      "patent_type": "Registration",
+      "patent_number": "10-1787542"
+    },
+    {
+      "inventors": ["Hyoungkwan Kim", "Kinam Kim", "Hongjo Kim"],
+      "year": 2017,
+      "title": "Visualization of Safety Assessment System in Construction Site Using Wearable Device",
+      "country": "KR",
+      "patent_type": "Registration",
+      "patent_number": "10-1715001"
+    },
+    {
+      "inventors": ["Hyoungkwan Kim", "Hoyoung Jeong", "Hongjo Kim"],
+      "year": 2017,
+      "title": "Generation Method and System of Climate Change Impact Assessment Information for Infrastructure Based Fuzzy Inference",
+      "country": "KR",
+      "patent_type": "Registration",
+      "patent_number": "10-1794800"
+    },
+    {
+      "inventors": ["Hyoungkwan Kim", "Hongjo Kim", "Kinam Kim", "Hoyoung Jeong"],
+      "year": 2016,
+      "title": "System for Assessment of Safety Level at Construction Site Based on Computer Vision",
+      "country": "KR",
+      "patent_type": "Registration",
+      "patent_number": "10-1674266"
+    },
+    {
+      "inventors": ["Hyoungkwan Kim", "Hongjo Kim", "Kinam Kim"],
+      "year": 2014,
+      "title": "Interactive Progress Monitoring System Using Mobile Terminal and User Interface of the Mobile Terminal",
+      "country": "KR",
+      "patent_type": "Application",
+      "patent_number": "10-2014-0181719"
+    }
+  ]
+  
+}

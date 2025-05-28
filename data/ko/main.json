@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "스마트인프라연구실",
+    "subtitle": "Smart Infrastructure Lab",
+    "ctaText": "연구실 소개 보기",
+    "bgImage": "img/메인화면.png"
+  },
+  "labIntro": {
+    "title": "연구실 소개",
+    "paragraphs": [
+      "<div style=\"text-align:center\"><img src=\"img/main화면/main 사진 1.png\" alt=\"연구실 전경\" style=\"max-width:90%;  height:auto;\"></div>",
+      "**스마트 인프라 연구실**은 도로, 교량, 터널, 댐, 항만 등 사회기반시설물에 대한 계획, 설계, 시공, 운영, 유지보수 등 생애주기 각 단계의 전통적인 공법을 혁신하기 위한 새로운 방법을 연구하고 있습니다. 공학은 절대적 정답이 존재하지 않는 문제가 대부분이기 때문에 현실적 제약조건과 환경변수를 고려한 전문가의 경험적 의사결정이 빈번하게 이루어집니다. 본 연구실에서는 사회기반시설물 전생애주기에서 발생하는 경험적 의사결정을 데이터에 기반한 과학적 의사결정으로 전환하고자 하는 목표를 가지고, 인공지능 (Artificial Intelligence), 컴퓨터 비전 (Computer Vision), 소프트 컴퓨팅 (Soft Computing), 시뮬레이션 (Simulation), 경제적 타당성 분석 (Economic Feasibility Analysis) 등의 다양한 기술들을 융합한 방법론을 연구하고 있습니다. 이러한 기술들을 활용하여 사회기반시설물과 관련된 문제에서 과학적 의사결정을 가능하게 하기 위해 의사 결정의 각 단계—(1) 데이터 수집, (2) 데이터 분석, (3) 미래 예측, (4) 대안 제시, (5) 최적 대안 결정 및 실행, (6) 확인(피드백)—에서 인력으로 수행되는 업무를 자동화하고 전체 프로세스를 통합할 수 있는 방안을 연구하고 있습니다.",
+      "<div style=\"text-align:center\"><img src=\"img/main화면/main 사진 2.png\" alt=\"연구실 전경\" style=\"max-width:90%;  height:auto;\"></div>"
+    ]
+  },
+  "news": {
+    "title": "최근 소식",
+    "items": [
+      {
+        "date": "2025.04",
+        "title": "학술 논문 게재",
+        "description": "**Jan-Iwo Jäkel**, **Eva Heinlein**, Hendrik Morgenstern, **Hongjo Kim**, and Katharina Klemt-Albert의 **'System- and Data-integrated linking of digital 3D models of existing bridge structures with Knowledge Graphs of non-destructive diagnostic methods'** 논문이 'Journal of Information Technology in Construction'에 채택되었습니다."
+      },
+      {
+        "date": "2025.03",
+        "title": "학술 논문 게재",
+        "description": "**Seokhwan Kim**, **Taegeon Kim**, Minhyun Lee, Jonghwa Won, and **Hongjo Kim**의 **'Adaptive Water Waste Processing Strategy at Floating Barriers using Computer Vision, Route Finding, and Monte Carlo Simulation'** 논문이 'KSCE Journal of Civil Engineering'에 채택되었습니다."
+      },
+      {
+        "date": "2025.03",
+        "title": "학술 논문 게재",
+        "description": "**Jeongho Hyeon**, **Minwoo Jeong**, **Wei-Chih Chern**, Vijayan K. Asari, and **Hongjo Kim**의 **'Evaluating Road Crack Segmentation Performance in Participatory Sensing: An Exploration of Alternative Metrics'** 논문이 'Journal of Computing in Civil Engineering'에 채택되었습니다."
+      },
+      {
+        "date": "2024.12",
+        "title": "학술 논문 게재",
+        "description": "**Miyoung Uhm**, **Jaehee Kim**, Seungjun Ahn, Hoyoung Jeong, and **Hongjo Kim**의 **'Effectiveness of Retrieval Augmented Generation-based Large Language Models for Generating Construction Safety Information'** 논문이 'Automation in Construction'에 채택되었습니다."
+      },
+      {
+        "date": "2024.10",
+        "title": "학술 논문 게재",
+        "description": "Namgyun Kim, **Sungjae Park**, **Miyoung Uhm**, Changbum R. Ahn, **Hongjo Kim**의 **'Enhancing Construction Managers’ Risk Perception and Lowering Risk Tolerance Toward Unsafe Behaviors Through Experiential Safety Training'** 논문이 'Journal of Management in Engineering'에 채택되었습니다."
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "logoText": "Smart Infrastructure Laboratory",
+  "languages": {
+    "current": "English",
+    "options": {
+      "ko": "한국어",
+      "en": "English"
+    }
+  },
+  "navigation": [
+    {
+      "id": "members",
+      "label": "Members"
+    },
+    {
+      "id": "publications",
+      "label": "Publication"
+    },
+    {
+      "id": "projects",
+      "label": "Project"
+    },
+    {
+      "id": "teaching",
+      "label": "Teaching"
+    },
+    {
+      "id": "blog",
+      "label": "Blog"
+    },
+    {
+      "id": "album",
+      "label": "Album"
+    }
+  ]
+}

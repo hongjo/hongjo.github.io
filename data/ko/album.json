@@ -1,0 +1,53 @@
+
+{
+  "albums": [
+    {
+      "title": "2025 연구실 벚꽃 워크샵",
+      "description": "2025 04 11",
+      "images": [
+        {
+          "src": "img/album/250411/250411_1.jpg",
+          "caption": "춘계 나들이 단체사진1",
+          "fullSize": "img/album/250411/250411_1.jpg"
+        },
+        {
+          "src": "img/album/250411/250411_2.jpg",
+          "caption": "춘계 나들이 단체사진2",
+          "fullSize": "img/album/250411/250411_2.jpg"
+        }
+      ]
+    },
+    {
+      "title": "2025년 1분기 ",
+      "description": "2025년 1분기",
+      "images": [
+        {
+          "src": "img/album/25년 1분기/현정호졸업.jpg",
+          "caption": "현정호 석사의 졸업을 축하합니다!",
+          "fullSize": "img/album/25년 1분기/현정호졸업.jpg"
+        },
+        {
+          "src": "img/album/25년 1분기/연구실회식.jpg",
+          "caption": "5월의 연구실 회식",
+          "fullSize": "img/album/25년 1분기/연구실회식.jpg"
+        }
+      ]
+    },
+    {
+      "title": "2024년 연구실",
+      "description": "2024년 연구실",
+      "images": [
+        {
+          "src": "img/album/2024년/워크숍.jpg",
+          "caption": "스마트 건설 워크숍",
+          "fullSize": "img/album/2024년/워크숍.jpg"
+        },
+        {
+          "src": "img/album/2024년/겨울 단체사진.jpg",
+          "caption": "눈 많이옴",
+          "fullSize": "img/album/2024년/겨울 단체사진.jpg"
+        }
+      ]
+    }
+  ]
+}

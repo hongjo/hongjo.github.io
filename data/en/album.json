@@ -1,0 +1,54 @@
+
+{
+  "albums": [
+    {
+      "title": "2025 spring workshop",
+      "description": "2025 04 11",
+      "images": [
+        {
+          "src": "img/album/250411/250411_1.jpg",
+          "caption": "봄 단체사진1",
+          "fullSize": "img/album/250411/250411_1.jpg"
+        },
+        {
+          "src": "img/album/250411/250411_2.jpg",
+          "caption": "봄 단체사진2",
+          "fullSize": "img/album/250411/250411_2.jpg"
+        }
+      ]
+    },
+    {
+      "title": "2025 Q1 ",
+      "description": "2025 Q1",
+      "images": [
+        {
+          "src": "img/album/25년 1분기/현정호졸업.jpg",
+          "caption": "Congratulations to Jeongho Hyeon on his graduation!",
+          "fullSize": "img/album/25년 1분기/현정호졸업.jpg"
+        },
+        {
+          "src": "img/album/25년 1분기/연구실회식.jpg",
+          "caption": "May lab dinner",
+          "fullSize": "img/album/25년 1분기/연구실회식.jpg"
+        }
+      ]
+    },
+    {
+      "title": "2024 lab",
+      "description": "2024 lab",
+      "images": [
+        {
+          "src": "img/album/2024년/워크숍.jpg",
+          "caption": "Smart construction workshop",
+          "fullSize": "img/album/2024년/워크숍.jpg"
+        },
+        {
+          "src": "img/album/2024년/겨울 단체사진.jpg",
+          "caption": "Winter group photo",
+          "fullSize": "img/album/2024년/겨울 단체사진.jpg"
+        }
+      ]
+    }
+    
+  ]
+}

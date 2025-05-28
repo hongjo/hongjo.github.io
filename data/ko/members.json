@@ -1,0 +1,261 @@
+
+{
+  "professor": {
+    "title": "교수",
+    "name": "Ph.D. 김홍조",
+    "photo": "img/member/professor/arizona_hj_reszied1.jpg",
+    "email": "hongjo@yonsei.ac.kr",
+    "description": ["연세대학교 건설환경공학과 스마트인프라연구실 지도교수",
+    "\n\n\n## 🧑‍🏫 Professional Employment  \n- **2021.3 ~ 현재**  \n  조교수, 연세대학교 건설환경공학과  \n- **2019.8 ~ 2020.12**  \n  조교수, 미국 오하이오주 데이튼대학교 토목환경공학 및 공학기계학과  \n- **2019.5 ~ 2019.7**  \n  연구교수, 연세대학교 토목환경공학과  \n- **2018.3 ~ 2019.4**  \n  박사후연구원, 미국 텍사스 A&M 대학교 건설과학과  \n- **2018.3 ~ 2019.3**  \n  박사후연구원, 연세대학교 토목환경공학과",
+    "\n\n\n## 🎓 Education  \n- **2013.3 ~ 2018.2**  \n  박사, 연세대학교 토목환경공학과  \n  - 지도교수: 김형관 교수 \n  - 박사학위논문: “Vision and Artificial Intelligence-based Context Information Generation from Image Data for Construction Management”  \n\n- **2009.3 ~ 2013.2**  \n  학사, 연세대학교 토목환경공학과  \n\n",
+    "## 🏅 Honors and Awards",
+      "\n- **2023**  \n\n  - 연세대학교 우수강의교수상  \n  - 대한토목학회 우수논문상 2건  \n    - “자가 학습 기반 건설 객체 탐지 모델을 위한 학습 데이터 생성”  \n    - “컴퓨터 비전 및 몬테카를로 시뮬레이션 기반 수상 부유쓰레기 차단막 유지관리 최적화 방안”  ",
+      "\n- **2022**  \n  - 한국건설관리학회 정기 학술 발표대회 우수 논문상  \n    - “도로 균열 의미분할에서의 불명확한 라벨링에 대한 고찰” ",
+      "\n- **2017**  \n  - 최우수 논문상 (2016 연세대학교 토목환경공학과 올해의 논문상)  \n    - Hongjo Kim, Kinam Kim, and Hyoungkwan Kim (2016). “Vision-Based Object-Centric Safety Assessment Using Fuzzy Inference: Monitoring Struck-By Accidents with Moving Objects” Journal of Computing in Civil Engineering, 30(4), 04015075.  \n      *Journal of Computing in Civil Engineering*, 30(4), 04015075.  \n  - 우수 논문상 (한국건설관리학회 2017 학술대회)  \n    - Hongjo Kim, Seongdeok Bang, Hoyoung Jeong, Hyoungkwan Kim (2017). “Vision-based Monitoring and Construction Process Simulation for Productivity Analysis of an Earthmoving Process in a Tunnel” 2017 Korea Institute of Construction Engineering and Management Conference, 47―48.  ",
+      "\n- **2016**  \n  - 우수 논문상 (대한토목학회 2016 학술대회)  \n    - Hongjo Kim, Kinam Kim, Seongdeok Bang, Hyoungkwan Kim (2016). “3D Reconstruction of Construction Entities from Images using Multi-View Stereo” 2016 Korean Society of Civil Engineers Conference, 25―26. ",
+      "\n- **2014**  \n  - 우수 논문상 (한국건설관리학회 2014 학술대회)  \n    -  Hongjo Kim, Hoyoung Jeong, Kinam Kim, Sungjae Park, Changyoon Kim, Hyoungkwan Kim (2014). “ A Fuzzy Inference- and Computer Vision-based Safety Assessment System for Construction Site Entities” 2014 Korea Institute of Construction Engineering and Management Conference, 99―100. ",
+      "\n- **2013**  \n  - 우수 논문상 (한국건설관리학회 2013 학술대회)  \n    - Changyoon Kim, Hongjo Kim, Sungmo Ahn, Hyoungkwan Kim (2013). “BIM-based Construction Site Layout Planning for Caisson Structure Fabrication using Process Simulation” 2013 Korea Institute of Construction Engineering and Management Conference, 193―194.  ",
+      "\n- **2012**  \n  - 은상, 프로그래밍 경진대회, 연세대학교 공과대학  \n- **2013 ~ 2017**  \n  - 장학금, 연세대학교 토목환경공학과 (총 수혜 금액: $23,555)", 
+    "\n\n## 🛠 Service  \n- Reviewer, *Automation in Construction*  \n- Reviewer, *Journal of Computing in Civil Engineering*  \n- Reviewer, *Computer-aided Civil and Infrastructure Engineering*  \n- Reviewer, *Canadian Journal of Civil Engineering*  \n- Collaborator, 미국 오하이오주 Miami Valley Repair and Rebuild Task Force  ",
+    "\n\n## 🏛 Professional and Honorary Society Memberships  \n- 회원, ASCE 건설연구위원회(CRC), 2020 – 현재  \n- 회원, 미국토목학회(ASCE), 2019 – 현재  \n- 회원, 한국건설관리학회(KICEM), 2013 – 현재  \n"]
+  },
+  "categories": [
+    {
+      "title": "풀타임 연구원",
+      "members": [
+        {
+          "name": "백승원 박사",
+          "role": "연구교수",
+          "photo": "",
+          "interests": "**연구 분야** <br> <br><br>**공동지도** <br>한승헌 교수님"
+        },
+        {
+          "name": "Wei chih Chern",
+          "role": "박사 과정",
+          "photo": "",
+          "interests": "Department of Electrical and Computer Engineering, University of Dayton, United States <br><br>**공동지도**\n- Dr. Vijayan K. Asari <br>\n- Dr. Tam Nguyen"
+        },
+        {
+          "name": "김태건",
+          "role": "박사 과정",
+          "photo": "",
+          "interests": "연세대학교 건설환경공학"
+        },
+        {
+          "name": "김석환",
+          "role": "석박통합과정",
+          "photo": "img/member/student/김석환.jpg",
+          "interests": "연세대학교 건설환경공학",
+          "details": [
+            "## 저널 논문",
+            "**Seokhwan Kim**, Taegeon Kim, Minhyun Lee, Jonghwa Won, and Hongjo Kim* (2025) “Adaptive Water Waste Processing Strategy at Floating Barriers using Computer Vision, Route Finding, and Monte Carlo Simulation”, KSCE Journal of Civil Engineering (Accepted)",
+	"**Seokhwan Kim**, Taegeon Kim, and Hongjo Kim* (2024) “Monte Carlo Simulation-Based Cost Estimation for Floating Trash Barrier Maintenance” KSCE Journal of Civil and Environmental Engineering Research, 44(2), 231-235. https://doi.org/10.12652/Ksce.2024.44.2.0231",
+	"## 국제 학회 논문",
+	"**Seokhwan Kim**, Minwoo Jeong, Minkyu Koo, Taegeon Kim, and Hongjo Kim (2024)”Context-Adaptive CCTV Pan-Tilt-Zoom method for Personal Protective Equipment Detection” International Symposium on Automation and Robotics in Construction (ISARC 2024), Jun. 3–5, Lille, France, 768-775.",
+	"Taegeon Kim, **Seokhwan Kim**, Minkyu Koo, Minwoo Jeong, and Hongjo Kim (2024). “Large Multimodal Model for Context-aware Construction Safety Monitoring” International Conference on Construction Engineering and Project Management (ICCEPM 2024), Jul. 29–Aug. 1, Sapporo, Japan, 415-422.",
+	"Minwoo Jeong, Taegeon Kim, **Seokhwan Kim**, and Hongjo Kim (2024). “Retrieval-Augmented Generation-based Question Answering Technology for Construction Safety” International Conference on Construction Engineering and Project Management (ICCEPM 2024), Jul. 29–Aug. 1, Sapporo, Japan, 439-446.",
+	"Taegeon Kim, Giwon Shin, **Seokhwan Kim**, Vijayan K. Asari, and Hongjo Kim (2023). “Target Domain Training Data Generation by Moving Object Detection and Label Propagation” ASCE International Conference on Computing in Civil Engineering 2023, Jun. 25-28, Corvallis, Oregon.",
+	"Taegeon Kim, **Seokhwan Kim**, Namgyun Kim, and Hongjo Kim (2023). “ChatGPT in the Construction Domain: Opportunities, Risks, and Recommendations” Proceedings of the 5th International Conference on Civil and Building Engineering Informatics (ICCBEI 2023) Jul. 19-21, Bangkok, Thailand, 32-37.",
+	"Taegeon Kim, Giwon Shin, **Seokhwan Kim** and Hongjo Kim (2022) “Generating Pseudo Label of Object Detector for Construction Site Monitoring” The International Conference on Computing in Civil and Building Engineering (ICCCBE) Oct. 26-28, 2022, Cape Town, Republic of South Africa, 111-119.",
+	"**Seokhwan Kim**, Taegeon Kim, Jeongho Hyeon, Jonghwa Won, and Hongjo Kim (2022) “Comparing Object Detection Models for Water Trash Monitoring” The International Conference on Computing in Civil and Building Engineering (ICCCBE) Oct. 26-28, 2022, Cape Town, Republic of South Africa, 161-170.",
+	"## 국내 학회 논문",
+	"Park, Jaehyun, **Kim, Seokhwan** and Hongjo Kim (2024) “Application of Futures Hedging Strategies for Material Price Volatility in Construction Projects” Proceedings of Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea.",
+	"**Kim, Seokhwan**, Kim, Taegeon and Hongjo Kim (2023) “Optimization Strategies for the Maintenance of Floating Debris Barrier Using Computer Vision and Monte Carlo Simulation” Proceedings of 2023 Korean Society of Civil Engineers Conference, Oct. 18–20, Yeosu, South Korea. 380-381.",
+	"Kim, Taegeon, **Kim, Seokhwan** and Kim, Hongjo (2023) “Self-training Based Training Data Generation for Construction Object Detector” Proceedings of Korean Society of Civil Engineers Conference, Oct. 18–20, Yeosu, South Korea. 55-56.",
+	"## 국내 특허 출원",
+	"밀도 계산부를 이용한 비계 설치현장 탐지 및 추적 시스템 및 방법(10-2024-0069804)"
+          ]
+        },
+        {
+          "name": "구민규",
+          "role": "석사 과정",
+          "photo": "",
+          "interests": ""
+        },
+        {
+          "name": "정민우",
+          "role": "석사 과정",
+          "photo": "",
+          "interests": ""
+        },
+        {
+          "name": "최기창",
+          "role": "석박통합 과정",
+          "photo": "img/member/student/최기창.jpg",
+          "interests": "- 건설산업 Retrieval Augmented Generation (RAG) 적용. \n - AI 기술을 통한 제방 붕괴 조기 감지 알람 시스템",
+          "details": [
+            "[Homepage [https://choikichang.github.io](https://choikichang.github.io)]"
+          ]
+        },
+        {
+          "name": "신영아",
+          "role": "석박통합 과정",
+          "photo": "img/member/student/신영아.jpg",
+          "interests": " 연세대학교 건설환경공학", 
+          "details": [
+            "# 저널 논문\n\n- Choi, K., Jeong, M., **Shin, Y.**, Ma, J., Kim, K., & Kim, H. (2025). “Construct-Rag: Contrastive Sentence Training & Retrieval Using Chunk Block-Based Text for Rag”, *Available at SSRN* 5205959.\n", 
+            "# 학회 발표\n\n- **Shin, Y.**, Kim, H. “2024 Annual Academic Conference”, *Korea Institute of Construction Engineering and Management*, Jeju, Korea (November 2024) – Poster Presentation  \n- **Shin, Y.**, Choi, K., Kim, Y., Kim, H. “Creative Construction Conference (CCC 2025)”, *Zadar, Croatia* (June 2025) – Oral Presentation" 
+          ]
+
+
+        },
+        {
+          "name": "박재현",
+          "role": "석사 과정",
+          "photo": "img/member/student/박재현.jpg",
+          "interests": "안녕하세요. 24년도 1학기 석사과정으로 입학한 박재현입니다. ",
+          "details": [
+            "저는 현재 건설현장에서 스마트 안전 장비 도입 시 발생할 수 있는 경제적 편익을 분석하는 연구를 수행하고 있습니다. 또한, 건설 자재(철근, 콘크리트) 비용의 변동성에 대응하기 위해 선물 및 선도 계약을 활용한 금융 헤지 전략에 대해서도 연구하고 있습니다.",
+            "저널논문 : ",
+            "국제 학회 논문 : ",
+            "국내 학회 논문 : <br> Park, Jaehyun, Kim, Seokhwan and Hongjo Kim (2024) “Application of Futures Hedging Strategies for Material Price Volatility in Construction Projects” Proceedings of   Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea."
+            ]
+        },
+        {
+          "name": "노정현",
+          "role": "석사 과정 (육군위탁교육)",
+          "photo": "img/member/student/노정현.jpg",
+          "interests": "육군사관학교 75기",
+          "details": [
+            "안녕하십니까, 24년 1학기 석사과정으로 입학한 노정현입니다.",
+            "국내 학회 논문 : Jeonghyeon Noh and Hongjo kim (2024) 'A Study on Road Maintenance Cost Estimation and Optimization Using Smartphone-Based GPS Data' Proceedings of Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea."  
+          ]
+        },
+        {
+          "name": "현승주",
+          "role": "석사 과정 (해군위탁교육)",
+          "photo": "",
+          "interests": ""
+        },
+        {
+          "name": "박현욱",
+          "role": "석사 과정",
+          "photo": "",
+          "interests": ""
+        }
+      ]
+    },
+    {
+      "title": "파트타임 연구원",
+      "members": [
+        {
+          "name": "양성욱",
+          "role": "석사 과정",
+          "photo": "",
+          "interests": ""
+        },
+        {
+          "name": "박준희",
+          "role": "석사 과정",
+          "photo": "",
+          "interests": ""
+        }
+      ]
+    },
+    {
+      "title": "인턴",
+      "members": [
+        
+        {
+          "name": "주시헌",
+          "role": "석박통합(진)",
+          "photo": "img/member/student/주시헌.jpg",
+          "interests": "**[연구 분야]** \n- **Computer Vision**\n- **Pattern Recognition** ",
+          "details": [
+            "**Home Page** <br> [https://sh-joo.github.io/](https://sh-joo.github.io/)\n_(연구 소개, 소식)_", 
+            "석박 통합과정 전환 예정"
+          ]
+        },
+        {
+        "name": "박두용",
+        "role": "인턴",
+        "photo": "img/member/student/박두용.jpg",
+        "interests": "Computer Vision",
+        "details": [
+          "안녕하세요. 저는 2025년 2학기 석박통합 과정으로 진학 예정인 박두용입니다."
+        ]
+        },
+        {
+          "name": "이정규",
+          "role": "학부연구생",
+          "photo": "",
+          "interests": ""
+        },
+        {
+          "name": "박재호",
+          "role": "학부연구생",
+          "photo": "",
+          "interests": "-연세대학교 건설환경공학부 재학 \n -25년 2월~현재 인턴 과정 ",
+          "details": [
+            "현재 개인 프로젝트로 LSTM-attention모델을 활용한 빗물받이 수위예측 연구를 진행 중입니다.",
+            "관심 분야로는 Computer Vision기술들과 LLM을 활용한 건설문건 생성."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "방문연구원",
+      "members": [
+        {
+          "name": "Eva Heinlein",
+          "role": "방문기간 : 2025.03 ~ 2025.06",
+          "photo": "",
+          "interests": "Master Student, Institute for Construction Management, Digital Engineering and Robotics in Construction, RWTH Aachen University"
+        },
+        {
+          "name": "김덕영",
+          "role": "방문기간 : 2025.03 ~ 2025.07",
+          "photo": "",
+          "interests": "Master Student, Department of Building, Civil, and Environmental Engineering, Concordia University"
+        },
+        {
+          "name": "Jan-Iwo Jäkel",
+          "role": "방문기간 : 2023.12 ~ 2024.02",
+          "photo": "",
+          "interests": "\n- Ph.D. Candidate, Institute for Construction Management, Digital Engineering and Robotics in Construction, RWTH Aachen University <br>\n- Co-Founder, Geschäftsführer"
+        }
+      ]
+    },
+    {
+      "title": "동문",
+      "members": [
+        {
+          "name": "현정호",
+          "role": "석사",
+          "photo": "",
+          "interests": "**석사 학위 논문** <br> Exploring Alternative Metrics for Evaluating Road Crack Segmentation Performance in Participatory Sensing Environments"
+        },
+        {
+          "name": "홍예지",
+          "role": "석사",
+          "photo": "",
+          "interests": "Graduate Research Assistant, Purdue University(2024년 1월 18일 기준)"
+        },
+        {
+          "name": "박성재",
+          "role": "석사",
+          "photo": "",
+          "interests": "**석사 학위 논문** <br> Effectiveness of Experiential Safety Training in Physical Facility Compared with VR-based Safety Training (2023) <br><br>한화 E&C(2023년 1월 18일 기준)"
+        },
+        {
+          "name": "김진영",
+          "role": "석사",
+          "photo": "",
+          "interests": "**석사 학위 논문** <br> 기계가스설비공사(시스템에어컨) 안전에 영향을 미치는 주요 변수의 통계적 분석 (2024) <br><br>LG 전자(2024년 3월 5일 기준)"
+        },
+        {
+          "name": "Shafaat Tahir",
+          "role": "석사",
+          "photo": "",
+          "interests": "Quazar AI (2025년 기준)"
+        },
+        {
+          "name": "엄미영 박사",
+          "role": "연구교수",
+          "photo": "",
+          "interests": "**논문** <br> Automated Detection of Concrete Quality in 3D Construction Printing Using Machine Learning (2024) <br><br>연세대학교 건축공학과 연구교수(2024년 기준)"
+        }
+      ]
+    }
+  ]
+}

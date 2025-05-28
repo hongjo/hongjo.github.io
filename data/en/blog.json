@@ -1,0 +1,13 @@
+{
+    "posts": [
+      {
+        "slug": "vision-based-safety",
+        "title": "Vision-Based Safety Monitoring",
+        "subtitle": "Keeping Sites Safe with AI Cameras",
+        "date": "2025-05-20",
+        "cover": "img/test1.png",
+        "md": "blog/en/entest1.md"
+      }
+    ]
+  }
+  

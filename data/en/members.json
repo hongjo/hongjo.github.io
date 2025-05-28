@@ -1,0 +1,281 @@
+
+{
+  "professor": {
+    "title": "Director, Smart Infrastructure Laboratory",
+    "name": "Hongjo Kim, Ph.D.",
+    "photo": "img/member/professor/arizona_hj_reszied1.jpg",
+    "email": "hongjo@yonsei.ac.kr",
+    "description": [
+      "Assistant Professor, Smart Infrastructure Laboratory, Department of Civil and Environmental Engineering, Yonsei University",
+      "",
+      "## 🧑‍🏫 Professional Employment",
+      "- **2021.3 ~ Present**  \n  Assistant Professor, Department of Civil and Environmental Engineering, Yonsei University, South Korea",
+      "- **2019.8 ~ 2020.12**  \n  Assistant Professor, Department of Civil and Environmental Engineering and Engineering Mechanics, University of Dayton, OH, United States",
+      "- **2019.5 ~ 2019.7**  \n  Research Professor, School of Civil and Environmental Engineering, Yonsei University, Seoul, South Korea",
+      "- **2018.3 ~ 2019.4**  \n  Research Associate, Department of Construction Science, Texas A&M University, College Station, Texas, United States",
+      "- **2018.3 ~ 2019.3**  \n  Research Associate, School of Civil and Environmental Engineering, Yonsei University, Seoul, South Korea",
+      "",
+      "## 🎓 Education",
+      "- **2013.3 ~ 2018.2**  \n  Ph.D. in the School of Civil and Environment Engineering, Yonsei University \n  - Supervisor: Dr. Hyoungkwan Kim   \n    - Ph.D. Dissertation: “Vision and Artificial Intelligence-based Context Information Generation from Image Data for Construction Management”",
+      "- **2009.3 ~ 2013.2**  \n  Bachelor in the School of Civil and Environment Engineering, Yonsei University",
+      "",
+      "## 🏅 Honors and Awards",
+      "- **2023**  \n  - Yonsei University Excellent Teaching Award  \n  - Korean Society of Civil Engineers (KSCE) Excellent Paper Awards (2 papers) \n    - “Training Data Generation for a Self-Supervised Construction Object Detection Model”, \n    - “Optimization of Maintenance Strategies for Floating Debris Barriers Using Computer Vision and Monte Carlo Simulation”",
+      "- **2022**  \n  - Korean Institute of Construction and Management (KICM) Annual Conference Excellent Paper Award \n    - “A Study on Ambiguous Labeling in Semantic Segmentation of Road Cracks”",
+      "- **2017**  \n  - Best Paper Award (2016 CEE Paper of the Year, School of Civil and Environmental Engineering, Yonsei University) \n    - Hongjo Kim, Kinam Kim, and Hyoungkwan Kim (2016). “Vision-Based Object-Centric Safety Assessment Using Fuzzy Inference: Monitoring Struck-By Accidents with Moving Objects” Journal of Computing in Civil Engineering, 30(4), 04015075.  \n  - Excellent Paper Award (Korean Institute of Construction Engineering and Management 2017 Conference) \n    - Hongjo Kim, Seongdeok Bang, Hoyoung Jeong, Hyoungkwan Kim (2017). “Vision-based Monitoring and Construction Process Simulation for Productivity Analysis of an Earthmoving Process in a Tunnel” 2017 Korea Institute of Construction Engineering and Management Conference, 47―48.",
+      "- **2016**  \n  - Excellent Paper Award (2016 Korean Society of Civil Engineers Conference) \n    - Hongjo Kim, Kinam Kim, Seongdeok Bang, Hyoungkwan Kim (2016). “3D Reconstruction of Construction Entities from Images using Multi-View Stereo” 2016 Korean Society of Civil Engineers Conference, 25―26.",
+      "- **2014**  \n  - Excellent Paper Award (2014 Korean Institute of Construction Engineering and Management Conference) \n    - Hongjo Kim, Hoyoung Jeong, Kinam Kim, Sungjae Park, Changyoon Kim, Hyoungkwan Kim (2014). “ A Fuzzy Inference- and Computer Vision-based Safety Assessment System for Construction Site Entities” 2014 Korea Institute of Construction Engineering and Management Conference, 99―100.",
+      "- **2013**  \n  - Excellent Paper Award (2013 Korean Institute of Construction Engineering and Management Conference) \n    - Changyoon Kim, Hongjo Kim, Sungmo Ahn, Hyoungkwan Kim (2013). “BIM-based Construction Site Layout Planning for Caisson Structure Fabrication using Process Simulation” 2013 Korea Institute of Construction Engineering and Management Conference, 193―194.",
+      "- **2012**  \n  - Silver Prize, Programming Competition, College of Engineering, Yonsei University",
+      "- **2013 ~ 2017**  \n  - Scholarship, School of Civil and Environmental Engineering, Yonsei University, Seoul, Korea (Total $23,555)",
+      "",
+      "## 🛠 Service",
+      "- Reviewer, *Automation in Construction*",
+      "- Reviewer, *Journal of Computing in Civil Engineering*",
+      "- Reviewer, *Computer-aided Civil and Infrastructure Engineering*",
+      "- Reviewer, *Canadian Journal of Civil Engineering*",
+      "- Collaborator, the Miami Valley Repair and Rebuild Task Force, Ohio, USA",
+      "",
+      "## 🏛 Professional and Honorary Society Memberships",
+      "- Member, ASCE Construction Research Council (CRC), 2020 – present",
+      "- Member, American Society of Civil Engineers (ASCE), 2019 – present",
+      "- Member, Korea Institute of Construction Engineering and Management (KICEM), 2013 – present"
+    ]
+  },
+  "categories": [
+    {
+      "title": "Graduate Students",
+      "members": [
+        {
+          "name": "Seungwon Baek",
+          "role": "Ph.D., Research Professor",
+          "photo": "",
+          "interests": " - Department of Civil and Environmental Engineering, Yonsei University \n - Co-advisor: Dr. Seoung Heon Han"
+        },
+        {
+          "name": "Wei Chih Chern",
+          "role": "Ph.D. Candidate",
+          "photo": "",
+          "interests": " - Department of Electrical and Computer Engineering, University of Dayton, United States \n - Co-advisor: Dr. Vijayan K. Asari, Dr. Tam Nguyen"
+        },
+        {
+          "name": "Taegeon Kim",
+          "role": "Integrated Ph.D Course",
+          "photo": "",
+          "interests": "Department of Civil and Environmental Engineering, Yonsei University"
+        },
+        {
+          "name": "Seokhwan Kim",
+          "role": "Integrated Ph.D Course",
+          "photo": "img/member/student/김석환.jpg",
+          "interests": "Department of Civil and Environmental Engineering, Yonsei University",
+          "details": [
+            "## Journal Paper",
+            "**Seokhwan Kim**, Taegeon Kim, Minhyun Lee, Jonghwa Won, and Hongjo Kim* (2025) “Adaptive Water Waste Processing Strategy at Floating Barriers using Computer Vision, Route Finding, and Monte Carlo Simulation”, KSCE Journal of Civil Engineering (Accepted)",
+	"**Seokhwan Kim**, Taegeon Kim, and Hongjo Kim* (2024) “Monte Carlo Simulation-Based Cost Estimation for Floating Trash Barrier Maintenance” KSCE Journal of Civil and Environmental Engineering Research, 44(2), 231-235. https://doi.org/10.12652/Ksce.2024.44.2.0231",
+	"\n## International Conference Papers",
+	"**Seokhwan Kim**, Minwoo Jeong, Minkyu Koo, Taegeon Kim, and Hongjo Kim (2024)”Context-Adaptive CCTV Pan-Tilt-Zoom method for Personal Protective Equipment Detection” International Symposium on Automation and Robotics in Construction (ISARC 2024), Jun. 3–5, Lille, France, 768-775.",
+	"Taegeon Kim, **Seokhwan Kim**, Minkyu Koo, Minwoo Jeong, and Hongjo Kim (2024). “Large Multimodal Model for Context-aware Construction Safety Monitoring” International Conference on Construction Engineering and Project Management (ICCEPM 2024), Jul. 29–Aug. 1, Sapporo, Japan, 415-422.",
+	"Minwoo Jeong, Taegeon Kim, **Seokhwan Kim**, and Hongjo Kim (2024). “Retrieval-Augmented Generation-based Question Answering Technology for Construction Safety” International Conference on Construction Engineering and Project Management (ICCEPM 2024), Jul. 29–Aug. 1, Sapporo, Japan, 439-446.",
+	"Taegeon Kim, Giwon Shin, **Seokhwan Kim**, Vijayan K. Asari, and Hongjo Kim (2023). “Target Domain Training Data Generation by Moving Object Detection and Label Propagation” ASCE International Conference on Computing in Civil Engineering 2023, Jun. 25-28, Corvallis, Oregon.",
+	"Taegeon Kim, **Seokhwan Kim**, Namgyun Kim, and Hongjo Kim (2023). “ChatGPT in the Construction Domain: Opportunities, Risks, and Recommendations” Proceedings of the 5th International Conference on Civil and Building Engineering Informatics (ICCBEI 2023) Jul. 19-21, Bangkok, Thailand, 32-37.",
+	"Taegeon Kim, Giwon Shin, **Seokhwan Kim** and Hongjo Kim (2022) “Generating Pseudo Label of Object Detector for Construction Site Monitoring” The International Conference on Computing in Civil and Building Engineering (ICCCBE) Oct. 26-28, 2022, Cape Town, Republic of South Africa, 111-119.",
+	"**Seokhwan Kim**, Taegeon Kim, Jeongho Hyeon, Jonghwa Won, and Hongjo Kim (2022) “Comparing Object Detection Models for Water Trash Monitoring” The International Conference on Computing in Civil and Building Engineering (ICCCBE) Oct. 26-28, 2022, Cape Town, Republic of South Africa, 161-170.",
+	"\n## Domestic Conference Papers",
+	"Park, Jaehyun, **Kim, Seokhwan** and Hongjo Kim (2024) “Application of Futures Hedging Strategies for Material Price Volatility in Construction Projects” Proceedings of Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea.",
+	"**Kim, Seokhwan**, Kim, Taegeon and Hongjo Kim (2023) “Optimization Strategies for the Maintenance of Floating Debris Barrier Using Computer Vision and Monte Carlo Simulation” Proceedings of 2023 Korean Society of Civil Engineers Conference, Oct. 18–20, Yeosu, South Korea. 380-381.",
+	"Kim, Taegeon, **Kim, Seokhwan** and Kim, Hongjo (2023) “Self-training Based Training Data Generation for Construction Object Detector” Proceedings of Korean Society of Civil Engineers Conference, Oct. 18–20, Yeosu, South Korea. 55-56.",
+	"\n## Domestic Patents",
+	"System and Method of scaffolding erection site detection and tracking with density calculator(10-2024-0069804)"
+          ]
+        },
+        {
+          "name": "Minkyu Koo",
+          "role": "Master Course",
+          "photo": "",
+          "interests": "Department of Civil and Environmental Engineering, Yonsei University"
+        },
+        {
+          "name": "Minwoo Jeong",
+          "role": "Master Course",
+          "photo": "",
+          "interests": "Department of Civil and Environmental Engineering, Yonsei University"
+        },
+        {
+          "name": "Gichang Choi",
+          "role": "Integrated Ph.D Course",
+          "photo": "img/member/student/최기창.jpg",
+          "interests": "Department of Civil and Environmental Engineering, Yonsei University \n - Retrieval Augmented Generation (RAG) in the construction domain \n - Levee failure prediction using AI-based sensing platforms",
+          "details": [
+            "[Homepage [https://choikichang.github.io](https://choikichang.github.io)]"
+          ]
+        },
+        {
+          "name": "Younga Shin",
+          "role": "Integrated Ph.D Course",
+          "photo": "",
+          "interests": "Department of Civil and Environmental Engineering, Yonsei University",
+          "details": [
+            "# Journal Paper\n\n- Choi, K., Jeong, M., **Shin, Y.**, Ma, J., Kim, K., & Kim, H. (2025). “Construct-Rag: Contrastive Sentence Training & Retrieval Using Chunk Block-Based Text for Rag”, *Available at SSRN* 5205959.\n",
+            "# Conference Presentations\n\n- **Shin, Y.**, Kim, H. “2024 Annual Academic Conference”, *Korea Institute of Construction Engineering and Management*, Jeju, Korea (November 2024) – Poster Presentation  \n- **Shin, Y.**, Choi, K., Kim, Y., Kim, H. “Creative Construction Conference (CCC 2025)”, *Zadar, Croatia* (June 2025) – Oral Presentation"
+          ]
+        },
+        {
+          "name": "Jaehyun Park",
+          "role": "Master Course",
+          "photo": "img/member/student/박재현.jpg",
+          "interests": "Hello, my name is Jaehyun Park, and I joined the master's program in the Spring semester of 2024.",
+          "details": [
+          "I am currently conducting research on the economic benefits that may result from the adoption of smart safety equipment at construction sites. In addition, I am studying financial hedging strategies using futures and forward contracts to manage the price volatility of construction materials, particularly rebar and concrete.",
+          "Journal Papers :",
+          "International Conference Papers: ",
+          "Domestic Conference Papers: <br>Park, Jaehyun, Kim, Seokhwan and Hongjo Kim (2024) “Application of Futures Hedging Strategies for Material Price Volatility in Construction Projects” Proceedings of Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea."
+          ]
+        },  
+        {
+          "name": "Jeonghyeon Noh",
+          "role": "Master Course",
+          "photo": "img/member/student/노정현.jpg",
+          "interests": "Department of Civil and Environmental Engineering, Yonsei University <br> Korea Military Academy #75",
+          "details": [
+            "Hello, I'm Jeong-hyeon Noh, a master's student who entered the program in the first semester of 2024 ",
+            "Domestic Academic Conference : Jeonghyeon Noh and Hongjo kim (2024) 'A Study on Road Maintenance Cost Estimation and Optimization Using Smartphone-Based GPS Data' Proceedings of Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea."
+          ]
+        },
+        {
+          "name": "Seungju Hyun",
+          "role": "Master Course",
+          "photo": "",
+          "interests": ""
+        },
+        {
+          "name": "Hyunwook Park",
+          "role": "Master Course",
+          "photo": "",
+          "interests": ""
+        }
+      ]
+    },
+    {
+      "title": "Part-time Graduate Students",
+      "members": [
+        {
+          "name": "Sungwook Yang",
+          "role": "Master Course",
+          "photo": "",
+          "interests": "Department of Civil, Environmental and Disaster Prevention Engineering, Yonsei University"
+        },
+        {
+          "name": "Junhee Park",
+          "role": "Master Course",
+          "photo": "",
+          "interests": "Department of Civil, Environmental and Disaster Prevention Engineering, Yonsei University"
+        }
+      ]
+    },
+    {
+      "title": "Undergraduate Interns",
+      "members": [
+        {
+          "name": "Si-Heon Joo",
+          "role": "MS&Ph.D Candidate (Will be)",
+          "photo": "img/member/student/주시헌.jpg",
+          "interests": "**[Research Interests]** \n- **Computer Vision**\n- **Pattern Recognition**",
+          "details": [
+            "**Home Page** <br> [https://sh-joo.github.io/](https://sh-joo.github.io/)"
+          ]
+        },
+        {
+          "name": "Duyong Park",
+          "role": "Intern",
+          "photo": "img/member/student/박두용.jpg",
+          "interests": "Computer Vision",
+          "details": [
+            "Hello, My name is Duyong Park and I am scheduled to enter the integrated Master's and Ph.D. program in the Fall semester of 2025"
+          ]
+        },
+        {
+          "name": "Jeongkyu Lee",
+          "role": "Undergraduate Intern",
+          "photo": "",
+          "interests": ""
+        },
+        {
+          "name": "Jaeho Park",
+          "role": "Undergraduate Intern",
+          "photo": "",
+          "interests": " - Department of Civil Engineering-Yonsei University(Seoul), South Korea \n  -2025-02~Now ",
+          "details": [
+            "I'm now working on personal project to predict rain gutter's water level utilizing LSTM-attention model",
+            "I'm interested in Computer Vision techonologies and generating documents for construction field using LLM technology"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Current & Former Visiting Students",
+      "members": [
+        {
+          "name": "Eva Heinlein",
+          "role": "Visiting Period: 2025.03 ~ 2025.06",
+          "photo": "",
+          "interests": "Master Student, Institute for Construction Management, Digital Engineering and Robotics in Construction, RWTH Aachen University"
+        },
+        {
+          "name": "Deokyeong Kim",
+          "role": "Visiting Period: 2025.03 ~ 2025.07",
+          "photo": "",
+          "interests": "Master Student, Department of Building, Civil, and Environmental Engineering, Concordia University"
+        },
+        {
+          "name": "Jan-Iwo Jäkel",
+          "role": "Visiting Period: 2023.12 ~ 2024.02",
+          "photo": "",
+          "interests": "- Ph.D. Candidate, Institute for Construction Management, Digital Engineering and Robotics in Construction, RWTH Aachen University\n- Co-Founder, Geschäftsführer"
+        }
+      ]
+    },
+    {
+      "title": "Alumni",
+      "members": [
+        {
+          "name": "Jeongho Hyeon",
+          "role": "Master of Science",
+          "photo": "",
+          "interests": "Thesis title: Exploring Alternative Metrics for Evaluating Road Crack Segmentation Performance in Participatory Sensing Environments"
+        },
+        {
+          "name": "Yeji Hong",
+          "role": "Master of Science",
+          "photo": "",
+          "interests": "Current Position as of 2024-01-18: Graduate Research Assistant, Purdue University"
+        },
+        {
+          "name": "Sungjae Park",
+          "role": "Master of Science",
+          "photo": "",
+          "interests": " - Thesis title: Effectiveness of Experiential Safety Training in Physical Facility Compared with VR-based Safety Training (2023) \n - Current Position as of 2023-01-18: Hanwha Corporation/E&C"
+        },
+        {
+          "name": "Jin Young Kim",
+          "role": "Master of Civil, Environmental and Disaster Prevention Engineering",
+          "photo": "",
+          "interests": " - Thesis Title: Statistical analysis of the key variables affecting the safety of mechanical gas facility construction (system air conditioning) (2024) \n - Current Position as of 2024-03-05: LG Electronics"
+        },
+        {
+          "name": "Shafaat Tahir",
+          "role": "Master of Civil, Environmental and Disaster Prevention Engineering",
+          "photo": "",
+          "interests": "Current Position as of 2025: Quazar AI"
+        },
+        {
+          "name": "Dr. Miyoung Uhm",
+          "role": "Research Professor",
+          "photo": "",
+          "interests": " - Current Position: Research Professor at the Department of Architectural Engineering, Yonsei University \n - Thesis Title: Automated Detection of Concrete Quality in 3D Construction Printing Using Machine Learning (2024)"
+        }
+      ]
+    }
+  ]
+}
+

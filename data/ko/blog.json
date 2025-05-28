@@ -1,0 +1,13 @@
+{
+    "posts": [
+      {
+        "slug": "vision-based-safety",
+        "title": "Vision-Based 안전 모니터링",
+        "subtitle": "카메라·AI로 안전을 지키다",
+        "date": "2025-05-20",
+        "cover": "img/test1.png",
+        "md": "blog/ko/ktest1.md"
+      }
+    ]
+  }
+  
