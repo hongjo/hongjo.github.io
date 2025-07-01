@@ -2,6 +2,24 @@
   "journal_papers": [
     {
       "authors": [
+        "Taegeon Kim",
+        "Wei-Chih Chern",
+        "Seokhwan Kim",
+        "Vijayan K. Asari",
+        "Hongjo Kim"
+      ],
+      "year": 2025,
+      "title": "Moving-Feature-Driven Label Propagation for Training Data Generation from Target Domains",
+      "journal": "Computers in Industry",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "status": "Accepted",
+      "doi": null,
+      "url": null
+    },
+    {
+      "authors": [
         "Jan-Iwo Jäkel",
         "Eva Heinlein",
         "Hendrik Morgenstern",
