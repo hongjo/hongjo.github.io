@@ -17,6 +17,11 @@
     "title": "News",
     "items": [
       {
+        "date": "2025.07",
+        "title": "Journal Paper Publication",
+        "description": "**Taegeon Kim**, **Wei-Chih Chern**, **Seokhwan Kim**, Vijayan K. Asari, **Hongjo Kim**'s paper **'Moving-Feature-Driven Label Propagation for Training Data Generation from Target Domains'** has been accepted for publication in 'Computers in Industry'."
+      },
+      {
         "date": "2025.04",
         "title": "Journal Paper Publication",
         "description": "**Jan-Iwo Jäkel**, **Eva Heinlein**, Hendrik Morgenstern, **Hongjo Kim**, and Katharina Klemt-Albert's paper **'System- and Data-integrated linking of digital 3D models of existing bridge structures with Knowledge Graphs of non-destructive diagnostic methods'** has been accepted for publication in 'Journal of Information Technology in Construction'."

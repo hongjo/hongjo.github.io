@@ -195,21 +195,11 @@
           ]
         },
         {
-          "name": "Jeongkyu Lee",
-          "role": "Undergraduate Intern",
+          "name": "Dain Kim",
+          "role": "Intern",
           "photo": "",
           "interests": ""
-        },
-        {
-          "name": "Jaeho Park",
-          "role": "Undergraduate Intern",
-          "photo": "",
-          "interests": " - Department of Civil Engineering-Yonsei University(Seoul), South Korea \n  -2025-02~Now ",
-          "details": [
-            "I'm now working on personal project to predict rain gutter's water level utilizing LSTM-attention model",
-            "I'm interested in Computer Vision techonologies and generating documents for construction field using LLM technology"
-          ]
-        }
+        }     
       ]
     },
     {
@@ -273,6 +263,27 @@
           "role": "Research Professor",
           "photo": "",
           "interests": " - Current Position: Research Professor at the Department of Architectural Engineering, Yonsei University \n - Thesis Title: Automated Detection of Concrete Quality in 3D Construction Printing Using Machine Learning (2024)"
+        }        
+      ]
+    },
+    {
+      "title": "Former Undergraduate Interns",
+      "members": [
+        {
+          "name": "Jeongkyu Lee",
+          "role": "Undergraduate Intern",
+          "photo": "",
+          "interests": ""
+        },
+        {
+          "name": "Jaeho Park",
+          "role": "Undergraduate Intern",
+          "photo": "",
+          "interests": " - Department of Civil Engineering-Yonsei University(Seoul), South Korea \n  -2025-02~Now ",
+          "details": [
+            "I'm now working on personal project to predict rain gutter's water level utilizing LSTM-attention model",
+            "I'm interested in Computer Vision techonologies and generating documents for construction field using LLM technology"
+          ]
         },
         {
           "name": "Giwon Shin",
