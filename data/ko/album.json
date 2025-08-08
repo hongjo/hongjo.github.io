@@ -2,6 +2,22 @@
 {
   "albums": [
     {
+      "title": "2025 연구실 하계 워크샵",
+      "description": "2025 08 08",
+      "images": [
+        {
+          "src": "img/album/250808/workshop2025.jpg",
+          "caption": "2025 연구실 하계 워크샵 단체사진",
+          "fullSize": "img/album/250808/workshop2025.jpg"
+        },
+        {
+          "src": "img/album/250808/cyberworkshop2025.png",
+          "caption": "Cyber Workshop 2025 단체사진",
+          "fullSize": "img/album/250808/cyberworkshop2025.png"
+        }
+      ]
+    },
+    {
       "title": "2025 연구실 벚꽃 워크샵",
       "description": "2025 04 11",
       "images": [

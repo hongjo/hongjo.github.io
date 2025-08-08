@@ -1,7 +1,15 @@
 
 {
     "projects": [
-        {
+          {
+            "title": "Enhancement Technologies for Underwater and Terrestrial Image Clarification and 3D Modeling",
+            "period": "2025 ~ 2029",
+            "funding": "Korea Water Resources Corporation (K-water)",
+            "description": "Principal Investigator",
+            "image": "",
+            "results": []
+          },
+          {
             "title": "Autonomous Evolutionary AI-Based Smart Sensing Platform for Early Detection and Proactive Response to Levee Failures",
             "period": "2024 ~ 2028",
             "funding": "National Research Foundation of Korea",

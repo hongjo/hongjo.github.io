@@ -150,9 +150,12 @@
         },
         {
           "name": "Hyunwook Park",
-          "role": "Master Course",
-          "photo": "",
-          "interests": ""
+          "role": "Master's student",
+          "photo": "img/member/student/박현욱.jpg",
+          "interests": "",
+          "details": [
+            ""
+          ]
         }
       ]
     },

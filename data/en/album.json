@@ -2,6 +2,22 @@
 {
   "albums": [
     {
+      "title": "2025 summer workshop",
+      "description": "2025 08 08",
+      "images": [
+        {
+          "src": "img/album/250808/workshop2025.jpg",
+          "caption": "2025 summer workshop group photo",
+          "fullSize": "img/album/250808/workshop2025.jpg"
+        },
+        {
+          "src": "img/album/250808/cyberworkshop2025.png",
+          "caption": "2025 Cyber Workshop group photo",
+          "fullSize": "img/album/250808/cyberworkshop2025.png"
+        }
+      ]
+    },
+    {
       "title": "2025 spring workshop",
       "description": "2025 04 11",
       "images": [

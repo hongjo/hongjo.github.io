@@ -130,9 +130,13 @@
         {
           "name": "박현욱",
           "role": "석사 과정",
-          "photo": "",
-          "interests": ""
-        }
+          "photo": "img/member/student/박현욱.jpg",
+          "interests": "연세대학교 건설환경공학",
+          "details": [
+            "저널 논문\n문재상, 박현욱, 김진영. (2023). Digital Twin에 기반한 프리캐스트 콘크리트 공장 최적화 연구. 대한건축학회논문집, 39(5), 173-180."
+          ]
+      }
+
       ]
     },
     {
