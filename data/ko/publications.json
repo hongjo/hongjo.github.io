@@ -567,6 +567,38 @@
 
   "international_conference_papers": [
     {
+  "authors": [
+    "R. Mishra",
+    "V.S. Patel",
+    "H. Kim",
+    "T.V. Nguyen"
+  ],
+  "year": 2025,
+  "title": "Road Surface Material Recognition from Dashboard Cameras",
+  "conference": "19th International Symposium on Visual Computing (ISVC 2024)",
+  "location": "Harrah’s Lake Tahoe Resort and Casino, Lake Tahoe, Nevada, USA",
+  "date_range": "2024-10-21 – 2024-10-23",
+  "pages": "Lecture Notes in Computer Science, vol 15047",
+  "publisher": "Springer, Cham",
+  "doi": "10.1007/978-3-031-77389-1_28",
+  "published_date": "2025-01-22"
+},
+    {
+      "authors": [
+        "Seokhwan Kim",
+        "Minwoo Jeong",
+        "Minkyu Koo",
+        "Taegeon Kim",
+        "Hongjo Kim"
+      ],
+      "year": 2024,
+      "title": "Context-Adaptive CCTV Pan-Tilt-Zoom method for Personal Protective Equipment Detection",
+      "conference": "International Symposium on Automation and Robotics in Construction (ISARC 2024)",
+      "location": "Lille, France",
+      "date_range": "2024-06-03 – 2024-06-05",
+      "pages": "768-775"
+    },
+    {
       "authors": [
         "Seokhwan Kim",
         "Minwoo Jeong",
