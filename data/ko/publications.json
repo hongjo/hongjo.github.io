@@ -1,5 +1,24 @@
 {
   "journal_papers": [
+     {
+      "authors": [
+        "Taegeon Kim",
+        "Seokhwan Kim",
+        "Wei-Chih Chern",
+        "Somin Park",
+        "Daeho Kim",
+        "Hongjo Kim"
+      ],
+      "year": 2025,
+      "title": "Optimizing Large Vision-Language Models for Context-Aware Construction Safety Assessment",
+      "journal": "Automation in Construction",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "status": "Accepted",
+      "doi": null,
+      "url": null
+    },
     {
       "authors": [
         "Taegeon Kim",
