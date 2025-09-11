@@ -13,9 +13,7 @@
       "title": "Optimizing Large Vision-Language Models for Context-Aware Construction Safety Assessment",
       "journal": "Automation in Construction",
       "volume": 180,
-      "issue": null,
       "pages": "106510",
-      "status": null,
       "doi": "10.1016/j.autcon.2025.106510",
       "url": "https://doi.org/10.1016/j.autcon.2025.106510"
     },
@@ -31,9 +29,7 @@
       "title": "Moving-Feature-Driven Label Propagation for Training Data Generation from Target Domains",
       "journal": "Computers in Industry",
       "volume": 171,
-      "issue": null,
       "pages": "104335",
-      "status": null,
       "doi": "10.1016/j.compind.2025.104335",
       "url": "https://doi.org/10.1016/j.compind.2025.104335"
     },
@@ -49,7 +45,6 @@
       "title": "Sodia Linked Data Approach for Connecting Digital 3d-Models of Existing Bridge Structures with Knowledge Graphs of Non-Destructive Diagnostic Methods",
       "journal": "Journal of Information Technology in Construction",
       "volume": 30,
-      "issue": null,
       "pages": "603-630",
       "status": "Published",
       "doi": "10.36680/j.itcon.2025.025",
@@ -69,7 +64,7 @@
       "volume": 29,
       "issue": 10,
       "pages": "100238",
-      "status": null,
+      
       "doi": "10.1016/j.kscej.2025.100238",
       "url": "https://doi.org/10.1016/j.kscej.2025.100238"
     },
@@ -87,7 +82,7 @@
       "volume": 39,
       "issue": 5,
       "pages": "04025064",
-      "status": null,
+
       "doi": "10.1061/JCCEE5.CPENG-6011",
       "url": "https://doi.org/10.1061/JCCEE5.CPENG-6011"
     },
@@ -103,7 +98,7 @@
       "title": "Effectiveness of Retrieval Augmented Generation-based Large Language Models for Generating Construction Safety Information",
       "journal": "Automation in Construction",
       "volume": 170,
-      "issue": null,
+
       "pages": "105926",
       "status": "Published",
       "doi": "10.1016/j.autcon.2024.105926",
@@ -138,7 +133,7 @@
       "title": "Image Hashing-based Shallow Object Tracker for Construction Worker Monitoring in Scaffolding Scenes",
       "journal": "Automation in Construction",
       "volume": 166,
-      "issue": null,
+
       "pages": "105604",
       "status": "Published",
       "doi": "10.1016/j.autcon.2024.105604",
