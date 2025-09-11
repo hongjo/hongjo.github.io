@@ -12,12 +12,12 @@
       "year": 2025,
       "title": "Optimizing Large Vision-Language Models for Context-Aware Construction Safety Assessment",
       "journal": "Automation in Construction",
-      "volume": null,
+      "volume": 180,
       "issue": null,
-      "pages": null,
-      "status": "Accepted",
-      "doi": null,
-      "url": null
+      "pages": 106510,
+      "status": null,
+      "doi": 10.1016/j.autcon.2025.106510,
+      "url": https://doi.org/10.1016/j.autcon.2025.106510
     },
     {
       "authors": [
@@ -30,12 +30,12 @@
       "year": 2025,
       "title": "Moving-Feature-Driven Label Propagation for Training Data Generation from Target Domains",
       "journal": "Computers in Industry",
-      "volume": null,
+      "volume": 171,
       "issue": null,
-      "pages": null,
-      "status": "Accepted",
-      "doi": null,
-      "url": null
+      "pages": 104335,
+      "status": null,
+      "doi": 10.1016/j.compind.2025.104335,
+      "url": https://doi.org/10.1016/j.compind.2025.104335
     },
     {
       "authors": [
@@ -66,12 +66,12 @@
       "year": 2025,
       "title": "Adaptive Water Waste Processing Strategy at Floating Barriers using Computer Vision, Route Finding, and Monte Carlo Simulation",
       "journal": "KSCE Journal of Civil Engineering",
-      "volume": null,
-      "issue": null,
-      "pages": null,
-      "status": "Accepted",
-      "doi": null,
-      "url": null
+      "volume": 29,
+      "issue": 10,
+      "pages": 100238,
+      "status": null,
+      "doi": 10.1016/j.kscej.2025.100238,
+      "url": https://doi.org/10.1016/j.kscej.2025.100238
     },
     {
       "authors": [
@@ -84,12 +84,12 @@
       "year": 2025,
       "title": "Evaluating Road Crack Segmentation Performance in Participatory Sensing: An Exploration of Alternative Metrics",
       "journal": "Journal of Computing in Civil Engineering",
-      "volume": null,
-      "issue": null,
-      "pages": null,
-      "status": "Accepted",
-      "doi": null,
-      "url": null
+      "volume": 39,
+      "issue": 5,
+      "pages": 04025064,
+      "status": null,
+      "doi": 10.1061/JCCEE5.CPENG-6011,
+      "url": https://doi.org/10.1061/JCCEE5.CPENG-6011
     },
     {
       "authors": [
