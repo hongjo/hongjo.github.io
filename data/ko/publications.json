@@ -14,6 +14,7 @@
       "journal": "Automation in Construction",
       "volume": 180,
       "pages": "106510",
+      "status": "Published",
       "doi": "10.1016/j.autcon.2025.106510",
       "url": "https://doi.org/10.1016/j.autcon.2025.106510"
     },
@@ -30,6 +31,7 @@
       "journal": "Computers in Industry",
       "volume": 171,
       "pages": "104335",
+      "status": "Published",
       "doi": "10.1016/j.compind.2025.104335",
       "url": "https://doi.org/10.1016/j.compind.2025.104335"
     },
@@ -64,7 +66,6 @@
       "volume": 29,
       "issue": 10,
       "pages": "100238",
-      
       "doi": "10.1016/j.kscej.2025.100238",
       "url": "https://doi.org/10.1016/j.kscej.2025.100238"
     },
@@ -82,7 +83,7 @@
       "volume": 39,
       "issue": 5,
       "pages": "04025064",
-
+      "status": "Published",
       "doi": "10.1061/JCCEE5.CPENG-6011",
       "url": "https://doi.org/10.1061/JCCEE5.CPENG-6011"
     },
@@ -98,7 +99,7 @@
       "title": "Effectiveness of Retrieval Augmented Generation-based Large Language Models for Generating Construction Safety Information",
       "journal": "Automation in Construction",
       "volume": 170,
-
+      "status": "Published",
       "pages": "105926",
       "status": "Published",
       "doi": "10.1016/j.autcon.2024.105926",
@@ -133,7 +134,7 @@
       "title": "Image Hashing-based Shallow Object Tracker for Construction Worker Monitoring in Scaffolding Scenes",
       "journal": "Automation in Construction",
       "volume": 166,
-
+      "status": "Published",
       "pages": "105604",
       "status": "Published",
       "doi": "10.1016/j.autcon.2024.105604",
