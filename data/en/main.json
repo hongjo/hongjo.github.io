@@ -17,6 +17,11 @@
     "title": "News",
     "items": [
       {
+        "date": "2025.09",
+        "title": "Journal Paper Publication",
+        "description": "**Taegeon Kim**, **Seokhwan Kim**, **Wei-Chih Chern**, Somin Park, Daeho Kim, **Hongjo Kim**'s paper **'Optimizing Large Vision-Language Models for Context-Aware Construction Safety Assessment'** has been accepted for publication in 'Automation in Construction'."
+      },
+      {
         "date": "2025.07",
         "title": "Journal Paper Publication",
         "description": "**Taegeon Kim**, **Wei-Chih Chern**, **Seokhwan Kim**, Vijayan K. Asari, **Hongjo Kim**'s paper **'Moving-Feature-Driven Label Propagation for Training Data Generation from Target Domains'** has been accepted for publication in 'Computers in Industry'."

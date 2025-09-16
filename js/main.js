@@ -5,6 +5,71 @@ let currentPage = 'home';
 // 데이터 캐시
 const dataCache = {};
 
+// JSON 파싱 오류 시 라인 번호를 찾는 함수
+function findJSONErrorLine(jsonString, errorMessage) {
+    try {
+        // position 정보 추출
+        const positionMatch = errorMessage.match(/position (\d+)/);
+        if (positionMatch) {
+            const position = parseInt(positionMatch[1]);
+            const beforeError = jsonString.substring(0, position);
+            const lines = beforeError.split('\n');
+            const line = lines.length;
+            const column = lines[lines.length - 1].length + 1;
+            
+            // 주변 컨텍스트 생성
+            const allLines = jsonString.split('\n');
+            const contextLines = [];
+            const start = Math.max(0, line - 3);
+            const end = Math.min(allLines.length, line + 2);
+            
+            for (let i = start; i < end; i++) {
+                const lineNum = i + 1;
+                const isErrorLine = lineNum === line;
+                const prefix = isErrorLine ? '>>> ' : '    ';
+                contextLines.push(`${prefix}${lineNum.toString().padStart(3)}: ${allLines[i]}`);
+            }
+            
+            return {
+                line: line,
+                column: column,
+                context: contextLines.join('\n')
+            };
+        }
+        return null;
+    } catch (e) {
+        return null;
+    }
+}
+
+// 향상된 JSON 파싱 함수
+function parseJSONWithErrorInfo(jsonString, url) {
+    try {
+        return JSON.parse(jsonString);
+    } catch (error) {
+        // 오류 위치 찾기
+        const errorInfo = findJSONErrorLine(jsonString, error.message);
+        
+        let detailedError = `JSON 파싱 오류 in ${url}:\n`;
+        detailedError += `원본 오류: ${error.message}\n`;
+        
+        if (errorInfo) {
+            detailedError += `\n위치: 라인 ${errorInfo.line}, 컬럼 ${errorInfo.column}\n`;
+            detailedError += `\n오류 주변 코드:\n${errorInfo.context}\n`;
+        }
+        
+        detailedError += `\n해결 방법:\n`;
+        detailedError += `- 개발자 도구(F12)를 열고 Network 탭에서 ${url} 파일을 직접 확인\n`;
+        detailedError += `- JSON 유효성 검사 도구 사용: https://jsonlint.com/\n`;
+        detailedError += `- 중괄호 {} 와 대괄호 [] 의 열기/닫기가 맞는지 확인\n`;
+        detailedError += `- 객체 속성 사이에 쉼표(,)가 있는지 확인\n`;
+        detailedError += `- 마지막 속성 뒤에는 쉼표가 없어야 함\n`;
+        detailedError += `- 문자열이 따옴표로 제대로 감싸져 있는지 확인\n`;
+        
+        throw new Error(detailedError);
+    }
+}
+
 
 
 
@@ -35,7 +100,7 @@ async function initApp() {
     }
 }
 
-// 데이터 로드 함수 수정 - 대체 언어 로직 추가
+// 데이터 로드 함수 수정 - 향상된 JSON 파싱 적용
 async function loadData(path) {
     // 캐시 확인
     const cacheKey = `${currentLang}_${path}`;
@@ -43,41 +108,52 @@ async function loadData(path) {
         return dataCache[cacheKey];
     }
     
+    const url = `data/${currentLang}/${path}.json`;
+    
     try {
-        const response = await fetch(`data/${currentLang}/${path}.json`);
+        const response = await fetch(url);
         if (!response.ok) {
-            throw new Error(`HTTP 오류: ${response.status}`);
+            throw new Error(`HTTP 오류: ${response.status} - ${url}`);
         }
-        const data = await response.json();
+        
+        const jsonText = await response.text();
+        
+        // 향상된 JSON 파싱 사용
+        const data = parseJSONWithErrorInfo(jsonText, url);
         
         // 캐시에 저장
         dataCache[cacheKey] = data;
         return data;
     } catch (error) {
-        console.warn(`${currentLang} 언어의 ${path}.json 로드 실패, 기본 언어(ko)로 시도합니다.`);
+        console.error(`데이터 로드 실패 (${url}):`, error.message);
         
-        // 현재 언어가 이미 한국어인 경우 또는 기본 언어 데이터도 로드 실패한 경우
+        // 현재 언어가 이미 한국어인 경우
         if (currentLang === 'ko') {
-            console.error(`데이터 로드 오류 (${path}):`, error);
             throw error;
         }
         
         // 기본 언어(한국어) 데이터 로드 시도
+        console.warn(`${currentLang} 언어의 ${path}.json 로드 실패, 기본 언어(ko)로 시도합니다.`);
+        
         try {
-            const response = await fetch(`data/ko/${path}.json`);
-            if (!response.ok) throw new Error(`HTTP 오류: ${response.status}`);
-
-            const data = await response.json();
-
-            /* ✨ 포인트 ✨
-            - 폴백 데이터는 영어 캐시에 넣지 않는다.
-            - 대신 ko 캐시에만(이미 없으면) 저장해 두고 반환한다. */
+            const fallbackUrl = `data/ko/${path}.json`;
+            const response = await fetch(fallbackUrl);
+            if (!response.ok) {
+                throw new Error(`HTTP 오류: ${response.status} - ${fallbackUrl}`);
+            }
+            
+            const jsonText = await response.text();
+            const data = parseJSONWithErrorInfo(jsonText, fallbackUrl);
+            
+            // ko 캐시에만 저장
             const koKey = `ko_${path}`;
-            if (!dataCache[koKey]) dataCache[koKey] = data;
-
-            return data;            // ← en_blog 키엔 넣지 않음
+            if (!dataCache[koKey]) {
+                dataCache[koKey] = data;
+            }
+            
+            return data;
         } catch (fallbackError) {
-            console.error(`기본 언어 데이터 로드 실패 (${path}):`, fallbackError);
+            console.error(`기본 언어 데이터 로드도 실패 (${path}):`, fallbackError.message);
             throw fallbackError;
         }
     }
@@ -310,12 +386,145 @@ async function loadPage(pageName) {
         }, 100);
     } catch (err) {
         console.error(`페이지 로드 중 오류 (${pageName}):`, err);
+        
+        // 오류 유형에 따른 상세 메시지 생성
+        let errorTitle = '콘텐츠를 불러올 수 없습니다';
+        let errorMessage = err.message;
+        let errorDetails = '';
+        
+        // JSON 파싱 오류인 경우
+        if (err.message.includes('JSON 파싱 오류')) {
+            errorTitle = 'JSON 파일에 구문 오류가 있습니다';
+            errorDetails = err.message;
+            errorMessage = 'JSON 파일의 구문을 확인해주세요.';
+        } 
+        // HTTP 오류인 경우
+        else if (err.message.includes('HTTP 오류')) {
+            errorTitle = '파일을 찾을 수 없습니다';
+            errorMessage = '데이터 파일이 존재하지 않거나 접근할 수 없습니다.';
+        }
+        // 기타 오류
+        else if (err.message === '알 수 없는 페이지') {
+            errorTitle = '존재하지 않는 페이지입니다';
+            errorMessage = '요청하신 페이지를 찾을 수 없습니다.';
+        }
+        
         mainContent.innerHTML = `
             <div class="error-message">
-                <h2>콘텐츠를 불러올 수 없습니다</h2>
-                <p>다시 시도해주세요: ${err.message}</p>
+                <div class="error-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <h2 class="error-title">${errorTitle}</h2>
+                <p class="error-description">${errorMessage}</p>
+                ${errorDetails ? `
+                    <details class="error-details">
+                        <summary>상세 오류 정보 보기</summary>
+                        <pre class="error-code">${errorDetails}</pre>
+                    </details>
+                ` : ''}
+                <div class="error-actions">
+                    <button onclick="location.reload()" class="btn btn-primary">
+                        <i class="fas fa-redo"></i> 페이지 새로고침
+                    </button>
+                    <button onclick="loadPage('home')" class="btn btn-secondary">
+                        <i class="fas fa-home"></i> 홈으로 이동
+                    </button>
+                </div>
             </div>
         `;
+        
+        // 오류 메시지 스타일 추가
+        if (!document.getElementById('error-styles')) {
+            const style = document.createElement('style');
+            style.id = 'error-styles';
+            style.textContent = `
+                .error-message {
+                    text-align: center;
+                    padding: 2rem;
+                    max-width: 600px;
+                    margin: 2rem auto;
+                    background: #f8f9fa;
+                    border-radius: 8px;
+                    border-left: 4px solid #e74c3c;
+                }
+                .error-icon {
+                    font-size: 3rem;
+                    color: #e74c3c;
+                    margin-bottom: 1rem;
+                }
+                .error-title {
+                    color: #2c3e50;
+                    margin-bottom: 0.5rem;
+                    font-size: 1.5rem;
+                }
+                .error-description {
+                    color: #5a6c7d;
+                    margin-bottom: 1.5rem;
+                    font-size: 1rem;
+                }
+                .error-details {
+                    text-align: left;
+                    margin: 1rem 0;
+                    background: #fff;
+                    border-radius: 4px;
+                    border: 1px solid #dee2e6;
+                }
+                .error-details summary {
+                    padding: 0.75rem;
+                    cursor: pointer;
+                    background: #f1f3f4;
+                    border-radius: 4px 4px 0 0;
+                    font-weight: 500;
+                }
+                .error-details summary:hover {
+                    background: #e9ecef;
+                }
+                .error-code {
+                    background: #2c3e50;
+                    color: #ecf0f1;
+                    padding: 1rem;
+                    margin: 0;
+                    border-radius: 0 0 4px 4px;
+                    overflow-x: auto;
+                    white-space: pre-wrap;
+                    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+                    font-size: 0.85rem;
+                    line-height: 1.4;
+                }
+                .error-actions {
+                    display: flex;
+                    gap: 1rem;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    margin-top: 1.5rem;
+                }
+                .btn {
+                    padding: 0.75rem 1.5rem;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                    text-decoration: none;
+                    font-weight: 500;
+                    transition: all 0.3s ease;
+                }
+                .btn-primary {
+                    background: #3498db;
+                    color: white;
+                }
+                .btn-secondary {
+                    background: #95a5a6;
+                    color: white;
+                }
+                .btn:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+                }
+            `;
+            document.head.appendChild(style);
+        }
     }
 }
 

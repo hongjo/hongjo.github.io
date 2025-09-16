@@ -46,18 +46,7 @@
     {
       "title": "Graduate Students",
       "members": [
-        {
-          "name": "Seungwon Baek",
-          "role": "Ph.D., Research Professor",
-          "photo": "",
-          "interests": " - Department of Civil and Environmental Engineering, Yonsei University \n - Co-advisor: Dr. Seoung Heon Han"
-        },
-        {
-          "name": "Wei Chih Chern",
-          "role": "Ph.D. Candidate",
-          "photo": "",
-          "interests": " - Department of Electrical and Computer Engineering, University of Dayton, United States \n - Co-advisor: Dr. Vijayan K. Asari, Dr. Tam Nguyen"
-        },
+        
         {
           "name": "Taegeon Kim",
           "role": "Integrated Ph.D Course",
@@ -89,18 +78,7 @@
 	"System and Method of scaffolding erection site detection and tracking with density calculator(10-2024-0069804)"
           ]
         },
-        {
-          "name": "Minkyu Koo",
-          "role": "Master Course",
-          "photo": "",
-          "interests": "Department of Civil and Environmental Engineering, Yonsei University"
-        },
-        {
-          "name": "Minwoo Jeong",
-          "role": "Master Course",
-          "photo": "img/member/student/정민우.jpg",
-          "interests": "Department of Civil and Environmental Engineering, Yonsei University"
-        },
+        
         {
           "name": "Gichang Choi",
           "role": "Integrated Ph.D Course",
@@ -156,6 +134,24 @@
           "details": [
             ""
           ]
+        },
+        {
+          "name": "Si-Heon Joo",
+          "role": "MS&Ph.D Candidate (Will be)",
+          "photo": "img/member/student/주시헌.jpg",
+          "interests": "**[Research Interests]** \n- **Computer Vision**\n- **Pattern Recognition**",
+          "details": [
+            "**Home Page** <br> [https://sh-joo.github.io/](https://sh-joo.github.io/)"
+          ]
+        },
+        {
+          "name": "Duyong Park",
+          "role": "Intern",
+          "photo": "img/member/student/박두용.jpg",
+          "interests": "Computer Vision",
+          "details": [
+            "Hello, My name is Duyong Park and I am scheduled to enter the integrated Master's and Ph.D. program in the Fall semester of 2025"
+          ]
         }
       ]
     },
@@ -180,25 +176,13 @@
       "title": "Undergraduate Interns",
       "members": [
         {
-          "name": "Si-Heon Joo",
-          "role": "MS&Ph.D Candidate (Will be)",
-          "photo": "img/member/student/주시헌.jpg",
-          "interests": "**[Research Interests]** \n- **Computer Vision**\n- **Pattern Recognition**",
-          "details": [
-            "**Home Page** <br> [https://sh-joo.github.io/](https://sh-joo.github.io/)"
-          ]
-        },
-        {
-          "name": "Duyong Park",
-          "role": "Intern",
-          "photo": "img/member/student/박두용.jpg",
-          "interests": "Computer Vision",
-          "details": [
-            "Hello, My name is Duyong Park and I am scheduled to enter the integrated Master's and Ph.D. program in the Fall semester of 2025"
-          ]
-        },
-        {
           "name": "Dain Kim",
+          "role": "Intern",
+          "photo": "",
+          "interests": ""
+        },
+        {
+          "name": "Lim Soo Hyun",
           "role": "Intern",
           "photo": "",
           "interests": ""
@@ -231,6 +215,30 @@
     {
       "title": "Alumni",
       "members": [
+        {
+          "name": "Minkyu Koo",
+          "role": "Master",
+          "photo": "",
+          "interests": "Department of Civil and Environmental Engineering, Yonsei University"
+        },
+        {
+          "name": "Minwoo Jeong",
+          "role": "Master",
+          "photo": "img/member/student/정민우.jpg",
+          "interests": "Department of Civil and Environmental Engineering, Yonsei University"
+        },
+        {
+          "name": "Seungwon Baek",
+          "role": "Ph.D., Research Professor",
+          "photo": "",
+          "interests": " - Department of Civil and Environmental Engineering, Yonsei University \n - Co-advisor: Dr. Seoung Heon Han"
+        },
+        {
+          "name": "Wei Chih Chern",
+          "role": "Ph.D. Candidate",
+          "photo": "",
+          "interests": " - Department of Electrical and Computer Engineering, University of Dayton, United States \n - Co-advisor: Dr. Vijayan K. Asari, Dr. Tam Nguyen"
+        },
         {
           "name": "Jeongho Hyeon",
           "role": "Master of Science",

@@ -17,6 +17,11 @@
     "title": "최근 소식",
     "items": [
       {
+        "date": "2025.09",
+        "title": "학술 논문 게재",
+        "description": "**Taegeon Kim**, **Seokhwan Kim**, **Wei-Chih Chern**, Somin Park, Daeho Kim, **Hongjo Kim**의 **'Optimizing Large Vision-Language Models for Context-Aware Construction Safety Assessment'** 논문이 'Automation in Construction'에 채택되었습니다."
+      },
+      {
         "date": "2025.07",
         "title": "학술 논문 게재",
         "description": "**Taegeon Kim**, **Wei-Chih Chern**, **Seokhwan Kim**, Vijayan K. Asari, **Hongjo Kim**의 **'Moving-Feature-Driven Label Propagation for Training Data Generation from Target Domains'** 논문이 'Computers in Industry'에 채택되었습니다."
