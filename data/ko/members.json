@@ -24,18 +24,6 @@
       "title": "풀타임 연구원",
       "members": [
         {
-          "name": "백승원 박사",
-          "role": "연구교수",
-          "photo": "",
-          "interests": "**연구 분야** <br> <br><br>**공동지도** <br>한승헌 교수님"
-        },
-        {
-          "name": "Wei chih Chern",
-          "role": "박사 과정",
-          "photo": "",
-          "interests": "Department of Electrical and Computer Engineering, University of Dayton, United States <br><br>**공동지도**\n- Dr. Vijayan K. Asari <br>\n- Dr. Tam Nguyen"
-        },
-        {
           "name": "김태건",
           "role": "박사 과정",
           "photo": "",
@@ -67,18 +55,6 @@
           ]
         },
         {
-          "name": "구민규",
-          "role": "석사 과정",
-          "photo": "",
-          "interests": ""
-        },
-        {
-          "name": "정민우",
-          "role": "석사 과정",
-          "photo": "img/member/student/정민우.jpg",
-          "interests": ""
-        },
-        {
           "name": "최기창",
           "role": "석박통합 과정",
           "photo": "img/member/student/최기창.jpg",
@@ -96,8 +72,6 @@
             "# 저널 논문\n\n- Choi, K., Jeong, M., **Shin, Y.**, Ma, J., Kim, K., & Kim, H. (2025). “Construct-Rag: Contrastive Sentence Training & Retrieval Using Chunk Block-Based Text for Rag”, *Available at SSRN* 5205959.\n", 
             "# 학회 발표\n\n- **Shin, Y.**, Kim, H. “2024 Annual Academic Conference”, *Korea Institute of Construction Engineering and Management*, Jeju, Korea (November 2024) – Poster Presentation  \n- **Shin, Y.**, Choi, K., Kim, Y., Kim, H. “Creative Construction Conference (CCC 2025)”, *Zadar, Croatia* (June 2025) – Oral Presentation" 
           ]
-
-
         },
         {
           "name": "박재현",
@@ -135,8 +109,25 @@
           "details": [
             "저널 논문\n문재상, 박현욱, 김진영. (2023). Digital Twin에 기반한 프리캐스트 콘크리트 공장 최적화 연구. 대한건축학회논문집, 39(5), 173-180."
           ]
-      }
-
+      },
+ 	 {
+          "name": "주시헌",
+          "role": "석박통합과정",
+          "photo": "img/member/student/주시헌.jpg",
+          "interests": "**[연구 분야]** \n- **Computer Vision**\n- **Pattern Recognition** ",
+          "details": [
+            "**Home Page** <br> [https://sh-joo.github.io/](https://sh-joo.github.io/)\n_(연구 소개, 소식)_", 
+            ]
+        },
+        {
+          "name": "박두용",
+          "role": "석박통합과정",
+          "photo": "img/member/student/박두용.jpg",
+          "interests": "Computer Vision",
+          "details": [
+            "안녕하세요. 저는 2025년 2학기 석박통합 과정으로 진학 예정인 박두용입니다."
+          ]
+        },
       ]
     },
     {
@@ -159,26 +150,6 @@
     {
       "title": "인턴",
       "members": [
-        
-        {
-          "name": "주시헌",
-          "role": "석박통합(진)",
-          "photo": "img/member/student/주시헌.jpg",
-          "interests": "**[연구 분야]** \n- **Computer Vision**\n- **Pattern Recognition** ",
-          "details": [
-            "**Home Page** <br> [https://sh-joo.github.io/](https://sh-joo.github.io/)\n_(연구 소개, 소식)_", 
-            "석박 통합과정 전환 예정"
-          ]
-        },
-        {
-          "name": "박두용",
-          "role": "인턴",
-          "photo": "img/member/student/박두용.jpg",
-          "interests": "Computer Vision",
-          "details": [
-            "안녕하세요. 저는 2025년 2학기 석박통합 과정으로 진학 예정인 박두용입니다."
-          ]
-        },
         {
           "name": "김다인",
           "role": "인턴",
@@ -214,6 +185,30 @@
     {
       "title": "동문",
       "members": [
+		{
+          "name": "구민규",
+          "role": "석사",
+          "photo": "",
+          "interests": ""
+        },
+        {
+          "name": "정민우",
+          "role": "석사",
+          "photo": "img/member/student/정민우.jpg",
+          "interests": ""
+        },
+	    {
+          "name": "백승원 박사",
+          "role": "연구교수",
+          "photo": "",
+          "interests": "**연구 분야** <br> <br><br>**공동지도** <br>한승헌 교수님"
+        },
+        {
+          "name": "Wei chih Chern",
+          "role": "박사 과정",
+          "photo": "",
+          "interests": "Department of Electrical and Computer Engineering, University of Dayton, United States <br><br>**공동지도**\n- Dr. Vijayan K. Asari <br>\n- Dr. Tam Nguyen"
+        },
         {
           "name": "현정호",
           "role": "석사",
@@ -268,8 +263,8 @@
           "photo": "",
           "interests": "-연세대학교 건설환경공학부 재학 \n -25년 2월~현재 인턴 과정 ",
           "details": [
-            "현재 개인 프로젝트로 LSTM-attention모델을 활용한 빗물받이 수위예측 연구를 진행 중입니다.",
-            "관심 분야로는 Computer Vision기술들과 LLM을 활용한 건설문건 생성."
+            "LSTM-attention모델을 활용한 빗물받이 수위예측 연구.",
+            "Computer Vision기술들과 LLM을 활용한 건설문건 생성."
           ]
         },
         {
