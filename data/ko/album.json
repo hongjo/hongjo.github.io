@@ -2,6 +2,38 @@
 {
   "albums": [
     {
+      "title": "2025 연구실 단풍 워크샵",
+      "description": "2025 11 04",
+      "images": [
+        {
+          "src": "img/album/251101/25가을1.jpg",
+          "caption": "추계 나들이 단체사진1",
+          "fullSize": "img/album/251101/25가을1.jpg"
+        },
+        {
+          "src": "img/album/251101/25가을2.jpg",
+          "caption": "추계 나들이 단체사진2",
+          "fullSize": "img/album/251101/25가을2.jpg"
+        }
+      ]
+    },
+    {
+      "title": "2025년 가을 졸업식",
+      "description": "2025년 가을 졸업식",
+      "images": [
+        {
+          "src": "img/album/250825/25여름졸업1.jpg",
+          "caption": "정민우 석사와 구민규 석사의 졸업을 축하합니다!",
+          "fullSize": "img/album/250825/25여름졸업1.jpg"
+        },
+        {
+          "src": "img/album/250825/25여름졸업2.jpg",
+          "caption": "정민우 석사와 구민규 석사의 졸업을 축하합니다!!",
+          "fullSize": "img/album/250825/25여름졸업2.jpg"
+        }
+      ]
+    },
+    {
       "title": "2025 연구실 하계 워크샵",
       "description": "2025 08 08",
       "images": [

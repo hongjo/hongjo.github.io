@@ -50,7 +50,7 @@
         {
           "name": "Taegeon Kim",
           "role": "Integrated Ph.D Course",
-          "photo": "",
+          "photo": "img/member/student/김태건.jpg",
           "interests": "Department of Civil and Environmental Engineering, Yonsei University"
         },
         {
@@ -178,7 +178,7 @@
         {
           "name": "Dain Kim",
           "role": "Intern",
-          "photo": "",
+          "photo": "img/member/student/김다인.jpg",
           "interests": ""
         },
         {
@@ -186,7 +186,13 @@
           "role": "Intern",
           "photo": "",
           "interests": ""
-        }     
+        },
+        {
+          "name": "DaYeon Kang",
+          "role": "Intern",
+          "photo": "",
+          "interests": ""
+        }       
       ]
     },
     {
