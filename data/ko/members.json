@@ -26,7 +26,7 @@
         {
           "name": "김태건",
           "role": "박사 과정",
-          "photo": "",
+          "photo": "img/member/student/김태건.jpg",
           "interests": "연세대학교 건설환경공학"
         },
         {
@@ -153,11 +153,17 @@
         {
           "name": "김다인",
           "role": "인턴",
+          "photo": "img/member/student/김다인.jpg",
+          "interests": ""
+        },
+        {
+          "name": "임수현",
+          "role": "인턴",
           "photo": "",
           "interests": ""
         },
-		{
-          "name": "임수현",
+        {
+          "name": "강다연",
           "role": "인턴",
           "photo": "",
           "interests": ""

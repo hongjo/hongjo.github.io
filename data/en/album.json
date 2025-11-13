@@ -2,6 +2,38 @@
 {
   "albums": [
     {
+      "title": "2025 autumn workshop",
+      "description": "2025 11 04",
+      "images": [
+        {
+          "src": "img/album/251101/25가을1.jpg",
+          "caption": "autumn group photo 1",
+          "fullSize": "img/album/251101/25가을1.jpg"
+        },
+        {
+          "src": "img/album/251101/25가을2.jpg",
+          "caption": "autumn group photo 2",
+          "fullSize": "img/album/251101/25가을2.jpg"
+        }
+      ]
+    },
+    {
+      "title": "2025 graduation ceremony autumn",
+      "description": "2025 grade autumn",
+      "images": [
+        {
+          "src": "img/album/250825/25여름졸업1.jpg",
+          "caption": "Congratulations to Minkyu Koo and Minwoo Jeong on their master graduation!",
+          "fullSize": "img/album/250825/25여름졸업1.jpg"
+        },
+        {
+          "src": "img/album/250825/25여름졸업2.jpg",
+          "caption": "Congratulations to Minkyu Koo and Minwoo Jeong on their master graduation!!",
+          "fullSize": "img/album/250825/25여름졸업2.jpg"
+        }
+      ]
+    },
+    {
       "title": "2025 summer workshop",
       "description": "2025 08 08",
       "images": [
