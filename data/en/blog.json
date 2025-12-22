@@ -1,12 +1,36 @@
 {
     "posts": [
       {
+        "slug": "frequency-aware-crack-segmentation",
+        "title": "Why Deep Learning Misses Thin Cracks (FACS-Net & CT-Loss)",
+        "subtitle": "Paper Review: Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks",
+        "date": "2025-12-22",
+        "cover": "img/blog/251222_Siheon/title.png",
+        "md": "blog/en/251222_Siheon.md"
+      },
+      {
+        "slug": "context-aware-lvlm-safety",
+        "title": "Generative AI for Construction Safety Assessment: Context-Aware Large Vision-Language Models",
+        "subtitle": "Paper Review: Optimizing large vision-language models for context-aware construction safety assessment",
+        "date": "2025-12-20",
+        "cover": "img/blog/251220_Taegeon/title.png",
+        "md": "blog/en/251220_Taegeon.md"
+      },
+      {
+        "slug": "auto-training-data-generation",
+        "title": "Automatic Training Data Generation for Construction Site AI Monitoring: Domain Adaptation Without Manual Labeling",
+        "subtitle": "Paper Review: Moving-feature-driven label propagation for training data generation from target domains",
+        "date": "2025-12-19",
+        "cover": "img/blog/251219_Taegeon/title.png",
+        "md": "blog/en/251219_Taegeon.md"
+      },
+      {
         "slug": "vision-based-safety",
-        "title": "Vision-Based Safety Monitoring",
-        "subtitle": "Keeping Sites Safe with AI Cameras",
-        "date": "2025-05-20",
-        "cover": "img/test1.png",
-        "md": "blog/en/entest1.md"
+        "title": "[News] Yonsei University - UCL Host Joint Workshop on ‘Smart Construction & 3D Vision AI’",
+        "subtitle": null,
+        "date": "2025-11-26",
+        "cover": "img/blog/251126_UCL/poster.png",
+        "md": "blog/en/251126_UCL_News.md"
       }
     ]
   }

@@ -1,12 +1,36 @@
 {
     "posts": [
       {
+        "slug": "frequency-aware-crack-segmentation",
+        "title": "[논문 소개] 딥러닝은 왜 얇은 균열을 놓칠까? (FACS-Net & CT-Loss)",
+        "subtitle": "**논문 리뷰**: Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks<br/>**키워드**: 구조물 유지관리, 균열 인식, 얇은 균열, Computer Vision, Segmentation",
+        "date": "2025-12-22",
+        "cover": "img/blog/251222_Siheon/title.png",
+        "md": "blog/ko/251222_Siheon.md"
+      },
+      {
+        "slug": "context-aware-lvlm-safety",
+        "title": "[논문 소개] 생성형 AI로 건설 현장 안전 평가하기: 맥락을 이해하는 Large Vision-Language Model",
+        "subtitle": "**논문 리뷰**: Optimizing large vision-language models for context-aware construction safety assessment<br/>**키워드**: 건설 현장 모니터링, Vision-Language Model, 생성형 AI",
+        "date": "2025-12-20",
+        "cover": "img/blog/251220_Taegeon/title.png",
+        "md": "blog/ko/251220_Taegeon.md"
+      },
+      {
+        "slug": "auto-training-data-generation",
+        "title": "[논문 소개] 건설 현장 AI 모니터링을 위한 학습 데이터 자동 생성: 라벨링 없이 새로운 현장에 적응하는 방법",
+        "subtitle": "**논문 리뷰**: Moving-feature-driven label propagation for training data generation from target domains<br/>**키워드**: 건설 현장 모니터링, 학습 데이터 자동 생성, 새로운 현장 적응",
+        "date": "2025-12-19",
+        "cover": "img/blog/251219_Taegeon/title.png",
+        "md": "blog/ko/251219_Taegeon.md"
+      },
+      {
         "slug": "vision-based-safety",
-        "title": "Vision-Based 안전 모니터링",
-        "subtitle": "카메라·AI로 안전을 지키다",
-        "date": "2025-05-20",
-        "cover": "img/test1.png",
-        "md": "blog/ko/ktest1.md"
+        "title": "[소식] 연세대-英 UCL, ‘스마트 건설 및 3D 비전 AI’ 공동 워크샵 개최",
+        "subtitle": null,
+        "date": "2025-11-26",
+        "cover": "img/blog/251126_UCL/poster.png",
+        "md": "blog/ko/251126_UCL_News.md"
       }
     ]
   }
