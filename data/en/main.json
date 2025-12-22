@@ -17,6 +17,11 @@
     "title": "News",
     "items": [
       {
+        "date": "2025.12",
+        "title": "Journal Paper Publication",
+        "description": "**Siheon Joo**, **Seokhwan Kim**, **Hongjo Kim**'s paper **'Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks'** has been accepted for publication in 'Automation in Construction'."
+      },
+      {
         "date": "2025.09",
         "title": "Journal Paper Publication",
         "description": "**Taegeon Kim**, **Seokhwan Kim**, **Wei-Chih Chern**, Somin Park, Daeho Kim, **Hongjo Kim**'s paper **'Optimizing Large Vision-Language Models for Context-Aware Construction Safety Assessment'** has been accepted for publication in 'Automation in Construction'."

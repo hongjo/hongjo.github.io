@@ -1,5 +1,20 @@
 {
   "journal_papers": [
+    {
+      "authors": [
+        "Siheon Joo",
+        "Seokhwan Kim",
+        "Hongjo Kim"
+      ],
+      "year": 2026,
+      "title": "Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks",
+      "journal": "Automation in Construction",
+      "volume": 182,
+      "pages": "106719",
+      "status": "Published",
+      "doi": "10.1016/j.autcon.2025.106719",
+      "url": "https://doi.org/10.1016/j.autcon.2025.106719"
+    },
      {
       "authors": [
         "Taegeon Kim",

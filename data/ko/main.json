@@ -17,6 +17,11 @@
     "title": "최근 소식",
     "items": [
       {
+        "date": "2025.12",
+        "title": "학술 논문 게재",
+        "description": "**Siheon Joo**, **Seokhwan Kim**, **Hongjo Kim**의 **'Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks'** 논문이 'Automation in Construction'에 채택되었습니다."
+      },
+      {
         "date": "2025.09",
         "title": "학술 논문 게재",
         "description": "**Taegeon Kim**, **Seokhwan Kim**, **Wei-Chih Chern**, Somin Park, Daeho Kim, **Hongjo Kim**의 **'Optimizing Large Vision-Language Models for Context-Aware Construction Safety Assessment'** 논문이 'Automation in Construction'에 채택되었습니다."
