@@ -1,6 +1,14 @@
 {
     "posts": [
       {
+        "slug": "rag-construction-retrieval-optimization",
+        "title": "[Paper Review] Revolutionizing Minority Language Construction Document AI: RAGO-CONSTRUCT",
+        "subtitle": "Optimizing RAG for low-resource languages using Contrastive Sentence Generation (CSG) and Matryoshka Representation Learning (MRL)",
+        "date": "2026-01-12",
+        "cover": "img/blog/260112_Kichang/Kichang_Title.png",
+        "md": "blog/en/260112_Kichang.md"
+      },
+      {
         "slug": "frequency-aware-crack-segmentation",
         "title": "Why Deep Learning Misses Thin Cracks (FACS-Net & CT-Loss)",
         "subtitle": "Paper Review: Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks",
