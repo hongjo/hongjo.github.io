@@ -1,6 +1,14 @@
 {
     "posts": [
       {
+        "slug": "rag-construction-retrieval-optimization",
+        "title": "[논문 소개] 한국어 건설 문서 특화 AI: RAGO-CONSTRUCT",
+        "subtitle": "**논문 리뷰**: Retrieval optimization for construction documents in low-resource languages using contrastive sentence generation and matryoshka representation learning<br/>**키워드**: 건설 문서 분석, RAG, 한국어 특화 AI, 검색 최적화",
+        "date": "2026-01-12",
+        "cover": "img/blog/260112_Kichang/Kichang_Title.png",
+        "md": "blog/ko/260112_Kichang.md"
+      },
+      {
         "slug": "frequency-aware-crack-segmentation",
         "title": "[논문 소개] 딥러닝은 왜 얇은 균열을 놓칠까? (FACS-Net & CT-Loss)",
         "subtitle": "**논문 리뷰**: Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks<br/>**키워드**: 구조물 유지관리, 균열 인식, 얇은 균열, Computer Vision, Segmentation",
