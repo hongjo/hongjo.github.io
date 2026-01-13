@@ -2,6 +2,24 @@
   "journal_papers": [
     {
       "authors": [
+        "Kichang Choi",
+        "Minwoo Jeong",
+        "Younga Shin",
+        "Jong won Ma",
+        "Kinam Kim",
+        "Hongjo Kim"
+      ],
+      "year": 2026,
+      "title": "Retrieval optimization for construction documents in low-resource languages using contrastive sentence generation and matryoshka representation learning",
+      "journal": "Automation in Construction",
+      "volume": 182,
+      "pages": "106749",
+      "status": "Published",
+      "doi": "10.1016/j.autcon.2025.106749",
+      "url": "https://doi.org/10.1016/j.autcon.2025.106749"
+    },
+    {
+      "authors": [
         "Siheon Joo",
         "Seokhwan Kim",
         "Hongjo Kim"
