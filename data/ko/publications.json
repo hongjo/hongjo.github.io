@@ -2,6 +2,23 @@
   "journal_papers": [
     {
       "authors": [
+        "Minkyu Koo",
+        "Taegeon Kim",
+        "Minhyun Lee",
+        "Kinam Kim",
+        "Hongjo Kim"
+      ],
+      "year": 2026,
+      "title": "Domain-adaptive instance segmentation for far-field object monitoring using SAM-based weak supervision and noisy student self-training",
+      "journal": "Automation in Construction",
+      "volume": 182,
+      "pages": "106772",
+      "status": "Published",
+      "doi": "10.1016/j.autcon.2026.106772",
+      "url": "https://doi.org/10.1016/j.autcon.2026.106772"
+    },    
+    {
+      "authors": [
         "Kichang Choi",
         "Minwoo Jeong",
         "Younga Shin",
