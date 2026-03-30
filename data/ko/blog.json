@@ -1,6 +1,14 @@
 {
     "posts": [
       {
+        "slug": "dsdl-tiny-object-detection",
+        "title": "[논문 소개] 그물을 빠져나가는 작은 물고기: 건설 현장 초소형 객체 탐지를 위한 DSDL",
+        "subtitle": "**논문 리뷰**: Tiny Object Detection Using Distance-guided, Signed, and Densified Learning (DSDL) for Construction Site Safety Monitoring<br/>**키워드**: 건설 현장 안전, 초소형 객체 탐지, PPE 모니터링, YOLO",
+        "date": "2026-03-30",
+        "cover": "img/blog/260330_Seokhwan/Seokhwan_DSDL_Title.png",
+        "md": "blog/ko/260330_Seokhwan.md"
+      },
+      {
         "slug": "rag-construction-retrieval-optimization",
         "title": "[논문 소개] 한국어 건설 문서 특화 AI: RAGO-CONSTRUCT",
         "subtitle": "**논문 리뷰**: Retrieval optimization for construction documents in low-resource languages using contrastive sentence generation and matryoshka representation learning<br/>**키워드**: 건설 문서 분석, RAG, 한국어 특화 AI, 검색 최적화",

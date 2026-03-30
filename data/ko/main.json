@@ -17,6 +17,26 @@
     "title": "최근 소식",
     "items": [
       {
+        "date": "2026.03",
+        "title": "학술 논문 게재",
+        "description": "**Seokhwan Kim**, **Taegeon Kim**, **Kichang Choi**, **Siheon Joo**, **Hongjo Kim**의 **'Tiny object detection using Distance-guided, Signed, and Densified Learning (DSDL) for construction site safety monitoring'** 논문이 'Automation in Construction'에 게재되었습니다."
+      },
+      {
+        "date": "2026.03",
+        "title": "교수 승진",
+        "description": "**김홍조** 교수님이 연세대학교 건설환경공학과 **부교수**로 승진하셨습니다."
+      },
+      {
+        "date": "2026.02",
+        "title": "학술 논문 게재",
+        "description": "**Minkyu Koo**, **Taegeon Kim**, Minhyun Lee, Kinam Kim, **Hongjo Kim**의 **'Domain-adaptive instance segmentation for far-field object monitoring using SAM-based weak supervision and noisy student self-training'** 논문이 'Automation in Construction'에 게재되었습니다."
+      },
+      {
+        "date": "2026.01",
+        "title": "학술 논문 게재",
+        "description": "**Kichang Choi**, **Minwoo Jeong**, Younga Shin, Jong won Ma, Kinam Kim, **Hongjo Kim**의 **'Retrieval optimization for construction documents in low-resource languages using contrastive sentence generation and matryoshka representation learning'** 논문이 'Automation in Construction'에 게재되었습니다."
+      },
+      {
         "date": "2025.12",
         "title": "학술 논문 게재",
         "description": "**Siheon Joo**, **Seokhwan Kim**, **Hongjo Kim**의 **'Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks'** 논문이 'Automation in Construction'에 채택되었습니다."

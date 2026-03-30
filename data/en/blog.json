@@ -1,6 +1,14 @@
 {
     "posts": [
       {
+        "slug": "dsdl-tiny-object-detection",
+        "title": "[Paper Review] Catching What Slips Through the Net: DSDL for Tiny Object Detection",
+        "subtitle": "Tiny Object Detection Using Distance-guided, Signed, and Densified Learning (DSDL) for Construction Site Safety Monitoring",
+        "date": "2026-03-30",
+        "cover": "img/blog/260330_Seokhwan/Seokhwan_DSDL_Title.png",
+        "md": "blog/en/260330_Seokhwan.md"
+      },
+      {
         "slug": "rag-construction-retrieval-optimization",
         "title": "[Paper Review] Revolutionizing Minority Language Construction Document AI: RAGO-CONSTRUCT",
         "subtitle": "Optimizing RAG for low-resource languages using Contrastive Sentence Generation (CSG) and Matryoshka Representation Learning (MRL)",

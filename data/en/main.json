@@ -17,6 +17,26 @@
     "title": "News",
     "items": [
       {
+        "date": "2026.03",
+        "title": "Journal Paper Publication",
+        "description": "**Seokhwan Kim**, **Taegeon Kim**, **Kichang Choi**, **Siheon Joo**, **Hongjo Kim**'s paper **'Tiny object detection using Distance-guided, Signed, and Densified Learning (DSDL) for construction site safety monitoring'** has been published in 'Automation in Construction'."
+      },
+      {
+        "date": "2026.03",
+        "title": "Promotion",
+        "description": "Prof. **Hongjo Kim** has been promoted to **Associate Professor** at the Department of Civil and Environmental Engineering, Yonsei University."
+      },
+      {
+        "date": "2026.02",
+        "title": "Journal Paper Publication",
+        "description": "**Minkyu Koo**, **Taegeon Kim**, Minhyun Lee, Kinam Kim, **Hongjo Kim**'s paper **'Domain-adaptive instance segmentation for far-field object monitoring using SAM-based weak supervision and noisy student self-training'** has been published in 'Automation in Construction'."
+      },
+      {
+        "date": "2026.01",
+        "title": "Journal Paper Publication",
+        "description": "**Kichang Choi**, **Minwoo Jeong**, Younga Shin, Jong won Ma, Kinam Kim, **Hongjo Kim**'s paper **'Retrieval optimization for construction documents in low-resource languages using contrastive sentence generation and matryoshka representation learning'** has been published in 'Automation in Construction'."
+      },
+      {
         "date": "2025.12",
         "title": "Journal Paper Publication",
         "description": "**Siheon Joo**, **Seokhwan Kim**, **Hongjo Kim**'s paper **'Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks'** has been accepted for publication in 'Automation in Construction'."
