@@ -2,6 +2,23 @@
   "journal_papers": [
     {
       "authors": [
+        "Seokhwan Kim",
+        "Taegeon Kim",
+        "Kichang Choi",
+        "Siheon Joo",
+        "Hongjo Kim"
+      ],
+      "year": 2026,
+      "title": "Tiny object detection using Distance-guided, Signed, and Densified Learning (DSDL) for construction site safety monitoring",
+      "journal": "Automation in Construction",
+      "volume": 187,
+      "pages": "106929",
+      "status": "Published",
+      "doi": "10.1016/j.autcon.2026.106929",
+      "url": "https://doi.org/10.1016/j.autcon.2026.106929"
+    },
+    {
+      "authors": [
         "Minkyu Koo",
         "Taegeon Kim",
         "Minhyun Lee",
