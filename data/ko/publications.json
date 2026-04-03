@@ -2,6 +2,40 @@
   "journal_papers": [
     {
       "authors": [
+        "Junhee Park",
+        "Taegeon Kim",
+        "Namgyun Kim",
+        "Youngcheol Kang",
+        "Hongjo Kim"
+      ],
+      "year": 2026,
+      "title": "Exploring the Applicability and Acceptance of Generative AI in Design for Safety (DFS) Systems",
+      "journal": "Land and Housing Review",
+      "volume": "17(1)",
+      "pages": "147-164",
+      "status": "Published",
+      "doi": "10.5804/LHR.2026.17.1.147",
+      "url": "https://doi.org/10.5804/LHR.2026.17.1.147"
+    },
+    {
+      "authors": [
+        "Jan-Iwo Jäkel",
+        "Eva Heinlein",
+        "Joy Sengupta",
+        "Hongjo Kim",
+        "Katharina Klemt-Albert"
+      ],
+      "year": 2026,
+      "title": "A Comparison of Human Capabilities and Large Language Models for Knowledge Representation with Ontologies of Non-Destructive Testing in Bridge Engineering",
+      "journal": "Buildings",
+      "volume": "16(7)",
+      "pages": "1395",
+      "status": "Published",
+      "doi": "10.3390/buildings16071395",
+      "url": "https://doi.org/10.3390/buildings16071395"
+    },
+    {
+      "authors": [
         "Seokhwan Kim",
         "Taegeon Kim",
         "Kichang Choi",
