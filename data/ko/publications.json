@@ -2,6 +2,24 @@
   "journal_papers": [
     {
       "authors": [
+        "Kichang Choi",
+        "Minwoo Jeong",
+        "Taegeon Kim",
+        "Seokhwan Kim",
+        "Seungwon Baek",
+        "Hongjo Kim"
+      ],
+      "year": 2026,
+      "title": "RAMASC: A Retrieval-Augmented Multi-Agent Framework for Automated Structural Calculation",
+      "journal": "Advanced Engineering Informatics",
+      "volume": "",
+      "pages": "",
+      "status": "In Press",
+      "doi": "",
+      "url": ""
+    },
+    {
+      "authors": [
         "Junhee Park",
         "Taegeon Kim",
         "Namgyun Kim",
@@ -201,7 +219,6 @@
       "title": "Effectiveness of Retrieval Augmented Generation-based Large Language Models for Generating Construction Safety Information",
       "journal": "Automation in Construction",
       "volume": 170,
-      "status": "Published",
       "pages": "105926",
       "status": "Published",
       "doi": "10.1016/j.autcon.2024.105926",
@@ -236,7 +253,6 @@
       "title": "Image Hashing-based Shallow Object Tracker for Construction Worker Monitoring in Scaffolding Scenes",
       "journal": "Automation in Construction",
       "volume": 166,
-      "status": "Published",
       "pages": "105604",
       "status": "Published",
       "doi": "10.1016/j.autcon.2024.105604",
