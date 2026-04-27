@@ -1486,7 +1486,7 @@
 
   "patents": [
     {
-      "inventors": ["김홍조", "정민우", "김태건"],
+      "발명인": ["김홍조", "정민우", "김태건"],
       "year": 2025,
       "title": "검색 증강 생성 기반 멀티 에이전트를 활용한 건축부재 구조계산 자동화 방법 및 자동화 시스템",
       "country": "대한민국",
@@ -1494,7 +1494,7 @@
       "patent_number": "10-2025-0083437"
     },
     {
-      "inventors": ["김홍조", "김석환", "이종윤", "강병찬"],
+      "발명인": ["김홍조", "김석환", "이종윤", "강병찬"],
       "year": 2026,
       "title": "LMM에 기반한 PTZ 카메라 자동 제어방법 및 제어시스템",
       "country": "대한민국",
@@ -1502,7 +1502,7 @@
       "patent_number": "10-2025-0085657"
     },
     {
-      "inventors": ["김홍조", "김태건", "이종윤", "강병찬"],
+      "발명인": ["김홍조", "김태건", "이종윤", "강병찬"],
       "year": 2025,
       "title": "영상 분석을 통해 위험 판별 및 규정 조치 안내가 수행되는 생성형 AI 기반 건설현장 안전관리 방법 및 안전관리 시스템",
       "country": "대한민국",
@@ -1510,7 +1510,7 @@
       "patent_number": "10-2875205"
     },
     {
-      "inventors": ["김홍조", "김태건"],
+      "발명인": ["김홍조", "김태건"],
       "year": 2026,
       "title": "건설객체 데이터셋의 의미적 분할 모델의 학습을 위한 자기 지도학습 기반의 고품질 의사 라벨 생성시스템 및 생성방법",
       "country": "대한민국",
@@ -1518,7 +1518,7 @@
       "patent_number": "10-2587288"
     },
     {
-      "inventors": ["김홍조"],
+      "발명인": ["김홍조"],
       "year": 2026,
       "title": "작업자 고소작업 및 안전상태 평가 시스템 및 평가 방법",
       "country": "대한민국",
@@ -1526,7 +1526,7 @@
       "patent_number": "10-2923172"
     },
     {
-      "inventors": ["김홍조", "홍예지", "김형관"],
+      "발명인": ["김홍조", "홍예지", "김형관"],
       "year": 2025,
       "title": "자기 지도학습과 복사-붙이기 데이터 증강을 이용한 건설객체 분할모델 일반화방법 및 일반화시스템",
       "country": "대한민국",
@@ -1534,7 +1534,7 @@
       "patent_number": "10-2769591"
     },
     {
-      "inventors": ["김홍조", "김태건"],
+      "발명인": ["김홍조", "김태건"],
       "year": 2024,
       "title": "자기학습 기반 대상 도메인 특화 학습데이터 생성시스템 및 생성방법",
       "country": "대한민국",
@@ -1542,7 +1542,7 @@
       "patent_number": "10-2024-0128651"
     },
     {
-      "inventors": ["김형관", "엄미영", "김홍조", "신기원"],
+      "발명인": ["김형관", "엄미영", "김홍조", "신기원"],
       "year": 2024,
       "title": "지수적 열화모델에 기반한 도로열화 시뮬레이션을 이용한 예방적 유지보수 예측시스템 및 예측방법",
       "country": "대한민국",
@@ -1550,7 +1550,7 @@
       "patent_number": "10-2024-0086759"
     },
     {
-      "inventors": ["김홍조", "김석환", "김태건"],
+      "발명인": ["김홍조", "김석환", "김태건"],
       "year": 2024,
       "title": "밀도 계산부를 이용한 비계 설치현장 탐지 및 추적 시스템 및 방법",
       "country": "대한민국",
@@ -1558,7 +1558,7 @@
       "patent_number": "10-2024-0069804"
     },
     {
-      "inventors": ["김홍조", "이종윤", "신영섭"],
+      "발명인": ["김홍조", "이종윤", "신영섭"],
       "year": 2021,
       "title": "영상 내 건설 작업자의 안전 상태를 모니터링하는 장치 및 이의 동작 방법",
       "country": "대한민국",
@@ -1566,7 +1566,7 @@
       "patent_number": "10-2021-0188406"
     },
     {
-      "inventors": ["김형관", "김홍조"],
+      "발명인": ["김형관", "김홍조"],
       "year": 2019,
       "title": "Situational Recognition System for Construction Site based Vision and Method, and Method for Productivity Analysis of Earthwork using It",
       "country": "대한민국",
@@ -1574,7 +1574,7 @@
       "patent_number": "10-2042629"
     },
     {
-      "inventors": ["김형관", "김홍조"],
+      "발명인": ["김형관", "김홍조"],
       "year": 2019,
       "title": "2D Image Data Generation System Using of 3D Model, and Thereof Method",
       "country": "대한민국",
@@ -1582,7 +1582,7 @@
       "patent_number": "10-1964282"
     },
     {
-      "inventors": ["김형관", "김홍조"],
+      "발명인": ["김형관", "김홍조"],
       "year": 2017,
       "title": "Estimation System and Method of Slope Stability Using 3D Model and Soil Classification",
       "country": "대한민국",
@@ -1590,7 +1590,7 @@
       "patent_number": "10-1787542"
     },
     {
-      "inventors": ["김형관", "김기남", "김홍조"],
+      "발명인": ["김형관", "김기남", "김홍조"],
       "year": 2017,
       "title": "Visualization of Safety Assessment System in Construction Site Using Wearable Device",
       "country": "대한민국",
@@ -1598,7 +1598,7 @@
       "patent_number": "10-1715001"
     },
     {
-      "inventors": ["김형관", "정호영", "김홍조"],
+      "발명인": ["김형관", "정호영", "김홍조"],
       "year": 2017,
       "title": "Generation Method and System of Climate Change Impact Assessment Information for Infrastructure Based Fuzzy Inference",
       "country": "대한민국",
@@ -1606,7 +1606,7 @@
       "patent_number": "10-1794800"
     },
     {
-      "inventors": ["김형관", "김홍조", "김기남", "정호영"],
+      "발명인": ["김형관", "김홍조", "김기남", "정호영"],
       "year": 2016,
       "title": "System for Assessment of Safety Level at Construction Site Based on Computer Vision",
       "country": "대한민국",
@@ -1614,7 +1614,7 @@
       "patent_number": "10-1674266"
     },
     {
-      "inventors": ["김형관", "김홍조", "김기남"],
+      "발명인": ["김형관", "김홍조", "김기남"],
       "year": 2014,
       "title": "Interactive Progress Monitoring System Using Mobile Terminal and User Interface of the Mobile Terminal",
       "country": "대한민국",
