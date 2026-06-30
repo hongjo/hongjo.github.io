@@ -73,29 +73,7 @@
             "# 학회 발표\n\n- **Shin, Y.**, Kim, H. “2024 Annual Academic Conference”, *Korea Institute of Construction Engineering and Management*, Jeju, Korea (November 2024) - Poster Presentation  \n- **Shin, Y.**, Choi, K., Kim, Y., Kim, H. “Creative Construction Conference (CCC 2025)”, *Zadar, Croatia* (June 2025) - Oral Presentation" 
           ]
         },
-        {
-          "name": "박재현",
-          "role": "석사 과정",
-          "photo": "img/member/student/박재현.jpg",
-          "interests": "안녕하세요. 24년도 1학기 석사과정으로 입학한 박재현입니다. ",
-          "details": [
-            "저는 현재 건설현장에서 스마트 안전 장비 도입 시 발생할 수 있는 경제적 편익을 분석하는 연구를 수행하고 있습니다. 또한, 건설 자재(철근, 콘크리트) 비용의 변동성에 대응하기 위해 선물 및 선도 계약을 활용한 금융 헤지 전략에 대해서도 연구하고 있습니다.",
-            "저널논문 : ",
-            "국제 학회 논문 : ",
-            "국내 학회 논문 : <br> Park, Jaehyun, Kim, Seokhwan and Hongjo Kim (2024) “Application of Futures Hedging Strategies for Material Price Volatility in Construction Projects” Proceedings of   Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea."
-            ]
-        },
-        {
-          "name": "노정현",
-          "role": "석사 과정 (육군위탁교육)",
-          "photo": "img/member/student/노정현.jpg",
-          "interests": "육군사관학교 75기",
-          "details": [
-            "안녕하십니까, 24년 1학기 석사과정으로 입학한 노정현입니다.",
-            "국내 학회 논문 : Jeonghyeon Noh and Hongjo kim (2024) 'A Study on Road Maintenance Cost Estimation and Optimization Using Smartphone-Based GPS Data' Proceedings of Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea."  
-          ]
-        },
-        {
+                {
           "name": "현승주",
           "role": "석사 과정 (해군위탁교육)",
           "photo": "img/member/student/현승주.jpg",
@@ -103,7 +81,7 @@
         },
         {
           "name": "박현욱",
-          "role": "석사 과정",
+          "role": "석박사통합과정",
           "photo": "img/member/student/박현욱.jpg",
           "interests": "연세대학교 건설환경공학",
           "details": [
@@ -127,6 +105,30 @@
           "details": [
             "안녕하세요. 저는 2025년 2학기 석박통합 과정으로 진학 예정인 박두용입니다."
           ]
+        },
+        {
+          "name": "강다연",
+          "role": "석사과정",
+          "photo": "",
+          "interests": ""
+        },
+        {
+          "name": "임수현",
+          "role": "학석사통합과정",
+          "photo": "img/member/student/임수현.jpg",
+          "interests": "안녕하세요? 저는 임수현입니다."
+        },
+        {
+          "name": "김다인",
+          "role": "석사과정 (산학연계)",
+          "photo": "img/member/student/김다인.jpg",
+          "interests": ""
+        },
+        {
+          "name": "손지원",
+          "role": "석사과정 (산학연계)",
+          "photo": "img/member/student/손지원.jpg",
+          "interests": "연세대학교 건설환경공학과 \n한국건설기술연구원 건설정책연구본부"
         }
       ]
     },
@@ -151,23 +153,24 @@
       "title": "인턴",
       "members": [
         {
-          "name": "김다인",
+          "name": "강수지",
           "role": "인턴",
-          "photo": "img/member/student/김다인.jpg",
-          "interests": ""
+          "photo": "img/member/student/강수지.jpg",
+          "interests": "26-2학기 입학예정 (석사과정, 산학연계)"
         },
         {
-          "name": "임수현",
+          "name": "강현준",
           "role": "인턴",
-          "photo": "",
-          "interests": ""
+          "photo": "img/member/student/강현준.jpg",
+          "interests": "26-2학기 입학예정 (석박사통합과정)\n안녕하세요, 강현준입니다"
         },
-        {
-          "name": "강다연",
-          "role": "인턴",
-          "photo": "",
-          "interests": ""
+         {
+          "name": "정원영",
+          "role": "학부연구생",
+          "photo": "img/member/student/정원영.jpg",
+          "interests": "인턴 연구원 \n안녕하세요, 학부연구생 정원영입니다"
         }
+        
         
       ]
     },
@@ -197,6 +200,28 @@
     {
       "title": "동문",
       "members": [
+        {
+          "name": "박재현",
+          "role": "석사 과정",
+          "photo": "img/member/student/박재현.jpg",
+          "interests": "안녕하세요. 24년도 1학기 석사과정으로 입학한 박재현입니다. ",
+          "details": [
+            "저는 현재 건설현장에서 스마트 안전 장비 도입 시 발생할 수 있는 경제적 편익을 분석하는 연구를 수행하고 있습니다. 또한, 건설 자재(철근, 콘크리트) 비용의 변동성에 대응하기 위해 선물 및 선도 계약을 활용한 금융 헤지 전략에 대해서도 연구하고 있습니다.",
+            "저널논문 : ",
+            "국제 학회 논문 : ",
+            "국내 학회 논문 : <br> Park, Jaehyun, Kim, Seokhwan and Hongjo Kim (2024) “Application of Futures Hedging Strategies for Material Price Volatility in Construction Projects” Proceedings of   Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea."
+            ]
+        },
+        {
+          "name": "노정현",
+          "role": "석사 과정 (육군위탁교육)",
+          "photo": "img/member/student/노정현.jpg",
+          "interests": "육군사관학교 75기",
+          "details": [
+            "안녕하십니까, 24년 1학기 석사과정으로 입학한 노정현입니다.",
+            "국내 학회 논문 : Jeonghyeon Noh and Hongjo kim (2024) 'A Study on Road Maintenance Cost Estimation and Optimization Using Smartphone-Based GPS Data' Proceedings of Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea."  
+          ]
+        },
           {
           "name": "구민규",
           "role": "석사",

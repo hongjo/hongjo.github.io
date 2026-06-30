@@ -1,6 +1,24 @@
 {
   "semesters": [
     {
+      "title": "Spring 2026",
+      "__description": "Courses offered in the Spring 2026 semester.",
+      "courses": [
+        {
+          "title": "Data Science for Smart City Infrastructures", 
+          "code": "CEE5911-01-00",
+          "time": "\nMon 6,7,8 (14:00 - 17:00)",
+          "location": "Engineering A690"
+        },
+        {
+          "title": "Generative AI and Applications in Civil and Environmental Engineering",
+          "code": "CEE5913-01-00",
+          "time": "\nThu 8,9,10 (17:00 - 20:00)",
+          "location": "Engineering A401"
+        }
+      ]
+    },
+    {
       "title": "Fall 2025",
       "__description": "Courses offered in the Fall 2025 semeste.",
       "courses": [
