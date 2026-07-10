@@ -103,28 +103,6 @@
           ]
         },
         {
-          "name": "Jaehyun Park",
-          "role": "Master Course",
-          "photo": "img/member/student/박재현.jpg",
-          "interests": "Hello, my name is Jaehyun Park, and I joined the master's program in the Spring semester of 2024.",
-          "details": [
-          "I am currently conducting research on the economic benefits that may result from the adoption of smart safety equipment at construction sites. In addition, I am studying financial hedging strategies using futures and forward contracts to manage the price volatility of construction materials, particularly rebar and concrete.",
-          "Journal Papers :",
-          "International Conference Papers: ",
-          "Domestic Conference Papers: <br>Park, Jaehyun, Kim, Seokhwan and Hongjo Kim (2024) “Application of Futures Hedging Strategies for Material Price Volatility in Construction Projects” Proceedings of Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea."
-          ]
-        },  
-        {
-          "name": "Jeonghyeon Noh",
-          "role": "Master Course",
-          "photo": "img/member/student/노정현.jpg",
-          "interests": "Department of Civil and Environmental Engineering, Yonsei University <br> Korea Military Academy #75",
-          "details": [
-            "Hello, I'm Jeong-hyeon Noh, a master's student who entered the program in the first semester of 2024 ",
-            "Domestic Academic Conference : Jeonghyeon Noh and Hongjo kim (2024) 'A Study on Road Maintenance Cost Estimation and Optimization Using Smartphone-Based GPS Data' Proceedings of Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea."
-          ]
-        },
-        {
           "name": "Seungju Hyun",
           "role": "Master Course",
           "photo": "img/member/student/현승주.jpg",
@@ -132,7 +110,7 @@
         },
         {
           "name": "Hyunwook Park",
-          "role": "Master's student",
+          "role": "MS&Ph.D Candidate",
           "photo": "img/member/student/박현욱.jpg",
           "interests": "",
           "details": [
@@ -141,7 +119,7 @@
         },
         {
           "name": "Si-Heon Joo",
-          "role": "MS&Ph.D Candidate (Will be)",
+          "role": "MS&Ph.D Candidate",
           "photo": "img/member/student/주시헌.jpg",
           "interests": "**[Research Interests]** \n- **Computer Vision**\n- **Pattern Recognition**",
           "details": [
@@ -156,7 +134,31 @@
           "details": [
             "Hello, My name is Duyong Park and I am scheduled to enter the integrated Master's and Ph.D. program in the Fall semester of 2025"
           ]
-        }
+        },
+        {
+          "name": "DaYeon Kang",
+          "role": "Master Course",
+          "photo": "",
+          "interests": ""
+        },
+        {
+          "name": "Dain Kim",
+          "role": "Master Course",
+          "photo": "img/member/student/김다인.jpg",
+          "interests": ""
+        },
+        {
+          "name": "Jiwon Son",
+          "role": "Master Course",
+          "photo": "img/member/student/손지원.jpg",
+          "interests": ""
+        },
+        {
+          "name": "Soohyun Lim",
+          "role": "Master Course",
+          "photo": "img/member/student/임수현.jpg",
+          "interests": "hello, i'm soohyun lim, an intern at SIL"
+        }    
       ]
     },
     {
@@ -179,24 +181,24 @@
     {
       "title": "Undergraduate Interns",
       "members": [
+       {
+          "name": "Hyunjoon Kang",
+          "role": "Intern student",
+          "photo": "img/member/student/강현준.jpg",
+          "interests": "Hello, my name is Hyunjoon Kang"
+        },
         {
-          "name": "Dain Kim",
-          "role": "Intern",
-          "photo": "img/member/student/김다인.jpg",
+          "name": "Suzi Kang",
+          "role": "intern student",
+          "photo": "img/member/student/강수지.jpg",
           "interests": ""
         },
         {
-          "name": "Lim Soo Hyun",
-          "role": "Intern",
-          "photo": "",
-          "interests": ""
-        },
-        {
-          "name": "DaYeon Kang",
-          "role": "Intern",
-          "photo": "",
-          "interests": ""
-        }       
+          "name": "Wonyoung Jung",
+          "role": "intern student",
+          "photo": "img/member/student/정원영.jpg",
+          "interests": "Hi! I'm wonyoung"
+        }      
       ]
     },
     {
@@ -225,6 +227,28 @@
     {
       "title": "Alumni",
       "members": [
+        {
+          "name": "Jaehyun Park",
+          "role": "Master Course",
+          "photo": "img/member/student/박재현.jpg",
+          "interests": "Hello, my name is Jaehyun Park, and I joined the master's program in the Spring semester of 2024.",
+          "details": [
+          "I am currently conducting research on the economic benefits that may result from the adoption of smart safety equipment at construction sites. In addition, I am studying financial hedging strategies using futures and forward contracts to manage the price volatility of construction materials, particularly rebar and concrete.",
+          "Journal Papers :",
+          "International Conference Papers: ",
+          "Domestic Conference Papers: <br>Park, Jaehyun, Kim, Seokhwan and Hongjo Kim (2024) “Application of Futures Hedging Strategies for Material Price Volatility in Construction Projects” Proceedings of Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea."
+          ]
+        },  
+        {
+          "name": "Jeonghyeon Noh",
+          "role": "Master Course",
+          "photo": "img/member/student/노정현.jpg",
+          "interests": "Department of Civil and Environmental Engineering, Yonsei University <br> Korea Military Academy #75",
+          "details": [
+            "Hello, I'm Jeong-hyeon Noh, a master's student who entered the program in the first semester of 2024 ",
+            "Domestic Academic Conference : Jeonghyeon Noh and Hongjo kim (2024) 'A Study on Road Maintenance Cost Estimation and Optimization Using Smartphone-Based GPS Data' Proceedings of Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea."
+          ]
+        },
         {
           "name": "Minkyu Koo",
           "role": "Master",
