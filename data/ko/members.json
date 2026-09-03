@@ -201,7 +201,7 @@
         },
         {
           "name": "신영아",
-          "role": "박사",
+          "role": "석사",
           "photo": "img/member/student/신영아.jpg",
           "interests": "(주)온토",
           "details": [
@@ -217,7 +217,7 @@
         },
         {
           "name": "박재현",
-          "role": "석사 과정",
+          "role": "석사",
           "photo": "img/member/student/박재현.jpg",
           "interests": "안녕하세요. 24년도 1학기 석사과정으로 입학한 박재현입니다. ",
           "details": [
@@ -229,7 +229,7 @@
         },
         {
           "name": "노정현",
-          "role": "석사 과정 (육군위탁교육)",
+          "role": "석사",
           "photo": "img/member/student/노정현.jpg",
           "interests": "육군사관학교 75기",
           "details": [
@@ -257,7 +257,7 @@
         },
         {
           "name": "Wei chih Chern",
-          "role": "박사 과정",
+          "role": "박사",
           "photo": "",
           "interests": "Department of Electrical and Computer Engineering, University of Dayton, United States <br><br>**공동지도**\n- Dr. Vijayan K. Asari <br>\n- Dr. Tam Nguyen"
         },
