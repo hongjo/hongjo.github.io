@@ -1,0 +1,28 @@
+{
+  "title": "Join Us",
+  "subtitle": "Graduate application materials are reviewed each semester.",
+  "apply": "How to apply",
+  "intro": "Email the following documents to Professor Hongjo Kim. Applicants will receive a reply by email after their materials have been reviewed.",
+  "docs": [
+    "A personal statement explaining your motivation for applying",
+    "An academic transcript including your class rank",
+    "A curriculum vitae (CV)"
+  ],
+  "international": "International applicants",
+  "masters": "Master’s applicants",
+  "masters_text": "Applicants are encouraged to apply for the Global Korea Scholarship (GKS) first and to apply to the lab after securing GKS funding.",
+  "phd": "Ph.D. applicants",
+  "phd_text": "Ph.D. applicants are also encouraged to apply to the lab after being selected for GKS.",
+  "program": "Ph.D. applicants without GKS funding",
+  "program_text": "As of September 2026, a Yonsei University support program for international students is available for the next two years. Ph.D. applicants without GKS funding may therefore be considered based on their qualifications.",
+  "letter": "Recommendation letters for GKS applications",
+  "letter_text": "If a recommendation letter is needed during the application process, please email your CV, academic transcript, and personal statement.",
+  "email": "Contact Professor Kim",
+  "date": "Information as of September 2026",
+  "semester": "Fall 2026",
+  "level": "Undergraduate",
+  "courses": [
+    "Artificial Intelligence for Civil and Environmental Engineering",
+    "Engineering Information Processing"
+  ]
+}

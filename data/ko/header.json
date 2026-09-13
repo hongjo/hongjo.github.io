@@ -31,6 +31,10 @@
     {
       "id": "album",
       "label": "Album"
+    },
+    {
+      "id": "join",
+      "label": "대학원 지원 안내"
     }
   ]
 }

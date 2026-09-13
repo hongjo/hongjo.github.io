@@ -1,11 +1,24 @@
 {
   "semesters": [
     {
+      "title": "Fall 2026",
+      "courses": [
+        {
+          "title": "Artificial Intelligence for Civil and Environmental Engineering",
+          "level": "Undergraduate"
+        },
+        {
+          "title": "Engineering Information Processing",
+          "level": "Undergraduate"
+        }
+      ]
+    },
+    {
       "title": "Spring 2026",
       "__description": "Courses offered in the Spring 2026 semester.",
       "courses": [
         {
-          "title": "Data Science for Smart City Infrastructures", 
+          "title": "Data Science for Smart City Infrastructures",
           "code": "CEE5911-01-00",
           "time": "\nMon 6,7,8 (14:00 - 17:00)",
           "location": "Engineering A690"
@@ -23,7 +36,7 @@
       "__description": "Courses offered in the Fall 2025 semeste.",
       "courses": [
         {
-          "title": "Artificial Intelligence and Civil and Environment Engineering", 
+          "title": "Artificial Intelligence and Civil and Environment Engineering",
           "code": "CEE3605-01-00",
           "time": "\nMon 8,9 (16:00 - 18:00), Tue 1 (09:00 - 10:00)",
           "location": "Engineering A681"

@@ -31,6 +31,10 @@
     {
       "id": "album",
       "label": "Album"
+    },
+    {
+      "id": "join",
+      "label": "Join Us"
     }
   ]
 }
