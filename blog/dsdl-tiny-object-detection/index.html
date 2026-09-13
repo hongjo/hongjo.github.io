@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>[Paper Review] Catching What Slips Through the Net: DSDL for Tiny Object Detection | Smart Infrastructure Lab</title><meta name="description" content="Tiny Object Detection Using Distance-guided, Signed, and Densified Learning (DSDL) for Construction Site Safety Monitoring"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b243b'/%3E%3Cpath d='M7 24V8h5v16m4 0V14h4v10m4 0V5' fill='none' stroke='%23c2ed80' stroke-width='3'/%3E%3C/svg%3E"><link rel="stylesheet" href="/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="/"><span class="mark" aria-hidden="true">SI<span>⌁</span></span><span>Smart Infrastructure Lab<small>YONSEI UNIVERSITY</small></span></a><nav aria-label="Main navigation"><a href="/members/" >People</a><a href="/publications/" >Publications</a><a href="/projects/" >Projects</a><a href="/teaching/" >Teaching</a><a href="/blog/" >Blog</a><a href="/album/" >Album</a><a class="language" lang="ko" href="/ko/blog/dsdl-tiny-object-detection/">한국어</a></nav></header><main id="main"><div class="post-header"><a class="text-link" href="/blog/">← Blog</a><time>2026-03-30</time><h1>[Paper Review] Catching What Slips Through the Net: DSDL for Tiny Object Detection</h1><div class="post-subtitle"><p>Tiny Object Detection Using Distance-guided, Signed, and Densified Learning (DSDL) for Construction Site Safety Monitoring</p>
+</div></div><article class="prose post-body"><img src="/img/blog/260330_Seokhwan/graphical_abstract.jpg" alt="Overview of the DSDL framework for tiny object detection" class="img-medium">
+
+<h2>Catching What Slips Through the Net: Introducing DSDL for Tiny Object Detection</h2>
+<p>I am proud to introduce our research recently accepted in <strong>Automation in Construction</strong>: <strong>&quot;Tiny Object Detection Using Distance-guided, Signed, and Densified Learning (DSDL) for Construction Site Safety Monitoring&quot;</strong>.</p>
+<p>On construction sites, personal protective equipment (PPE) such as safety hooks and straps can mean the difference between life and death during work at height. However, these items are extremely small in surveillance footage -- often fewer than 16 x 16 pixels -- making them nearly invisible to conventional AI detection models. To solve this, we developed <strong>DSDL</strong>, a training-time enhancement that dramatically improves tiny object detection without modifying model architectures or sacrificing inference speed.</p>
+<hr>
+<h2>The Problem: Why AI Misses Tiny Safety Equipment</h2>
+<p>Most object detection benchmarks and models are designed around objects of moderate size. In the widely used MS COCO dataset, the mean object area exceeds 20,000 pixels squared. In contrast, safety hooks in our YKH construction dataset occupy an average of just 88 pixels squared -- over 200 times smaller.</p>
+<img src="/img/blog/260330_Seokhwan/fig01.png" alt="Mean object area comparison across datasets" class="img-medium">
+
+<p>This extreme size gap means that techniques optimized for general object detection systematically fail on the tiny objects that matter most for construction safety. We identified this as the <strong>&quot;Minnow Net Problem&quot;</strong> -- just as small fish slip through the wide meshes of a fishing net, tiny objects escape through the coarse structures of modern object detectors.</p>
+<hr>
+<h2>The Minnow Net Problem: Three Ways Tiny Objects Escape</h2>
+<img src="/img/blog/260330_Seokhwan/fig02.png" alt="Three limitations of conventional object detection for tiny objects" class="img-medium">
+
+<p>We found that tiny objects are lost through three interrelated mechanisms:</p>
+<ul>
+<li><strong>Spatial Nets:</strong> Anchor points in modern detectors are spaced 8, 16, or 32 pixels apart. When an object is smaller than this spacing, it may receive zero positive training samples -- the model literally never learns to detect it.</li>
+<li><strong>Range Nets:</strong> Distribution Focal Loss (DFL) bins are restricted to positive values (0 to 16). But when anchor points are assigned outside a tiny object&#39;s boundary via D-TAL, negative offsets are needed to point back toward the object edges. Positive-only bins clip this information, causing boundary prediction errors.</li>
+<li><strong>Quantization Nets:</strong> With only integer-spaced bins, the probabilistic distribution for tiny objects (whose boundaries fall between bins 0 and 1) collapses into a two-bin regression. The distributional advantage of DFL is completely lost.</li>
+</ul>
+<hr>
+<h2>Our Solution: Distance-guided, Signed, and Densified Learning (DSDL)</h2>
+<p>DSDL addresses each facet of the Minnow Net Problem through three complementary techniques that operate entirely at training time:</p>
+<ol>
+<li><strong>D-TAL</strong> (Distance-guided Task Alignment Learning) -- tightens the spatial net</li>
+<li><strong>S-DFL</strong> (Signed Distribution Focal Loss) -- extends the range net</li>
+<li><strong>D-DFL</strong> (Densified Distribution Focal Loss) -- refines the quantization net</li>
+</ol>
+<p>Crucially, DSDL requires <strong>no architectural modifications</strong>, preserves <strong>pretrained weights</strong>, and adds <strong>zero overhead at inference</strong>. It can be applied to any anchor-based one-stage detector that uses TAL and DFL.</p>
+<hr>
+<h2>Component 1: Distance-guided Task Alignment Learning (D-TAL)</h2>
+<img src="/img/blog/260330_Seokhwan/fig04_distanceTAL.png" alt="Comparison of conventional TAL and D-TAL label assignment strategies" class="img-medium">
+
+<p>Standard Task-Aligned Learning (TAL) assigns positive training samples only to anchor points that fall within a ground-truth bounding box. For tiny objects smaller than the anchor stride, this can result in zero or very few positive samples.</p>
+<p>D-TAL solves this by introducing a distance-based supplementary assignment. When an object is smaller than the anchor stride, D-TAL selects additional positive anchors based on L2 distance from the object center, then filters them using CIoU quality scores. This ensures every tiny object gets enough positive training signal.</p>
+<p>The impact is striking: in our experiments, very tiny objects went from an average of <strong>0.4 positive anchors to 3.8</strong>, and tiny objects from <strong>3.1 to 11.8</strong>.</p>
+<hr>
+<h2>Component 2: Signed Distribution Focal Loss (S-DFL)</h2>
+<img src="/img/blog/260330_Seokhwan/fig05_signedDFL.png" alt="Signed DFL extending distribution bins to negative values" class="img-medium">
+
+<p>With D-TAL assigning anchors outside tiny object boundaries, the predicted offsets to object edges can be negative. Standard DFL only supports bins from 0 to 16, forcing negative offsets to be clipped to zero. This destroys the boundary distribution information for tiny objects.</p>
+<p>S-DFL simply extends the bin range to include negative values -- for example, from {-2, -1, 0, 1, ..., 16}. This allows the model to represent the full probability distribution over boundary offsets, preserving the information that DFL was designed to capture. We mathematically showed through KL divergence analysis that this prevents the information loss caused by positive-only bin truncation.</p>
+<hr>
+<h2>Component 3: Densified Distribution Focal Loss (D-DFL)</h2>
+<img src="/img/blog/260330_Seokhwan/fig06.png" alt="Conventional DFL vs D-DFL quantization bins" class="img-medium">
+
+<p>Even with signed bins, standard DFL uses integer spacing (1.0 between bins). For tiny objects whose boundary offsets concentrate in the narrow range of [-2, 2], the probabilistic distribution collapses into just a few bins -- effectively reducing DFL to simple regression.</p>
+<p>D-DFL introduces <strong>non-uniform, densified bins</strong> in this critical range. Specifically, bins in [-2, 2] are spaced at 0.25 intervals, providing 4x finer resolution where it matters most. Beyond this range, standard integer spacing is maintained. This restores the sub-bin precision needed for accurate tiny object boundary prediction.</p>
+<hr>
+<h2>Experimental Results: Dramatic Improvements for Tiny Objects</h2>
+<p>We validated DSDL on two datasets with very different characteristics:</p>
+<img src="/img/blog/260330_Seokhwan/fig09_YKH_visual.png" alt="Detection results with and without DSDL on YKH construction dataset" class="img-medium">
+
+<p><strong>YKH Dataset (Construction Site Safety):</strong></p>
+<ul>
+<li>Overall mAP@50: <strong>+14.3 percentage points</strong> (YOLOv9c: 65.5% to 79.8%)</li>
+<li>Tiny objects: <strong>+48.6 percentage points</strong> improvement</li>
+<li>Very tiny objects: <strong>+13.1 percentage points</strong> improvement</li>
+<li>With P2 layer: <strong>85.9% mAP@50</strong> (+7.3%p over YOLOv9c-P2 baseline)</li>
+</ul>
+<p><strong>VisDrone Dataset (Aerial Imagery):</strong></p>
+<ul>
+<li>Overall mAP@50: <strong>+3.8 percentage points</strong> (YOLOv9c: 43.4% to 47.2%)</li>
+<li>Tiny objects: <strong>+21.4 percentage points</strong> improvement</li>
+<li>Very tiny objects: <strong>+16.7 percentage points</strong> improvement</li>
+</ul>
+<p><strong>Model-agnostic capability:</strong></p>
+<ul>
+<li>YOLOv8s with DSDL: <strong>+19.3%p</strong> on YKH, <strong>+13.1%p</strong> on VisDrone</li>
+</ul>
+<p><strong>No speed penalty:</strong> Inference time remained approximately 30-37ms, identical to baselines.</p>
+<img src="/img/blog/260330_Seokhwan/fig11_DSDLcomb.jpg" alt="Component-wise impact analysis of DSDL" class="img-medium">
+
+<p>The three components show strong synergy. While each addresses a distinct limitation, their combined effect far exceeds the sum of individual gains -- D-TAL provides more positive samples, S-DFL preserves their boundary distributions, and D-DFL sharpens the precision of those distributions.</p>
+<p>In comparative studies, our YOLOv9c-P2-DSDL outperformed state-of-the-art methods including SO-DETR (85.9% vs 84.4% on YKH), SOC-YOLO (64.8%), and FFCA-YOLO (75.7%).</p>
+<hr>
+<h2>Conclusion</h2>
+<p>DSDL demonstrates that the failure of modern detectors on tiny objects is not an inherent limitation of their architectures, but rather a consequence of training mechanisms that were never designed for extreme scale differences. By systematically addressing each facet of the Minnow Net Problem, DSDL achieves dramatic improvements in tiny object detection while remaining fully model-agnostic and inference-cost-free.</p>
+<p>For construction safety monitoring, this means AI systems can now reliably detect the small but critical PPE items -- hooks and straps -- that protect workers at height. We believe this work contributes a practical step toward safer construction sites.</p>
+<p>The source code is publicly available at <a href="https://github.com/yyksh97/DSDL">https://github.com/yyksh97/DSDL</a>.</p>
+<hr>
+<h2>About the Author</h2>
+<div class="author-card">
+    <img src="/img/member/student/김석환.jpg" alt="Seokhwan Kim" class="author-photo">
+    <div class="author-info">
+        <h4>Seokhwan Kim</h4>
+        <p class="author-affiliation">Integrated Ph.D Course, Dept. of Civil and Environmental Engineering, Yonsei University</p>
+        <p class="author-bio">
+            I research computer vision and object detection for construction safety monitoring. My work focuses on detecting tiny safety equipment such as hooks and straps that conventional AI models frequently miss. Through DSDL, I aim to make AI-based safety monitoring systems more reliable for the objects that matter most in preventing construction accidents. My broader research interests include PTZ camera-based PPE detection and Monte Carlo simulation-based optimization for infrastructure maintenance.
+        </p>
+        <div class="author-contact">
+            <a href="https://github.com/yyksh97" target="_blank"><i class="fab fa-github"></i> github.com/yyksh97</a>
+        </div>
+    </div>
+</div></article><div class="post-navigation"><a class="text-link" href="/blog/">← All stories</a><a href="/blog/rag-construction-retrieval-optimization/">Next story →<span>[Paper Review] Revolutionizing Minority Language Construction Document AI: RAGO-CONSTRUCT</span></a></div></main><footer><div><a class="footer-brand" href="/">Smart Infrastructure Lab</a><p>Room N504, Engineering Building No.1, Yonsei University, 50 Yonsei-ro, Seodaemun-gu, Seoul, South Korea<br>Email: hongjo@yonsei.ac.kr <br> Phone: 02-2123-7480</p></div><a href="#">Back to top ↑</a></footer></body></html>

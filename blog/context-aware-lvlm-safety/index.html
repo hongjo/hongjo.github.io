@@ -1,0 +1,130 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Generative AI for Construction Safety Assessment: Context-Aware Large Vision-Language Models | Smart Infrastructure Lab</title><meta name="description" content="Paper Review: Optimizing large vision-language models for context-aware construction safety assessment"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b243b'/%3E%3Cpath d='M7 24V8h5v16m4 0V14h4v10m4 0V5' fill='none' stroke='%23c2ed80' stroke-width='3'/%3E%3C/svg%3E"><link rel="stylesheet" href="/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="/"><span class="mark" aria-hidden="true">SI<span>⌁</span></span><span>Smart Infrastructure Lab<small>YONSEI UNIVERSITY</small></span></a><nav aria-label="Main navigation"><a href="/members/" >People</a><a href="/publications/" >Publications</a><a href="/projects/" >Projects</a><a href="/teaching/" >Teaching</a><a href="/blog/" >Blog</a><a href="/album/" >Album</a><a class="language" lang="ko" href="/ko/blog/context-aware-lvlm-safety/">한국어</a></nav></header><main id="main"><div class="post-header"><a class="text-link" href="/blog/">← Blog</a><time>2025-12-20</time><h1>Generative AI for Construction Safety Assessment: Context-Aware Large Vision-Language Models</h1><div class="post-subtitle"><p>Paper Review: Optimizing large vision-language models for context-aware construction safety assessment</p>
+</div></div><article class="prose post-body"><img src="/img/blog/251220_Taegeon/title.png" alt="Overview of the proposed LVLM-based construction safety assessment framework" class="img-medium">
+This article reviews the paper "Optimizing large vision-language models for context-aware construction safety assessment," published in Automation in Construction (Elsevier) in 2025, focusing on how the research addresses the limitations of existing AI-based safety monitoring systems through the application of generative AI and Large Vision-Language Models (LVLMs).
+
+<p>This study is notable for its approach to construction site safety assessment that goes beyond simple object detection to enable context-aware reasoning. While conventional computer vision models have been widely adopted for construction safety monitoring, they are typically constrained to detecting objects within predefined classes. This limitation makes it difficult to assess complex hazardous situations that require understanding spatial relationships and contextual information.</p>
+<p>In the construction industry, AI-based safety monitoring systems have been primarily used for tasks such as detecting Personal Protective Equipment (PPE) violations, monitoring worker-equipment proximity, and identifying restricted zone intrusions. However, real-world construction hazards often involve complex multi-step recognition processes that cannot be adequately addressed by simple object detection alone.</p>
+<p>This article reviews research that leverages Large Vision-Language Models to perform context-aware safety assessments, examining how the proposed approach differs from existing methods and what practical limitations it addresses in construction safety monitoring.</p>
+<hr>
+<h2>Limitations of Existing Construction Safety Monitoring Systems</h2>
+<p>Deep learning-based safety monitoring systems have made significant progress in construction site management. However, these systems face several fundamental limitations when deployed in real-world construction environments.</p>
+<p>First, most computer vision models are constrained to detecting objects within predefined classes. For example, a common safety rule specifies that construction materials carried by a forklift must remain below the driver&#39;s line of sight. To enforce this rule, a model must not only detect the forklift and materials but also compare the material height to the driver&#39;s line of sight. This multi-step recognition process is beyond the capability of conventional object detection models.</p>
+<p>Second, developing monitoring systems capable of executing such detailed recognition across various hazardous situations requires significant time and effort. Creating accurate models requires collecting, labeling, and preprocessing vast amounts of high-quality training data encompassing diverse objects and situations encountered on construction sites.</p>
+<p>Third, addressing the variability and unpredictability of construction site conditions, including changes in lighting, weather, and object occlusion, necessitates rigorous testing and optimization to ensure robust performance.</p>
+<hr>
+<h2>Large Vision-Language Models and Their Potential</h2>
+<p>Large Vision-Language Models (LVLMs) represent a promising solution to these challenges. Models such as CLIP, BLIP, PaLI, and LLaVA are pre-trained on extensive image-text pairs and excel in vision-language tasks like image captioning and visual question answering (VQA).</p>
+<p>LVLMs offer significant potential for construction safety monitoring due to their ability to recognize a broad range of objects in images and understand contextual relationships. Unlike conventional computer vision models that output only classification results, LVLMs can interpret and explain situations in natural language, making them particularly suitable for safety assessment tasks that require reasoning about complex scenarios.</p>
+<p>However, general-purpose LVLMs trained on datasets like COCO Captions, CC12M, and LAION primarily consist of general situations and lack specific contextual details relevant to construction sites. To develop an effective LVLM-based construction safety monitoring system, the model must understand the unique contexts of construction environments, which are not adequately represented in general pre-trained datasets.</p>
+<hr>
+<h2>Core Research Question</h2>
+<p>This paper starts from the following question:</p>
+<blockquote>
+<p>Can generative AI go beyond simply describing construction site images to contextually judge and explain the safety status of situations?</p>
+</blockquote>
+<p>To address this, the researchers propose a framework that combines domain-specific image-text data generation, vision encoder fine-tuning for improved object recognition, and Low-Rank Adaptation (LoRA)-based model adjustment for context-aware safety reasoning. This approach is designed to enhance both visual understanding and context-aware reasoning in safety-critical scenarios.</p>
+<hr>
+<h2>Method Overview</h2>
+<p>The proposed method consists of three main stages:</p>
+<ol>
+<li>Generating construction safety domain-specific instruction-following data</li>
+<li>Fine-tuning the vision encoder for improved recognition of construction-specific visual elements</li>
+<li>LoRA fine-tuning the LVLM for context-aware safety assessment</li>
+</ol>
+<p>This framework transforms a general-purpose LVLM into a specialized model capable of performing safety assessments with detailed explanations.</p>
+<hr>
+<!-- Figure 1 -->
+<img src="/img/blog/251220_Taegeon/Figure1.jpg" alt="Overview of the proposed LVLM-based construction safety assessment framework" class="img-medium">
+
+<hr>
+<h2>Step 1. Generating Instruction-Following Data</h2>
+<p>To train an LVLM for construction safety assessment, domain-specific image-text pair datasets are required. However, such datasets are extremely limited in practice. The source data for this research was obtained from &quot;The Open AI Dataset Project&quot; (AI-Hub, South Korea), which includes construction site images, polygon masks for construction objects, simple captions describing hazardous situations, and bounding boxes highlighting hazardous areas.</p>
+<p>The researchers designed specific prompts to instruct GPT-4V to generate outputs tailored to two specific tasks:</p>
+<ul>
+<li><p>Detailed descriptions of hazardous situations: The model is prompted to conduct thorough analysis, identifying and describing key elements such as scaffolding, machinery, workers, and safety equipment. The output goes beyond simple object recognition to deliver comprehensive, safety-oriented explanations.</p>
+</li>
+<li><p>Complex reasoning tasks addressing safety issues: The model generates safety-related questions based on the provided image and bounding boxes, then provides well-reasoned answers based on its analysis of the scene. This trains the model to think critically about safety conditions.</p>
+</li>
+</ul>
+<p>By incorporating image inputs directly, GPT-4V captures detailed visual information, enriching its outputs with construction safety-specific context. Few-shot examples are included in the prompts to help generate accurate, safety-focused descriptions and reasoning.</p>
+<img src="/img/blog/251220_Taegeon/Figure4.jpg" alt="Overview of the proposed LVLM-based construction safety assessment framework" class="img-medium">
+
+<hr>
+<h2>Step 2. Fine-tuning the Vision Encoder</h2>
+<p>The accuracy of safety assessment heavily depends on how precisely the model recognizes objects and their spatial arrangements in images. The vision encoder in LVLMs extracts high-level representations from images, but pre-trained encoders often struggle in specific domains due to differences in data distributions between source and target domains.</p>
+<p>To address this limitation, the researchers fine-tune the CLIP ViT-L-336px vision encoder used in LLaVA 1.5 through a dual-input approach. Both full images and sub-regions (cropped by bounding boxes identifying hazardous situations) are fed into the image encoder. This ensures that the model learns both global context from whole images and local details from cropped sub-regions.</p>
+<p>To prevent overfitting given the relatively small scale of the construction dataset, a selective fine-tuning strategy is employed. Among the 24 transformer layers in the CLIP model&#39;s vision encoder, only the higher layers (15-24) are fine-tuned, while the remaining lower layers (1-14) are frozen. Freezing the lower layers preserves the pre-trained model&#39;s ability to extract general visual features such as edges and textures, while fine-tuning the higher layers allows adaptation to construction-specific characteristics.</p>
+<img src="/img/blog/251220_Taegeon/Figure5.jpg" alt="Overview of the proposed LVLM-based construction safety assessment framework" class="img-medium">
+
+<hr>
+<h2>Step 3. LoRA Fine-tuning for Safety Assessment</h2>
+<p>After refining the vision encoder, the model is further optimized using Low-Rank Adaptation (LoRA). LoRA introduces trainable low-rank matrices into the attention layers, enabling efficient parameter updates while significantly reducing the number of trainable parameters. This allows the model to adapt to the construction safety domain without full retraining.</p>
+<p>The fine-tuning strategy selectively unfreezes layers 15-24 of the vision encoder along with the projection layer and the large language model. The projection layer converts the vision encoder&#39;s output into an embedding space compatible with the language model, ensuring that visual cues are effectively aligned with textual reasoning. The large language model then processes the integrated input to decode instructions and generate coherent, context-specific responses.</p>
+<p>Through this approach, the model becomes capable of:</p>
+<ul>
+<li>Classifying situations as &quot;Safe&quot; or &quot;Unsafe&quot;</li>
+<li>Providing detailed textual rationales supporting the classification</li>
+<li>Identifying specific hazards and explaining why they pose safety risks</li>
+</ul>
+<hr>
+<!-- Figure 6 -->
+<img src="/img/blog/251220_Taegeon/Figure6.jpg" alt="Overview of the proposed LVLM-based construction safety assessment framework" class="img-medium">
+
+<hr>
+<h2>Experimental Results Summary</h2>
+<p>The model was evaluated on 400 images covering 10 hazardous situations commonly found on construction sites, including ladder safety, scaffolding work, mobile crane operations, signalman placement, fire extinguisher deployment, and forklift operations. Each situation contained both safe and unsafe cases.</p>
+<p>For the image captioning task, the proposed model demonstrated superior performance:</p>
+<ul>
+<li>Average ROUGE-L: 0.3852 (vs. GPT-4V: 0.1898, LLaVA 1.5: 0.2183)</li>
+<li>Average SPICE: 0.3615 (vs. GPT-4V: 0.1740, LLaVA 1.5: 0.1364)</li>
+<li>Average SBERT-based similarity: 0.7484 (vs. GPT-4V: 0.6459, LLaVA 1.5: 0.5872)</li>
+</ul>
+<p>For safety assessment, the fine-tuned model achieved 94.25% accuracy in predicting safety status, significantly outperforming GPT-4V (53.25%) and LLaVA 1.5 (48%). The quality of textual justifications was assessed using both GPT-4V-based and expert-based evaluations, where the fine-tuned model consistently received the highest relevance and preference scores.</p>
+<p>A notable finding is that baseline models often misidentified safe situations as unsafe or failed to recognize critical safety elements. For example, when a signalman was present during dump truck operations, GPT-4V and LLaVA 1.5 sometimes incorrectly classified the situation as unsafe, failing to recognize the role of the signalman in ensuring safe operations.</p>
+<hr>
+<!-- Performance comparison graph -->
+<img src="/img/blog/251220_Taegeon/Figure11.jpg" alt="Overview of the proposed LVLM-based construction safety assessment framework" class="img-medium">
+
+<hr>
+<h2>Significance and Application Possibilities</h2>
+<p>The value of this research can be summarized as follows:</p>
+<ul>
+<li>Demonstrates the potential of LVLMs for context-aware construction safety assessment beyond simple object detection</li>
+<li>Addresses the knowledge gap in applying vision-language models to the construction domain</li>
+<li>Provides a framework for generating domain-specific training data to overcome data scarcity</li>
+<li>Offers a method that combines visual understanding with contextual reasoning for safety-critical applications</li>
+</ul>
+<p>The proposed model can be integrated into visual inspection workflows, image-based safety documentation, and automated safety reporting systems. By providing safety status classification, contextual explanations, and suggested corrective actions, the model can assist safety managers in interpreting site conditions and making informed decisions.</p>
+<hr>
+<h2>Limitations and Future Research Directions</h2>
+<p>The researchers acknowledge the following limitations:</p>
+<ul>
+<li>Object detection accuracy can affect safety assessment performance for some images</li>
+<li>All images were sourced from domestic locations within South Korea, and generalization to other regions requires validation</li>
+<li>The 10 hazard situations used do not cover all possible construction safety scenarios</li>
+<li>Reliance on image data may not fully capture the comprehensive context of construction sites</li>
+</ul>
+<p>Future research should investigate generalization performance under diverse environmental conditions, expansion to more hazard situations, and integration of additional data modalities such as video and audio to better capture the comprehensive environment of construction sites.</p>
+<hr>
+<h2>Conclusion</h2>
+<p>Construction site safety monitoring requires more than simple object detection. This research demonstrates that Large Vision-Language Models, when fine-tuned with domain-specific data and instructions, can perform context-aware hazard detection and interpretation.</p>
+<p>The proposed framework successfully combines vision-language modeling with domain-specific fine-tuning for end-to-end construction safety assessment. By supporting both detection and reasoning within a unified model, this approach offers a comprehensive method for improving the interpretability and effectiveness of safety assessments in construction site monitoring.</p>
+<hr>
+<h2>About the Author</h2>
+<div class="author-card">
+    <img src="/img/member/student/김태건.jpg" alt="Taegeon Kim" class="author-photo">
+    <div class="author-info">
+        <h4>Taegeon Kim</h4>
+        <p class="author-affiliation">Integrated MS/PhD Program, Dept. of Civil and Environmental Engineering, Yonsei University</p>
+        <p class="author-bio">
+            Researching construction AI and deep learning applications including CCTV-based object detection, domain adaptation, and automatic training data generation for construction sites. Interested in constraints of real-world site video data and data-centric learning methods to overcome them.<br><br>
+            Currently serving as CEO of ONTOH, a construction AI startup. ONTOH is developing an AI CCTV solution that combines <strong>Physical AI</strong> technology for recognizing and interpreting hazardous situations in construction site CCTV footage with <strong>generative AI</strong> technology for creating safety documents and reports using site video and management data. Additionally, developing systems for proactive health and safety management at construction sites through <strong>health DB construction</strong> and site-level <strong>health monitoring</strong> for vulnerable workers such as elderly workers and those with underlying conditions.
+        </p>
+        <div class="author-contact">
+            <a href="mailto:geon9655@gmail.com"><i class="fas fa-envelope"></i> geon9655@gmail.com</a>
+            <a href="tel:+82-10-6737-6598"><i class="fas fa-phone"></i> +82-10-6737-6598</a>
+            <a href="https://hongjo.github.io/" target="_blank"><i class="fas fa-globe"></i> hongjo.github.io</a>
+        </div>
+    </div>
+</div>
+</article><div class="post-navigation"><a class="text-link" href="/blog/">← All stories</a><a href="/blog/auto-training-data-generation/">Next story →<span>Automatic Training Data Generation for Construction Site AI Monitoring: Domain Adaptation Without Manual Labeling</span></a></div></main><footer><div><a class="footer-brand" href="/">Smart Infrastructure Lab</a><p>Room N504, Engineering Building No.1, Yonsei University, 50 Yonsei-ro, Seodaemun-gu, Seoul, South Korea<br>Email: hongjo@yonsei.ac.kr <br> Phone: 02-2123-7480</p></div><a href="#">Back to top ↑</a></footer></body></html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>[Paper Review] Revolutionizing Minority Language Construction Document AI: RAGO-CONSTRUCT | Smart Infrastructure Lab</title><meta name="description" content="Optimizing RAG for low-resource languages using Contrastive Sentence Generation (CSG) and Matryoshka Representation Learning (MRL)"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b243b'/%3E%3Cpath d='M7 24V8h5v16m4 0V14h4v10m4 0V5' fill='none' stroke='%23c2ed80' stroke-width='3'/%3E%3C/svg%3E"><link rel="stylesheet" href="/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="/"><span class="mark" aria-hidden="true">SI<span>⌁</span></span><span>Smart Infrastructure Lab<small>YONSEI UNIVERSITY</small></span></a><nav aria-label="Main navigation"><a href="/members/" >People</a><a href="/publications/" >Publications</a><a href="/projects/" >Projects</a><a href="/teaching/" >Teaching</a><a href="/blog/" >Blog</a><a href="/album/" >Album</a><a class="language" lang="ko" href="/ko/blog/rag-construction-retrieval-optimization/">한국어</a></nav></header><main id="main"><div class="post-header"><a class="text-link" href="/blog/">← Blog</a><time>2026-01-12</time><h1>[Paper Review] Revolutionizing Minority Language Construction Document AI: RAGO-CONSTRUCT</h1><div class="post-subtitle"><p>Optimizing RAG for low-resource languages using Contrastive Sentence Generation (CSG) and Matryoshka Representation Learning (MRL)</p>
+</div></div><article class="prose post-body"><h2>Making AI &quot;Understand&quot; Construction: Introducing RAGO-CONSTRUCT</h2>
+<p>I am proud to introduce my independent research recently published in <strong>Automation in Construction (2026)</strong>: <strong>&quot;Retrieval optimization for construction documents in low-resource languages using contrastive sentence generation and matryoshka representation learning&quot;</strong>.</p>
+<p>Construction engineering relies heavily on massive technical documents. However, general AI models often struggle to understand the specific terminology of the Korean construction industry. This often leads to <strong>&quot;hallucinations&quot;</strong>—where the AI gives confident but incorrect or misleading answers. To solve this, I developed <strong>RAGO-CONSTRUCT</strong>, a system designed to help AI find the right information and provide accurate answers to engineers.</p>
+<hr>
+<h2>The Big Picture: Our Research Framework</h2>
+<p>To understand how we improved AI&#39;s &quot;brain,&quot; let’s look at the overall framework of this research.</p>
+<img src="/img/blog/260112_Kichang/FrameWork_ver2.png" alt="RAGO-CONSTRUCT Framework" class="img-medium">
+
+<blockquote>
+<p><strong>This process involves three main phases:</strong></p>
+<ul>
+<li><strong>Dataset Generation</strong>: We collect official construction documents and use a local LLM to turn them into a specialized &quot;study guide&quot;.</li>
+<li><strong>Fine-Tuning</strong>: We put our embedding model (the part of the AI that reads and searches) through a &quot;boot camp&quot; using this guide.</li>
+<li><strong>RAG (The Final Exam)</strong>: This is the real-world application where an engineer asks a question, and the AI retrieves the exact document to provide a factual answer.</li>
+</ul>
+</blockquote>
+<hr>
+<h2>Step 1: Automatic Study Guides (CSG)</h2>
+<p>In specialized fields like construction, a single word can have many meanings. To help the AI learn these nuances, I proposed <strong>Contrastive Sentence Generation (CSG)</strong>.</p>
+<img src="/img/blog/260112_Kichang/Traning, Test dataset gen_ver2.png" alt="Dataset Generation Process" class="img-medium">
+
+<p>Instead of spending thousands of dollars for experts to manually write training questions, we used a local AI to automatically generate them from official standards:</p>
+<ul>
+<li><strong>Entailment (Positive)</strong>: A sentence that means the same thing as the original but uses different words.</li>
+<li><strong>Contradiction (Negative)</strong>: A sentence that looks similar but contains a factual error.</li>
+<li><strong>Neutral</strong>: A sentence that is related but doesn&#39;t confirm or deny the original fact.</li>
+</ul>
+<p>We named this unique dataset <strong>KorConNLI</strong>. By studying these pairs, the AI learns to distinguish between what is technically correct and what is factually wrong.</p>
+<hr>
+<h2>Step 2: The &quot;Nesting Doll&quot; Strategy (SBE)</h2>
+<p>Searching through long documents is hard for AI because specific details often get lost. To fix this, I introduced <strong>Sentence Block Embedding (SBE)</strong>, which works like a <strong>Matryoshka (Russian Nesting Doll)</strong>.</p>
+<img src="/img/blog/260112_Kichang/Matryoshka Retrieval.png" alt="Matryoshka Retrieval Process" class="img-medium">
+
+<p><strong>Here is how it works:</strong></p>
+<ol>
+<li><strong>Chop it up</strong>: We split a long text chunk into four smaller blocks (128 tokens each).</li>
+<li><strong>Compress</strong>: Using <strong>Matryoshka Representation Learning (MRL)</strong>, we organize the most important information into the very beginning of the data vector.</li>
+<li><strong>Concatenate</strong>: We take the &quot;best bits&quot; from each block and stitch them together into one efficient vector.</li>
+<li><strong>Pinpoint Search</strong>: This allows the AI to search with the precision of short sentences while still providing the full context of the page to the AI for the final answer.</li>
+</ol>
+<hr>
+<h2>Experimental Results: Outperforming Global Standards</h2>
+<p>Does this actually work better than standard AI? <strong>Yes.</strong> I tested RAGO-CONSTRUCT against some of the most powerful AI models available today.</p>
+<ul>
+<li><strong>Higher Accuracy</strong>: RAGO-CONSTRUCT achieved <strong>53.7%</strong> retrieval accuracy, outperforming <strong>OpenAI’s text-embedding-3-large (41.4%)</strong> by 12.3 percentage points.</li>
+<li><strong>Better Reasoning</strong>: Compared to traditional keyword searches (BM25), our system more than doubled the success rate.</li>
+<li><strong>Reliable Answers</strong>: On end-to-end tests, our method improved the overall quality of the AI&#39;s answers from 6.9% to <strong>53.5%</strong>.</li>
+</ul>
+<hr>
+<h2>Conclusion</h2>
+<p>This research provides a practical, low-cost way for the construction industry to adopt AI without needing massive computing power or manual data labeling. By using <strong>CSG</strong> and <strong>SBE</strong>, we ensure that when an engineer asks a question, the AI finds the right regulation and gives a safe, accurate answer.</p>
+<hr>
+<h2>About the Author</h2>
+<div class="author-card">
+    <img src="/img/member/student/최기창.jpg" alt="Kichang Choi" class="author-photo">
+    <div class="author-info">
+        <h4>Kichang Choi</h4>
+        <p class="author-affiliation">Dept. of Civil and Environmental Engineering, Yonsei University</p>
+        <p class="author-bio">
+            I research natural language processing (NLP) and information retrieval systems specifically tailored for the construction industry. My work focuses on overcoming the limitations of general-purpose AI models in technical domains and low-resource languages. Through RAGO-CONSTRUCT, I am dedicated to making complex engineering knowledge more accessible and reliable for professionals in the field.
+        </p>
+        <div class="author-contact">
+            <a href="mailto:amki1027@yonsei.ac.kr"><i class="fas fa-envelope"></i> amki1027@yonsei.ac.kr</a>
+            <a href="https://github.com/Choikichang" target="_blank"><i class="fab fa-github"></i> github.com/Choikichang</a>
+            <a href="https://choikichang.github.io/projects/" target="_blank"><i class="fas fa-external-link-alt"></i> Choikichang Webpage</a>
+        </div>
+    </div>
+</div></article><div class="post-navigation"><a class="text-link" href="/blog/">← All stories</a><a href="/blog/frequency-aware-crack-segmentation/">Next story →<span>Why Deep Learning Misses Thin Cracks (FACS-Net &amp; CT-Loss)</span></a></div></main><footer><div><a class="footer-brand" href="/">Smart Infrastructure Lab</a><p>Room N504, Engineering Building No.1, Yonsei University, 50 Yonsei-ro, Seodaemun-gu, Seoul, South Korea<br>Email: hongjo@yonsei.ac.kr <br> Phone: 02-2123-7480</p></div><a href="#">Back to top ↑</a></footer></body></html>

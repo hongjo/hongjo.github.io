@@ -1,0 +1,80 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Why Deep Learning Misses Thin Cracks (FACS-Net &amp; CT-Loss) | Smart Infrastructure Lab</title><meta name="description" content="Paper Review: Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b243b'/%3E%3Cpath d='M7 24V8h5v16m4 0V14h4v10m4 0V5' fill='none' stroke='%23c2ed80' stroke-width='3'/%3E%3C/svg%3E"><link rel="stylesheet" href="/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="/"><span class="mark" aria-hidden="true">SI<span>⌁</span></span><span>Smart Infrastructure Lab<small>YONSEI UNIVERSITY</small></span></a><nav aria-label="Main navigation"><a href="/members/" >People</a><a href="/publications/" >Publications</a><a href="/projects/" >Projects</a><a href="/teaching/" >Teaching</a><a href="/blog/" >Blog</a><a href="/album/" >Album</a><a class="language" lang="ko" href="/ko/blog/frequency-aware-crack-segmentation/">한국어</a></nav></header><main id="main"><div class="post-header"><a class="text-link" href="/blog/">← Blog</a><time>2025-12-22</time><h1>Why Deep Learning Misses Thin Cracks (FACS-Net &amp; CT-Loss)</h1><div class="post-subtitle"><p>Paper Review: Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks</p>
+</div></div><article class="prose post-body"><img src="/img/blog/251222_Siheon/title.png" alt="Overview of FACS-Net architecture" class="img-medium">
+
+<p>In this post, I would like to introduce the key findings of my paper, <strong>&quot;Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks,&quot;</strong> published in <strong>Automation in Construction (Elsevier)</strong>, 2026.</p>
+<p><strong>&quot;Cracks&quot;</strong> are among the most critical indicators when diagnosing the safety of construction sites. Detecting early-stage, fine cracks is particularly crucial, yet existing deep learning models have struggled significantly in addressing this challenge.</p>
+<p>I identified the root cause of this problem not in data scarcity, but in a structural characteristic of deep learning known as <strong>&quot;Spectral Bias.&quot;</strong> To overcome this, I proposed a new model architecture (<strong>FACS-Net</strong>) and a loss function (<strong>CT-Loss</strong>). Through this post, I will share how we solved this difficult problem.</p>
+<hr>
+<img src="/img/blog/251222_Siheon/Fig1.png" alt="Figure 1. Edge Ratio" class="img-medium">
+
+<hr>
+<h2>The Origin of the Problem: Why Deep Learning Cannot See Thin Cracks</h2>
+<p>During the research, the most puzzling observation was that while modern deep learning models are excellent at detecting thick, clear cracks, they become helpless when facing <strong>Thin Cracks</strong>.</p>
+<p>Analyzing this phenomenon revealed that the cause was <strong>Spectral Bias</strong>, an inherent tendency of deep neural networks.</p>
+<ul>
+<li><strong>Low-frequency:</strong> Areas that change smoothly, such as backgrounds or overall shapes. Deep learning models learn these very quickly and well.</li>
+<li><strong>High-frequency:</strong> Areas with rapid changes, such as thin cracks, edges, and fine textures. Deep learning models tend to ignore these or delay learning them.</li>
+</ul>
+<p>Especially as a crack becomes thinner, the proportion of <strong>Edges</strong> within the total crack pixels increases dramatically (see Fig. 1 in the paper). However, existing models lose this critical high-frequency information during the down-sampling process in the encoder. Consequently, the model treats fine cracks not as &quot;important signals&quot; but as &quot;background noise.&quot;</p>
+<hr>
+<img src="/img/blog/251222_Siheon/Fig2.png" alt="Figure 2. Overview of the proposed FACS-Net structure" class="img-medium">
+
+<hr>
+<h2>Solution 1: Frequency-Aware Model (FACS-Net)</h2>
+<p>My approach was simple: &quot;If the model hates seeing high-frequency components, <strong>force it to see them.</strong>&quot;
+To achieve this, I designed a new architecture called <strong>FACS-Net (Frequency-Aware Crack Segmentation Network)</strong>.</p>
+<p>The core innovation is the introduction of the <strong>FPCM (Frequency Preference Control Module)</strong> into the encoder-decoder structure. This module operates as follows:</p>
+<ol>
+<li><strong>Frequency Decomposition:</strong> It converts the image into the frequency domain (via FFT) to separate low-frequency and high-frequency components.</li>
+<li><strong>High-Frequency Emphasis:</strong> It applies weights to the high-frequency bands (crack details) that the model tends to miss, ensuring this information is passed to the decoder without loss.</li>
+<li><strong>Progressive Recovery:</strong> When upscaling the image from low to high resolution (Progressive Growing), it injects this frequency information at each stage to sharply restore blurred cracks.</li>
+</ol>
+<hr>
+<img src="/img/blog/251222_Siheon/Fig5.png" alt="Figure 5. Visualization of Loss Influence (BCE vs SEMEDA vs Soft-CTS)" class="img-medium">
+
+<hr>
+<h2>Solution 2: Topology-Preserving Loss Function (CT-Loss)</h2>
+<p>Even if the model finds the pixels, it is useless for structural diagnosis if the crack is detected as fragmented dots. In safety assessment, understanding the <strong>Topology</strong>—where a crack starts and how it connects—is essential.</p>
+<p>Existing loss functions (like BCE Loss) only check whether individual pixels are correct, leading to the problem where a model is judged as &quot;mostly correct&quot; even if the crack is disconnected.</p>
+<p>To solve this, I proposed <strong>CT-Loss (Crack Topology Loss)</strong>, which combines three components:</p>
+<img src="/img/blog/251222_Siheon/Eq17.png" alt="Crack Topology Loss" class="img-medium">
+
+<ol>
+<li><strong>BCE Loss:</strong> Ensures overall pixel-wise accuracy.</li>
+<li><strong>SEMEDA:</strong> Helps maintain sharp <strong>Edges</strong> of the cracks.</li>
+<li><strong>Soft-CTS:</strong> I transformed the CTS (Crack Topology Score) metric, which was previously non-differentiable and thus unusable for training, into a differentiable form (<strong>Soft-CTS</strong>). This teaches the model that &quot;a broken crack prediction is a wrong prediction.&quot;</li>
+</ol>
+<hr>
+<img src="/img/blog/251222_Siheon/Fig6.png" alt="Figure 6. Visual comparison of crack segmentation across varying crack widths" class="img-medium">
+
+<hr>
+<h2>Experimental Results: Overwhelming Improvement on Thin Cracks</h2>
+<p>Did this idea actually work?
+Experiments using the large-scale <strong>CrackVision12K</strong> dataset confirmed remarkable performance improvements, especially on <strong>extremely thin cracks (less than 2 pixels wide)</strong>.</p>
+<p>Compared to the existing SOTA model (Hybrid-Segmentor):</p>
+<ul>
+<li><strong>IoU (Intersection over Union):</strong> 0.160 → <strong>0.466</strong> (Approx. 3x improvement).</li>
+<li><strong>CTS (Topology Score):</strong> 0.585 → <strong>0.945</strong> (Detected smoothly without fragmentation).</li>
+</ul>
+<p>While other models recognized fine cracks as noise or detected them as dotted lines, <strong>FACS-Net</strong> successfully identified them as <strong>continuous solid lines</strong>.</p>
+<hr>
+<h2>Closing Remarks</h2>
+<p>This research goes beyond simply improving model performance; it is the result of deep contemplation on how to teach Deep Learning to handle <strong>&quot;High-Frequency Domains&quot;</strong> and <strong>&quot;Topological Connectivity,&quot;</strong> areas where it has structurally been weak.</p>
+<p>I hope that the methodology proposed through FACS-Net and CT-Loss will contribute to various computer vision studies dealing with <strong>Thin &amp; Continuous</strong> objects, such as power lines, blood vessels, and road networks, in addition to cracks.</p>
+<hr>
+<h2>About the Author</h2>
+<div class="author-card">
+    <img src="/img/member/student/주시헌.jpg" alt="Siheon Joo" class="author-photo">
+    <div class="author-info">
+        <h4>Siheon Joo</h4>
+        <p class="author-affiliation">M.S./Ph.D. Integrated Course, Smart Infrastructure Lab (SIL), Yonsei University</p>
+        <p class="author-bio">
+            I research computer vision and AI model architectures for construction infrastructure. I focus specifically on solving precision-demanding problems such as recovering high-frequency information often missed by deep learning, Super-Resolution, and Crack Segmentation. Through my research on FACS-Net, I am expanding my work into generation and analysis technologies that preserve the structural connectivity of thin and fine objects.
+        </p>
+        <div class="author-contact">
+            <a href="mailto:sh.joo@yonsei.ac.kr"><i class="fas fa-envelope"></i> sh.joo@yonsei.ac.kr</a>
+            <a href="tel:+82-10-8690-7661"><i class="fas fa-phone"></i> +82-10-8690-7661</a>
+            <a href="https://sh-joo.github.io/" target="_blank"><i class="fas fa-globe"></i> sh-joo.github.io</a>
+        </div>
+    </div>
+</div></article><div class="post-navigation"><a class="text-link" href="/blog/">← All stories</a><a href="/blog/context-aware-lvlm-safety/">Next story →<span>Generative AI for Construction Safety Assessment: Context-Aware Large Vision-Language Models</span></a></div></main><footer><div><a class="footer-brand" href="/">Smart Infrastructure Lab</a><p>Room N504, Engineering Building No.1, Yonsei University, 50 Yonsei-ro, Seodaemun-gu, Seoul, South Korea<br>Email: hongjo@yonsei.ac.kr <br> Phone: 02-2123-7480</p></div><a href="#">Back to top ↑</a></footer></body></html>
