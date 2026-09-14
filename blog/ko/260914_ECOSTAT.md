@@ -95,5 +95,3 @@ ECOSTAT의 실무적 가치는 “도입하세요”라는 단일 답보다, **�
 Jaehyon Park, Seungwon Baek, Taegeon Kim, Namgyun Kim, and Hongjo Kim (2026). *Scenario-Based Framework for Economic Evaluation of Safety Technology Adoption in Construction*. Journal of Management in Engineering, 42(6), 04026049. 온라인 게재: 2026년 8월 13일.
 
 [원 논문 보기](https://doi.org/10.1061/JMENEA.MEENG-7613) · [보충자료](https://doi.org/10.5281/zenodo.20576006)
-
-이 글은 산업계 종사자와 학부생을 위한 연구 해설입니다. 그림 두 개는 제공된 논문의 해당 도표를 발췌했으며, 논문 전체 PDF는 재게시하지 않았습니다.
