@@ -1,6 +1,14 @@
 {
     "posts": [
       {
+        "slug": "ramasc-ai-structural-calculation",
+        "title": "Can AI Check Structural Calculations? How RAMASC Retrieves, Calculates, and Reviews",
+        "subtitle": "Beyond a convincing answer: connecting design references, Python execution, and multiple AI reviewers for structural checks.",
+        "date": "2026-09-14",
+        "cover": "img/blog/260914_RAMASC/overview.webp",
+        "md": "blog/en/260914_RAMASC.md"
+      },
+      {
         "slug": "ecostat-safety-technology-investment",
         "title": "How Much Should a Site Invest in Safety Technology? Exploring Break-Even with ECOSTAT",
         "subtitle": "Beyond detection accuracy: how project scale, implementation costs, and accident-prevention effectiveness shape an investment decision.",

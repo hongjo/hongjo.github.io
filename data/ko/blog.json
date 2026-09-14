@@ -1,6 +1,14 @@
 {
     "posts": [
       {
+        "slug": "ramasc-ai-structural-calculation",
+        "title": "AI에게 구조계산을 맡길 수 있을까? 기준서를 찾고, 계산하고, 서로 검토하는 RAMASC",
+        "subtitle": "설계 변경 뒤 반복되는 계산 검토. 검색·Python 실행·여러 AI의 상호 검토를 연결하면 무엇이 달라질까요?",
+        "date": "2026-09-14",
+        "cover": "img/blog/260914_RAMASC/overview.webp",
+        "md": "blog/ko/260914_RAMASC.md"
+      },
+      {
         "slug": "ecostat-safety-technology-investment",
         "title": "안전기술, 얼마를 투자해야 할까? ECOSTAT으로 살펴보는 현장별 손익분기점",
         "subtitle": "AI 카메라와 스마트 안전장비, 성능만큼 중요한 투자 조건을 현장 규모와 사고 예방 효과로 풀어봅니다.",
