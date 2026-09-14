@@ -1,6 +1,14 @@
 {
     "posts": [
       {
+        "slug": "ecostat-safety-technology-investment",
+        "title": "How Much Should a Site Invest in Safety Technology? Exploring Break-Even with ECOSTAT",
+        "subtitle": "Beyond detection accuracy: how project scale, implementation costs, and accident-prevention effectiveness shape an investment decision.",
+        "date": "2026-09-14",
+        "cover": "img/blog/260914_ECOSTAT/feasibility.webp",
+        "md": "blog/en/260914_ECOSTAT.md"
+      },
+      {
         "slug": "dsdl-tiny-object-detection",
         "title": "[Paper Review] Catching What Slips Through the Net: DSDL for Tiny Object Detection",
         "subtitle": "Tiny Object Detection Using Distance-guided, Signed, and Densified Learning (DSDL) for Construction Site Safety Monitoring",

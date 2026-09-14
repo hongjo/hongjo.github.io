@@ -35,7 +35,7 @@ function save(l,p,title,body,description=''){
  let dest=path.join(out,url(l,p),'index.html');fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,html);routes.push({l,p});
 }
 function heading(l,p,subtitle=''){return `<div class="page-heading"><p class="eyebrow">SMART INFRASTRUCTURE LAB / ${p.toUpperCase()}</p><h1>${words[l][p]}</h1>${subtitle?`<p>${subtitle}</p>`:''}</div>`;}
-function blogCards(l,limit=6){return `<div class="blog-grid">${read(l,'blog').posts.slice(0,limit).map(p=>`<article class="blog-card"><a href="${url(l,'blog/'+p.slug)}">${photo(p.cover,plain(p.title))}<div class="blog-card-body"><time datetime="${p.date}">${p.date}</time><h3>${esc(p.title)}</h3><p>${esc(plain(p.subtitle))}</p><span class="read-link">${words[l].more} ↗</span></div></a></article>`).join('')}</div>`;}
+function blogCards(l,limit=Infinity){return `<div class="blog-grid">${read(l,'blog').posts.slice(0,limit).map(p=>`<article class="blog-card"><a href="${url(l,'blog/'+p.slug)}">${photo(p.cover,plain(p.title))}<div class="blog-card-body"><time datetime="${p.date}">${p.date}</time><h3>${esc(p.title)}</h3><p>${esc(plain(p.subtitle))}</p><span class="read-link">${words[l].more} ↗</span></div></a></article>`).join('')}</div>`;}
 const koMembers=read('ko','members'),enMembers=read('en','members');
 const studies=JSON.parse(fs.readFileSync('data/research.json','utf8'));
 const publications=read('ko','publications');

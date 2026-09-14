@@ -1,6 +1,14 @@
 {
     "posts": [
       {
+        "slug": "ecostat-safety-technology-investment",
+        "title": "안전기술, 얼마를 투자해야 할까? ECOSTAT으로 살펴보는 현장별 손익분기점",
+        "subtitle": "AI 카메라와 스마트 안전장비, 성능만큼 중요한 투자 조건을 현장 규모와 사고 예방 효과로 풀어봅니다.",
+        "date": "2026-09-14",
+        "cover": "img/blog/260914_ECOSTAT/feasibility.webp",
+        "md": "blog/ko/260914_ECOSTAT.md"
+      },
+      {
         "slug": "dsdl-tiny-object-detection",
         "title": "[논문 소개] 그물을 빠져나가는 작은 물고기: 건설 현장 초소형 객체 탐지를 위한 DSDL",
         "subtitle": "**논문 리뷰**: Tiny Object Detection Using Distance-guided, Signed, and Densified Learning (DSDL) for Construction Site Safety Monitoring<br/>**키워드**: 건설 현장 안전, 초소형 객체 탐지, PPE 모니터링, YOLO",
