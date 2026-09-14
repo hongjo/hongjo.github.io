@@ -1,0 +1,25 @@
+{
+  "title": "Our Vision",
+  "motto": "Dream Big. Aim for the Best. Build a Better World.",
+  "en": "We aspire to be a world-leading research group where ambitious people pursue bold ideas, grow into exceptional researchers and leaders, and shape the future of construction and infrastructure for a better world.",
+  "ko": "큰 꿈을 품고 세계 최고에 도전하며, 탁월한 연구자와 리더를 길러내어 건설과 인프라의 미래를 통해 더 나은 세상을 만든다.",
+  "peopleTitle": "The People We Seek",
+  "peopleMotto": "Aim High. Grow Together. Make It Matter.",
+  "values": [
+    {
+      "title": "Aim High.",
+      "ko": "현재에 안주하지 않고 더 나은 자신을 추구하며, 큰 꿈과 높은 목표를 향해 끊임없이 도전하는 사람.",
+      "en": "People who refuse to settle, strive to become better versions of themselves, and continually challenge themselves to pursue big dreams and ambitious goals."
+    },
+    {
+      "title": "Grow Together.",
+      "ko": "자신의 성장만이 아니라 주변 사람의 성장에도 기여하며, 서로를 이끌어 함께 더 높은 곳으로 나아가는 사람.",
+      "en": "People who contribute to the growth of those around them as well as their own, helping one another reach greater heights together."
+    },
+    {
+      "title": "Make It Matter.",
+      "ko": "개인의 성공을 넘어 자신의 지식과 역량을 사람과 사회를 위해 사용하고, 공동의 선과 더 나은 세상에 기여하고자 하는 사람.",
+      "en": "People who look beyond personal success, use their knowledge and abilities to serve people and society, and seek to contribute to the common good and a better world."
+    }
+  ]
+}
