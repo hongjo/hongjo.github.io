@@ -1,0 +1,75 @@
+[
+  {
+    "slug": "dsdl-tiny-object-detection",
+    "match": "Tiny object detection",
+    "image": "img/blog/260330_Seokhwan/graphical_abstract.jpg",
+    "code": "https://github.com/yyksh97/DSDL",
+    "topic": "vision",
+    "en": {
+      "title": "Seeing the smallest safety equipment",
+      "problem": "Tiny hooks and straps are easily missed in construction surveillance images.",
+      "idea": "DSDL improves training assignments and bounding-box regression for tiny objects.",
+      "use": "More reliable recognition of small PPE in construction safety monitoring."
+    },
+    "ko": {
+      "title": "작은 안전장비까지 인식하는 AI",
+      "problem": "건설 현장 영상에서 안전고리와 스트랩처럼 작은 장비는 탐지가 어렵습니다.",
+      "idea": "DSDL은 초소형 객체의 학습 표본 할당과 경계상자 회귀 방식을 개선합니다.",
+      "use": "현장 안전 모니터링에서 작은 개인보호구를 더 안정적으로 인식합니다."
+    }
+  },
+  {
+    "slug": "rag-construction-retrieval-optimization",
+    "match": "Retrieval optimization for construction documents",
+    "image": "img/blog/260112_Kichang/FrameWork_ver2.png",
+    "topic": "agents",
+    "en": {
+      "title": "Retrieval that understands construction documents",
+      "problem": "General-purpose retrieval can miss the meaning of specialized Korean construction documents.",
+      "idea": "Contrastive sentence generation and Matryoshka representations improve domain-specific retrieval.",
+      "use": "Better evidence retrieval for construction document question answering."
+    },
+    "ko": {
+      "title": "한국어 건설 문서를 이해하는 검색",
+      "problem": "일반적인 검색 모델은 한국어 건설 문서의 전문적인 의미를 놓칠 수 있습니다.",
+      "idea": "대조 문장 생성과 Matryoshka 표현 학습으로 도메인 특화 검색을 개선합니다.",
+      "use": "건설 문서 질의응답에 필요한 근거를 더 정확하게 찾습니다."
+    }
+  },
+  {
+    "slug": "frequency-aware-crack-segmentation",
+    "match": "Frequency-aware crack segmentation",
+    "image": "img/blog/251222_Siheon/Fig2.png",
+    "topic": "vision",
+    "en": {
+      "title": "Keeping thin cracks connected",
+      "problem": "Thin cracks are easily lost or disconnected in segmentation predictions.",
+      "idea": "FACS-Net and crack topology loss address frequency information and crack connectivity.",
+      "use": "More informative crack maps for infrastructure condition assessment."
+    },
+    "ko": {
+      "title": "얇은 균열의 연결성을 보존하다",
+      "problem": "균열 분할 과정에서 얇은 균열이 누락되거나 끊어지는 문제가 발생합니다.",
+      "idea": "FACS-Net과 균열 위상 손실로 주파수 정보와 균열의 연결성을 고려합니다.",
+      "use": "인프라 상태 평가에 필요한 균열 정보를 더 충실하게 제공합니다."
+    }
+  },
+  {
+    "slug": "context-aware-lvlm-safety",
+    "match": "Optimizing large vision-language models",
+    "image": "img/blog/251220_Taegeon/Figure1.jpg",
+    "topic": "agents",
+    "en": {
+      "title": "Understanding the context of construction safety",
+      "problem": "Safety assessment depends on the relationships between workers, equipment, and surroundings.",
+      "idea": "Large vision-language models are optimized for context-aware construction safety assessment.",
+      "use": "Interpreting complex safety conditions from construction images."
+    },
+    "ko": {
+      "title": "현장 맥락을 이해하는 안전 평가",
+      "problem": "안전 평가는 작업자, 장비, 주변 환경 사이의 관계를 함께 이해해야 합니다.",
+      "idea": "대규모 시각언어모델을 현장 맥락에 맞는 안전 평가에 적용합니다.",
+      "use": "건설 영상에 나타난 복합적인 안전 상황을 해석합니다."
+    }
+  }
+]

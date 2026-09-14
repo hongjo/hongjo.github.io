@@ -17,6 +17,13 @@
     "title": "최근 소식",
     "items": [
       {
+        "id": "fall-2026",
+        "date": "2026.09",
+        "title": "2026년 2학기 학부 강의",
+        "description": "인공지능과건설환경공학과 공학정보처리 학부 수업을 진행합니다.",
+        "link": "teaching"
+      },
+      {
         "date": "2026.03",
         "title": "학술 논문 게재",
         "description": "**Seokhwan Kim**, **Taegeon Kim**, **Kichang Choi**, **Siheon Joo**, **Hongjo Kim**의 **'Tiny object detection using Distance-guided, Signed, and Densified Learning (DSDL) for construction site safety monitoring'** 논문이 'Automation in Construction'에 게재되었습니다."

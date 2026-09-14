@@ -17,6 +17,13 @@
     "title": "News",
     "items": [
       {
+        "id": "fall-2026",
+        "date": "2026.09",
+        "title": "Fall 2026 undergraduate teaching",
+        "description": "Undergraduate courses: Artificial Intelligence for Civil and Environmental Engineering, and Engineering Information Processing.",
+        "link": "teaching"
+      },
+      {
         "date": "2026.03",
         "title": "Journal Paper Publication",
         "description": "**Seokhwan Kim**, **Taegeon Kim**, **Kichang Choi**, **Siheon Joo**, **Hongjo Kim**'s paper **'Tiny object detection using Distance-guided, Signed, and Densified Learning (DSDL) for construction site safety monitoring'** has been published in 'Automation in Construction'."

@@ -1,0 +1,16 @@
+{
+  "name": "smart-infrastructure-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "marked": "17.0.5",
+    "sharp": "0.35.4"
+  }
+}
