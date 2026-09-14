@@ -95,5 +95,3 @@ The question becomes: **“What effect would this technology need to achieve at 
 Jaehyon Park, Seungwon Baek, Taegeon Kim, Namgyun Kim, and Hongjo Kim (2026). *Scenario-Based Framework for Economic Evaluation of Safety Technology Adoption in Construction*. Journal of Management in Engineering, 42(6), 04026049. Published online August 13, 2026.
 
 [Read the paper](https://doi.org/10.1061/JMENEA.MEENG-7613) · [Supplemental materials](https://doi.org/10.5281/zenodo.20576006)
-
-This article explains the research for industry practitioners and undergraduate students. Two figures are excerpted from the supplied paper; the full publication PDF is not republished here.
