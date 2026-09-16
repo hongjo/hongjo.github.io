@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {prepareImages,optimizeHtml} from './images.mjs';
 import {marked} from 'marked';
+import {renderMemberProfile} from './member-profiles.mjs';
 const root=process.cwd(),out=path.join(root,'_site');
 fs.rmSync(out,{recursive:true,force:true});
 fs.mkdirSync(out,{recursive:true});
@@ -39,6 +40,7 @@ function blogCards(l,limit=Infinity){return `<div class="blog-grid">${read(l,'bl
 const koMembers=read('ko','members'),enMembers=read('en','members');
 const studies=JSON.parse(fs.readFileSync('data/research.json','utf8'));
 const publications=read('ko','publications');
+const memberAliases=JSON.parse(fs.readFileSync('data/member-author-aliases.json','utf8'));
 function paperFor(r){return publications.journal_papers.find(p=>p.title.toLowerCase().includes(r.match.toLowerCase()));}
 function resources(l,r){const p=paperFor(r);return `<div class="resource-links">${p?.doi?`<a href="https://doi.org/${esc(p.doi)}" target="_blank" rel="noopener noreferrer">${l==='ko'?'논문':'Paper'} ↗</a>`:''}${r.code?`<a href="${esc(r.code)}" target="_blank" rel="noopener noreferrer">Code ↗</a>`:''}<a href="${url(l,'blog/'+r.slug)}">${l==='ko'?'연구 해설':'Research story'} →</a></div>`;}
 function featured(l){return `<section class="section selected-research" id="selected-research"><div class="section-head"><p class="eyebrow">SELECTED RESEARCH</p><h2>${l==='ko'?'문제에서 시작해,<br>연구로 답합니다.':'From engineering problems<br>to research contributions.'}</h2><a class="text-link" href="${url(l,'publications')}">${l==='ko'?'전체 연구실적':'All publications'} ↗</a></div><div class="featured-grid">${studies.map(r=>`<article>${photo(r.image,r[l].title)}<div><p class="eyebrow">${esc(paperFor(r)?.journal||'RESEARCH')}</p><h3>${esc(r[l].title)}</h3><p>${esc(r[l].problem)}</p><p>${esc(r[l].idea)}</p>${resources(l,r)}</div></article>`).join('')}</div></section>`;}
@@ -77,7 +79,8 @@ for(const l of ['en','ko']){
  memberBody+=`<section class="section faculty-summary">${photo(prof.photo,prof.name,'faculty-photo')}<div><p class="eyebrow">LAB DIRECTOR</p><h2>${esc(prof.name)}</h2><p>${l==='ko'?'연세대학교 건설환경공학과 부교수':'Associate Professor, Civil and Environmental Engineering, Yonsei University'}</p><p>${l==='ko'?'컴퓨터 비전 · 물리 기반 AI · 인프라 점검 · 공학 에이전트':'Computer vision · Physics-informed AI · Infrastructure inspection · Engineering agents'}</p><a class="text-link" href="${url(l,'faculty')}">${l==='ko'?'경력 및 연구활동 전체 보기':'View full faculty profile'} ↗</a></div></section>`;
  read(l,'members').categories.forEach((c,i)=>{
  memberBody+=`<section class="section member-section"><div class="category-title"><h2>${esc(c.title)}</h2><span>${String(c.members.length).padStart(2,'0')}</span></div><div class="member-grid">`;
- for(const m of c.members){memberBody+=`<article class="member-card">${photo(m.photo,m.name,'member-photo')||`<div class="member-initial" aria-hidden="true">${esc(m.name.slice(0,2))}</div>`}<h3>${esc(m.name)}</h3><p class="member-role">${esc(m.role)}</p><div class="member-interests">${md(m.interests)}</div>${m.details?.length?`<details><summary>${w.profile}</summary><div class="prose">${profileMarkdown(m.details)}</div></details>`:''}</article>`;}
+ const isResearchCategory=!['행정 담당','Administrative Staff'].includes(c.title);
+ for(const m of c.members){memberBody+=`<article class="member-card">${photo(m.photo,m.name,'member-photo')||`<div class="member-initial" aria-hidden="true">${esc(m.name.slice(0,2))}</div>`}<h3>${esc(m.name)}</h3><p class="member-role">${esc(m.role)}</p><div class="member-interests">${md(m.interests)}</div>${isResearchCategory?`<details><summary>${w.profile}</summary><div class="prose">${renderMemberProfile(m,l,publications,memberAliases,{esc,md})}</div></details>`:''}</article>`;}
  memberBody+='</div></section>';
  });save(l,'members',w.members,memberBody);
  let pub=read('ko','publications'),pubBody=heading(l,'publications',l==='ko'?'저널 · 국제 및 국내 학술대회 · 특허':'Journals, conference proceedings, and patents.');

@@ -28,26 +28,7 @@
           "name": "김석환",
           "role": "석박통합과정",
           "photo": "img/member/student/김석환.jpg",
-          "interests": "연세대학교 건설환경공학",
-          "details": [
-            "## 저널 논문",
-            "**Seokhwan Kim**, Taegeon Kim, Minhyun Lee, Jonghwa Won, and Hongjo Kim* (2025) “Adaptive Water Waste Processing Strategy at Floating Barriers using Computer Vision, Route Finding, and Monte Carlo Simulation”, KSCE Journal of Civil Engineering (Accepted)",
-            "**Seokhwan Kim**, Taegeon Kim, and Hongjo Kim* (2024) “Monte Carlo Simulation-Based Cost Estimation for Floating Trash Barrier Maintenance” KSCE Journal of Civil and Environmental Engineering Research, 44(2), 231-235. https://doi.org/10.12652/Ksce.2024.44.2.0231",
-            "## 국제 학회 논문",
-            "**Seokhwan Kim**, Minwoo Jeong, Minkyu Koo, Taegeon Kim, and Hongjo Kim (2024)”Context-Adaptive CCTV Pan-Tilt-Zoom method for Personal Protective Equipment Detection” International Symposium on Automation and Robotics in Construction (ISARC 2024), Jun. 3–5, Lille, France, 768-775.",
-            "Taegeon Kim, **Seokhwan Kim**, Minkyu Koo, Minwoo Jeong, and Hongjo Kim (2024). “Large Multimodal Model for Context-aware Construction Safety Monitoring” International Conference on Construction Engineering and Project Management (ICCEPM 2024), Jul. 29–Aug. 1, Sapporo, Japan, 415-422.",
-            "Minwoo Jeong, Taegeon Kim, **Seokhwan Kim**, and Hongjo Kim (2024). “Retrieval-Augmented Generation-based Question Answering Technology for Construction Safety” International Conference on Construction Engineering and Project Management (ICCEPM 2024), Jul. 29–Aug. 1, Sapporo, Japan, 439-446.",
-            "Taegeon Kim, Giwon Shin, **Seokhwan Kim**, Vijayan K. Asari, and Hongjo Kim (2023). “Target Domain Training Data Generation by Moving Object Detection and Label Propagation” ASCE International Conference on Computing in Civil Engineering 2023, Jun. 25-28, Corvallis, Oregon.",
-            "Taegeon Kim, **Seokhwan Kim**, Namgyun Kim, and Hongjo Kim (2023). “ChatGPT in the Construction Domain: Opportunities, Risks, and Recommendations” Proceedings of the 5th International Conference on Civil and Building Engineering Informatics (ICCBEI 2023) Jul. 19-21, Bangkok, Thailand, 32-37.",
-            "Taegeon Kim, Giwon Shin, **Seokhwan Kim** and Hongjo Kim (2022) “Generating Pseudo Label of Object Detector for Construction Site Monitoring” The International Conference on Computing in Civil and Building Engineering (ICCCBE) Oct. 26-28, 2022, Cape Town, Republic of South Africa, 111-119.",
-            "**Seokhwan Kim**, Taegeon Kim, Jeongho Hyeon, Jonghwa Won, and Hongjo Kim (2022) “Comparing Object Detection Models for Water Trash Monitoring” The International Conference on Computing in Civil and Building Engineering (ICCCBE) Oct. 26-28, 2022, Cape Town, Republic of South Africa, 161-170.",
-            "## 국내 학회 논문",
-            "Park, Jaehyun, **Kim, Seokhwan** and Hongjo Kim (2024) “Application of Futures Hedging Strategies for Material Price Volatility in Construction Projects” Proceedings of Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea.",
-            "**Kim, Seokhwan**, Kim, Taegeon and Hongjo Kim (2023) “Optimization Strategies for the Maintenance of Floating Debris Barrier Using Computer Vision and Monte Carlo Simulation” Proceedings of 2023 Korean Society of Civil Engineers Conference, Oct. 18–20, Yeosu, South Korea. 380-381.",
-            "Kim, Taegeon, **Kim, Seokhwan** and Kim, Hongjo (2023) “Self-training Based Training Data Generation for Construction Object Detector” Proceedings of Korean Society of Civil Engineers Conference, Oct. 18–20, Yeosu, South Korea. 55-56.",
-            "## 국내 특허 출원",
-            "밀도 계산부를 이용한 비계 설치현장 탐지 및 추적 시스템 및 방법(10-2024-0069804)"
-          ]
+          "interests": "연세대학교 건설환경공학"
         },
         {
           "name": "최기창",
@@ -69,7 +50,7 @@
           "role": "석박사통합과정",
           "photo": "img/member/student/박현욱.jpg",
           "interests": "연세대학교 건설환경공학",
-          "details": [
+          "additionalPublications": [
             "저널 논문 \n문재상, 박현욱, 김진영. (2023). Digital Twin에 기반한 프리캐스트 콘크리트 공장 최적화 연구. 대한건축학회논문집, 39(5), 173-180."
           ]
         },
@@ -152,7 +133,7 @@
           "role": "박사과정",
           "photo": "",
           "interests": "신영증권"
-        }        
+        }
       ]
     },
     {
@@ -224,7 +205,7 @@
           "role": "석사",
           "photo": "img/member/student/신영아.jpg",
           "interests": "(주)온토",
-          "details": [
+          "additionalPublications": [
             "# 저널 논문\n\n- Choi, K., Jeong, M., **Shin, Y.**, Ma, J., Kim, K., & Kim, H. (2025). “Construct-Rag: Contrastive Sentence Training & Retrieval Using Chunk Block-Based Text for Rag”, *Available at SSRN* 5205959.\n",
             "# 학회 발표\n\n- **Shin, Y.**, Kim, H. “2024 Annual Academic Conference”, *Korea Institute of Construction Engineering and Management*, Jeju, Korea (November 2024) - Poster Presentation  \n- **Shin, Y.**, Choi, K., Kim, Y., Kim, H. “Creative Construction Conference (CCC 2025)”, *Zadar, Croatia* (June 2025) - Oral Presentation"
           ]
@@ -241,10 +222,7 @@
           "photo": "img/member/student/박재현.jpg",
           "interests": "안녕하세요. 24년도 1학기 석사과정으로 입학한 박재현입니다. ",
           "details": [
-            "저는 현재 건설현장에서 스마트 안전 장비 도입 시 발생할 수 있는 경제적 편익을 분석하는 연구를 수행하고 있습니다. 또한, 건설 자재(철근, 콘크리트) 비용의 변동성에 대응하기 위해 선물 및 선도 계약을 활용한 금융 헤지 전략에 대해서도 연구하고 있습니다.",
-            "저널논문 : ",
-            "국제 학회 논문 : ",
-            "국내 학회 논문 : <br> Park, Jaehyun, Kim, Seokhwan and Hongjo Kim (2024) “Application of Futures Hedging Strategies for Material Price Volatility in Construction Projects” Proceedings of   Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea."
+            "저는 현재 건설현장에서 스마트 안전 장비 도입 시 발생할 수 있는 경제적 편익을 분석하는 연구를 수행하고 있습니다. 또한, 건설 자재(철근, 콘크리트) 비용의 변동성에 대응하기 위해 선물 및 선도 계약을 활용한 금융 헤지 전략에 대해서도 연구하고 있습니다."
           ]
         },
         {
@@ -253,7 +231,9 @@
           "photo": "img/member/student/노정현.jpg",
           "interests": "육군사관학교 75기",
           "details": [
-            "안녕하십니까, 24년 1학기 석사과정으로 입학한 노정현입니다.",
+            "안녕하십니까, 24년 1학기 석사과정으로 입학한 노정현입니다."
+          ],
+          "additionalPublications": [
             "국내 학회 논문 : Jeonghyeon Noh and Hongjo kim (2024) 'A Study on Road Maintenance Cost Estimation and Optimization Using Smartphone-Based GPS Data' Proceedings of Korea Institute of Construction Engineering and Management Conference, Nov. 6–8, Jeju, South Korea."
           ]
         },
