@@ -47,6 +47,17 @@
   },
   "categories": [
     {
+      "title": "Administrative Staff",
+      "members": [
+        {
+          "name": "Yeojeong Go",
+          "role": "Lab Administrator",
+          "photo": "img/member/staff/yeojeong-go.jpg",
+          "interests": "Smart Infrastructure Lab, Yonsei University"
+        }
+      ]
+    },
+    {
       "title": "Graduate Students",
       "members": [
         {
