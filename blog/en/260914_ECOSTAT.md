@@ -95,3 +95,14 @@ The question becomes: **“What effect would this technology need to achieve at 
 Jaehyon Park, Seungwon Baek, Taegeon Kim, Namgyun Kim, and Hongjo Kim (2026). *Scenario-Based Framework for Economic Evaluation of Safety Technology Adoption in Construction*. Journal of Management in Engineering, 42(6), 04026049. Published online August 13, 2026.
 
 [Read the paper](https://doi.org/10.1061/JMENEA.MEENG-7613) · [Supplemental materials](https://doi.org/10.5281/zenodo.20576006)
+
+## About the Author
+
+<div class="author-card">
+  <img src="img/member/student/박재현.jpg" alt="Jaehyon Park" class="author-photo" loading="lazy">
+  <div class="author-info">
+    <h4>Jaehyon Park</h4>
+    <p class="author-affiliation">Master’s graduate, Smart Infrastructure Lab, Yonsei University</p>
+    <p class="author-bio">First author of the ECOSTAT paper. His research examines the economic benefits of smart safety technologies on construction sites and financial hedging strategies for construction material price volatility. ECOSTAT investigates how project conditions and accident-cost uncertainty affect the break-even requirements for safety technology investments.</p>
+  </div>
+</div>

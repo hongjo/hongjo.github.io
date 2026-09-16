@@ -107,7 +107,7 @@
           "name": "김다인",
           "role": "석사과정 (산학연계)",
           "photo": "img/member/student/김다인.jpg",
-          "interests": ""
+          "interests": "Department of Civil and Environmental Engineering, Yonsei University\n\nPost-Evaluation Center, Policy Research Department, Korea Institute of Civil Engineering and Building Technology (KICT)"
         },
         {
           "name": "손지원",
@@ -134,9 +134,18 @@
       "members": [
         {
           "name": "김준석",
-          "role": "박사과정",
-          "photo": "",
-          "interests": "HKA"
+          "role": "박사과정 (수료)",
+          "photo": "img/member/student/junseok-kim.jpeg",
+          "interests": "연세대학교 건설환경공학과\n\nHKA Associate Director (이사)",
+          "details": [
+            "## 소개",
+            "김준석은 연세대학교 Smart Infrastructure Lab 소속 박사과정 연구원이다. 현재 HKA 서울 오피스의 Construction, Claims & Expert Services 부문에서 Associate Director(이사)로 근무하고 있다. 이전에는 김앤장 법률사무소에서 Principal Consultant(Delay Lead), FTI Consulting에서 Senior Consultant로 근무했다. 주요 실무 분야는 공기연장(EOT) 클레임 및 건설분쟁·국제중재 관련 기술지원이다.",
+            "주요 연구 분야는 국제건설 프로젝트에서 공정기록과 증거자료가 시간·비용 클레임의 검토, 판단 및 종결 과정에 어떻게 활용되는지를 분석하는 것이다. 특히 결정·합의 문서를 근거로, 청구한 기간과 금액이 어느 범위까지 확정되었고 어떤 쟁점이 미결로 남았는지를 구분하는 클레임 거버넌스와 권리전환(entitlement conversion) 문제에 초점을 둔다.",
+            "## 관심 및 연구 분야",
+            "- 국제건설 클레임 거버넌스와 권리전환(Entitlement Conversion)\n- 공정기록·증거자료에 근거한 국제건설 클레임 의사결정",
+            "## 주요 전문자격 및 회원자격",
+            "- 토질 및 기초기술사 (대한민국)\n- 호주 공인 기술사 – Chartered Professional Engineer (CPEng)\n- 영국왕립평가사협회 공인 QS 전문가 – Chartered Quantity Surveyor (MRICS)\n- 영국공인중재인협회 정회원 – Member of the Chartered Institute of Arbitrators (MCIArb)\n- 뉴질랜드 공인 기술사 – Chartered Professional Engineer (CPEng)\n- 아일랜드 공인 기술사 – Chartered Engineer (CEng)\n- 국제기술사 – International Professional Engineer (IntPE)"
+          ]
         },
         {
           "name": "이바울",

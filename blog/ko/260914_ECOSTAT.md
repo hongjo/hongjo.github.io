@@ -95,3 +95,14 @@ ECOSTAT의 실무적 가치는 “도입하세요”라는 단일 답보다, **�
 Jaehyon Park, Seungwon Baek, Taegeon Kim, Namgyun Kim, and Hongjo Kim (2026). *Scenario-Based Framework for Economic Evaluation of Safety Technology Adoption in Construction*. Journal of Management in Engineering, 42(6), 04026049. 온라인 게재: 2026년 8월 13일.
 
 [원 논문 보기](https://doi.org/10.1061/JMENEA.MEENG-7613) · [보충자료](https://doi.org/10.5281/zenodo.20576006)
+
+## About the Author
+
+<div class="author-card">
+  <img src="img/member/student/박재현.jpg" alt="박재현" class="author-photo" loading="lazy">
+  <div class="author-info">
+    <h4>박재현 · Jaehyon Park</h4>
+    <p class="author-affiliation">연세대학교 Smart Infrastructure Lab 석사 졸업</p>
+    <p class="author-bio">ECOSTAT 논문의 제1저자이다. 건설현장의 스마트 안전기술 도입에 따른 경제적 편익과 건설 자재 가격 변동에 대응하는 금융 헤지 전략을 연구했다. ECOSTAT에서는 현장 조건과 사고비용의 불확실성이 안전기술 투자의 손익분기 조건에 미치는 영향을 분석했다.</p>
+  </div>
+</div>

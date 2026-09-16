@@ -132,7 +132,7 @@
           "name": "Dain Kim",
           "role": "Master’s student · Industry partnership",
           "photo": "img/member/student/김다인.jpg",
-          "interests": ""
+          "interests": "Department of Civil and Environmental Engineering, Yonsei University\n\nPost-Evaluation Center, Policy Research Department, Korea Institute of Civil Engineering and Building Technology (KICT)"
         },
         {
           "name": "Jiwon Son",
@@ -158,10 +158,19 @@
       "title": "Part-time Graduate Students",
       "members": [
         {
-          "name": "Junseok Kim",
-          "role": "Ph.D. student",
-          "photo": "",
-          "interests": "HKA"
+          "name": "Junseok (Junna) Kim",
+          "role": "Ph.D. Candidate",
+          "photo": "img/member/student/junseok-kim.jpeg",
+          "interests": "Civil and Environmental Engineering, Yonsei University\n\nAssociate Director, HKA",
+          "details": [
+            "## Biography",
+            "Junseok (Junna) Kim is a doctoral researcher at Yonsei University’s Smart Infrastructure Lab. He currently works as an Associate Director in the Construction, Claims & Expert Services practice at HKA’s Seoul office. Previously, he served as Principal Consultant (Delay Lead) at Kim & Chang Law Firm and as Senior Consultant at FTI Consulting. His professional work focuses on extension-of-time (EOT) claims and technical support for construction disputes and international arbitration.",
+            "His research examines how contemporaneous records and supporting evidence shape the review and closure of time and cost claims in international construction projects. Focusing on claim governance and entitlement conversion, he investigates what claim determinations and settlements actually resolve—and what they leave open—with respect to claimed extensions of time and monetary amounts.",
+            "## Research Interests",
+            "- Claim governance and entitlement conversion in international construction — what time and cost claims settle, and what they leave open\n- Evidence-based claim decisions in international construction",
+            "## Professional Qualifications and Memberships",
+            "- Professional Engineer in Soil Mechanics and Foundation Engineering, South Korea\n- Chartered Professional Engineer (CPEng), Australia\n- Chartered Quantity Surveyor (MRICS), United Kingdom\n- Member of the Chartered Institute of Arbitrators (MCIArb), United Kingdom\n- Chartered Professional Engineer (CPEng), New Zealand\n- Chartered Engineer (CEng), Ireland\n- International Professional Engineer (IntPE)"
+          ]
         },
         {
           "name": "Bawool Lee",
