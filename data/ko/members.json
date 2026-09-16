@@ -22,17 +22,6 @@
   },
   "categories": [
     {
-      "title": "행정 담당",
-      "members": [
-        {
-          "name": "고여정",
-          "role": "연구실 행정 담당",
-          "photo": "img/member/staff/yeojeong-go.jpg",
-          "interests": "연세대학교 Smart Infrastructure Lab"
-        }
-      ]
-    },
-    {
       "title": "풀타임 연구원",
       "members": [
         {
@@ -174,6 +163,17 @@
           "role": "학부연구생",
           "photo": "img/member/student/정원영.jpg",
           "interests": "인턴 연구원 \n안녕하세요, 학부연구생 정원영입니다"
+        }
+      ]
+    },
+    {
+      "title": "행정 담당",
+      "members": [
+        {
+          "name": "고여정",
+          "role": "연구실 행정 담당",
+          "photo": "img/member/staff/yeojeong-go.jpg",
+          "interests": "연세대학교 Smart Infrastructure Lab"
         }
       ]
     },
