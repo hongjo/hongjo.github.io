@@ -1612,7 +1612,8 @@
       "title": "LMM에 기반한 PTZ 카메라 자동 제어방법 및 제어시스템",
       "country": "대한민국",
       "patent_type": "특허 등록",
-      "patent_number": "10-2025-0085657"
+      "patent_number": "10-2025-0085657",
+      "url": "https://patents.google.com/patent/KR102958665B1/ko"
     },
     {
       "inventors": ["김홍조", "김태건", "이종윤", "강병찬"],
@@ -1620,7 +1621,8 @@
       "title": "영상 분석을 통해 위험 판별 및 규정 조치 안내가 수행되는 생성형 AI 기반 건설현장 안전관리 방법 및 안전관리 시스템",
       "country": "대한민국",
       "patent_type": "특허 등록",
-      "patent_number": "10-2875205"
+      "patent_number": "10-2875205",
+      "url": "https://patents.google.com/patent/KR102875205B1/ko"
     },
     {
       "inventors": ["김홍조", "김태건"],
@@ -1628,7 +1630,8 @@
       "title": "건설객체 데이터셋의 의미적 분할 모델의 학습을 위한 자기 지도학습 기반의 고품질 의사 라벨 생성시스템 및 생성방법",
       "country": "대한민국",
       "patent_type": "특허 등록",
-      "patent_number": "10-2587288"
+      "patent_number": "10-2587288",
+      "url": "https://patents.google.com/patent/KR102587288B1/ko"
     },
     {
       "inventors": ["김홍조"],
@@ -1636,7 +1639,8 @@
       "title": "작업자 고소작업 및 안전상태 평가 시스템 및 평가 방법",
       "country": "대한민국",
       "patent_type": "특허 등록",
-      "patent_number": "10-2923172"
+      "patent_number": "10-2923172",
+      "url": "https://patents.google.com/patent/KR102923172B1/ko"
     },
     {
       "inventors": ["김홍조", "홍예지", "김형관"],
@@ -1644,7 +1648,8 @@
       "title": "자기 지도학습과 복사-붙이기 데이터 증강을 이용한 건설객체 분할모델 일반화방법 및 일반화시스템",
       "country": "대한민국",
       "patent_type": "특허 등록",
-      "patent_number": "10-2769591"
+      "patent_number": "10-2769591",
+      "url": "https://patents.google.com/patent/KR102769591B1/ko"
     },
     {
       "inventors": ["김홍조", "김태건"],
@@ -1652,7 +1657,8 @@
       "title": "자기학습 기반 대상 도메인 특화 학습데이터 생성시스템 및 생성방법",
       "country": "대한민국",
       "patent_type": "특허 출원",
-      "patent_number": "10-2024-0128651"
+      "patent_number": "10-2024-0128651",
+      "url": "https://patents.google.com/patent/KR20250052281A/ko"
     },
     {
       "inventors": ["김형관", "엄미영", "김홍조", "신기원"],
@@ -1676,7 +1682,8 @@
       "title": "영상 내 건설 작업자의 안전 상태를 모니터링하는 장치 및 이의 동작 방법",
       "country": "대한민국",
       "patent_type": "특허 등록",
-      "patent_number": "10-2994778"
+      "patent_number": "10-2994778",
+      "url": "https://patents.google.com/patent/KR20230099225A/ko"
     },
     {
       "inventors": ["김형관", "김홍조"],
@@ -1684,7 +1691,8 @@
       "title": "Situational Recognition System for Construction Site based Vision and Method, and Method for Productivity Analysis of Earthwork using It",
       "country": "대한민국",
       "patent_type": "특허 등록",
-      "patent_number": "10-2042629"
+      "patent_number": "10-2042629",
+      "url": "https://patents.google.com/patent/KR102042629B1/ko"
     },
     {
       "inventors": ["김형관", "김홍조"],
@@ -1692,7 +1700,8 @@
       "title": "2D Image Data Generation System Using of 3D Model, and Thereof Method",
       "country": "대한민국",
       "patent_type": "특허 등록",
-      "patent_number": "10-1964282"
+      "patent_number": "10-1964282",
+      "url": "https://patents.google.com/patent/KR101964282B1/ko"
     },
     {
       "inventors": ["김형관", "김홍조"],
@@ -1700,7 +1709,8 @@
       "title": "Estimation System and Method of Slope Stability Using 3D Model and Soil Classification",
       "country": "대한민국",
       "patent_type": "특허 등록",
-      "patent_number": "10-1787542"
+      "patent_number": "10-1787542",
+      "url": "https://patents.google.com/patent/KR101787542B1/ko"
     },
     {
       "inventors": ["김형관", "김기남", "김홍조"],
@@ -1708,7 +1718,8 @@
       "title": "Visualization of Safety Assessment System in Construction Site Using Wearable Device",
       "country": "대한민국",
       "patent_type": "특허 등록",
-      "patent_number": "10-1715001"
+      "patent_number": "10-1715001",
+      "url": "https://patents.google.com/patent/KR101715001B1/ko"
     },
     {
       "inventors": ["김형관", "정호영", "김홍조"],
@@ -1716,7 +1727,8 @@
       "title": "Generation Method and System of Climate Change Impact Assessment Information for Infrastructure Based Fuzzy Inference",
       "country": "대한민국",
       "patent_type": "특허 등록",
-      "patent_number": "10-1794800"
+      "patent_number": "10-1794800",
+      "url": "https://patents.google.com/patent/KR101794800B1/ko"
     },
     {
       "inventors": ["김형관", "김홍조", "김기남", "정호영"],
@@ -1724,7 +1736,8 @@
       "title": "System for Assessment of Safety Level at Construction Site Based on Computer Vision",
       "country": "대한민국",
       "patent_type": "특허 등록",
-      "patent_number": "10-1674266"
+      "patent_number": "10-1674266",
+      "url": "https://patents.google.com/patent/KR101674266B1/ko"
     },
     {
       "inventors": ["김형관", "김홍조", "김기남"],
@@ -1732,7 +1745,8 @@
       "title": "Interactive Progress Monitoring System Using Mobile Terminal and User Interface of the Mobile Terminal",
       "country": "대한민국",
       "patent_type": "특허 출원",
-      "patent_number": "10-2014-0181719"
+      "patent_number": "10-2014-0181719",
+      "url": "https://patents.google.com/patent/KR20160073491A/ko"
     }
   ]
   
