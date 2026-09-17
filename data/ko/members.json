@@ -28,7 +28,7 @@
           "name": "김석환",
           "role": "석박통합과정",
           "photo": "img/member/student/김석환.jpg",
-          "interests": "연세대학교 건설환경공학\n\n(주)온토 Co-founder"
+          "interests": "연세대학교 건설환경공학"
         },
         {
           "name": "최기창",
@@ -210,13 +210,13 @@
           "name": "김태건",
           "role": "박사",
           "photo": "img/member/student/김태건.jpg",
-          "interests": "(주)온토 Founder"
+          "interests": "(주)온토"
         },
         {
           "name": "신영아",
           "role": "석사",
           "photo": "img/member/student/신영아.jpg",
-          "interests": "(주)온토 Co-founder",
+          "interests": "(주)온토",
           "additionalPublications": [
             "# 저널 논문\n\n- Choi, K., Jeong, M., **Shin, Y.**, Ma, J., Kim, K., & Kim, H. (2025). “Construct-Rag: Contrastive Sentence Training & Retrieval Using Chunk Block-Based Text for Rag”, *Available at SSRN* 5205959.\n",
             "# 학회 발표\n\n- **Shin, Y.**, Kim, H. “2024 Annual Academic Conference”, *Korea Institute of Construction Engineering and Management*, Jeju, Korea (November 2024) - Poster Presentation  \n- **Shin, Y.**, Choi, K., Kim, Y., Kim, H. “Creative Construction Conference (CCC 2025)”, *Zadar, Croatia* (June 2025) - Oral Presentation"
@@ -232,7 +232,7 @@
           "name": "박재현",
           "role": "석사",
           "photo": "img/member/student/박재현.jpg",
-          "interests": "유신 코퍼레이션",
+          "interests": "안녕하세요. 24년도 1학기 석사과정으로 입학한 박재현입니다. ",
           "details": [
             "저는 현재 건설현장에서 스마트 안전 장비 도입 시 발생할 수 있는 경제적 편익을 분석하는 연구를 수행하고 있습니다. 또한, 건설 자재(철근, 콘크리트) 비용의 변동성에 대응하기 위해 선물 및 선도 계약을 활용한 금융 헤지 전략에 대해서도 연구하고 있습니다."
           ]
@@ -256,11 +256,7 @@
           "interests": "금호건설<br>AI 개발 및 디지털 전환",
           "softwareCopyrights": [
             {
-              "authors": [
-                "Minkyu Koo",
-                "Hongjo Kim",
-                "Taegeon Kim"
-              ],
+              "authors": ["Minkyu Koo", "Hongjo Kim", "Taegeon Kim"],
               "year": 2024,
               "title": "건설 현장 작업자 안전 관리를 위한 약한 지도 및 자가 지도 학습 프로그램",
               "registration_number": "C-2024-044829",
@@ -277,11 +273,8 @@
         {
           "name": "백승원 박사",
           "role": "연구교수",
-          "photo": "img/member/student/seungwon-baek.jpg",
-          "interests": "경상국립대학교 토목공학과 조교수",
-          "details": [
-            "**공동지도**: 한승헌 교수님"
-          ]
+          "photo": "",
+          "interests": "**연구 분야** <br> <br><br>**공동지도** <br>한승헌 교수님"
         },
         {
           "name": "Wei chih Chern",
@@ -305,10 +298,7 @@
           "name": "박성재",
           "role": "석사",
           "photo": "",
-          "interests": "Project Manager, 피델리티솔루션(주)",
-          "details": [
-            "**석사 학위 논문** <br> Effectiveness of Experiential Safety Training in Physical Facility Compared with VR-based Safety Training (2023)"
-          ]
+          "interests": "**석사 학위 논문** <br> Effectiveness of Experiential Safety Training in Physical Facility Compared with VR-based Safety Training (2023) <br><br>한화 E&C(2023년 1월 18일 기준)"
         },
         {
           "name": "김진영",
@@ -327,15 +317,6 @@
           "role": "연구교수",
           "photo": "",
           "interests": "**논문** <br> Automated Detection of Concrete Quality in 3D Construction Printing Using Machine Learning (2024) <br><br>연세대학교 건축공학과 연구교수(2024년 기준)"
-        },
-        {
-          "name": "Ishan Ghutake",
-          "role": "University of Dayton · 2021년 졸업",
-          "photo": "",
-          "interests": "Inference Support Engineer, TogetherAI",
-          "details": [
-            "[LinkedIn](https://www.linkedin.com/in/ishan1g) · [GitHub](https://github.com/ighutake-debug)"
-          ]
         }
       ]
     }
