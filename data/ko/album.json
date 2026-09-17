@@ -2,6 +2,17 @@
 {
   "albums": [
     {
+      "title": "2026년 8월 졸업식",
+      "description": "2026년 8월 · 박사 김태건, 석사 신영아·박준희",
+      "images": [
+        {
+          "src": "img/album/202608/graduation.jpg",
+          "caption": "김태건 박사, 신영아 석사, 박준희 석사의 졸업을 축하합니다! 함께한 연구의 시간을 발판 삼아 새로운 곳에서도 뜻깊은 성장을 이어가길 응원합니다.",
+          "fullSize": "img/album/202608/graduation.jpg"
+        }
+      ]
+    },
+    {
       "title": "2025 연구실 단풍 워크샵",
       "description": "2025 11 04",
       "images": [

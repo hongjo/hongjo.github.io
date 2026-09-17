@@ -2,6 +2,17 @@
 {
   "albums": [
     {
+      "title": "August 2026 Graduation",
+      "description": "August 2026 · Ph.D.: Taegeon Kim · M.S.: Younga Shin and Junhee Park",
+      "images": [
+        {
+          "src": "img/album/202608/graduation.jpg",
+          "caption": "Congratulations to Taegeon Kim (Ph.D.), Younga Shin (M.S.), and Junhee Park (M.S.) on their graduation! Wishing them continued growth and success as they begin their next chapter.",
+          "fullSize": "img/album/202608/graduation.jpg"
+        }
+      ]
+    },
+    {
       "title": "2025 autumn workshop",
       "description": "2025 11 04",
       "images": [
