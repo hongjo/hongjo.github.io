@@ -154,10 +154,22 @@
           ]
         },
         {
-          "name": "Bawool Lee",
-          "role": "Ph.D. student",
-          "photo": "",
-          "interests": "Shinyoung Securities"
+          "name": "Baul Lee",
+          "role": "Ph.D. Candidate",
+          "photo": "img/member/student/baul-lee.jpeg",
+          "interests": "Manager, Shinyoung Securities",
+          "details": [
+            "### Biography",
+            "Baul (Paul) Lee is a doctoral researcher at Yonsei University’s Smart Infrastructure Lab. He began his career at the Korea Rural Community Corporation as a Project Manager, working on the development and maintenance of water infrastructure projects. He then joined the Korea Research Institute for Construction Policy, where he conducted research on smart technology applications, construction policy, and specialized contractor policies. Later, he served as a Consultant and Researcher at Savills (Seoul office), focusing on real estate development consulting and market research. Currently, he works at Shinyoung Securities, specializing in real estate development and investment for Family Office and High Net Worth individuals.",
+            "### Research Interests",
+            "- Construction industry policy\n- Applications of smart technology to construction sites and industries\n- Economic feasibility analysis of development projects"
+          ],
+          "additionalPublications": [
+            "#### Journal articles",
+            "1. Lee, B., & Park, S. K. (2022). A Study on the Competitiveness for the Diffusion of Smart Technology of Construction Industry in the Era of 4th Industrial Revolution. Sustainability, 14(14), 8348.\n2. Cho, J., & Lee, B. (2022). A Study of the Demands for Improvements in Specialty Construction Technology. Korean Journal of Construction Engineering and Management, 23(2), 24-32.\n3. Lee, B, et al. (2018) International PMC Project Competency Enhancement Strategies for Domestic Engineering Companies. Journal of the Korean Society of Civil Engineers, 38(1), 121-132.\n4. Jang, W., Lee, B., Kim, Y., & Han, S. H. (2017). Analysis of Perception Difference between Domestic and International Engineering Firms -Focusing on the Competitiveness of International PMC Market-. Korean Journal of Construction Engineering and Management, 18(6), 3–12. \n5. Jung, W., Lee, B., & Han, S. (2017). A Performance Analysis of Risk Management for International Engineering Project. Korean Journal of Construction Engineering and Management, 18(2), 99-107.\n6. Jung, W., Lee, B., & Han, S. (2017). A Performance Analysis of Risk Management for International Construction Project Conducted by Small & Medium Subcontractors. Korean Journal of Construction Engineering and Management, 18(2), 71-80.",
+            "#### Conference papers",
+            "1. Lee, B., & Park, S. K. (2022). What are the Risks of using Smart Technology in the Construction Phase?. In International conference on construction engineering and project management (pp. 103-110). Korea Institute of Construction Engineering and Management.\n2. Lee, B., Won, J. W., & Han, S. (2016). A study on Risk uncertainty Analysis for Small and Medium sized construction Firms. KSCE 2016 Convention, 77-78."
+          ]
         }
       ]
     },

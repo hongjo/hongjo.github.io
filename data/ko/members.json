@@ -131,8 +131,20 @@
         {
           "name": "이바울",
           "role": "박사과정",
-          "photo": "",
-          "interests": "신영증권"
+          "photo": "img/member/student/baul-lee.jpeg",
+          "interests": "신영증권 매니저",
+          "details": [
+            "### 소개",
+            "이바울 연구원은 연세대학교 Smart Infrastructure Lab의 박사과정 연구원입니다. 한국농어촌공사에서 프로젝트 매니저로 경력을 시작해 수자원 인프라의 개발 및 유지관리 사업을 수행했습니다. 이후 대한건설정책연구원에서 스마트 기술 적용, 건설산업 정책 및 전문건설업 정책을 연구했으며, Savills 서울 오피스에서 컨설턴트 및 연구원으로 부동산 개발 컨설팅과 시장조사를 수행했습니다. 현재 신영증권에서 패밀리오피스와 고액자산가를 위한 부동산 개발 및 투자 업무를 담당하고 있습니다.",
+            "### 연구 관심 분야",
+            "- 건설산업 정책\n- 건설 현장 및 산업의 스마트 기술 적용\n- 개발사업의 경제적 타당성 분석"
+          ],
+          "additionalPublications": [
+            "#### 저널 논문",
+            "1. Lee, B., & Park, S. K. (2022). A Study on the Competitiveness for the Diffusion of Smart Technology of Construction Industry in the Era of 4th Industrial Revolution. Sustainability, 14(14), 8348.\n2. Cho, J., & Lee, B. (2022). A Study of the Demands for Improvements in Specialty Construction Technology. Korean Journal of Construction Engineering and Management, 23(2), 24-32.\n3. Lee, B, et al. (2018) International PMC Project Competency Enhancement Strategies for Domestic Engineering Companies. Journal of the Korean Society of Civil Engineers, 38(1), 121-132.\n4. Jang, W., Lee, B., Kim, Y., & Han, S. H. (2017). Analysis of Perception Difference between Domestic and International Engineering Firms -Focusing on the Competitiveness of International PMC Market-. Korean Journal of Construction Engineering and Management, 18(6), 3–12. \n5. Jung, W., Lee, B., & Han, S. (2017). A Performance Analysis of Risk Management for International Engineering Project. Korean Journal of Construction Engineering and Management, 18(2), 99-107.\n6. Jung, W., Lee, B., & Han, S. (2017). A Performance Analysis of Risk Management for International Construction Project Conducted by Small & Medium Subcontractors. Korean Journal of Construction Engineering and Management, 18(2), 71-80.",
+            "#### 학술대회 논문",
+            "1. Lee, B., & Park, S. K. (2022). What are the Risks of using Smart Technology in the Construction Phase?. In International conference on construction engineering and project management (pp. 103-110). Korea Institute of Construction Engineering and Management.\n2. Lee, B., Won, J. W., & Han, S. (2016). A study on Risk uncertainty Analysis for Small and Medium sized construction Firms. KSCE 2016 Convention, 77-78."
+          ]
         }
       ]
     },
