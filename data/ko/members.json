@@ -241,7 +241,16 @@
           "name": "구민규",
           "role": "석사",
           "photo": "",
-          "interests": ""
+          "interests": "금호건설<br>AI 개발 및 디지털 전환",
+          "softwareCopyrights": [
+            {
+              "authors": ["Minkyu Koo", "Hongjo Kim", "Taegeon Kim"],
+              "year": 2024,
+              "title": "건설 현장 작업자 안전 관리를 위한 약한 지도 및 자가 지도 학습 프로그램",
+              "registration_number": "C-2024-044829",
+              "date": "2024-11-18"
+            }
+          ]
         },
         {
           "name": "정민우",

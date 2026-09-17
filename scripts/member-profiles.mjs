@@ -38,5 +38,8 @@ export function renderMemberProfile(member, language, publications, aliasGroups,
   body += `<h3>${ko ? '특허 · Patents' : 'Patents'}</h3>`;
   const patents = records.patents || [];
   body += patents.length ? `<ol class="profile-patents">${patents.map(p => `<li>${esc((p.inventors || []).join(', '))} (${esc(p.year)})<br>${title(p)}<br><span class="profile-citation-meta">${esc([p.country, ko ? p.patent_type : ({'특허 출원':'Patent application','특허 등록':'Registered patent'}[p.patent_type] || p.patent_type), p.patent_number].filter(Boolean).join(' · '))}</span></li>`).join('')}</ol>` : `<p class="profile-empty">${ko ? '홈페이지에 등록된 특허가 없습니다.' : 'No patents listed on this website yet.'}</p>`;
+  if (member.softwareCopyrights?.length) {
+    body += `<h3>${ko ? '소프트웨어 저작권 · Software Copyrights' : 'Software Copyrights'}</h3><ol class="profile-publications">${member.softwareCopyrights.map(p => `<li>${esc(p.authors.join(', '))} (${esc(p.year)})<br>${title(p)}<br><span class="profile-citation-meta">${esc([ko ? '한국저작권위원회' : 'Korea Copyright Commission', ko ? '소프트웨어 저작권 등록' : 'Software Copyright Registration', p.registration_number, p.date].join(' · '))}</span></li>`).join('')}</ol>`;
+  }
   return body;
 }

@@ -1357,6 +1357,15 @@
       "url": "https://www.auric.or.kr/user/rdoc/DocRdoc.aspx?returnVal=RD_R&dn=432805"
     },
     {
+      "authors": ["Jeehoon Kim", "Minkyu Koo", "Hongjo Kim", "Hyoungkwan Kim"],
+      "year": 2023,
+      "title": "Labeled Image Generation Using a Point Cloud-to-Image Transformation Algorithm",
+      "conference": "Korean Society of Civil Engineers Conference",
+      "location": "Yeosu, South Korea",
+      "date_range": "2023-10-18 – 2023-10-20",
+      "pages": "37-38"
+    },
+    {
       "authors": ["Seokhwan Kim", "Taegeon Kim", "Hongjo Kim"],
       "year": 2023,
       "title": "Optimization Strategies for the Maintenance of Floating Debris Barrier Using Computer Vision and Monte Carlo Simulation",

@@ -266,7 +266,16 @@
           "name": "Minkyu Koo",
           "role": "Master’s degree",
           "photo": "",
-          "interests": ""
+          "interests": "Kumho Engineering & Construction<br>AI Development & Digital Transformation",
+          "softwareCopyrights": [
+            {
+              "authors": ["Minkyu Koo", "Hongjo Kim", "Taegeon Kim"],
+              "year": 2024,
+              "title": "건설 현장 작업자 안전 관리를 위한 약한 지도 및 자가 지도 학습 프로그램",
+              "registration_number": "C-2024-044829",
+              "date": "2024-11-18"
+            }
+          ]
         },
         {
           "name": "Minwoo Jeong",
