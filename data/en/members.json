@@ -323,33 +323,6 @@
           "interests": "**Publications** <br> Automated Detection of Concrete Quality in 3D Construction Printing Using Machine Learning (2024) <br><br>Research Professor, Department of Architectural Engineering, Yonsei University(as of 2024)"
         }
       ]
-    },
-    {
-      "title": "Former Undergraduate Interns",
-      "members": [
-        {
-          "name": "Jeongkyu Lee",
-          "role": "Undergraduate researcher",
-          "photo": "",
-          "interests": ""
-        },
-        {
-          "name": "Jaeho Park",
-          "role": "Undergraduate researcher",
-          "photo": "",
-          "interests": "-Undergraduate student, Civil and Environmental Engineering, Yonsei University \n -Internship from February 2025 (as recorded in the original profile) ",
-          "details": [
-            "Stormwater inlet water-level prediction using LSTM-attention models.",
-            "Construction document generation using computer vision and large language models."
-          ]
-        },
-        {
-          "name": "Giwon Shin",
-          "role": "Undergraduate intern",
-          "photo": "",
-          "interests": "M.S. student in Machine Learning and Signal Processing, Electrical and Computer Engineering, University of Wisconsin–Madison (as of June 2025)"
-        }
-      ]
     }
   ]
 }

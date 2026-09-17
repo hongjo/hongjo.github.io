@@ -298,33 +298,6 @@
           "interests": "**논문** <br> Automated Detection of Concrete Quality in 3D Construction Printing Using Machine Learning (2024) <br><br>연세대학교 건축공학과 연구교수(2024년 기준)"
         }
       ]
-    },
-    {
-      "title": "인턴 동문",
-      "members": [
-        {
-          "name": "이정규",
-          "role": "학부연구생",
-          "photo": "",
-          "interests": ""
-        },
-        {
-          "name": "박재호",
-          "role": "학부연구생",
-          "photo": "",
-          "interests": "-연세대학교 건설환경공학부 재학 \n -25년 2월~현재 인턴 과정 ",
-          "details": [
-            "LSTM-attention모델을 활용한 빗물받이 수위예측 연구.",
-            "Computer Vision기술들과 LLM을 활용한 건설문건 생성."
-          ]
-        },
-        {
-          "name": "신기원",
-          "role": "학부인턴",
-          "photo": "",
-          "interests": "위스콘신 대학교 매디슨 캠퍼스 전기컴퓨터공학과 기계학습 및 신호처리 석사과정 (2025년 6월 기준)"
-        }
-      ]
     }
   ]
 }
