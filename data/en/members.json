@@ -53,7 +53,7 @@
           "name": "Seokhwan Kim",
           "role": "Integrated M.S./Ph.D. student",
           "photo": "img/member/student/김석환.jpg",
-          "interests": "Civil and Environmental Engineering, Yonsei University"
+          "interests": "Civil and Environmental Engineering, Yonsei University\n\nCo-founder, ONTO Co., Ltd."
         },
         {
           "name": "Gichang Choi",
@@ -235,13 +235,13 @@
           "name": "Taegeon Kim",
           "role": "Ph.D.",
           "photo": "img/member/student/김태건.jpg",
-          "interests": "ONTO Co., Ltd."
+          "interests": "Founder, ONTO Co., Ltd."
         },
         {
           "name": "Younga Shin",
           "role": "Master’s degree",
           "photo": "img/member/student/신영아.jpg",
-          "interests": "ONTO Co., Ltd.",
+          "interests": "Co-founder, ONTO Co., Ltd.",
           "additionalPublications": [
             "# Journal articles\n\n- Choi, K., Jeong, M., **Shin, Y.**, Ma, J., Kim, K., & Kim, H. (2025). “Construct-Rag: Contrastive Sentence Training & Retrieval Using Chunk Block-Based Text for Rag”, *Available at SSRN* 5205959.\n",
             "# Conference presentations\n\n- **Shin, Y.**, Kim, H. “2024 Annual Academic Conference”, *Korea Institute of Construction Engineering and Management*, Jeju, Korea (November 2024) - Poster Presentation  \n- **Shin, Y.**, Choi, K., Kim, Y., Kim, H. “Creative Construction Conference (CCC 2025)”, *Zadar, Croatia* (June 2025) - Oral Presentation"
@@ -257,7 +257,7 @@
           "name": "Jaehyun Park",
           "role": "Master’s degree",
           "photo": "img/member/student/박재현.jpg",
-          "interests": "Entered the master’s program in Spring 2024.",
+          "interests": "Yooshin Corporation",
           "details": [
             "Research focuses on the economic benefits of adopting smart safety equipment at construction sites and financial hedging with futures and forward contracts to address construction material price volatility."
           ]
@@ -281,7 +281,11 @@
           "interests": "Kumho Engineering & Construction<br>AI Development & Digital Transformation",
           "softwareCopyrights": [
             {
-              "authors": ["Minkyu Koo", "Hongjo Kim", "Taegeon Kim"],
+              "authors": [
+                "Minkyu Koo",
+                "Hongjo Kim",
+                "Taegeon Kim"
+              ],
               "year": 2024,
               "title": "건설 현장 작업자 안전 관리를 위한 약한 지도 및 자가 지도 학습 프로그램",
               "registration_number": "C-2024-044829",
@@ -298,8 +302,11 @@
         {
           "name": "Seungwon Baek",
           "role": "Research professor",
-          "photo": "",
-          "interests": "**Research interests** <br> <br><br>**Co-advisors** <br>Prof. Seung Heon Han"
+          "photo": "img/member/student/seungwon-baek.jpg",
+          "interests": "Assistant Professor, Department of Civil Engineering, Gyeongsang National University",
+          "details": [
+            "**Co-advisor**: Prof. Seung Heon Han"
+          ]
         },
         {
           "name": "Wei chih Chern",
@@ -323,7 +330,10 @@
           "name": "Sungjae Park",
           "role": "Master’s degree",
           "photo": "",
-          "interests": "**Master’s thesis** <br> Effectiveness of Experiential Safety Training in Physical Facility Compared with VR-based Safety Training (2023) <br><br>Hanwha E&C(as of January 18, 2023)"
+          "interests": "Project Manager, 피델리티솔루션(주)",
+          "details": [
+            "**Master’s thesis** <br> Effectiveness of Experiential Safety Training in Physical Facility Compared with VR-based Safety Training (2023)"
+          ]
         },
         {
           "name": "Jin Young Kim",
@@ -342,6 +352,15 @@
           "role": "Research professor",
           "photo": "",
           "interests": "**Publications** <br> Automated Detection of Concrete Quality in 3D Construction Printing Using Machine Learning (2024) <br><br>Research Professor, Department of Architectural Engineering, Yonsei University(as of 2024)"
+        },
+        {
+          "name": "Ishan Ghutake",
+          "role": "University of Dayton · Class of 2021",
+          "photo": "",
+          "interests": "Inference Support Engineer, TogetherAI",
+          "details": [
+            "[LinkedIn](https://www.linkedin.com/in/ishan1g) · [GitHub](https://github.com/ighutake-debug)"
+          ]
         }
       ]
     }
