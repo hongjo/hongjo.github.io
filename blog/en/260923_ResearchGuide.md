@@ -75,6 +75,6 @@ Working through these questions is where research begins.
 
 ## A visual recap
 
-[![Korean-language infographic comparing research with implementation work, including research questions, methods, evidence, and contributions](/img/blog/260923_ResearchGuide/research-vs-work.webp)](/img/blog/260923_ResearchGuide/research-vs-work.webp)
+[![English-language infographic comparing research with implementation work, including research questions, methods, evidence, and contributions](/img/blog/260923_ResearchGuide/research-vs-work-en.webp)](/img/blog/260923_ResearchGuide/research-vs-work-en.webp)
 
-*Original infographic in Korean. Select the image to view it at full size.*
+*Select the image to view it at full size.*
