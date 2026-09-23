@@ -1,5 +1,13 @@
 {
     "posts": [
+        {
+            "slug": "research-writing-01-what-is-research",
+            "title": "Research and Academic Writing for Graduate Students, Part 1: What Is Research?",
+            "subtitle": "When does building an LLM system or improving crack segmentation become research? Start with the question, the evidence, and the contribution.",
+            "date": "2026-09-23",
+            "cover": "img/blog/260923_ResearchGuide/research-vs-work.webp",
+            "md": "blog/en/260923_ResearchGuide.md"
+        },
       {
         "slug": "ramasc-ai-structural-calculation",
         "title": "Can AI Check Structural Calculations? How RAMASC Retrieves, Calculates, and Reviews",

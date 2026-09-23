@@ -1,5 +1,13 @@
 {
     "posts": [
+        {
+            "slug": "research-writing-01-what-is-research",
+            "title": "대학원생을 위한 연구와 논문 1: 연구란 무엇인가?",
+            "subtitle": "LLM으로 건설 문서를 분석하고 균열 분할 성능을 높이는 일은 언제 연구가 될까요? 작업과 연구의 차이를 질문과 근거, 기여에서 찾아봅니다.",
+            "date": "2026-09-23",
+            "cover": "img/blog/260923_ResearchGuide/research-vs-work.webp",
+            "md": "blog/ko/260923_ResearchGuide.md"
+        },
       {
         "slug": "ramasc-ai-structural-calculation",
         "title": "AI에게 구조계산을 맡길 수 있을까? 기준서를 찾고, 계산하고, 서로 검토하는 RAMASC",
