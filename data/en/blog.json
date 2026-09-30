@@ -1,77 +1,100 @@
 {
-    "posts": [
-        {
-            "slug": "research-writing-01-what-is-research",
-            "title": "Research and Academic Writing for Graduate Students, Part 1: What Is Research?",
-            "subtitle": "When does building an LLM system or improving crack segmentation become research? Start with the question, the evidence, and the contribution.",
-            "date": "2026-09-23",
-            "cover": "img/blog/260923_ResearchGuide/research-vs-work-en.webp",
-            "md": "blog/en/260923_ResearchGuide.md"
-        },
-      {
-        "slug": "ramasc-ai-structural-calculation",
-        "title": "Can AI Check Structural Calculations? How RAMASC Retrieves, Calculates, and Reviews",
-        "subtitle": "Beyond a convincing answer: connecting design references, Python execution, and multiple AI reviewers for structural checks.",
-        "date": "2026-09-14",
-        "cover": "img/blog/260914_RAMASC/overview.webp",
-        "md": "blog/en/260914_RAMASC.md"
-      },
-      {
-        "slug": "ecostat-safety-technology-investment",
-        "title": "How Much Should a Site Invest in Safety Technology? Exploring Break-Even with ECOSTAT",
-        "subtitle": "Beyond detection accuracy: how project scale, implementation costs, and accident-prevention effectiveness shape an investment decision.",
-        "date": "2026-09-14",
-        "cover": "img/blog/260914_ECOSTAT/feasibility.webp",
-        "md": "blog/en/260914_ECOSTAT.md"
-      },
-      {
-        "slug": "dsdl-tiny-object-detection",
-        "title": "[Paper Review] Catching What Slips Through the Net: DSDL for Tiny Object Detection",
-        "subtitle": "Tiny Object Detection Using Distance-guided, Signed, and Densified Learning (DSDL) for Construction Site Safety Monitoring",
-        "date": "2026-03-30",
-        "cover": "img/blog/260330_Seokhwan/Seokhwan_DSDL_Title.png",
-        "md": "blog/en/260330_Seokhwan.md"
-      },
-      {
-        "slug": "rag-construction-retrieval-optimization",
-        "title": "[Paper Review] Revolutionizing Minority Language Construction Document AI: RAGO-CONSTRUCT",
-        "subtitle": "Optimizing RAG for low-resource languages using Contrastive Sentence Generation (CSG) and Matryoshka Representation Learning (MRL)",
-        "date": "2026-01-12",
-        "cover": "img/blog/260112_Kichang/Kichang_Title.png",
-        "md": "blog/en/260112_Kichang.md"
-      },
-      {
-        "slug": "frequency-aware-crack-segmentation",
-        "title": "Why Deep Learning Misses Thin Cracks (FACS-Net & CT-Loss)",
-        "subtitle": "Paper Review: Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks",
-        "date": "2025-12-22",
-        "cover": "img/blog/251222_Siheon/title.png",
-        "md": "blog/en/251222_Siheon.md"
-      },
-      {
-        "slug": "context-aware-lvlm-safety",
-        "title": "Generative AI for Construction Safety Assessment: Context-Aware Large Vision-Language Models",
-        "subtitle": "Paper Review: Optimizing large vision-language models for context-aware construction safety assessment",
-        "date": "2025-12-20",
-        "cover": "img/blog/251220_Taegeon/title.png",
-        "md": "blog/en/251220_Taegeon.md"
-      },
-      {
-        "slug": "auto-training-data-generation",
-        "title": "Automatic Training Data Generation for Construction Site AI Monitoring: Domain Adaptation Without Manual Labeling",
-        "subtitle": "Paper Review: Moving-feature-driven label propagation for training data generation from target domains",
-        "date": "2025-12-19",
-        "cover": "img/blog/251219_Taegeon/title.png",
-        "md": "blog/en/251219_Taegeon.md"
-      },
-      {
-        "slug": "vision-based-safety",
-        "title": "[News] Yonsei University - UCL Host Joint Workshop on ‘Smart Construction & 3D Vision AI’",
-        "subtitle": null,
-        "date": "2025-11-26",
-        "cover": "img/blog/251126_UCL/poster.png",
-        "md": "blog/en/251126_UCL_News.md"
-      }
-    ]
-  }
-  
+  "posts": [
+    {
+      "slug": "research-writing-04-experimental-design",
+      "title": "Research and Academic Writing for Graduate Students, Part 4: How to Design Good Experiments",
+      "subtitle": "Match comparisons, data splits, metrics, and repeated runs to the claims your research intends to support.",
+      "date": "2026-09-30",
+      "cover": "img/blog/research-writing/04-en.webp",
+      "md": "blog/en/260930_ExperimentalDesign.md"
+    },
+    {
+      "slug": "research-writing-03-questions-and-hypotheses",
+      "title": "Research and Academic Writing for Graduate Students, Part 3: How to Formulate Research Questions and Hypotheses",
+      "subtitle": "Distinguish questions, hypotheses, objectives, and assumptions, then connect an expected answer to a testable study.",
+      "date": "2026-09-30",
+      "cover": "img/blog/research-writing/03-en.webp",
+      "md": "blog/en/260930_ResearchQuestions.md"
+    },
+    {
+      "slug": "research-writing-02-finding-a-research-gap",
+      "title": "Research and Academic Writing for Graduate Students, Part 2: How to Find a Research Gap",
+      "subtitle": "Distinguish knowledge gaps, research gaps, and study limitations through literature and hypothetical engineering examples.",
+      "date": "2026-09-30",
+      "cover": "img/blog/research-writing/02-en.webp",
+      "md": "blog/en/260930_ResearchGap.md"
+    },
+    {
+      "slug": "research-writing-01-what-is-research",
+      "title": "Research and Academic Writing for Graduate Students, Part 1: What Is Research?",
+      "subtitle": "Develop an implementation idea into a research question, and explain the contribution through evidence.",
+      "date": "2026-09-23",
+      "cover": "img/blog/research-writing/01-en.webp",
+      "md": "blog/en/260923_ResearchGuide.md"
+    },
+    {
+      "slug": "ramasc-ai-structural-calculation",
+      "title": "Can AI Check Structural Calculations? How RAMASC Retrieves, Calculates, and Reviews",
+      "subtitle": "Beyond a convincing answer: connecting design references, Python execution, and multiple AI reviewers for structural checks.",
+      "date": "2026-09-14",
+      "cover": "img/blog/260914_RAMASC/overview.webp",
+      "md": "blog/en/260914_RAMASC.md"
+    },
+    {
+      "slug": "ecostat-safety-technology-investment",
+      "title": "How Much Should a Site Invest in Safety Technology? Exploring Break-Even with ECOSTAT",
+      "subtitle": "Beyond detection accuracy: how project scale, implementation costs, and accident-prevention effectiveness shape an investment decision.",
+      "date": "2026-09-14",
+      "cover": "img/blog/260914_ECOSTAT/feasibility.webp",
+      "md": "blog/en/260914_ECOSTAT.md"
+    },
+    {
+      "slug": "dsdl-tiny-object-detection",
+      "title": "[Paper Review] Catching What Slips Through the Net: DSDL for Tiny Object Detection",
+      "subtitle": "Tiny Object Detection Using Distance-guided, Signed, and Densified Learning (DSDL) for Construction Site Safety Monitoring",
+      "date": "2026-03-30",
+      "cover": "img/blog/260330_Seokhwan/Seokhwan_DSDL_Title.png",
+      "md": "blog/en/260330_Seokhwan.md"
+    },
+    {
+      "slug": "rag-construction-retrieval-optimization",
+      "title": "[Paper Review] Revolutionizing Minority Language Construction Document AI: RAGO-CONSTRUCT",
+      "subtitle": "Optimizing RAG for low-resource languages using Contrastive Sentence Generation (CSG) and Matryoshka Representation Learning (MRL)",
+      "date": "2026-01-12",
+      "cover": "img/blog/260112_Kichang/Kichang_Title.png",
+      "md": "blog/en/260112_Kichang.md"
+    },
+    {
+      "slug": "frequency-aware-crack-segmentation",
+      "title": "Why Deep Learning Misses Thin Cracks (FACS-Net & CT-Loss)",
+      "subtitle": "Paper Review: Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks",
+      "date": "2025-12-22",
+      "cover": "img/blog/251222_Siheon/title.png",
+      "md": "blog/en/251222_Siheon.md"
+    },
+    {
+      "slug": "context-aware-lvlm-safety",
+      "title": "Generative AI for Construction Safety Assessment: Context-Aware Large Vision-Language Models",
+      "subtitle": "Paper Review: Optimizing large vision-language models for context-aware construction safety assessment",
+      "date": "2025-12-20",
+      "cover": "img/blog/251220_Taegeon/title.png",
+      "md": "blog/en/251220_Taegeon.md"
+    },
+    {
+      "slug": "auto-training-data-generation",
+      "title": "Automatic Training Data Generation for Construction Site AI Monitoring: Domain Adaptation Without Manual Labeling",
+      "subtitle": "Paper Review: Moving-feature-driven label propagation for training data generation from target domains",
+      "date": "2025-12-19",
+      "cover": "img/blog/251219_Taegeon/title.png",
+      "md": "blog/en/251219_Taegeon.md"
+    },
+    {
+      "slug": "vision-based-safety",
+      "title": "[News] Yonsei University - UCL Host Joint Workshop on ‘Smart Construction & 3D Vision AI’",
+      "subtitle": null,
+      "date": "2025-11-26",
+      "cover": "img/blog/251126_UCL/poster.png",
+      "md": "blog/en/251126_UCL_News.md"
+    }
+  ]
+}

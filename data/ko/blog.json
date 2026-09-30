@@ -1,77 +1,100 @@
 {
-    "posts": [
-        {
-            "slug": "research-writing-01-what-is-research",
-            "title": "대학원생을 위한 연구와 논문 1: 연구란 무엇인가?",
-            "subtitle": "LLM으로 건설 문서를 분석하고 균열 분할 성능을 높이는 일은 언제 연구가 될까요? 작업과 연구의 차이를 질문과 근거, 기여에서 찾아봅니다.",
-            "date": "2026-09-23",
-            "cover": "img/blog/260923_ResearchGuide/research-vs-work.webp",
-            "md": "blog/ko/260923_ResearchGuide.md"
-        },
-      {
-        "slug": "ramasc-ai-structural-calculation",
-        "title": "AI에게 구조계산을 맡길 수 있을까? 기준서를 찾고, 계산하고, 서로 검토하는 RAMASC",
-        "subtitle": "설계 변경 뒤 반복되는 계산 검토. 검색·Python 실행·여러 AI의 상호 검토를 연결하면 무엇이 달라질까요?",
-        "date": "2026-09-14",
-        "cover": "img/blog/260914_RAMASC/overview.webp",
-        "md": "blog/ko/260914_RAMASC.md"
-      },
-      {
-        "slug": "ecostat-safety-technology-investment",
-        "title": "안전기술, 얼마를 투자해야 할까? ECOSTAT으로 살펴보는 현장별 손익분기점",
-        "subtitle": "AI 카메라와 스마트 안전장비, 성능만큼 중요한 투자 조건을 현장 규모와 사고 예방 효과로 풀어봅니다.",
-        "date": "2026-09-14",
-        "cover": "img/blog/260914_ECOSTAT/feasibility.webp",
-        "md": "blog/ko/260914_ECOSTAT.md"
-      },
-      {
-        "slug": "dsdl-tiny-object-detection",
-        "title": "[논문 소개] 그물을 빠져나가는 작은 물고기: 건설 현장 초소형 객체 탐지를 위한 DSDL",
-        "subtitle": "**논문 리뷰**: Tiny Object Detection Using Distance-guided, Signed, and Densified Learning (DSDL) for Construction Site Safety Monitoring<br/>**키워드**: 건설 현장 안전, 초소형 객체 탐지, PPE 모니터링, YOLO",
-        "date": "2026-03-30",
-        "cover": "img/blog/260330_Seokhwan/Seokhwan_DSDL_Title.png",
-        "md": "blog/ko/260330_Seokhwan.md"
-      },
-      {
-        "slug": "rag-construction-retrieval-optimization",
-        "title": "[논문 소개] 한국어 건설 문서 특화 AI: RAGO-CONSTRUCT",
-        "subtitle": "**논문 리뷰**: Retrieval optimization for construction documents in low-resource languages using contrastive sentence generation and matryoshka representation learning<br/>**키워드**: 건설 문서 분석, RAG, 한국어 특화 AI, 검색 최적화",
-        "date": "2026-01-12",
-        "cover": "img/blog/260112_Kichang/Kichang_Title.png",
-        "md": "blog/ko/260112_Kichang.md"
-      },
-      {
-        "slug": "frequency-aware-crack-segmentation",
-        "title": "[논문 소개] 딥러닝은 왜 얇은 균열을 놓칠까? (FACS-Net & CT-Loss)",
-        "subtitle": "**논문 리뷰**: Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks<br/>**키워드**: 구조물 유지관리, 균열 인식, 얇은 균열, Computer Vision, Segmentation",
-        "date": "2025-12-22",
-        "cover": "img/blog/251222_Siheon/title.png",
-        "md": "blog/ko/251222_Siheon.md"
-      },
-      {
-        "slug": "context-aware-lvlm-safety",
-        "title": "[논문 소개] 생성형 AI로 건설 현장 안전 평가하기: 맥락을 이해하는 Large Vision-Language Model",
-        "subtitle": "**논문 리뷰**: Optimizing large vision-language models for context-aware construction safety assessment<br/>**키워드**: 건설 현장 모니터링, Vision-Language Model, 생성형 AI",
-        "date": "2025-12-20",
-        "cover": "img/blog/251220_Taegeon/title.png",
-        "md": "blog/ko/251220_Taegeon.md"
-      },
-      {
-        "slug": "auto-training-data-generation",
-        "title": "[논문 소개] 건설 현장 AI 모니터링을 위한 학습 데이터 자동 생성: 라벨링 없이 새로운 현장에 적응하는 방법",
-        "subtitle": "**논문 리뷰**: Moving-feature-driven label propagation for training data generation from target domains<br/>**키워드**: 건설 현장 모니터링, 학습 데이터 자동 생성, 새로운 현장 적응",
-        "date": "2025-12-19",
-        "cover": "img/blog/251219_Taegeon/title.png",
-        "md": "blog/ko/251219_Taegeon.md"
-      },
-      {
-        "slug": "vision-based-safety",
-        "title": "[소식] 연세대-英 UCL, ‘스마트 건설 및 3D 비전 AI’ 공동 워크샵 개최",
-        "subtitle": null,
-        "date": "2025-11-26",
-        "cover": "img/blog/251126_UCL/poster.png",
-        "md": "blog/ko/251126_UCL_News.md"
-      }
-    ]
-  }
-  
+  "posts": [
+    {
+      "slug": "research-writing-04-experimental-design",
+      "title": "대학원생을 위한 연구와 논문 4: 좋은 실험은 어떻게 설계하는가?",
+      "subtitle": "공정한 비교, 자료 분리, 지표, 반복 실험을 연구 주장에 맞춰 설계하는 방법을 살펴봅니다.",
+      "date": "2026-09-30",
+      "cover": "img/blog/research-writing/04-ko.webp",
+      "md": "blog/ko/260930_ExperimentalDesign.md"
+    },
+    {
+      "slug": "research-writing-03-questions-and-hypotheses",
+      "title": "대학원생을 위한 연구와 논문 3: Research Question과 연구 가설은 어떻게 세우는가?",
+      "subtitle": "연구 질문·가설·목표·가정을 구분하고, 예상하는 답을 검토 가능한 실험과 연결합니다.",
+      "date": "2026-09-30",
+      "cover": "img/blog/research-writing/03-ko.webp",
+      "md": "blog/ko/260930_ResearchQuestions.md"
+    },
+    {
+      "slug": "research-writing-02-finding-a-research-gap",
+      "title": "대학원생을 위한 연구와 논문 2: Research Gap은 어떻게 찾는가?",
+      "subtitle": "Knowledge gap, research gap, 선행연구의 한계를 구분하고, 문헌과 공학 사례로 연구 공백을 찾는 방법을 설명합니다.",
+      "date": "2026-09-30",
+      "cover": "img/blog/research-writing/02-ko.webp",
+      "md": "blog/ko/260930_ResearchGap.md"
+    },
+    {
+      "slug": "research-writing-01-what-is-research",
+      "title": "대학원생을 위한 연구와 논문 1: 연구란 무엇인가?",
+      "subtitle": "구현 계획을 연구 질문으로 발전시키고, 증거로 학술적 기여를 설명하는 방법을 살펴봅니다.",
+      "date": "2026-09-23",
+      "cover": "img/blog/research-writing/01-ko.webp",
+      "md": "blog/ko/260923_ResearchGuide.md"
+    },
+    {
+      "slug": "ramasc-ai-structural-calculation",
+      "title": "AI에게 구조계산을 맡길 수 있을까? 기준서를 찾고, 계산하고, 서로 검토하는 RAMASC",
+      "subtitle": "설계 변경 뒤 반복되는 계산 검토. 검색·Python 실행·여러 AI의 상호 검토를 연결하면 무엇이 달라질까요?",
+      "date": "2026-09-14",
+      "cover": "img/blog/260914_RAMASC/overview.webp",
+      "md": "blog/ko/260914_RAMASC.md"
+    },
+    {
+      "slug": "ecostat-safety-technology-investment",
+      "title": "안전기술, 얼마를 투자해야 할까? ECOSTAT으로 살펴보는 현장별 손익분기점",
+      "subtitle": "AI 카메라와 스마트 안전장비, 성능만큼 중요한 투자 조건을 현장 규모와 사고 예방 효과로 풀어봅니다.",
+      "date": "2026-09-14",
+      "cover": "img/blog/260914_ECOSTAT/feasibility.webp",
+      "md": "blog/ko/260914_ECOSTAT.md"
+    },
+    {
+      "slug": "dsdl-tiny-object-detection",
+      "title": "[논문 소개] 그물을 빠져나가는 작은 물고기: 건설 현장 초소형 객체 탐지를 위한 DSDL",
+      "subtitle": "**논문 리뷰**: Tiny Object Detection Using Distance-guided, Signed, and Densified Learning (DSDL) for Construction Site Safety Monitoring<br/>**키워드**: 건설 현장 안전, 초소형 객체 탐지, PPE 모니터링, YOLO",
+      "date": "2026-03-30",
+      "cover": "img/blog/260330_Seokhwan/Seokhwan_DSDL_Title.png",
+      "md": "blog/ko/260330_Seokhwan.md"
+    },
+    {
+      "slug": "rag-construction-retrieval-optimization",
+      "title": "[논문 소개] 한국어 건설 문서 특화 AI: RAGO-CONSTRUCT",
+      "subtitle": "**논문 리뷰**: Retrieval optimization for construction documents in low-resource languages using contrastive sentence generation and matryoshka representation learning<br/>**키워드**: 건설 문서 분석, RAG, 한국어 특화 AI, 검색 최적화",
+      "date": "2026-01-12",
+      "cover": "img/blog/260112_Kichang/Kichang_Title.png",
+      "md": "blog/ko/260112_Kichang.md"
+    },
+    {
+      "slug": "frequency-aware-crack-segmentation",
+      "title": "[논문 소개] 딥러닝은 왜 얇은 균열을 놓칠까? (FACS-Net & CT-Loss)",
+      "subtitle": "**논문 리뷰**: Frequency-aware crack segmentation network (FACS-net) and crack topology loss (CT-loss) for thin cracks<br/>**키워드**: 구조물 유지관리, 균열 인식, 얇은 균열, Computer Vision, Segmentation",
+      "date": "2025-12-22",
+      "cover": "img/blog/251222_Siheon/title.png",
+      "md": "blog/ko/251222_Siheon.md"
+    },
+    {
+      "slug": "context-aware-lvlm-safety",
+      "title": "[논문 소개] 생성형 AI로 건설 현장 안전 평가하기: 맥락을 이해하는 Large Vision-Language Model",
+      "subtitle": "**논문 리뷰**: Optimizing large vision-language models for context-aware construction safety assessment<br/>**키워드**: 건설 현장 모니터링, Vision-Language Model, 생성형 AI",
+      "date": "2025-12-20",
+      "cover": "img/blog/251220_Taegeon/title.png",
+      "md": "blog/ko/251220_Taegeon.md"
+    },
+    {
+      "slug": "auto-training-data-generation",
+      "title": "[논문 소개] 건설 현장 AI 모니터링을 위한 학습 데이터 자동 생성: 라벨링 없이 새로운 현장에 적응하는 방법",
+      "subtitle": "**논문 리뷰**: Moving-feature-driven label propagation for training data generation from target domains<br/>**키워드**: 건설 현장 모니터링, 학습 데이터 자동 생성, 새로운 현장 적응",
+      "date": "2025-12-19",
+      "cover": "img/blog/251219_Taegeon/title.png",
+      "md": "blog/ko/251219_Taegeon.md"
+    },
+    {
+      "slug": "vision-based-safety",
+      "title": "[소식] 연세대-英 UCL, ‘스마트 건설 및 3D 비전 AI’ 공동 워크샵 개최",
+      "subtitle": null,
+      "date": "2025-11-26",
+      "cover": "img/blog/251126_UCL/poster.png",
+      "md": "blog/ko/251126_UCL_News.md"
+    }
+  ]
+}
