@@ -1,6 +1,21 @@
-
 {
   "albums": [
+    {
+      "title": "2026 Yonsei–Korea Games",
+      "description": "Lab members at the 2026 Yonsei–Korea Games",
+      "images": [
+        {
+          "src": "img/album/2026-yonko/group.jpg",
+          "caption": "Lab group photo at the 2026 Yonsei–Korea baseball game",
+          "fullSize": "img/album/2026-yonko/group.jpg"
+        },
+        {
+          "src": "img/album/2026-yonko/cheering.jpg",
+          "caption": "Lab members cheering for Yonsei together",
+          "fullSize": "img/album/2026-yonko/cheering.jpg"
+        }
+      ]
+    },
     {
       "title": "August 2026 Graduation",
       "description": "August 2026 · Ph.D.: Taegeon Kim · M.S.: Younga Shin and Junhee Park",
@@ -108,6 +123,5 @@
         }
       ]
     }
-    
   ]
 }

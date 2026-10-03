@@ -1,6 +1,21 @@
-
 {
   "albums": [
+    {
+      "title": "2026 정기연고전",
+      "description": "연구실 구성원들과 함께한 2026 정기연고전",
+      "images": [
+        {
+          "src": "img/album/2026-yonko/group.jpg",
+          "caption": "2026 정기연고전 야구장에서 함께한 연구실 단체사진",
+          "fullSize": "img/album/2026-yonko/group.jpg"
+        },
+        {
+          "src": "img/album/2026-yonko/cheering.jpg",
+          "caption": "함께 어깨동무하며 연세대학교를 응원하는 연구실 구성원들",
+          "fullSize": "img/album/2026-yonko/cheering.jpg"
+        }
+      ]
+    },
     {
       "title": "2026년 8월 졸업식",
       "description": "2026년 8월 · 박사 김태건, 석사 신영아·박준희",
