@@ -44,6 +44,27 @@
       ]
     },
     {
+      "title": "2026 Invited Lab Seminar",
+      "description": "July 1, 2026",
+      "images": [
+        {
+          "src": "img/album/20260701/park-somin.jpg",
+          "caption": "Prof. 박소민 (University of Texas, Arlington) — Intuitive Interaction between Human Workers and Co-Robots in Construction",
+          "fullSize": "img/album/20260701/park-somin.jpg"
+        },
+        {
+          "src": "img/album/20260701/baek-seunghyun.jpg",
+          "caption": "Prof. 백승현 (Georgia Institute of Technology) — HARMONIC LAB: Human-Centered Intelligence and Construction Robotics",
+          "fullSize": "img/album/20260701/baek-seunghyun.jpg"
+        },
+        {
+          "src": "img/album/20260701/son-jiwoo.jpg",
+          "caption": "Dr. 손지우 (University of Michigan) — Mobile and Wearable Sensing to Improve the Quality of Walking in the Built Environment",
+          "fullSize": "img/album/20260701/son-jiwoo.jpg"
+        }
+      ]
+    },
+    {
       "title": "2025 autumn workshop",
       "description": "2025 11 04",
       "images": [

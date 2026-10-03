@@ -44,6 +44,27 @@
       ]
     },
     {
+      "title": "2026 연구실 초청 세미나",
+      "description": "2026년 7월 1일",
+      "images": [
+        {
+          "src": "img/album/20260701/park-somin.jpg",
+          "caption": "박소민 교수 (University of Texas, Arlington) — Intuitive Interaction between Human Workers and Co-Robots in Construction",
+          "fullSize": "img/album/20260701/park-somin.jpg"
+        },
+        {
+          "src": "img/album/20260701/baek-seunghyun.jpg",
+          "caption": "백승현 교수 (Georgia Institute of Technology) — HARMONIC LAB: Human-Centered Intelligence and Construction Robotics",
+          "fullSize": "img/album/20260701/baek-seunghyun.jpg"
+        },
+        {
+          "src": "img/album/20260701/son-jiwoo.jpg",
+          "caption": "손지우 박사 (University of Michigan) — Mobile and Wearable Sensing to Improve the Quality of Walking in the Built Environment",
+          "fullSize": "img/album/20260701/son-jiwoo.jpg"
+        }
+      ]
+    },
+    {
       "title": "2025 연구실 단풍 워크샵",
       "description": "2025 11 04",
       "images": [
