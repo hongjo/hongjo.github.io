@@ -28,6 +28,22 @@
       ]
     },
     {
+      "title": "2026 연구실 여름 MT",
+      "description": "2026년 7월 8일",
+      "images": [
+        {
+          "src": "img/album/20260708/group.jpg",
+          "caption": "여름 MT에서 함께한 연구실 단체사진",
+          "fullSize": "img/album/20260708/group.jpg"
+        },
+        {
+          "src": "img/album/20260708/outing.jpg",
+          "caption": "여름 MT 중 함께 나들이에 나선 연구실 구성원들",
+          "fullSize": "img/album/20260708/outing.jpg"
+        }
+      ]
+    },
+    {
       "title": "2025 연구실 단풍 워크샵",
       "description": "2025 11 04",
       "images": [
