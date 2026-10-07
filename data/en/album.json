@@ -272,6 +272,67 @@
           "fullSize": "img/album/2024년/겨울 단체사진.jpg"
         }
       ]
+    },
+    {
+      "title": "ICCCBE 2022 · Cape Town",
+      "description": "October 26–28, 2022 · Cape Town, South Africa. Participation and research presentations at the 19th International Conference on Computing in Civil and Building Engineering, with moments from the visit.",
+      "images": [
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-07.jpg",
+          "caption": "Research presentation at ICCCBE 2022",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-07.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-08.jpg",
+          "caption": "Research presentation at ICCCBE 2022",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-08.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-06.jpg",
+          "caption": "Moments from the visit to Cape Town",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-06.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-12.jpg",
+          "caption": "Moments from the visit to Cape Town",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-12.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-13.jpg",
+          "caption": "Moments from the visit to Cape Town",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-13.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-01.jpg",
+          "caption": "Moments from the visit to Cape Town",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-01.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-02.jpg",
+          "caption": "Moments from the visit to Cape Town",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-02.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-03.jpg",
+          "caption": "Moments from the visit to Cape Town",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-03.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-04.jpg",
+          "caption": "Moments from the visit to Cape Town",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-04.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-09.jpg",
+          "caption": "Moments from the visit to Cape Town",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-09.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-11.jpg",
+          "caption": "Moments from the visit to Cape Town",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-11.jpg"
+        }
+      ]
     }
   ]
 }

@@ -272,6 +272,67 @@
           "fullSize": "img/album/2024년/겨울 단체사진.jpg"
         }
       ]
+    },
+    {
+      "title": "ICCCBE 2022 · 케이프타운",
+      "description": "2022년 10월 26–28일 · 남아프리카공화국 케이프타운. 제19회 International Conference on Computing in Civil and Building Engineering 참가 및 연구 발표, 현지 방문 사진입니다.",
+      "images": [
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-07.jpg",
+          "caption": "ICCCBE 2022 학회 발표",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-07.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-08.jpg",
+          "caption": "ICCCBE 2022 학회 발표",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-08.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-06.jpg",
+          "caption": "케이프타운 방문 중 함께한 순간",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-06.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-12.jpg",
+          "caption": "케이프타운 방문 중 함께한 순간",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-12.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-13.jpg",
+          "caption": "케이프타운 방문 중 함께한 순간",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-13.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-01.jpg",
+          "caption": "케이프타운 방문 중 함께한 순간",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-01.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-02.jpg",
+          "caption": "케이프타운 방문 중 함께한 순간",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-02.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-03.jpg",
+          "caption": "케이프타운 방문 중 함께한 순간",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-03.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-04.jpg",
+          "caption": "케이프타운 방문 중 함께한 순간",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-04.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-09.jpg",
+          "caption": "케이프타운 방문 중 함께한 순간",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-09.jpg"
+        },
+        {
+          "src": "img/album/20221026-icccbe/icccbe-2022-11.jpg",
+          "caption": "케이프타운 방문 중 함께한 순간",
+          "fullSize": "img/album/20221026-icccbe/icccbe-2022-11.jpg"
+        }
+      ]
     }
   ]
 }
