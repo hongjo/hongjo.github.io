@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "slug": "research-writing-06-finding-your-first-topic",
+      "title": "대학원생을 위한 연구와 논문 6: 첫 연구 주제는 어떻게 찾는가?",
+      "subtitle": "프로젝트의 책임과 개인의 관심을 함께 고려하며, 관심을 실행 가능한 연구 질문으로 발전시키는 과정을 설명합니다.",
+      "date": "2026-10-10",
+      "cover": null,
+      "md": "blog/ko/261010_FirstResearchTopic.md"
+    },
+    {
       "slug": "research-writing-05-claim-reason-evidence",
       "title": "대학원생을 위한 연구와 논문 5: 논문의 논리: 주장–이유–근거",
       "subtitle": "주장·이유·근거를 연결하고, 서론의 질문이 결론까지 이어지도록 공학 논문의 논리와 흐름을 점검합니다.",

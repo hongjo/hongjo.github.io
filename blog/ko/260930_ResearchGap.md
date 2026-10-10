@@ -127,3 +127,4 @@ Robinson, Saldanha, McKoy(2011)는 보건의료 분야의 체계적 문헌고찰
 3. [Research Question과 연구 가설은 어떻게 세우는가?](/ko/blog/research-writing-03-questions-and-hypotheses/)
 4. [좋은 실험은 어떻게 설계하는가?](/ko/blog/research-writing-04-experimental-design/)
 5. [논문의 논리: 주장–이유–근거](/ko/blog/research-writing-05-claim-reason-evidence/)
+6. [첫 연구 주제는 어떻게 찾는가?](/ko/blog/research-writing-06-finding-your-first-topic/)
