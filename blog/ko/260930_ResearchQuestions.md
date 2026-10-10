@@ -117,3 +117,4 @@ Nosek 등(2018)은 가설 생성과 검증을 구분하는 방법으로 사전�
 2. [Research Gap은 어떻게 찾는가?](/ko/blog/research-writing-02-finding-a-research-gap/)
 3. [Research Question과 연구 가설은 어떻게 세우는가?](/ko/blog/research-writing-03-questions-and-hypotheses/)
 4. [좋은 실험은 어떻게 설계하는가?](/ko/blog/research-writing-04-experimental-design/)
+5. [논문의 논리: 주장–이유–근거](/ko/blog/research-writing-05-claim-reason-evidence/)

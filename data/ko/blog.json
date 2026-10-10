@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "slug": "research-writing-05-claim-reason-evidence",
+      "title": "대학원생을 위한 연구와 논문 5: 논문의 논리: 주장–이유–근거",
+      "subtitle": "주장·이유·근거를 연결하고, 서론의 질문이 결론까지 이어지도록 공학 논문의 논리와 흐름을 점검합니다.",
+      "date": "2026-10-10",
+      "cover": null,
+      "md": "blog/ko/261010_ArgumentAndFlow.md"
+    },
+    {
       "slug": "research-writing-04-experimental-design",
       "title": "대학원생을 위한 연구와 논문 4: 좋은 실험은 어떻게 설계하는가?",
       "subtitle": "공정한 비교, 자료 분리, 지표, 반복 실험을 연구 주장에 맞춰 설계하는 방법을 살펴봅니다.",
