@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "slug": "research-writing-06-finding-your-first-topic",
+      "title": "Research and Academic Writing for Graduate Students, Part 6: How to Find Your First Research Topic",
+      "subtitle": "Develop personal interests into feasible research questions while fulfilling project responsibilities.",
+      "date": "2026-10-10",
+      "cover": null,
+      "md": "blog/en/261010_FirstResearchTopic.md"
+    },
+    {
+      "slug": "research-writing-05-claim-reason-evidence",
+      "title": "Research and Academic Writing for Graduate Students, Part 5: The Logic of a Research Paper: Claims, Reasons, and Evidence",
+      "subtitle": "Connect claims, reasons, and evidence so that the question in the introduction carries through to the conclusion.",
+      "date": "2026-10-10",
+      "cover": null,
+      "md": "blog/en/261010_ArgumentAndFlow.md"
+    },
+    {
       "slug": "research-writing-04-experimental-design",
       "title": "Research and Academic Writing for Graduate Students, Part 4: How to Design Good Experiments",
       "subtitle": "Match comparisons, data splits, metrics, and repeated runs to the claims your research intends to support.",

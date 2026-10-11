@@ -137,3 +137,5 @@ Roberts and colleagues’ paper appeared online in 2016 and in its volume and is
 2. [How to Find a Research Gap](/blog/research-writing-02-finding-a-research-gap/)
 3. [How to Formulate Research Questions and Hypotheses](/blog/research-writing-03-questions-and-hypotheses/)
 4. [How to Design Good Experiments](/blog/research-writing-04-experimental-design/)
+5. [The Logic of a Research Paper: Claims, Reasons, and Evidence](/blog/research-writing-05-claim-reason-evidence/)
+6. [How to Find Your First Research Topic](/blog/research-writing-06-finding-your-first-topic/)

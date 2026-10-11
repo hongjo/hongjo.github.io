@@ -147,6 +147,8 @@
 
 ---
 
+[Read this article in English](/blog/research-writing-05-claim-reason-evidence/)
+
 **대학원생을 위한 연구와 논문 시리즈**
 
 1. [연구란 무엇인가?](/ko/blog/research-writing-01-what-is-research/)
