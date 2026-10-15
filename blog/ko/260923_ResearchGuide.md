@@ -117,3 +117,4 @@ Crack segmentation을 예로 들어보겠습니다.
 4. [좋은 실험은 어떻게 설계하는가?](/ko/blog/research-writing-04-experimental-design/)
 5. [논문의 논리: 주장–이유–근거](/ko/blog/research-writing-05-claim-reason-evidence/)
 6. [첫 연구 주제는 어떻게 찾는가?](/ko/blog/research-writing-06-finding-your-first-topic/)
+7. [“이 정도면 논문이 될까요?”—출판 가능성을 판단하는 기준](/ko/blog/research-writing-07-is-my-research-publishable/)

@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "slug": "research-writing-07-is-my-research-publishable",
+      "title": "Research and Academic Writing for Graduate Students, Part 7: “Is My Research Publishable?”—How to Judge Readiness for Publication",
+      "subtitle": "Assess readiness through research questions, contributions, and evidence, and understand peer review, Impact Factors, quartiles, and percentiles.",
+      "date": "2026-10-15",
+      "cover": null,
+      "md": "blog/en/261015_PublicationReadiness.md"
+    },
+    {
       "slug": "research-writing-06-finding-your-first-topic",
       "title": "Research and Academic Writing for Graduate Students, Part 6: How to Find Your First Research Topic",
       "subtitle": "Develop personal interests into feasible research questions while fulfilling project responsibilities.",

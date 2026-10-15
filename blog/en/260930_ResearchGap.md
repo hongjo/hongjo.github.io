@@ -128,3 +128,4 @@ These sources inform the concepts and approaches discussed here. They are not ci
 4. [How to Design Good Experiments](/blog/research-writing-04-experimental-design/)
 5. [The Logic of a Research Paper: Claims, Reasons, and Evidence](/blog/research-writing-05-claim-reason-evidence/)
 6. [How to Find Your First Research Topic](/blog/research-writing-06-finding-your-first-topic/)
+7. [“Is My Research Publishable?”—How to Judge Readiness for Publication](/blog/research-writing-07-is-my-research-publishable/)

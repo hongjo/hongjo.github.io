@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "slug": "research-writing-07-is-my-research-publishable",
+      "title": "대학원생을 위한 연구와 논문 7: “이 정도면 논문이 될까요?”—출판 가능성을 판단하는 기준",
+      "subtitle": "연구 질문과 학술적 기여를 바탕으로 출판 가능성을 판단하고, 동료 심사와 IF·사분위·백분위를 이해합니다.",
+      "date": "2026-10-15",
+      "cover": null,
+      "md": "blog/ko/261015_PublicationReadiness.md"
+    },
+    {
       "slug": "research-writing-06-finding-your-first-topic",
       "title": "대학원생을 위한 연구와 논문 6: 첫 연구 주제는 어떻게 찾는가?",
       "subtitle": "프로젝트의 책임과 개인의 관심을 함께 고려하며, 관심을 실행 가능한 연구 질문으로 발전시키는 과정을 설명합니다.",
