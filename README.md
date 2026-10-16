@@ -48,7 +48,7 @@ npm.cmd run check
 npm.cmd run preview
 ```
 
-GitHub Actions가 실제 소유자와 저장소 이름에서 이 값을 자동 계산합니다. 포크는 검색엔진에 중복 사이트로 노출되지 않도록 noindex를 적용합니다. `SH-Joo/hongjo.github.io`의 `redesign/story`는 포크 미리보기로 배포하고, 기존 `master`와 `add-jimin-yu` 브랜치는 유지합니다. 교수님 저장소의 운영 반영은 별도의 변경 검토로 진행할 수 있습니다.
+GitHub Actions가 실제 소유자와 저장소 이름에서 이 값을 자동 계산합니다. 포크는 검색엔진에 중복 사이트로 노출되지 않도록 noindex를 적용합니다. `SH-Joo/hongjo.github.io`의 `redesign/story`에서는 빌드와 브라우저 검사를 실행하고 결과물을 보관합니다. 현재 미리보기는 로컬 Go Live로 확인합니다. 기존 `master`와 `add-jimin-yu` 브랜치는 유지합니다. GitHub Pages 게시 단계는 `master`·`main` 또는 수동 실행에만 연결되어 있으며, 게시하려면 저장소의 Pages 설정을 먼저 구성해야 합니다. 교수님 저장소의 운영 반영은 별도의 변경 검토로 진행할 수 있습니다.
 
 ## 이미지
 

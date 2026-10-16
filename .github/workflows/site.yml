@@ -41,13 +41,13 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - run: npm run test:browser
       - uses: actions/configure-pages@v5
-        if: github.event_name != 'pull_request' && (github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' || (github.repository == 'SH-Joo/hongjo.github.io' && github.ref == 'refs/heads/redesign/story'))
+        if: github.event_name != 'pull_request' && (github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
   deploy:
     needs: build
-    if: github.event_name != 'pull_request' && (github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' || (github.repository == 'SH-Joo/hongjo.github.io' && github.ref == 'refs/heads/redesign/story'))
+    if: github.event_name != 'pull_request' && (github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
     runs-on: ubuntu-latest
     environment:
       name: github-pages
