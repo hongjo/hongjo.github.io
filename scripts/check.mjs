@@ -5,6 +5,7 @@ import crypto from 'node:crypto';
 const root = path.resolve('_site');
 const info = JSON.parse(fs.readFileSync(path.join(root, 'build-info.json'), 'utf8'));
 const baseline = JSON.parse(fs.readFileSync('scripts/content-baseline.json', 'utf8'));
+const amendments = JSON.parse(fs.readFileSync('scripts/content-amendments.json', 'utf8'));
 const preserve = process.argv.includes('--preserve');
 const errors = [];
 const files = [];
@@ -15,10 +16,12 @@ const decode = value => value.replace(/&amp;/g, '&').replace(/&quot;/g, '"').rep
 const relative = file => path.relative(root, file).split(path.sep).join('/');
 const htmlByPath = new Map(pages.map(file => [relative(file), fs.readFileSync(file, 'utf8')]));
 for (const [file, hash] of Object.entries(preserve ? { ...baseline.files, ...baseline.providedArtwork } : {})) {
+  const amendment = amendments[file];
+  if (amendment && amendment.originalSha256 !== hash) errors.push(`Amendment baseline mismatch: ${file}`);
   if (!fs.existsSync(file)) errors.push(`Original content missing: ${file}`);
   else {
     const bytes = /\.(?:json|md|txt)$/.test(file) ? fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n') : fs.readFileSync(file);
-    if (crypto.createHash('sha256').update(bytes).digest('hex') !== hash) errors.push(`Original content changed: ${file}`);
+    if (crypto.createHash('sha256').update(bytes).digest('hex') !== (amendment?.sha256 || hash)) errors.push(`Original content changed without a recorded update: ${file}`);
   }
 }
 function checkReference(reference, currentFile, checkFragment = true) {
@@ -88,4 +91,4 @@ for (const route of requiredRoutes) if (!htmlByPath.has(route)) errors.push(`Mis
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 if ((sitemap.match(/<loc>/g) || []).length !== requiredRoutes.length) errors.push('Sitemap page count differs from source data');
 if (errors.length) { console.error([...new Set(errors)].join('\n')); process.exit(1); }
-console.log(`PASS: ${pages.length} routes; source-derived publication, member, project, course and photo counts; links, anchors, responsive images and metadata.${preserve ? ` Preserved ${Object.keys(baseline.files).length} original files and ${Object.keys(baseline.providedArtwork || {}).length} user-supplied artwork files.` : ''}`);
+console.log(`PASS: ${pages.length} routes; source-derived publication, member, project, course and photo counts; links, anchors, responsive images and metadata.${preserve ? ` Verified ${Object.keys(baseline.files).length} original source files (${Object.keys(amendments).length} authorized content updates) and ${Object.keys(baseline.providedArtwork || {}).length} user-supplied artwork files.` : ''}`);

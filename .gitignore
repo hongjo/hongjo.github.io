@@ -1,5 +1,6 @@
 node_modules/
 _site/
+_site.next/
 .optimized/
 .reference/
 html5up-story.zip

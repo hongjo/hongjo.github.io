@@ -51,7 +51,6 @@ test('all four record types and topic filtering preserve the original records', 
     await expect(page.locator('[data-publication]:visible')).toHaveCount(expected.length);
   }
   await page.getByRole('button', { name: 'Reset', exact: true }).click();
-  await page.getByText('More filters', { exact: true }).click();
   await page.getByLabel('Research topic', { exact: true }).selectOption('vision');
   const expectedVision = allRecords.filter(record => /vision|image|crack|detection|segmentation|visual/i.test(record.title));
   await expect(page.locator('[data-publication]:visible')).toHaveCount(expectedVision.length);
@@ -73,7 +72,7 @@ test('mobile menu is usable by keyboard and does not expose hidden links', async
   await expect(menu).toHaveAttribute('aria-expanded', 'false');
   await expect(menu).toBeFocused();
   await menu.click(); await page.locator('#site-nav a').first().click();
-  await expect(page).toHaveURL(new RegExp('/ko/members/$'));
+  await expect(page).toHaveURL(new RegExp('/ko/$'));
 });
 
 test('photo modal opens the original, closes with Escape, and restores focus', async ({ page }) => {
@@ -109,6 +108,9 @@ test('article images and the nested table of contents work', async ({ page }) =>
 
 test('legacy routes and publication category anchors remain valid', async ({ page }) => {
   await page.goto(base + '/#blog/2');
+  await expect(page).toHaveURL(new RegExp('/blog/frequency-aware-crack-segmentation/$'));
+  await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+  await page.goto(pathFor('ko') + '#blog/2');
   await expect(page).toHaveURL(new RegExp('/ko/blog/frequency-aware-crack-segmentation/$'));
   await page.goto(pathFor('en', 'publications') + '#patents');
   await expect(page.locator('[data-publication]:visible')).toHaveCount(publications.patents.length);

@@ -31,13 +31,17 @@ npm run check
 npm run dev
 ```
 
-Go Live(5500 포트)에서 프로젝트 루트의 `index.html`을 열면 최신 `_site/ko/` 화면으로 연결됩니다. `npm run dev`는 원본 저장을 감지해 자동으로 다시 빌드합니다. `_site/`가 배포용 결과물입니다. 운영 `master` 브랜치와 개인 포크의 `redesign/story` 미리보기는 GitHub Actions가 빌드·검증 후 GitHub Pages에 배포합니다. Actions의 `Build and publish lab website`에서 결과를 확인할 수 있습니다. Pages의 게시 소스는 GitHub Actions를 사용합니다.
+Go Live(5500 포트)에서 프로젝트 루트의 `index.html`을 열면 최신 `_site/` 영어 화면으로 연결됩니다. `npm run dev`는 원본 저장을 감지해 자동으로 다시 빌드합니다. `_site/`가 배포용 결과물입니다. 개인 포크의 `redesign/story`에서는 GitHub Actions가 빌드·검증 후 결과물을 보관합니다. Pages 게시 단계는 `master`·`main` 또는 수동 실행에 연결되어 있고 별도의 Pages 설정이 필요합니다. Actions의 `Build and publish lab website`에서 결과를 확인할 수 있습니다.
 
 수정할 원본은 위의 JSON/Markdown/템플릿입니다. 생성된 `_site/` HTML은 직접 수정하지 마세요. 이전 배포의 루트 HTML·CSS·JavaScript는 제거했고 Git 기록에서 확인할 수 있습니다.
 
 논문은 최신 연도부터 묶어 표시합니다. 검색창은 제목·저자·출처·연도를 검색하고, 연도 선택과 전체/저널/국제학회/국내학회/특허 버튼 및 보조 주제 필터를 조합할 수 있습니다. Selected 기능은 사용하지 않습니다. 건수와 연도 선택지는 데이터에서 자동 계산됩니다.
 
 일반 `npm run check`는 현재 데이터와 결과물을 비교하므로 새 논문·구성원·글을 추가해도 사용할 수 있습니다. `npm run check:preservation`은 2026-10-16 개편 이관 시 원본 파일이 그대로인지 확인하는 별도 검사이며, 이후 의도적인 콘텐츠 수정에는 사용하지 않습니다. 브라우저 회귀 검사는 `npm run test:browser`입니다. 배포 경로와 포크의 로컬 미리보기는 README.md를 참고하세요.
+
+유지민 학생 추가와 Siheon Joo의 소개·사진·표기 수정은 사용자 요청에 따라 `scripts/content-amendments.json`에 원본/수정 해시를 기록했습니다. 사진은 `img/member/student/jimin-yu.png`와 `siheon-joo.jpg`, 소개는 한영 members.json에서 수정합니다. 다른 구성원 데이터는 유지합니다. 논문의 저자 선택은 현재 학생·Alumni·외부인사를 구분하고, 교수님은 별도 항목으로 표시합니다. 저자 조건도 연도·주제·분류·검색 조건과 함께 주소에 보존합니다.
+
+홈의 큰 슬로건·소개 카피는 한국어 화면에서도 영어를 사용합니다. 한국어 본문·구성원 소개·논문·게시글은 해당 언어를 유지합니다. 한국어 폰트는 `assets/fonts/noto-serif-kr.css`의 Noto Serif KR입니다. 홈의 섹션·점 내비게이션은 render.mjs의 home(), 사진 자동 배치와 활동 선택은 site.js의 albumBrowser 구간에서 관리합니다.
 
 ### 구성원의 Research & background
 

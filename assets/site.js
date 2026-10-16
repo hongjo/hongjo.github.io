@@ -5,7 +5,7 @@
   const legacy = location.hash.slice(1).split('/');
   if (!document.body.dataset.route && ['home', 'members', 'publications', 'projects', 'teaching', 'blog', 'album'].includes(legacy[0])) {
     const slugs = ['dsdl-tiny-object-detection', 'rag-construction-retrieval-optimization', 'frequency-aware-crack-segmentation', 'context-aware-lvlm-safety', 'auto-training-data-generation', 'vision-based-safety'];
-    let route = base + '/ko/' + (legacy[0] === 'home' ? '' : legacy[0] + '/');
+    let route = base + (ko ? '/ko/' : '/') + (legacy[0] === 'home' ? '' : legacy[0] + '/');
     if (legacy[0] === 'blog' && /^\d+$/.test(legacy[1] || '') && slugs[Number(legacy[1])]) route += slugs[Number(legacy[1])] + '/';
     location.replace(route);
     return;
@@ -28,11 +28,90 @@
     nav.addEventListener('click', event => { if (event.target.closest('a')) close(); });
     matchMedia('(min-width: 1181px)').addEventListener('change', () => close());
   }
+  const progress = document.querySelector('[data-scroll-nav]');
+  if (progress) {
+    const links = [...progress.querySelectorAll('a')];
+    const panels = links.map(link => document.querySelector(link.getAttribute('href')));
+    let scheduled = false;
+    const update = () => {
+      const offset = document.querySelector('.site-header').getBoundingClientRect().height + innerHeight * .2;
+      let current = 0;
+      panels.forEach((panel, index) => { if (panel.getBoundingClientRect().top <= offset) current = index; });
+      links.forEach((link, index) => index === current ? link.setAttribute('aria-current', 'location') : link.removeAttribute('aria-current'));
+      scheduled = false;
+    };
+    progress.hidden = false;
+    addEventListener('scroll', () => { if (!scheduled) { scheduled = true; requestAnimationFrame(update); } }, { passive: true });
+    addEventListener('resize', update);
+    update();
+  }
+
+  const albumBrowser = document.querySelector('[data-album-browser]');
+  if (albumBrowser) {
+    const links = [...albumBrowser.querySelectorAll('[data-album-link]')];
+    const panels = [...albumBrowser.querySelectorAll('[data-album-panel]')];
+    const selector = albumBrowser.querySelector('select');
+    let active = panels[0], frame;
+    const fit = () => {
+      frame = undefined;
+      const top = albumBrowser.getBoundingClientRect().top + scrollY;
+      albumBrowser.style.setProperty('--album-room', Math.max(260, innerHeight - top - 24) + 'px');
+      const gallery = active.querySelector('.album-grid');
+      const count = gallery.children.length, width = gallery.clientWidth, height = gallery.clientHeight;
+      const gap = innerWidth <= 600 ? 10 : 16;
+      let best = { score: -1, columns: 1, rows: count };
+      for (let columns = 1; columns <= Math.min(count, 8); columns++) {
+        const rows = Math.ceil(count / columns);
+        const cellWidth = (width - gap * (columns - 1)) / columns;
+        const photoHeight = (height - gap * (rows - 1)) / rows - (innerWidth <= 600 ? 0 : 34);
+        const score = Math.min(cellWidth, photoHeight * 4 / 3);
+        if (score > best.score) best = { score, columns, rows };
+      }
+      gallery.style.setProperty('--album-cols', best.columns);
+      gallery.style.setProperty('--album-rows', best.rows);
+    };
+    const scheduleFit = () => { if (frame === undefined) frame = requestAnimationFrame(fit); };
+    const selectAlbum = (id, updateHistory = false) => {
+      active = panels.find(panel => panel.id === id) || panels[0];
+      panels.forEach(panel => { panel.hidden = panel !== active; });
+      links.forEach(link => link.hash === '#' + active.id ? link.setAttribute('aria-current', 'true') : link.removeAttribute('aria-current'));
+      const currentLink = links.find(link => link.hash === '#' + active.id);
+      const sidebar = albumBrowser.querySelector('.album-sidebar');
+      if (innerWidth > 600 && currentLink) {
+        const item = currentLink.getBoundingClientRect(), container = sidebar.getBoundingClientRect();
+        if (item.top < container.top) sidebar.scrollTop += item.top - container.top;
+        else if (item.bottom > container.bottom) sidebar.scrollTop += item.bottom - container.bottom;
+      }
+      selector.value = active.id;
+      if (updateHistory && location.hash !== '#' + active.id) history.pushState(null, '', '#' + active.id);
+      scheduleFit();
+    };
+    albumBrowser.classList.add('is-ready');
+    albumBrowser.querySelector('.album-selector').hidden = false;
+    links.forEach(link => link.addEventListener('click', event => {
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault(); selectAlbum(link.hash.slice(1), true);
+    }));
+    selector.addEventListener('change', () => selectAlbum(selector.value, true));
+    addEventListener('popstate', () => selectAlbum(location.hash.slice(1)));
+    addEventListener('hashchange', () => selectAlbum(location.hash.slice(1)));
+    addEventListener('resize', scheduleFit);
+    new ResizeObserver(scheduleFit).observe(albumBrowser.querySelector('.album-panels'));
+    document.fonts.ready.then(scheduleFit);
+    selectAlbum(location.hash.slice(1));
+    // Selecting an activity changes the collection, while the workspace stays in place.
+    if (location.hash.startsWith('#album-')) {
+      const resetInitialScroll = () => { scrollTo({ top: 0, behavior: 'instant' }); scheduleFit(); };
+      if (document.readyState === 'complete') resetInitialScroll();
+      else addEventListener('load', resetInitialScroll, { once: true });
+    }
+  }
+
   const filters = document.querySelector('[data-publication-filters]');
   if (filters) {
     filters.hidden = false;
     const form = filters.querySelector('form');
-    const search = form.elements.q, year = form.elements.year, topic = form.elements.topic;
+    const search = form.elements.q, year = form.elements.year, topic = form.elements.topic, person = form.elements.person;
     const buttons = [...form.querySelectorAll('button[data-type]')];
     const records = [...document.querySelectorAll('[data-publication]')];
     const groups = [...document.querySelectorAll('[data-year-group]')];
@@ -42,16 +121,15 @@
     let type = '';
     function readUrl() {
       const query = new URLSearchParams(location.search);
-      search.value = query.get('q') || ''; year.value = query.get('year') || ''; topic.value = query.get('topic') || '';
+      search.value = query.get('q') || ''; year.value = query.get('year') || ''; topic.value = query.get('topic') || ''; person.value = query.get('person') || '';
       const requestedType = query.get('type') || location.hash.slice(1);
       type = buttons.some(button => button.dataset.type === requestedType) ? requestedType : '';
-      if (topic.value) form.querySelector('details').open = true;
     }
     function update(historyMode) {
       const terms = normalize(search.value).split(' ').filter(Boolean);
       let total = 0;
       for (const record of records) {
-        const match = (!year.value || record.dataset.year === year.value) && (!type || record.dataset.type === type) && (!topic.value || record.dataset.topics.split(',').includes(topic.value)) && terms.every(term => haystacks.get(record).includes(term));
+        const match = (!year.value || record.dataset.year === year.value) && (!type || record.dataset.type === type) && (!topic.value || record.dataset.topics.split(',').includes(topic.value)) && (!person.value || record.dataset.people.split('|').includes(person.value)) && terms.every(term => haystacks.get(record).includes(term));
         record.hidden = !match; if (match) total++;
       }
       for (const group of groups) {
@@ -64,6 +142,7 @@
       const query = new URLSearchParams();
       if (search.value.trim()) query.set('q', search.value.trim());
       if (year.value) query.set('year', year.value); if (type) query.set('type', type); if (topic.value) query.set('topic', topic.value);
+      if (person.value) query.set('person', person.value);
       const suffix = query.size ? '?' + query.toString() : '';
       const legacyCategory = buttons.some(button => button.dataset.type && '#' + button.dataset.type === location.hash);
       const hash = legacyCategory ? '' : location.hash;
@@ -75,9 +154,10 @@
     form.addEventListener('submit', event => event.preventDefault());
     search.addEventListener('input', () => update('replace'));
     year.addEventListener('change', () => update('push')); topic.addEventListener('change', () => update('push'));
+    person.addEventListener('change', () => update('push'));
     buttons.forEach(button => button.addEventListener('click', () => { type = button.dataset.type; update('push'); }));
     form.addEventListener('reset', event => {
-      event.preventDefault(); search.value = ''; year.value = ''; topic.value = ''; type = ''; update('push'); search.focus();
+      event.preventDefault(); search.value = ''; year.value = ''; topic.value = ''; person.value = ''; type = ''; update('push'); search.focus();
     });
     window.addEventListener('popstate', () => { readUrl(); update(); });
   }

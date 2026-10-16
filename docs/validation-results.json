@@ -38,5 +38,38 @@
     "redirect": "/_site/ko/",
     "httpErrors": 0
   },
-  "knownProductionVulnerabilities": 0
+  "knownProductionVulnerabilities": 0,
+  "currentUpdates": {
+    "homePanels": [
+      "intro",
+      "research",
+      "selected-research",
+      "our-vision",
+      "community"
+    ],
+    "defaultLanguage": "en",
+    "memberCount": 36,
+    "authorizedSourceUpdates": 3,
+    "font": "Self-hosted Noto Serif KR for Korean and English",
+    "desktopViewportHeights": [
+      600,
+      720,
+      768,
+      900
+    ],
+    "fullBrowserRun": {
+      "expected": 119,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "finalNavigationAndAccessibilityRun": {
+      "startTime": "2026-10-16T13:15:28.400Z",
+      "duration": 34071.264,
+      "expected": 33,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "livePreviewHttpErrors": 0
+  }
 }

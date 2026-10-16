@@ -1,0 +1,17 @@
+{
+  "data/en/members.json": {
+    "originalSha256": "8c7f974aa71dcb3a7144f60511ee8d400eebfdd3ba40795270edbb637a153a40",
+    "sha256": "5df58b4e8f5b7d4f47a7dc68f63905d26bfc46f8eacd1c8c5bfcb10645a494ba",
+    "reason": "User requested Jimin Yu intern profile, Siheon Joo personal-site portrait, and BK Best Paper Award introduction on 2026-10-16. The preferred display name is Siheon Joo."
+  },
+  "data/ko/members.json": {
+    "originalSha256": "48b2ef35388fab4e9ae3208ee0594b60c7e5d5b3852b8ae536b0a696e8cadfe3",
+    "sha256": "8331b4d1df26de9f92a29edb9d45e19a2b03edae52616e975857919748432763",
+    "reason": "User requested Jimin Yu intern profile, Siheon Joo personal-site portrait, and BK Best Paper Award introduction on 2026-10-16."
+  },
+  "data/member-author-aliases.json": {
+    "originalSha256": "af58d02330a60bee2c91ef80488b252a42f221a42a77e8618f162325837113fc",
+    "sha256": "42105225fb86424e2fc4d84fd9d06068b34c2105c80608f55da383eee76f3992",
+    "reason": "User requested the Jimin Yu profile and publication author filters on 2026-10-16; added explicit aliases for Jimin Yu and Professor Hongjo Kim. Preferred spelling: Siheon Joo; former hyphenated spelling retained only as an alias."
+  }
+}

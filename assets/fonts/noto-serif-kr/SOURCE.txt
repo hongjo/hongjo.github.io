@@ -1,0 +1,4 @@
+Noto Serif KR by Adobe / Google.
+Source: https://github.com/google/fonts/tree/main/ofl/notoserifkr
+CSS and variable WOFF2 subsets: https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400..700&display=swap
+Licensed under SIL Open Font License 1.1; see OFL.txt.

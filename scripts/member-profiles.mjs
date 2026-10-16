@@ -22,7 +22,7 @@ export function renderMemberProfile(member, language, publications, aliasGroups,
   const link = p => p.doi ? 'https://doi.org/' + p.doi : /^https?:\/\//.test(p.url || '') ? p.url : '';
   const title = p => link(p) ? `<a href="${esc(link(p))}">${esc(p.title)}</a>` : esc(p.title);
   const citation = p => `<li><span class="profile-citation-authors">${esc((p.authors || p.inventors || []).join(', '))} (${esc(p.year)})</span><br>${title(p)}<br><span class="profile-citation-meta">${esc([p.journal || p.conference, p.volume, p.pages, p.status, p.location, p.date_range].filter(Boolean).join(' · '))}</span></li>`;
-  let body = `<h3>${ko ? '연구 및 배경' : 'Research & background'}</h3><p>${esc(member.role)}</p>${safeMarkdown(member.interests)}${safeMarkdown(member.details || [])}`;
+  let body = `<h3>${ko ? '연구 및 배경' : 'Research & background'}</h3><p>${esc(member.role)}</p>${member.interests === member.role ? '' : safeMarkdown(member.interests)}${safeMarkdown(member.details || [])}`;
   body += `<h3>${ko ? '논문 · Publications' : 'Publications'}</h3>`;
   let count = 0;
   keys.forEach((key, i) => {
