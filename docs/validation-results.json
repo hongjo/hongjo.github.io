@@ -35,7 +35,7 @@
   "liveServer": {
     "origin": "http://127.0.0.1:5500",
     "rootEntry": "index.html",
-    "redirect": "/_site/ko/",
+    "redirect": "/_site/",
     "httpErrors": 0
   },
   "knownProductionVulnerabilities": 0,
@@ -49,7 +49,7 @@
     ],
     "defaultLanguage": "en",
     "memberCount": 36,
-    "authorizedSourceUpdates": 3,
+    "authorizedSourceUpdates": 4,
     "font": "Self-hosted Noto Serif KR for Korean and English",
     "desktopViewportHeights": [
       600,
@@ -78,6 +78,31 @@
       "skipped": 0,
       "unexpected": 0,
       "flaky": 0
+    }
+  },
+  "deployment": {
+    "source": "3e79f0f6fa41a6e350fbb1ddafbb4219785efc8f",
+    "workflowRun": "https://github.com/SH-Joo/hongjo.github.io/actions/runs/38908919362",
+    "result": "success",
+    "publicSmoke": {
+      "url": "https://sh-joo.github.io/hongjo.github.io/",
+      "checkedAt": "2026-10-16T13:39:19.141Z",
+      "checks": [
+        "Public English home, Home navigation, five section links, hero image and local fonts",
+        "Korean switch and English display copy",
+        "36 members, Siheon portrait and award, Jimin intern profile",
+        "128 publications, author groups, combined filters and query restoration",
+        "Activity album selection, original photo dialog and restored focus",
+        "Mobile menu and no horizontal overflow"
+      ],
+      "errors": []
+    },
+    "personalHomepage": {
+      "url": "https://sh-joo.github.io/",
+      "httpStatus": 200,
+      "repository": "SH-Joo/SH-joo.github.io",
+      "lastPush": "2026-09-18T06:01:40Z",
+      "changedByThisDeployment": false
     }
   }
 }

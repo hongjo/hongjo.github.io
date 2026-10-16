@@ -1,6 +1,8 @@
 # 연구실 홈페이지 수정 안내
 
-공개 주소: https://hongjo.github.io/
+개인 포크 공개 주소: https://sh-joo.github.io/hongjo.github.io/
+
+기존 연구실 주소: https://hongjo.github.io/
 
 ## 콘텐츠 수정
 
@@ -31,7 +33,7 @@ npm run check
 npm run dev
 ```
 
-Go Live(5500 포트)에서 프로젝트 루트의 `index.html`을 열면 최신 `_site/` 영어 화면으로 연결됩니다. `npm run dev`는 원본 저장을 감지해 자동으로 다시 빌드합니다. `_site/`가 배포용 결과물입니다. 개인 포크의 `redesign/story`에서는 GitHub Actions가 빌드·검증 후 결과물을 보관합니다. Pages 게시 단계는 `master`·`main` 또는 수동 실행에 연결되어 있고 별도의 Pages 설정이 필요합니다. Actions의 `Build and publish lab website`에서 결과를 확인할 수 있습니다.
+Go Live(5500 포트)에서 프로젝트 루트의 `index.html`을 열면 최신 `_site/` 영어 화면으로 연결됩니다. `npm run dev`는 원본 저장을 감지해 자동으로 다시 빌드합니다. `_site/`가 배포용 결과물입니다. 개인 포크의 `redesign/story`에서는 GitHub Actions가 빌드·검증 후 결과물을 보관합니다. 공개 반영은 [Build and publish lab website](https://github.com/SH-Joo/hongjo.github.io/actions/workflows/site.yml)의 **Run workflow**에서 `redesign/story`를 선택해 실행합니다. 빌드와 브라우저 검사를 모두 통과하면 설정된 개인 포크의 Pages에 게시됩니다. 배포 기록은 [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)에서 확인합니다.
 
 수정할 원본은 위의 JSON/Markdown/템플릿입니다. 생성된 `_site/` HTML은 직접 수정하지 마세요. 이전 배포의 루트 HTML·CSS·JavaScript는 제거했고 Git 기록에서 확인할 수 있습니다.
 

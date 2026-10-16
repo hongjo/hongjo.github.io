@@ -5,6 +5,7 @@
 - 미리보기 작업 브랜치: `redesign/story`
 - 원본 저장소: <https://github.com/hongjo/hongjo.github.io>
 - 포크: <https://github.com/SH-Joo/hongjo.github.io>
+- 개인 포크 공개 주소: <https://sh-joo.github.io/hongjo.github.io/>
 - 구현 계획: [docs/IMPLEMENTATION-PLAN.md](docs/IMPLEMENTATION-PLAN.md)
 - 검토·수정 기록: [docs/REVIEW-LOG.md](docs/REVIEW-LOG.md)
 - 콘텐츠 수정 방법: [WEBSITE-EDITING.md](WEBSITE-EDITING.md)
@@ -31,7 +32,7 @@ npm run check:preservation
 npm run test:browser
 ```
 
-`check:preservation`은 원본 208개와 사용자 제공 이미지·설명 9개 파일의 이관을 검증합니다. 사용자 요청에 따른 유지민 학생 추가, Siheon Joo 소개·사진·표기 수정과 저자 별칭은 한영 명단·별칭 3개 파일의 최초/수정 해시를 `scripts/content-amendments.json`에 기록했습니다. 다른 구성원 항목은 유지합니다. 평상시 콘텐츠 추가·수정에는 `check`를 사용합니다. `check`는 현재 JSON에서 페이지·논문·구성원·과제·강의·사진 수를 계산해 결과와 대조합니다.
+`check:preservation`은 원본 208개와 사용자 제공 이미지·설명 9개 파일의 이관을 검증합니다. 사용자 요청에 따른 유지민 학생 추가, Siheon Joo 소개·사진·표기 수정, 저자 별칭과 교체된 메인 이미지는 한영 명단·별칭·이미지 4개 파일의 최초/수정 해시를 `scripts/content-amendments.json`에 기록했습니다. 다른 구성원 항목은 유지합니다. 평상시 콘텐츠 추가·수정에는 `check`를 사용합니다. `check`는 현재 JSON에서 페이지·논문·구성원·과제·강의·사진 수를 계산해 결과와 대조합니다.
 
 브라우저 검사는 Windows의 Chrome을 기본 사용합니다. CI에서는 Playwright Chromium을 설치하며, Linux에서 로컬 검사하려면 `npx playwright install chromium`을 먼저 실행하고 `CI=1` 또는 `PLAYWRIGHT_CHANNEL=chromium`으로 실행할 수 있습니다. 검사는 검색·연도·분류·주제·주소 복원·한영 전환·모바일 메뉴·원본 확대·접근성·본문 보존과 네 가지 화면 폭을 포함합니다. 결과와 캡처는 `test-results/`에 저장합니다.
 
@@ -48,7 +49,7 @@ npm.cmd run check
 npm.cmd run preview
 ```
 
-GitHub Actions가 실제 소유자와 저장소 이름에서 이 값을 자동 계산합니다. 포크는 검색엔진에 중복 사이트로 노출되지 않도록 noindex를 적용합니다. `SH-Joo/hongjo.github.io`의 `redesign/story`에서는 빌드와 브라우저 검사를 실행하고 결과물을 보관합니다. 현재 미리보기는 로컬 Go Live로 확인합니다. 기존 `master`와 `add-jimin-yu` 브랜치는 유지합니다. GitHub Pages 게시 단계는 `master`·`main` 또는 수동 실행에만 연결되어 있으며, 게시하려면 저장소의 Pages 설정을 먼저 구성해야 합니다. 교수님 저장소의 운영 반영은 별도의 변경 검토로 진행할 수 있습니다.
+GitHub Actions가 실제 소유자와 저장소 이름에서 이 값을 자동 계산합니다. 포크는 검색엔진에 중복 사이트로 노출되지 않도록 noindex를 적용합니다. `SH-Joo/hongjo.github.io`의 `redesign/story`에서는 변경을 푸시할 때 빌드와 브라우저 검사를 실행하고 결과물을 보관합니다. 공개 사이트에 반영하려면 [Build and publish lab website](https://github.com/SH-Joo/hongjo.github.io/actions/workflows/site.yml)에서 **Run workflow → redesign/story → Run workflow**를 선택합니다. 검사를 모두 통과하면 개인 포크의 Pages 주소에 게시됩니다. Pages는 GitHub Actions 방식으로 설정되어 있으며 `github-pages` 환경에서 `redesign/story` 배포를 허용합니다. 배포 기록은 [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)에 정리합니다. 기존 `master`와 `add-jimin-yu` 브랜치는 유지합니다. 교수님 저장소의 운영 반영은 별도의 변경 검토로 진행할 수 있습니다.
 
 ## 이미지
 
