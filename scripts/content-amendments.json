@@ -13,5 +13,10 @@
     "originalSha256": "af58d02330a60bee2c91ef80488b252a42f221a42a77e8618f162325837113fc",
     "sha256": "42105225fb86424e2fc4d84fd9d06068b34c2105c80608f55da383eee76f3992",
     "reason": "User requested the Jimin Yu profile and publication author filters on 2026-10-16; added explicit aliases for Jimin Yu and Professor Hongjo Kim. Preferred spelling: Siheon Joo; former hyphenated spelling retained only as an alias."
+  },
+  "AI_generated_images/1번.png": {
+    "originalSha256": "260ab161bbe6f430432c9100b13507f963c047449eb8961ef4f517b4d00a82f2",
+    "sha256": "ee836f61e0c6f3b1fae0092647d40ac5d7748fc6af90c3aa09c91aec2c1ba20c",
+    "reason": "Include the current locally updated hero image in the version approved for deployment on 2026-10-16."
   }
 }

@@ -91,4 +91,4 @@ for (const route of requiredRoutes) if (!htmlByPath.has(route)) errors.push(`Mis
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 if ((sitemap.match(/<loc>/g) || []).length !== requiredRoutes.length) errors.push('Sitemap page count differs from source data');
 if (errors.length) { console.error([...new Set(errors)].join('\n')); process.exit(1); }
-console.log(`PASS: ${pages.length} routes; source-derived publication, member, project, course and photo counts; links, anchors, responsive images and metadata.${preserve ? ` Verified ${Object.keys(baseline.files).length} original source files (${Object.keys(amendments).length} authorized content updates) and ${Object.keys(baseline.providedArtwork || {}).length} user-supplied artwork files.` : ''}`);
+console.log(`PASS: ${pages.length} routes; source-derived publication, member, project, course and photo counts; links, anchors, responsive images and metadata.${preserve ? ` Verified ${Object.keys(baseline.files).length} original source files and ${Object.keys(baseline.providedArtwork || {}).length} user-supplied artwork files; ${Object.keys(amendments).length} authorized updates.` : ''}`);
