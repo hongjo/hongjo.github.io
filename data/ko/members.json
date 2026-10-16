@@ -156,6 +156,12 @@
           "role": "학부연구생",
           "photo": "img/member/student/정원영.jpg",
           "interests": "인턴 연구원 \n안녕하세요, 학부연구생 정원영입니다"
+        },
+        {
+          "name": "유지민",
+          "role": "학부연구생",
+          "photo": "img/member/student/jimin-yu.png",
+          "interests": "학부연구생\n안녕하세요, 학부연구생 유지민입니다"
         }
       ]
     },
