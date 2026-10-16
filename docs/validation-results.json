@@ -1,0 +1,108 @@
+{
+  "originalFiles": 208,
+  "providedArtworkFiles": 9,
+  "pages": 52,
+  "viewports": [
+    360,
+    390,
+    768,
+    1440
+  ],
+  "runs": [
+    {
+      "mode": "fork project path /hongjo.github.io",
+      "result": {
+        "startTime": "2026-10-16T09:18:05.963Z",
+        "duration": 44309.354999999996,
+        "expected": 109,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "mode": "Go Live /_site path",
+      "result": {
+        "startTime": "2026-10-16T09:29:13.532Z",
+        "duration": 41173.111999999994,
+        "expected": 109,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    }
+  ],
+  "liveServer": {
+    "origin": "http://127.0.0.1:5500",
+    "rootEntry": "index.html",
+    "redirect": "/_site/",
+    "httpErrors": 0
+  },
+  "knownProductionVulnerabilities": 0,
+  "currentUpdates": {
+    "homePanels": [
+      "intro",
+      "research",
+      "selected-research",
+      "our-vision",
+      "community"
+    ],
+    "defaultLanguage": "en",
+    "memberCount": 36,
+    "authorizedSourceUpdates": 4,
+    "font": "Self-hosted Noto Serif KR for Korean and English",
+    "desktopViewportHeights": [
+      600,
+      720,
+      768,
+      900
+    ],
+    "fullBrowserRun": {
+      "expected": 119,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "finalNavigationAndAccessibilityRun": {
+      "startTime": "2026-10-16T13:15:28.400Z",
+      "duration": 34071.264,
+      "expected": 33,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "livePreviewHttpErrors": 0,
+    "finalVisionAdjustmentRun": {
+      "startTime": "2026-10-16T13:21:43.188Z",
+      "duration": 9354.918000000001,
+      "expected": 8,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  "deployment": {
+    "source": "3e79f0f6fa41a6e350fbb1ddafbb4219785efc8f",
+    "workflowRun": "https://github.com/SH-Joo/hongjo.github.io/actions/runs/38908919362",
+    "result": "success",
+    "publicSmoke": {
+      "url": "https://sh-joo.github.io/hongjo.github.io/",
+      "checkedAt": "2026-10-16T13:39:19.141Z",
+      "checks": [
+        "Public English home, Home navigation, five section links, hero image and local fonts",
+        "Korean switch and English display copy",
+        "36 members, Siheon portrait and award, Jimin intern profile",
+        "128 publications, author groups, combined filters and query restoration",
+        "Activity album selection, original photo dialog and restored focus",
+        "Mobile menu and no horizontal overflow"
+      ],
+      "errors": []
+    },
+    "personalHomepage": {
+      "url": "https://sh-joo.github.io/",
+      "httpStatus": 200,
+      "repository": "SH-Joo/SH-joo.github.io",
+      "lastPush": "2026-09-18T06:01:40Z",
+      "changedByThisDeployment": false
+    }
+  }
+}

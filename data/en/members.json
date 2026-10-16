@@ -80,12 +80,13 @@
           ]
         },
         {
-          "name": "Si-Heon Joo",
+          "name": "Siheon Joo",
           "role": "Integrated M.S./Ph.D. student",
-          "photo": "img/member/student/주시헌.jpg",
+          "photo": "img/member/student/siheon-joo.jpg",
           "interests": "**[Research interests]** \n- **Computer Vision**\n- **Pattern Recognition** ",
           "details": [
-            "**Home Page** <br> [https://sh-joo.github.io/](https://sh-joo.github.io/)\n_(Research and news)_"
+            "**Home Page** <br> [https://sh-joo.github.io/](https://sh-joo.github.io/)\n_(Research and news)_",
+            "Received the BK Best Paper Award."
           ]
         },
         {
@@ -186,7 +187,10 @@
           "name": "Jimin Yu",
           "role": "Undergraduate researcher",
           "photo": "img/member/student/jimin-yu.png",
-          "interests": "Undergraduate researcher"
+          "interests": "Undergraduate researcher",
+          "details": [
+            "Hello, I am Jimin Yu, an undergraduate researcher."
+          ]
         }
       ]
     },
