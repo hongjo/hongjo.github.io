@@ -1,0 +1,82 @@
+{
+  "en": {
+    "heroTitle": "Intelligence for<br>the infrastructure<br><em>we depend on.</em>",
+    "heroIntro": "Computer vision, physics-informed AI, and engineering agents for construction safety and infrastructure inspection.",
+    "researchHeading": "Built on engineering.<br>Advanced through AI.",
+    "researchIntro": "Methods that connect visual observations, physical processes, and engineering knowledge.",
+    "researchAreas": [
+      {
+        "title": "Visual intelligence<br>for infrastructure",
+        "description": "Computer vision for damage assessment, crack segmentation and matting, and automated inspection of civil infrastructure.",
+        "tags": [
+          "Computer vision",
+          "Damage assessment"
+        ]
+      },
+      {
+        "title": "3D sensing &<br>reconstruction",
+        "description": "Photogrammetry, image enhancement, and 3D modeling across terrestrial and underwater environments.",
+        "tags": [
+          "Photogrammetry",
+          "Underwater inspection"
+        ]
+      },
+      {
+        "title": "Physics-informed<br>intelligence",
+        "description": "Integrating physical principles with machine learning to reconstruct pore water pressure fields and support embankment failure detection.",
+        "tags": [
+          "Physics-informed AI",
+          "Generative models"
+        ]
+      },
+      {
+        "title": "AI for engineering<br>decisions",
+        "description": "Multimodal models, retrieval-augmented generation, and AI agents for construction safety, engineering documents, and design calculations.",
+        "tags": [
+          "Multimodal AI",
+          "Engineering agents"
+        ]
+      }
+    ]
+  },
+  "ko": {
+    "heroTitle": "사회를 지탱하는<br>인프라에<br><em>지능을 더합니다.</em>",
+    "heroIntro": "컴퓨터 비전, 물리 기반 AI, 공학 에이전트로 건설 안전과 인프라 점검의 문제를 해결합니다.",
+    "researchHeading": "공학을 기반으로,<br>AI로 확장합니다.",
+    "researchIntro": "영상 관측, 물리적 과정, 공학 지식을 연결하는 방법론을 연구합니다.",
+    "researchAreas": [
+      {
+        "title": "인프라를 위한<br>시각 지능",
+        "description": "컴퓨터 비전을 활용하여 사회기반시설의 손상을 평가하고, 균열을 정밀하게 인식하며, 점검을 자동화합니다.",
+        "tags": [
+          "Computer vision",
+          "Damage assessment"
+        ]
+      },
+      {
+        "title": "3차원 센싱과<br>재구성",
+        "description": "수중과 육상 환경을 대상으로 사진측량, 영상 선명화, 3차원 모델링 기술을 연구합니다.",
+        "tags": [
+          "Photogrammetry",
+          "Underwater inspection"
+        ]
+      },
+      {
+        "title": "물리 기반<br>인공지능",
+        "description": "물리 법칙과 기계학습을 결합하여 간극수압장을 복원하고 제방 붕괴 조기 감지를 지원합니다.",
+        "tags": [
+          "Physics-informed AI",
+          "Generative models"
+        ]
+      },
+      {
+        "title": "공학 의사결정을<br>위한 AI",
+        "description": "멀티모달 모델, 검색 증강 생성, AI 에이전트를 활용하여 건설 안전, 공학 문서 분석, 설계 계산을 지원합니다.",
+        "tags": [
+          "Multimodal AI",
+          "Engineering agents"
+        ]
+      }
+    ]
+  }
+}

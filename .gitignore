@@ -1,3 +1,8 @@
 node_modules/
 _site/
 .optimized/
+.reference/
+html5up-story.zip
+test-results/
+playwright-report/
+_preview/

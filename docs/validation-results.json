@@ -1,0 +1,42 @@
+{
+  "originalFiles": 208,
+  "providedArtworkFiles": 9,
+  "pages": 52,
+  "viewports": [
+    360,
+    390,
+    768,
+    1440
+  ],
+  "runs": [
+    {
+      "mode": "fork project path /hongjo.github.io",
+      "result": {
+        "startTime": "2026-10-16T09:18:05.963Z",
+        "duration": 44309.354999999996,
+        "expected": 109,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "mode": "Go Live /_site path",
+      "result": {
+        "startTime": "2026-10-16T09:29:13.532Z",
+        "duration": 41173.111999999994,
+        "expected": 109,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    }
+  ],
+  "liveServer": {
+    "origin": "http://127.0.0.1:5500",
+    "rootEntry": "index.html",
+    "redirect": "/_site/ko/",
+    "httpErrors": 0
+  },
+  "knownProductionVulnerabilities": 0
+}

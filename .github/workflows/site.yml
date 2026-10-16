@@ -1,14 +1,16 @@
 name: Build and publish lab website
 on:
   push:
-    branches: [master]
+    branches: [master, main, 'redesign/**']
+    paths-ignore: ['docs/**', 'README.md', 'WEBSITE-EDITING.md', '.vscode/**', 'image_prompts.txt']
+  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
   pages: write
   id-token: write
 concurrency:
-  group: lab-pages
+  group: lab-pages-${{ github.ref }}
   cancel-in-progress: true
 jobs:
   build:
@@ -20,14 +22,32 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
+      - name: Configure repository URL
+        shell: bash
+        run: |
+          owner="${GITHUB_REPOSITORY_OWNER}"
+          repository="${GITHUB_REPOSITORY#*/}"
+          echo "SITE_URL=https://${owner}.github.io" >> "$GITHUB_ENV"
+          if [ "${repository,,}" = "${owner,,}.github.io" ]; then
+            echo "BASE_PATH=" >> "$GITHUB_ENV"
+          else
+            echo "BASE_PATH=/${repository}" >> "$GITHUB_ENV"
+          fi
+          if [ "${owner,,}" != "hongjo" ]; then
+            echo "PREVIEW=true" >> "$GITHUB_ENV"
+          fi
       - run: npm run build
       - run: npm run check
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:browser
       - uses: actions/configure-pages@v5
+        if: github.event_name != 'pull_request' && (github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' || (github.repository == 'SH-Joo/hongjo.github.io' && github.ref == 'refs/heads/redesign/story'))
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
   deploy:
     needs: build
+    if: github.event_name != 'pull_request' && (github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' || (github.repository == 'SH-Joo/hongjo.github.io' && github.ref == 'refs/heads/redesign/story'))
     runs-on: ubuntu-latest
     environment:
       name: github-pages

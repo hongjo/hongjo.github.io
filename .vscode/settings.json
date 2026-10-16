@@ -1,0 +1,16 @@
+{
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "/",
+  "liveServer.settings.wait": 500,
+  "liveServer.settings.ignoreFiles": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/.reference/**",
+    "**/.optimized/**",
+    "**/test-results/**",
+    "**/playwright-report/**",
+    "**/_site/img/**",
+    "**/_site/AI_generated_images/**",
+    "**/_site/media/**"
+  ]
+}
