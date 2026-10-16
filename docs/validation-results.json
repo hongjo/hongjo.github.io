@@ -70,6 +70,14 @@
       "unexpected": 0,
       "flaky": 0
     },
-    "livePreviewHttpErrors": 0
+    "livePreviewHttpErrors": 0,
+    "finalVisionAdjustmentRun": {
+      "startTime": "2026-10-16T13:21:43.188Z",
+      "duration": 9354.918000000001,
+      "expected": 8,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
   }
 }
