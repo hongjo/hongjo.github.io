@@ -1,0 +1,12 @@
+{
+  "hero": { "src": "AI_generated_images/1번.png", "en": "A suspension bridge at sunset with drones monitoring the surrounding infrastructure", "ko": "노을이 지는 교량과 주변 인프라를 관측하는 드론" },
+  "about": { "src": "AI_generated_images/2번.png", "en": "Adjusting stereo cameras to observe a concrete bridge structure", "ko": "교량 구조물 관측을 위해 스테레오 카메라를 조정하는 모습" },
+  "method": { "src": "AI_generated_images/3번.png", "en": "A robot-mounted camera observing a fine crack in concrete", "ko": "콘크리트의 미세한 균열을 관측하는 로봇 카메라" },
+  "vision": { "src": "AI_generated_images/4qjs.png", "en": "Bridges, railways and riverside infrastructure connecting a city", "ko": "도시의 일상을 연결하는 교량과 철도, 강변 인프라" },
+  "areas": [
+    { "src": "AI_generated_images/5번.png", "en": "Workers, safety equipment and structures on a construction site", "ko": "건설현장의 작업자와 안전장비, 주변 구조물" },
+    { "src": "AI_generated_images/6번.png", "en": "An underwater sensing robot inspecting a concrete bridge pier", "ko": "콘크리트 교각을 조사하는 수중 점검 로봇" },
+    { "src": "AI_generated_images/7번.png", "en": "A riverside embankment with monitoring instruments", "ko": "계측 장비가 설치된 강변 제방" },
+    { "src": "AI_generated_images/8번.png", "en": "Comparing a rail model, engineering drawings and structural analysis", "ko": "철도 궤도 모형과 설계도, 구조 해석을 대조하는 작업대" }
+  ]
+}

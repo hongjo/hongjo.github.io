@@ -57,10 +57,11 @@
         {
           "name": "주시헌",
           "role": "석박통합과정",
-          "photo": "img/member/student/주시헌.jpg",
+          "photo": "img/member/student/siheon-joo.jpg",
           "interests": "**[연구 분야]** \n- **Computer Vision**\n- **Pattern Recognition** ",
           "details": [
-            "**Home Page** <br> [https://sh-joo.github.io/](https://sh-joo.github.io/)\n_(연구 소개, 소식)_"
+            "**Home Page** <br> [https://sh-joo.github.io/](https://sh-joo.github.io/)\n_(연구 소개, 소식)_",
+            "BK 최우수 논문상 수상."
           ]
         },
         {
@@ -156,6 +157,15 @@
           "role": "학부연구생",
           "photo": "img/member/student/정원영.jpg",
           "interests": "인턴 연구원 \n안녕하세요, 학부연구생 정원영입니다"
+        },
+        {
+          "name": "유지민",
+          "role": "학부연구생",
+          "photo": "img/member/student/jimin-yu.png",
+          "interests": "학부연구생",
+          "details": [
+            "안녕하세요, 학부연구생 유지민입니다"
+          ]
         }
       ]
     },
