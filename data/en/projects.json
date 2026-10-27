@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "title": "Development of a Conversational AI-Agent System Specialized in Slope Maintenance",
+      "period": "2026 ~ 2028",
+      "funding": "Korea Expressway Corporation Research Institute",
+      "description": "Principal Investigator: Hongjo Kim",
+      "image": "",
+      "results": []
+    },
+    {
       "title": "CCTV-Based Hazard Recognition and Automatic Generation of Safety Documents and Multilingual Training Content Using Multimodal LLMs",
       "period": "2026",
       "funding": "Korea Technology and Information Promotion Agency for SMEs (TIPA)",
