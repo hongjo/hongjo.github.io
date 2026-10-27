@@ -1,6 +1,52 @@
 {
   "albums": [
     {
+      "title": "2026 대한토목학회",
+      "description": "2026년 10월 21–23일 · 대한토목학회 학술대회에 함께한 연구실 구성원들",
+      "images": [
+        {
+          "src": "img/album/20261021-23-ksce/img_9540.jpg",
+          "caption": "2026 대한토목학회 참가 기념 단체사진 · 1",
+          "fullSize": "img/album/20261021-23-ksce/img_9540.jpg"
+        },
+        {
+          "src": "img/album/20261021-23-ksce/img_9550.jpg",
+          "caption": "2026 대한토목학회 참가 기념 단체사진 · 2",
+          "fullSize": "img/album/20261021-23-ksce/img_9550.jpg"
+        },
+        {
+          "src": "img/album/20261021-23-ksce/img_9555.jpg",
+          "caption": "2026 대한토목학회 참가 기념 단체사진 · 3",
+          "fullSize": "img/album/20261021-23-ksce/img_9555.jpg"
+        },
+        {
+          "src": "img/album/20261021-23-ksce/img_9558.jpg",
+          "caption": "2026 대한토목학회 현장 기념사진 · 1",
+          "fullSize": "img/album/20261021-23-ksce/img_9558.jpg"
+        },
+        {
+          "src": "img/album/20261021-23-ksce/img_9559.jpg",
+          "caption": "2026 대한토목학회 현장 기념사진 · 2",
+          "fullSize": "img/album/20261021-23-ksce/img_9559.jpg"
+        },
+        {
+          "src": "img/album/20261021-23-ksce/img_9560.jpg",
+          "caption": "2026 대한토목학회 현장 기념사진 · 3",
+          "fullSize": "img/album/20261021-23-ksce/img_9560.jpg"
+        },
+        {
+          "src": "img/album/20261021-23-ksce/img_9561.jpg",
+          "caption": "2026 대한토목학회 현장 기념사진 · 4",
+          "fullSize": "img/album/20261021-23-ksce/img_9561.jpg"
+        },
+        {
+          "src": "img/album/20261021-23-ksce/img_9562.jpg",
+          "caption": "2026 대한토목학회 현장 기념사진 · 5",
+          "fullSize": "img/album/20261021-23-ksce/img_9562.jpg"
+        }
+      ]
+    },
+    {
       "title": "2026 정기연고전",
       "description": "연구실 구성원들과 함께한 2026 정기연고전",
       "images": [

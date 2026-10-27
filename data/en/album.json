@@ -1,6 +1,52 @@
 {
   "albums": [
     {
+      "title": "KSCE 2026 Convention",
+      "description": "October 21–23, 2026 · Lab members at the KSCE 2026 Convention",
+      "images": [
+        {
+          "src": "img/album/20261021-23-ksce/img_9540.jpg",
+          "caption": "Group photo at the KSCE 2026 Convention · 1",
+          "fullSize": "img/album/20261021-23-ksce/img_9540.jpg"
+        },
+        {
+          "src": "img/album/20261021-23-ksce/img_9550.jpg",
+          "caption": "Group photo at the KSCE 2026 Convention · 2",
+          "fullSize": "img/album/20261021-23-ksce/img_9550.jpg"
+        },
+        {
+          "src": "img/album/20261021-23-ksce/img_9555.jpg",
+          "caption": "Group photo at the KSCE 2026 Convention · 3",
+          "fullSize": "img/album/20261021-23-ksce/img_9555.jpg"
+        },
+        {
+          "src": "img/album/20261021-23-ksce/img_9558.jpg",
+          "caption": "At the KSCE 2026 Convention · Photo 1",
+          "fullSize": "img/album/20261021-23-ksce/img_9558.jpg"
+        },
+        {
+          "src": "img/album/20261021-23-ksce/img_9559.jpg",
+          "caption": "At the KSCE 2026 Convention · Photo 2",
+          "fullSize": "img/album/20261021-23-ksce/img_9559.jpg"
+        },
+        {
+          "src": "img/album/20261021-23-ksce/img_9560.jpg",
+          "caption": "At the KSCE 2026 Convention · Photo 3",
+          "fullSize": "img/album/20261021-23-ksce/img_9560.jpg"
+        },
+        {
+          "src": "img/album/20261021-23-ksce/img_9561.jpg",
+          "caption": "At the KSCE 2026 Convention · Photo 4",
+          "fullSize": "img/album/20261021-23-ksce/img_9561.jpg"
+        },
+        {
+          "src": "img/album/20261021-23-ksce/img_9562.jpg",
+          "caption": "At the KSCE 2026 Convention · Photo 5",
+          "fullSize": "img/album/20261021-23-ksce/img_9562.jpg"
+        }
+      ]
+    },
+    {
       "title": "2026 Yonsei–Korea Games",
       "description": "Lab members at the 2026 Yonsei–Korea Games",
       "images": [
