@@ -140,7 +140,13 @@ for (const language of ['en', 'ko']) {
   test(`${language}: activity selection fits a full album, preserves history and opens originals`, async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
     await page.goto(pathFor(language, 'album'));
-    await page.locator('[data-album-link][href="#album-16"]').click();
+    const albums = JSON.parse(fs.readFileSync(`data/${language}/album.json`, 'utf8')).albums;
+    const primaryIndex = albums.findIndex(album => album.images.some(image => image.src.startsWith('img/album/20230625-i3ce/')));
+    const secondaryIndex = albums.findIndex(album => album.images.some(image => image.src.startsWith('img/album/20260506/')));
+    expect(primaryIndex).toBeGreaterThanOrEqual(0);
+    expect(secondaryIndex).toBeGreaterThanOrEqual(0);
+    const secondaryId = `album-${secondaryIndex}`;
+    await page.locator(`[data-album-link][href="#album-${primaryIndex}"]`).click();
     await expect(page.locator('[data-album-panel]:visible')).toHaveCount(1);
     await expect(page.locator('[data-album-panel]:visible figure')).toHaveCount(14);
     await page.evaluate(() => document.fonts.ready);
@@ -161,10 +167,10 @@ for (const language of ['en', 'ko']) {
     await expect(page.getByRole('dialog').locator('img')).toHaveAttribute('src', original);
     await page.keyboard.press('Escape');
     await expect(photo).toBeFocused();
-    await page.locator('#album-choice').selectOption('album-5');
+    await page.locator('#album-choice').selectOption(secondaryId);
     await expect(page.locator('[data-album-panel]:visible figure')).toHaveCount(10);
     await page.reload();
-    await expect(page.locator('#album-choice')).toHaveValue('album-5');
+    await expect(page.locator('#album-choice')).toHaveValue(secondaryId);
     await expect(page.locator('[data-album-panel]:visible figure')).toHaveCount(10);
     await page.goBack();
     await expect(page.locator('[data-album-panel]:visible figure')).toHaveCount(14);
