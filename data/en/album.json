@@ -1,6 +1,22 @@
 {
   "albums": [
     {
+      "title": "5th KSARC Annual Conference (2026)",
+      "description": "November 13, 2026 · Lab members attended the 5th KSARC Annual Conference at ST Center. The conference focused on how physical AI is reshaping the future of construction.",
+      "images": [
+        {
+          "src": "img/album/20261113-ksarc/group.jpg",
+          "caption": "Lab group photo at the 5th KSARC Annual Conference",
+          "fullSize": "img/album/20261113-ksarc/group.jpg"
+        },
+        {
+          "src": "img/album/20261113-ksarc/venue.jpg",
+          "caption": "Conference venue and Physical AI banner at ST Center",
+          "fullSize": "img/album/20261113-ksarc/venue.jpg"
+        }
+      ]
+    },
+    {
       "title": "KSCE 2026 Convention",
       "description": "October 21–23, 2026 · Lab members at the KSCE 2026 Convention",
       "images": [

@@ -1,6 +1,22 @@
 {
   "albums": [
     {
+      "title": "2026 한국건설자동화·로보틱스학회 제5회 정기학술대회",
+      "description": "2026년 11월 13일 · 스마트인프라연구실 구성원들이 과학기술회관(ST Center)에서 열린 한국건설자동화·로보틱스학회 제5회 정기학술대회에 참석했습니다. 대회 주제는 “Physical AI, 건설의 미래를 다시 설계하다”였습니다.",
+      "images": [
+        {
+          "src": "img/album/20261113-ksarc/group.jpg",
+          "caption": "학술대회에 참석한 연구실 구성원 단체사진",
+          "fullSize": "img/album/20261113-ksarc/group.jpg"
+        },
+        {
+          "src": "img/album/20261113-ksarc/venue.jpg",
+          "caption": "과학기술회관 학술대회 행사장과 대회 주제 안내판",
+          "fullSize": "img/album/20261113-ksarc/venue.jpg"
+        }
+      ]
+    },
+    {
       "title": "2026 대한토목학회",
       "description": "2026년 10월 21–23일 · 대한토목학회 학술대회에 함께한 연구실 구성원들",
       "images": [
