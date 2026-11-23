@@ -1,6 +1,17 @@
 {
   "albums": [
     {
+      "title": "What's Next for Me in the AI Era? — Guest Lecture by Toss TPM",
+      "description": "November 23, 2026 · Guest lecture by a Technical Program Manager at Toss: Working with AI, building your own products, and exploring new career paths.",
+      "images": [
+        {
+          "src": "img/album/20261123-toss/lecture.jpg",
+          "caption": "Guest lecture by a Technical Program Manager at Toss at Yonsei University",
+          "fullSize": "img/album/20261123-toss/lecture.jpg"
+        }
+      ]
+    },
+    {
       "title": "5th KSARC Annual Conference (2026)",
       "description": "November 13, 2026 · Lab members attended the 5th KSARC Annual Conference at ST Center. The conference focused on how physical AI is reshaping the future of construction.",
       "images": [
